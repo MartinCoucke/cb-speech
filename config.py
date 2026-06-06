@@ -20,8 +20,10 @@ SECRETS_FILE = _LOCAL_SECRETS
 FEEDS = [
     {"name": "fed", "kind": "rss", "region": "US", "bank": "Federal Reserve",
      "url": "https://www.federalreserve.gov/feeds/speeches.xml"},
-    {"name": "ecb", "kind": "rss", "region": "Europe", "bank": "ECB",
-     "url": "https://www.ecb.europa.eu/rss/speech.html"},
+    # ECB has no usable speeches RSS feed and its index is JS-rendered, so we
+    # scrape it with headless Chromium (kind="playwright") for same-day items.
+    {"name": "ecb", "kind": "playwright", "region": "Europe", "bank": "ECB",
+     "url": "https://www.ecb.europa.eu/press/key/html/index.en.html"},
     {"name": "boe", "kind": "rss", "region": "UK", "bank": "Bank of England",
      "url": "https://www.bankofengland.co.uk/rss/speeches"},
     {"name": "rba", "kind": "rss", "region": "Australia", "bank": "Reserve Bank of Australia",
