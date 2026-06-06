@@ -1,0 +1,22 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/press-conference-policy-rate-announcement-june-2026",
+    "title": "Press Conference: Policy Rate Announcement \u2013 June 2026",
+    "url": "https://www.bankofcanada.ca/multimedia/press-conference-policy-rate-announcement-june-2026/",
+    "published": "2026-06-10",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This entry represents a Bank of Canada policy rate announcement press conference held on June 10, 2026, led by Governor Tiff Macklem and Senior Deputy Governor Carolyn Rogers. However, the text provided contains no substantive content beyond metadata and social sharing links. No policy decisions, economic assessments, or forward guidance are included in the available text.",
+    "stance_rationale": "With no substantive speech content available, it is impossible to assess the monetary policy stance; the score defaults to neutral with low confidence.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

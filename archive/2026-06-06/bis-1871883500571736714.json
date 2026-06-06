@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604h.htm",
+    "title": "Tuomas V\u00e4lim\u00e4ki: Europe's economy under the weight of power politics",
+    "url": "https://www.bis.org/review/r260604h.htm",
+    "published": "2026-06-04",
+    "speaker": "Tuomas V\u00e4lim\u00e4ki",
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Finland Board Member Tuomas V\u00e4lim\u00e4ki delivered a speech at the Bank of Finland's Payments Forum focused on the geopolitical challenges facing European payment systems, the need for operational resilience, and initiatives such as the digital euro and offline card payment arrangements. The speech addresses payment infrastructure, fraud, and strategic autonomy rather than interest rate policy or monetary policy stance. There is no discussion of inflation, rate decisions, or the ECB's policy path.",
+    "stance_rationale": "This speech is not about monetary policy; it concerns payments infrastructure, operational resilience, and geopolitical risks to payment systems. A score of 0 is assigned by default.",
+    "key_quotes": [
+      "Alternatives are not inefficiency. They are a form of insurance. And they create stability and resilience.",
+      "The future of payments will be strong when payments are efficient in normal times, resilient during disruptions and sufficiently independent in all circumstances."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

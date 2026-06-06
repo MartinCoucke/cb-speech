@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604d.htm",
+    "title": "Steven Maijoor: Fintech, supervision and smooth sailing",
+    "url": "https://www.bis.org/review/r260604d.htm",
+    "published": "2026-06-04",
+    "speaker": "Steven Maijoor",
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Steven Maijoor, DNB's Executive Board Member for Supervision, delivered a welcome address at a fintech-focused pre-event for Money20/20 in Amsterdam. The speech used a sailing metaphor to discuss DNB's approach to fintech supervision, licensing processes, and the balance between innovation and regulatory oversight. There was no discussion of monetary policy, interest rates, inflation, or macroeconomic conditions.",
+    "stance_rationale": "This speech is entirely about fintech supervision, licensing efficiency, and regulatory frameworks \u2014 not monetary policy. It has no bearing on interest rate expectations or monetary stance.",
+    "key_quotes": [
+      "Our licensing process works like a harbour pilot: DNB offers fintechs supervisory guidance to safely enter a new market \u2013 and that works best when firms arrive well prepared.",
+      "When it comes to innovation, we are all-in, as long as it happens responsibly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

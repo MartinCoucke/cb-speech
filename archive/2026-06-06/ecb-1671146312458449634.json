@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260604~f5d373b29f.en.html",
+    "title": "Women and leadership: widening the pipeline",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260604~f5d373b29f.en.html",
+    "published": "2026-06-04",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB President Christine Lagarde delivered a speech at a French regional healthcare women's networking event focused entirely on gender diversity, leadership pipelines, and workplace equality. The speech draws on academic research and ECB internal initiatives to argue that organisations must reform how they measure commitment and distribute opportunity to narrow the gender leadership gap. No monetary policy content, interest rate guidance, or macroeconomic outlook was discussed.",
+    "stance_rationale": "This speech contains no monetary policy content whatsoever and is therefore scored as neutral with low confidence per the classification rules.",
+    "key_quotes": [
+      "The world has enough monuments. What it needs now is for organisations to do the harder thing: to change how they measure commitment and how they share opportunity, so that the pipeline does not narrow more sharply for her than for him.",
+      "Focusing on a role model risks individualising the problem, turning it into a question of what can be endured instead of what can be changed."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

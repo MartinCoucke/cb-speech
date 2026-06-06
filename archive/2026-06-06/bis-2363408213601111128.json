@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604k.htm",
+    "title": "Carolyn Rogers,Toni Gravelle: Release of the Financial Stability Report",
+    "url": "https://www.bis.org/review/r260604k.htm",
+    "published": "2026-06-04",
+    "speaker": "Carolyn Rogers,Toni Gravelle",
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Senior Deputy Governor Carolyn Rogers and Deputy Governor Toni Gravelle released the 2026 Financial Stability Report, assessing the resilience of Canada's financial system. They noted that the system has functioned well through a challenging year, with households and banks in generally stable condition, while flagging rising vulnerabilities including elevated asset valuations, growing hedge fund leverage, trade uncertainty, and geopolitical risks. The report explicitly distinguishes itself from the Monetary Policy Report and does not guide interest rate decisions.",
+    "stance_rationale": "This speech is focused entirely on financial stability assessment and does not address monetary policy stance, interest rate decisions, or inflation outlook. The speakers explicitly state the FSR 'does not guide interest rate decisions,' making this a non-monetary-policy communication.",
+    "key_quotes": [
+      "The FSR is very different from our Monetary Policy Report. It is not a forecast, and it does not guide interest rate decisions.",
+      "Overall, Canada's financial system has functioned well through a challenging year. Households and businesses remain in stable financial condition, and banks have strengthened their capacity to absorb shocks."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604c.htm",
+    "title": "Michelle W Bowman: A framework for practical monetary policy decision making",
+    "url": "https://www.bis.org/review/r260604c.htm",
+    "published": "2026-06-04",
+    "speaker": "Michelle W Bowman",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Bowman outlines her personal framework for monetary policy decision-making, covering conditions for rate cuts, hikes, and holds, while applying it to current conditions as of mid-2026. She notes the U.S. labor market remains fragile, headline PCE inflation has risen to 3.8% largely due to energy prices from the Iran conflict, but underlying core inflation excluding one-off factors remains near 2%. She signals support for holding the current moderately restrictive stance while looking through temporary energy-driven inflation, contingent on the conflict remaining short-lived.",
+    "stance_rationale": "Bowman leans slightly hawkish by maintaining a moderately restrictive stance and flagging that persistent energy/oil price effects could shift her balance-of-risks assessment toward tightening, but her willingness to look through temporary inflation shocks and her prior dissent in favor of a cut temper any strong hawkish signal.",
+    "key_quotes": [
+      "For now, our moderately restrictive policy stance is intended to help maintain stable labor market conditions while allowing inflation to resume its downward trend toward 2 percent once the effects of tariffs and oil prices dissipate.",
+      "The more persistent higher oil prices are-or if we start to see broader effects of higher energy prices on PCE inflation-the more likely I will consider shifting my approach to thinking about the balance of risks."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

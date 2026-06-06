@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604a.htm",
+    "title": "John C Williams: Productivity growth and the challenge of real-time policymaking",
+    "url": "https://www.bis.org/review/r260604a.htm",
+    "published": "2026-06-04",
+    "speaker": "John C Williams",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "NY Fed President John Williams spoke at the Reykjav\u00edk Economic Conference about the challenge of understanding structural economic change in real time, focusing specifically on shifts in trend productivity growth. He reviewed historical episodes including the 1970s productivity slowdown, the mid-1990s acceleration, and the subsequent reversal, and raised questions about how such shifts affect monetary policy. The speech appears to be primarily academic and historical in nature, with no explicit policy guidance or rate signals provided in the available text.",
+    "stance_rationale": "The available text does not contain explicit monetary policy signals, rate guidance, or forward-looking statements about the policy stance; it is largely a framing discussion of productivity and structural change, making a monetary policy classification and directional score unreliable.",
+    "key_quotes": [
+      "how does the economy respond to a shift in the rate of productivity growth, and what does it mean for monetary policy?",
+      "The productivity slowdown of the 1970s contributed to stagflation. And the productivity boom of the late 1990s and early 2000s was a contributing factor to that decade's economic prosperity with low inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
