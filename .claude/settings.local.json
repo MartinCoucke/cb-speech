@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//c/Users/marti/**)",
-      "Read(//c/Users/marti/Documents/**)"
-    ]
-  }
-}
