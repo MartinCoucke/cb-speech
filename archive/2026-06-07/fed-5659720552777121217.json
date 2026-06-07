@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
+    "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm",
+    "published": "2026-06-06",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Michael Barr delivered a speech at American University warning against the current wave of bank deregulation, arguing that reductions in capital requirements, looser supervision, and weakening liquidity rules increase financial stability risks. He drew on historical crises and academic research to contend that short-term benefits of deregulation are outweighed by long-term costs. The speech is focused entirely on prudential regulation and financial stability, not on interest rates or the monetary policy stance.",
+    "stance_rationale": "This speech addresses bank capital, supervision, and financial stability regulation rather than the interest rate or balance sheet decisions of the FOMC. It is not a monetary policy speech and warrants a score of 0 with low confidence.",
+    "key_quotes": [
+      "Deregulation can provide a short-term sugar high in the economy, but it can also lead to long-term costs for society.",
+      "The bank deregulation undertaken so far, and the plans for more to come, is ultimately going to make our financial system less robust. And when the bill comes due, we will all pay the price."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
