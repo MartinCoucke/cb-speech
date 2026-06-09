@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604n.htm",
+    "title": "Olli Rehn: Europe's economy under the weight of power politics",
+    "url": "https://www.bis.org/review/r260604n.htm",
+    "published": "2026-06-08",
+    "speaker": "Olli Rehn",
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Rehn discusses the euro area economic outlook amid geopolitical shocks, particularly the Iran war's stagflationary effects on the euro area. He outlines three possible inflation paths and emphasizes that the ECB's response should depend on whether energy-price shocks become embedded in the broader inflation process. He notes that inflation expectations remain anchored near 2% and that current conditions are weaker than in 2022, suggesting a more measured policy response is warranted.",
+    "stance_rationale": "Rehn leans slightly hawkish by acknowledging that a rate increase in June could serve as insurance and that decisive action would be needed if inflation expectations de-anchor, but he explicitly stresses that tighter policy is not warranted by higher oil prices alone and that conditions differ significantly from 2022, keeping the overall tone close to neutral with a mild tightening tilt.",
+    "key_quotes": [
+      "While inflation risks have increased, a rate increase in June would be an insurance one, but not due to entrenched inflationary pressures.",
+      "The conditions that justify tighter monetary policy are not higher oil prices alone. What matters for monetary policy is whether the shock risks getting embedded in the inflationary process."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

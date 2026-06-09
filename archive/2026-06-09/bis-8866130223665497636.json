@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260604p.htm",
+    "title": "Tuomas V\u00e4lim\u00e4ki: Central banks and the future of money - trust, resilience and renewal",
+    "url": "https://www.bis.org/review/r260604p.htm",
+    "published": "2026-06-08",
+    "speaker": "Tuomas V\u00e4lim\u00e4ki",
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Finland Board Member Tuomas V\u00e4lim\u00e4ki delivered opening remarks at the 2026 Bank of Korea International Conference focused on the future of money, covering trust, resilience, and renewal in payment systems. He discussed the role of central bank money, the digital euro, cash usage trends, and the importance of payments as critical infrastructure. While he briefly mentioned price stability and monetary policy agility, the speech is primarily about payment systems, CBDCs, and financial infrastructure rather than near-term monetary policy stance.",
+    "stance_rationale": "The speech is predominantly about payment systems, digital money, and institutional frameworks rather than monetary policy direction. The brief mention of the need for 'agile' monetary policy committed to price stability is too limited to assign a meaningful hawkish or dovish score.",
+    "key_quotes": [
+      "Recent years have reminded us that price stability cannot be taken for granted. Inflation shocks, energy disruptions and geopolitical tensions have made the environment more volatile. For the Eurosystem, this reinforces the need for monetary policy that is agile and firmly committed to price stability.",
+      "The future of money will not be determined by technology alone. It will be shaped by technology, institutions and public trust."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260608b.htm",
+    "title": "Michelle W Bowman: Supervision and regulation",
+    "url": "https://www.bis.org/review/r260608b.htm",
+    "published": "2026-06-08",
+    "speaker": "Michelle W Bowman",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman testified before the House Financial Services Committee on the Federal Reserve's supervisory and regulatory activities. Her remarks covered current banking conditions, recent regulatory reforms including capital framework modernization and community bank leverage ratio changes, and forward-looking initiatives on innovation, stablecoins, and liquidity regulations. The speech contains no discussion of interest rates, the policy rate path, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on bank supervision, regulatory reform, and financial stability matters rather than monetary policy. There is no monetary policy content to score.",
+    "key_quotes": [
+      "The banking system remains sound and resilient. Banks continue to report strong capital ratios and significant liquidity buffers, which position them well to support economic growth.",
+      "Appropriately calibrating regulatory and supervisory requirements strengthens both financial stability and economic growth."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

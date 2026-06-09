@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260608a.htm",
+    "title": "Denis Beau: Strengthening the security of European payments",
+    "url": "https://www.bis.org/review/r260608a.htm",
+    "published": "2026-06-08",
+    "speaker": "Denis Beau",
+    "bank": "Banco de Portugal",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Denis Beau, First Deputy Governor of the Bank of France, delivered a keynote speech at a Banco de Portugal conference on digital fraud, focusing on lessons from 25 years of France's Observatory for the Security of Payment Means (OSMP). The speech covered the evolution of payment fraud techniques, the impact of Strong Customer Authentication, and the importance of stakeholder coordination in combating fraud. He also discussed emerging risks from AI, crypto-assets, and social engineering attacks.",
+    "stance_rationale": "This speech is entirely focused on payments security and fraud prevention, with no discussion of monetary policy, interest rates, inflation, or economic outlook. It is not a monetary policy speech.",
+    "key_quotes": [
+      "the fraud on online card payments was reduced by 50% between 2018 and 2025 and hit an all-time low in France in 2025",
+      "As fraud techniques evolve regularly, this agility starts with adequate data collection to build a common understanding of the trends in the fight against fraud"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

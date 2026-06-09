@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260608e.htm",
+    "title": "Olli Rehn: Systemic risk, resilience and competitiveness in a changing technological landscape",
+    "url": "https://www.bis.org/review/r260608e.htm",
+    "published": "2026-06-08",
+    "speaker": "Olli Rehn",
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Olli Rehn's keynote at the joint Bank of Finland and ESRB conference focuses on systemic risk, AI, financial resilience, and European competitiveness. The speech addresses how AI and technological disruption create both opportunities and risks for financial stability, labor markets, and economic growth. It concludes with four policy priorities for Europe: entrepreneurship, smarter regulation, capital market integration, and human capital investment.",
+    "stance_rationale": "This speech is not about monetary policy; it covers financial stability, systemic risk analytics, AI risks, and structural competitiveness issues. No interest rate or inflation guidance is provided.",
+    "key_quotes": [
+      "We cannot allow our capacity to innovate to exceed our capacity to manage risks.",
+      "Stability and competitiveness are not contradictory goals. On the contrary, they reinforce one another."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
