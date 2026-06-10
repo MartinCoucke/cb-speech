@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260609b.htm",
+    "title": "Michele Bullock: Opening Statement to the Senate Economics Legislation Committee (Budget Estimates 2026&#8211;2027)",
+    "url": "https://www.bis.org/review/r260609b.htm",
+    "published": "2026-06-09",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 4,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Governor Michele Bullock addressed the Senate Economics Legislation Committee, outlining the Bank's decision to raise the cash rate by 75 basis points in 2026 in response to a resurgence in inflation driven by strong domestic demand and a Middle East conflict boosting energy prices. She indicated inflation remains too high, with headline CPI expected to peak above 4.5% in the June quarter and underlying inflation staying above target until mid-2027. The Board signalled it will do whatever is necessary to restore price stability, even as growth and employment are expected to soften.",
+    "stance_rationale": "The speech is clearly hawkish: the RBA has already delivered 75bp in rate hikes this year, inflation forecasts are elevated and rising, and Bullock explicitly warned of second-round effects and the risk of embedded inflation, while pledging to do 'what it considers necessary' to achieve price stability. No easing bias is expressed.",
+    "key_quotes": [
+      "Inflation is too high, and the Board will do what it considers necessary to achieve our mandate to deliver price stability and full employment.",
+      "If high inflation persists, it risks becoming embedded in price and wage-setting behaviour...That would result in more persistent inflation and would require even higher interest rates, and for longer, to return inflation to target."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

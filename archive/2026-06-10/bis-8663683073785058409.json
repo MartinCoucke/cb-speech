@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260609c.htm",
+    "title": "Michael S Barr: Deregulating in a financial boom - what could go wrong?",
+    "url": "https://www.bis.org/review/r260609c.htm",
+    "published": "2026-06-09",
+    "speaker": "Michael S Barr",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Barr uses this speech to warn against the risks of bank deregulation, arguing that weakening oversight of financial institutions could undermine safety and soundness and threaten financial stability. He draws on historical episodes\u2014the Great Depression, the S&L crisis, and the Global Financial Crisis\u2014to caution that short-term economic gains from deregulation may come at significant long-term societal cost. The speech focuses entirely on financial regulation and supervision rather than monetary policy or the interest rate outlook.",
+    "stance_rationale": "This speech is focused on bank regulation and financial stability concerns, not monetary policy settings, rate decisions, or the economic outlook in a monetary policy context. It is therefore classified as non-monetary-policy and scored neutral.",
+    "key_quotes": [
+      "Deregulation can provide a short-term sugar high in the economy, but it can also lead to long-term costs for society.",
+      "I want to highlight the combined effects of these deregulatory steps on the safety and soundness of banks and risks to the stability of the financial system."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

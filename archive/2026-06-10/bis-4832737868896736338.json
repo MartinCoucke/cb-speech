@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260609d.htm",
+    "title": "Burkhard Balz: Cash and the digital euro &#8211; complementary forms of public money",
+    "url": "https://www.bis.org/review/r260609d.htm",
+    "published": "2026-06-09",
+    "speaker": "Burkhard Balz",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Burkhard Balz, Member of the Bundesbank Executive Board, addressed the ESTA Conference on the complementary roles of cash and the digital euro as forms of public money. He outlined the rationale for a digital euro\u2014covering efficiency, resilience, and strategic autonomy\u2014while emphasizing the Bundesbank's continued commitment to a strong cash cycle. He also provided an update on the legislative and technical timeline, noting a possible rollout in 2029.",
+    "stance_rationale": "This speech focuses entirely on payments infrastructure, the digital euro project, and cash policy rather than on interest rates, inflation, or monetary policy stance. It does not contain signals relevant to the dovish-hawkish spectrum.",
+    "key_quotes": [
+      "The digital euro is not designed as a replacement for the cash cycle. It is being developed as a complement to it.",
+      "Cash will remain the physical anchor of our monetary system. The digital euro would stand alongside it, in a different space."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
