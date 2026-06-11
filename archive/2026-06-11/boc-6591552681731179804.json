@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/06/opening-statement-2026-06-10",
+    "title": "Monetary Policy Decision Press Conference Opening Statement",
+    "url": "https://www.bankofcanada.ca/2026/06/opening-statement-2026-06-10/",
+    "published": "2026-06-10",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem announced the decision to hold the policy rate at 2.25%, citing a dilemma between softening economic growth and rising inflation driven by Middle East conflict and higher energy prices. CPI rose to 2.8% in April while GDP edged down in Q1, leaving the economy in excess supply. The statement explicitly lays out two-sided risk scenarios that could lead to either rate cuts or consecutive rate hikes.",
+    "stance_rationale": "The speech is explicitly balanced, acknowledging symmetric risks: potential rate cuts if US tariffs intensify, and potential consecutive hikes if energy-driven inflation broadens. Holding rates and framing this as 'balancing those risks' places the statement squarely at neutral.",
+    "key_quotes": [
+      "Economic weakness combined with rising inflation is a dilemma for monetary policy. Raising rates to dampen inflation could further slow the economy. Easing rates to support growth increases the risk that higher inflation becomes persistent. For now, holding the policy rate unchanged balances those risks.",
+      "If the United States imposes significant new trade restrictions on Canada, we may need to cut the policy rate further to support economic growth. Alternatively, if the conflict in the Middle East continues and higher energy prices start leading to ongoing generalized inflation, monetary policy will have more work to do\u2014there may be a need for consecutive increases in the policy rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
