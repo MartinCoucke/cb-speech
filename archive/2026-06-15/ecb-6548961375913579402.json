@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260615~35e6c6c4de.en.html",
+    "title": "Money in transition",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260615~35e6c6c4de.en.html",
+    "published": "2026-06-15",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB President Lagarde delivered an opening speech at a conference on digitalisation and innovation in payments, focusing on tokenisation, the digital euro, and cross-border payment infrastructure. She outlined the Eurosystem's strategy across wholesale markets (Pontes and Appia projects), retail payments (digital euro), and international payment linkages. The speech is primarily about payments infrastructure and financial market innovation rather than interest rate policy or the monetary policy stance.",
+    "stance_rationale": "This speech contains no discussion of interest rates, inflation, growth outlook, or the ECB's monetary policy stance; it is entirely focused on payments technology, tokenisation, and financial infrastructure. As a non-monetary-policy speech, a neutral score of 0 is appropriate.",
+    "key_quotes": [
+      "Without a credible, risk-free asset to settle in, tokenised finance will splinter into private islands and fail to reach escape velocity from its current sandbox status.",
+      "The digital euro breaks that circle. Because of its legal tender status, it must be accepted everywhere."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
