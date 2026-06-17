@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260616~8076dabd2c.en.pdf",
+    "title": "Outlook for the euro area economy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260616~8076dabd2c.en.pdf",
+    "published": "2026-06-16",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Philip Lane presented background slides for Reuters NEXT Europe covering the ECB's June 2026 Eurosystem staff macroeconomic projections. The slides cover energy prices, GDP growth (revised down to 0.8% for 2026), HICP inflation (revised up to 3.0% for 2026 driven mainly by energy), and financial/credit conditions. No explicit forward guidance or policy rate recommendations are included in the slide deck.",
+    "stance_rationale": "The presentation is a data/projection briefing with no explicit policy stance or directional language from Lane. The projections show higher near-term inflation but weaker growth, creating offsetting signals, and the SMA survey shows market expectations for a relatively stable deposit facility rate around 2.4%, leaving no clear hawkish or dovish tilt.",
+    "key_quotes": [
+      "June 2026 Eurosystem staff macroeconomic projections: HICP 3.0 (2026), Real GDP 0.8 (2026)",
+      "Three-month interest rate (% per annum): 2.4 (2026)"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

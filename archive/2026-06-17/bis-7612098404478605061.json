@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260609e.htm",
+    "title": "Michael Theurer: Competitiveness of the German banking sector",
+    "url": "https://www.bis.org/review/r260609e.htm",
+    "published": "2026-06-16",
+    "speaker": "Michael Theurer",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Michael Theurer, Bundesbank Executive Board member, addressed the competitiveness of the German banking sector relative to US banks in the context of Basel III finalisation, arguing that direct competition between German and US banks is limited and that European capital requirements are not systematically excessive. He firmly rejected calls for relaxing Basel III standards in Europe, emphasising the importance of a stable and credible regulatory framework. The speech focused on banking supervision, regulatory simplification, and financial stability rather than monetary policy settings.",
+    "stance_rationale": "The speech is primarily about banking regulation, supervision, and competitive dynamics rather than interest rates, inflation, or monetary policy stance. It does not address the ECB policy rate, quantitative measures, or forward guidance, making it not a monetary policy speech.",
+    "key_quotes": [
+      "There is no reason to lower the regulatory capital requirements in the EU either implicitly or explicitly.",
+      "International competitiveness depends not so much on the precise level of certain metrics as on the consistency, predictability and credibility of the regulatory framework."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

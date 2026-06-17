@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260616e.htm",
+    "title": "Mary-Elizabeth McMunn: Opportunities and responsibilities - international financial services in fragmenting times",
+    "url": "https://www.bis.org/review/r260616e.htm",
+    "published": "2026-06-16",
+    "speaker": "Mary-Elizabeth McMunn",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Mary-Elizabeth McMunn spoke at Financial Services Ireland about the challenges and opportunities facing international financial services firms in an era of geopolitical fragmentation and rapid technological change. The speech focuses on the regulatory and structural landscape for global financial centres rather than monetary policy. No interest rate, inflation, or monetary policy stance is discussed in the available text.",
+    "stance_rationale": "The speech is not about monetary policy; it addresses financial sector regulation and the impact of fragmentation and technology on international financial services.",
+    "key_quotes": [
+      "the scale and pace of change underway is potentially unprecedented \u2013 and comes on top of an already complex and interconnected risk landscape",
+      "It presents both risks and opportunities for global financial services firms, and for global financial centres"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

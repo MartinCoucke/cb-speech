@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260616b.htm",
+    "title": "Marja Nyk\u00e4nen: Systemic risk in an age of uncertainty",
+    "url": "https://www.bis.org/review/r260616b.htm",
+    "published": "2026-06-16",
+    "speaker": "Marja Nyk\u00e4nen",
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Marja Nyk\u00e4nen delivered a keynote address at a joint Bank of Finland and ESRB conference on AI and systemic risk analytics. The speech focused on evolving systemic risks\u2014including geopolitical tensions, cyber threats, AI risks, and non-bank financial intermediaries\u2014and stressed the importance of resilience, strong capital and liquidity buffers, and maintaining the integrity of financial regulation. While interest rates are briefly mentioned in the context of Finland's housing market, the speech is fundamentally about macroprudential and financial stability policy rather than monetary policy.",
+    "stance_rationale": "The speech addresses financial stability, systemic risk research, macroprudential regulation, and resilience-building rather than the interest rate or monetary policy stance of the Bank of Finland or the ECB. No monetary policy signal is conveyed.",
+    "key_quotes": [
+      "Financial stability is not something that can be taken for granted, but instead should be understood more broadly.",
+      "In a volatile global landscape, it is all the more important not to make hasty changes in the regulatory framework without a solid evidence base."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260610b.htm",
+    "title": "Mary-Elizabeth McMunn: Navigating and responding to change - resilience, innovation and regulation in the funds sector",
+    "url": "https://www.bis.org/review/r260610b.htm",
+    "published": "2026-06-16",
+    "speaker": "Mary-Elizabeth McMunn",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Mary-Elizabeth McMunn spoke at the Institute of Bankers in Ireland about the Irish funds sector, highlighting its growth from \u20ac1.6 trillion to \u20ac5.6 trillion in assets under management over a decade and Ireland's rise to become the third largest fund domicile globally. She outlined priorities for the period ahead amid rapid structural change, focusing on resilience, innovation, and regulation in the sector. The speech appears to be focused on financial regulation and the asset management industry rather than monetary policy.",
+    "stance_rationale": "The speech is entirely focused on the funds and asset management sector, regulatory priorities, and structural change \u2014 with no discussion of interest rates, inflation, or monetary policy stance.",
+    "key_quotes": [
+      "Today those figures are c. \u20ac5.6 trillion, in more than 9,000 funds \u2013 making Ireland now the third largest funds domicile in the world.",
+      "with such global significance comes global responsibilities \u2013 all the more important amidst global challenges and change."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

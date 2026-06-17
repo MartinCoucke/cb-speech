@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260616c.htm",
+    "title": "Tiff Macklem: Monetary Policy Decision",
+    "url": "https://www.bis.org/review/r260616c.htm",
+    "published": "2026-06-16",
+    "speaker": "Tiff Macklem",
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem announced that Governing Council held the policy rate steady at 2.25%, citing a dilemma posed by a softening economy alongside rising inflation driven by Middle East conflict and elevated energy prices. CPI inflation rose to 2.8% in April while core inflation remained near 2%, and GDP edged down in Q1. The statement presented balanced two-sided risks, explicitly flagging both potential rate cuts if US trade restrictions intensify and potential consecutive rate hikes if energy-driven inflation broadens.",
+    "stance_rationale": "The hold decision and the explicitly symmetric forward guidance\u2014acknowledging equal probability of cuts or hikes depending on how risks evolve\u2014places this statement at neutral. Neither easing nor tightening bias dominates, though the acknowledgment that 'monetary policy will have more work to do' on inflation provides a slight hawkish undertone offset by the dovish downside scenario.",
+    "key_quotes": [
+      "Economic weakness combined with rising inflation is a dilemma for monetary policy. Raising rates to dampen inflation could further slow the economy. Easing rates to support growth increases the risk that higher inflation becomes persistent. For now, holding the policy rate unchanged balances those risks.",
+      "If the United States imposes significant new trade restrictions on Canada, we may need to cut the policy rate further to support economic growth. Alternatively, if the conflict in the Middle East continues and higher energy prices start leading to ongoing generalized inflation, monetary policy will have more work to do-there may be a need for consecutive increases in the policy rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
