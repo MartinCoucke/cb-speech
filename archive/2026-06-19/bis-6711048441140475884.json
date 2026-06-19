@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260608d.htm",
+    "title": "Boris Vuj&#269;i&#263;: A European perspective on currency and convergence",
+    "url": "https://www.bis.org/review/r260608d.htm",
+    "published": "2026-06-18",
+    "speaker": "Boris Vuj&#269;i&#263;",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 delivered a keynote speech at a conference on Iceland's currency options, focusing on the history and institutional architecture of the euro area's convergence framework, including the Maastricht criteria and ERM II. The speech reviewed how diverse economies successfully joined the euro and highlighted institutional reforms following the global financial crisis. It concluded with a broadly positive assessment of the euro's achievements and durability.",
+    "stance_rationale": "This speech is not about monetary policy in the conventional sense of interest rates, inflation outlook, or the policy stance of the ECB. It is a structural and historical overview of euro area enlargement and the convergence framework, making it non-monetary-policy content.",
+    "key_quotes": [
+      "A rules-based convergence framework, combined with gradual integration, institutional preparation and policy credibility, can support successful monetary integration.",
+      "In an era of heightened geopolitical uncertainty and economic fragmentation, the European experience demonstrates the value of stable institutions, credible rules and sustained economic integration."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260618e.htm",
+    "title": "Olaf Sleijpen: Racing the clock - Europe's journey to a Savings and Investment Union",
+    "url": "https://www.bis.org/review/r260618e.htm",
+    "published": "2026-06-18",
+    "speaker": "Olaf Sleijpen",
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "DNB President Olaf Sleijpen delivered a speech at the Centre for European Reform in London focused entirely on Europe's Savings and Investment Union (SIU) and the need for deeper capital market integration. Drawing on Jules Verne's 'Around the World in 80 days,' he argued that Europe must act with greater urgency on capital market reform, highlighting lessons from UK policies such as automatic pension enrolment. The speech also called for closer EU-UK cooperation in financial services.",
+    "stance_rationale": "This speech contains no discussion of monetary policy, interest rates, inflation, or the ECB's policy stance. It is focused exclusively on structural capital market reform and EU-UK financial cooperation.",
+    "key_quotes": [
+      "if you don't want to lose a race, perhaps you should start acting like you are in one.",
+      "I firmly believe that closer cooperation between the EU and the UK can help us move forward."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

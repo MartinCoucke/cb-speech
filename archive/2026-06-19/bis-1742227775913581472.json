@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260618c.htm",
+    "title": "Colm Kincaid: Financial literacy - a regulator's perspective",
+    "url": "https://www.bis.org/review/r260618c.htm",
+    "published": "2026-06-18",
+    "speaker": "Colm Kincaid",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Colm Kincaid of the Central Bank of Ireland addressed the National Financial Literacy Strategy Stakeholder Forum in Dublin, outlining how the Central Bank's Consumer Protection mandate supports financial literacy objectives. He discussed the modernised Consumer Protection Code, consumer awareness initiatives, and the importance of financial wellbeing for Irish consumers. The speech focused entirely on consumer protection, financial literacy, and regulatory supervision rather than monetary policy.",
+    "stance_rationale": "This speech is not related to monetary policy; it addresses financial literacy, consumer protection regulation, and the Central Bank's supervisory role. No references to interest rates, inflation, or monetary policy stance are made.",
+    "key_quotes": [
+      "The more financially literate you are, the more resilient you become to economic shocks and the better equipped you are to secure your financial future.",
+      "By holding firms to account on how they treat their customers and by monitoring their compliance with our modernised consumer protection code, we aim to create an environment where consumers are better protected, better informed, and better equipped to make sound financial decisions."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

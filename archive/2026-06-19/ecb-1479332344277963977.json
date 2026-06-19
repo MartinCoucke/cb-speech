@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260619~53145e5a0b.en.html",
+    "title": "The foundations of national sovereignty: the role of central bank money",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260619~53145e5a0b.en.html",
+    "published": "2026-06-19",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a speech at Sapienza University in Rome commemorating 80 years of the Italian Republic, focusing on monetary sovereignty and Europe's strategic dependencies in payments and digital finance. The speech covers the digital euro project, tokenisation of wholesale settlements, and expansion of instant payment linkages globally. There is no discussion of interest rates, inflation outlook, or the ECB's rate-setting stance.",
+    "stance_rationale": "This speech is primarily about payments infrastructure, digital euro development, and European monetary sovereignty rather than monetary policy in the conventional sense of rate decisions or easing/tightening bias. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "If we lose control of our money, we lose control of our economic destiny.",
+      "We cannot be content with a situation that puts their resilience at risk."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
