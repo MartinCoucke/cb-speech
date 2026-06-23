@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622h.htm",
+    "title": "Joachim Nagel: New forms of money and the transmission of monetary policy",
+    "url": "https://www.bis.org/review/r260622h.htm",
+    "published": "2026-06-22",
+    "speaker": "Joachim Nagel",
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel delivered welcome remarks at the International Conference on Payments and Securities Settlement, focusing on how new forms of money\u2014CBDCs, stablecoins, and tokenised deposits\u2014could affect monetary policy transmission through the banking sector. He analyzed how these instruments might alter bank deposit composition, funding costs, and the bank lending channel. The speech concludes that while these innovations may change the strength of transmission, they do not undermine central banks' ability to deliver price stability.",
+    "stance_rationale": "This speech is primarily about payments infrastructure and the structural implications of new digital money forms for monetary policy transmission mechanics, not about the current policy stance, rate decisions, or easing/tightening bias. No signal on the direction of interest rates is provided.",
+    "key_quotes": [
+      "New forms of money may affect bank funding, deposit competition and the pass-through of policy rates. They may therefore change the strength of the transmission of monetary policy.",
+      "They do not take away our ability to deliver price stability. They simply require us to calibrate our monetary policy instruments accordingly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
