@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/06/global-imbalances-growth-and-stability",
+    "title": "Global imbalances, growth and stability",
+    "url": "https://www.bankofcanada.ca/2026/06/global-imbalances-growth-and-stability/",
+    "published": "2026-06-23",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem delivered a speech in Paris focused on global imbalances, capital flows, and international financial stability rather than domestic monetary policy. He argued that excessive imbalances\u2014driven by China's high savings, US fiscal deficits, and European underinvestment\u2014are building financial stability risks, especially as non-bank intermediaries grow in importance. He outlined three priorities\u2014openness, investability, and transparency\u2014to foster more balanced global growth and reduce systemic vulnerabilities.",
+    "stance_rationale": "The speech is primarily about global imbalances, financial stability, and structural international economic issues rather than the Bank of Canada's interest rate stance or near-term monetary policy direction, warranting a non-monetary-policy classification and neutral score.",
+    "key_quotes": [
+      "resilience is a choice. It doesn't happen automatically, and it doesn't come from good intentions. It comes from reinforcing systems so they don't break in times of stress.",
+      "when imbalances are left unaddressed, they can undermine the stability of the system. When domestic goals overwhelm international rules, the rules eventually give way."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

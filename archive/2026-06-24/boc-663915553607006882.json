@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/06/adjusting-for-growth-and-resilience",
+    "title": "Adjusting for growth and resilience",
+    "url": "https://www.bankofcanada.ca/2026/06/adjusting-for-growth-and-resilience/",
+    "published": "2026-06-23",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem addressed Paris Europlace on global financial imbalances, their historical links to crises, and the structural adjustments needed to build resilience in the international system. He highlighted growing US current account deficits, the dollar's role in prolonging imbalances, and called for coordinated action on trade openness, investment diversification, and financial transparency. The speech is primarily focused on financial stability and global structural issues rather than near-term monetary policy direction.",
+    "stance_rationale": "The speech does not address interest rate policy, inflation outlooks, or near-term monetary policy decisions, making it non-monetary-policy in nature and warranting a neutral score of 0.",
+    "key_quotes": [
+      "Resilience is a choice. It doesn't happen automatically, and it doesn't come from good intentions. It comes from reinforcing systems so they don't break in times of stress.",
+      "The US dollar's dominant role in global finance may be prolonging imbalances today because it encourages the flow of capital into the United States."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
