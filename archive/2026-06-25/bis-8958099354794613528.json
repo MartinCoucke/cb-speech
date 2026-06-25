@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622m.htm",
+    "title": "Colm Kincaid: Harnessing opportunity - the role of financial intermediaries in Europe",
+    "url": "https://www.bis.org/review/r260622m.htm",
+    "published": "2026-06-24",
+    "speaker": "Colm Kincaid",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Colm Kincaid addressed BIPAR, the European Federation of Insurance Intermediaries, on the evolving role of retail financial intermediaries in Europe. The speech focused on consumer protection, the Savings and Investments Union, regulatory simplification, and supervisory priorities such as commission arrangements and unregulated financial activities. No monetary policy topics such as interest rates, inflation, or the policy outlook were discussed.",
+    "stance_rationale": "This speech is entirely focused on financial regulation, consumer protection, and intermediary supervision rather than monetary policy. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "Retail intermediaries have a valuable role to play in supporting the financial wellbeing of consumers.",
+      "The Central Bank of Ireland will continue to support those who work to get it right for their customers and hold to account those who fall short."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
