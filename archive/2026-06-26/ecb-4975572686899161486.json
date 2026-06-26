@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf",
+    "title": "Central bank money for the digital era",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260625~db26a75179.en.pdf",
+    "published": "2026-06-25",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone addressed the International Banking Federation on the Eurosystem's comprehensive payments strategy, focusing on the digital euro for retail use, tokenised central bank money for wholesale transactions (Pontes and Appia initiatives), and cross-border payment improvements. The speech outlined timelines including a digital euro pilot starting in the second half of 2027 and a potential first issuance in 2029. No discussion of interest rates, inflation, or monetary policy stance was included.",
+    "stance_rationale": "This speech is entirely focused on payments infrastructure, digital currency design, and tokenisation\u2014not on monetary policy settings, interest rates, or the economic outlook. It does not carry any hawkish or dovish signal for markets.",
+    "key_quotes": [
+      "The ECB aims to be ready for a potential first issuance of the digital euro during 2029.",
+      "Pontes provides the bridge between DLT platforms and TARGET Services, so that DLT transactions can be settled in central bank money."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
