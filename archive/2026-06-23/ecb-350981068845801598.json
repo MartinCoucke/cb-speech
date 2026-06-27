@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623_slides~499fcdd87d.en.pdf",
+    "title": "Presentation slides: Outlook for the euro area economy and monetary policy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623_slides~499fcdd87d.en.pdf",
+    "published": "2026-06-23",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "ECB Executive Board member Philip Lane presented the June 2026 monetary policy outlook to the European Parliament's ECON committee, highlighting that the ECB raised its three key interest rates by 25 basis points in June 2026 in response to inflation pressures stemming from the Middle East war. The presentation covered energy price scenarios, inflation projections, wage dynamics, and the rationale for the rate hike, noting upside risks to inflation and downside risks to growth. The ECB emphasized a data-dependent, meeting-by-meeting approach without pre-committing to a particular rate path.",
+    "stance_rationale": "The ECB has just delivered a 25bp rate hike, citing inflation pressures from the Middle East conflict as robust across multiple scenarios, while maintaining an uncertain and open-ended forward guidance. This is moderately hawkish \u2014 a live tightening action \u2014 but tempered by balanced risk language and no commitment to further hikes.",
+    "key_quotes": [
+      "The war in the Middle East is generating inflation pressures, and the decision to raise rates is robust across a range of scenarios mapping out how the shock might evolve and affect the medium-term outlook for the euro area.",
+      "The outlook remains uncertain, with upside risks for inflation and downside risks for economic growth... The Governing Council is not pre-committing to a particular rate path."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

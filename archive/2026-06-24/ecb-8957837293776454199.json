@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623_1~e421434341.en.pdf",
+    "title": "Outlook for the euro area economy and monetary policy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623_1~e421434341.en.pdf",
+    "published": "2026-06-23",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "ECB Vice-President Vuj\u010di\u0107 presented the June 2026 Eurosystem staff macroeconomic projections at the Barclays-CEPR Monetary Policy Forum, covering the euro area growth and inflation outlook alongside alternative Middle East conflict scenarios. The baseline projects GDP growth of 0.8% in 2026 rising to 1.6% by 2028, with HICP inflation at 2.9% in 2026 declining toward 1.8% by 2027. The speech is largely a data and projection presentation without explicit forward guidance on policy rates.",
+    "stance_rationale": "The speech is predominantly a technical presentation of projections and scenarios with no explicit monetary policy guidance or directional signals, warranting a neutral score. Inflation is above target in 2026 but projected to decline, and growth is modest, leaving the overall policy signal balanced.",
+    "key_quotes": [
+      "In all scenarios monetary and fiscal policies are the same as in the baseline, i.e. no policy change assumption.",
+      "HICP inflation: 2.9 [2026], 1.8 [2027], 1.8 [2028] \u2014 baseline projections"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

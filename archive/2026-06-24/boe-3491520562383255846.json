@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/june/alan-taylor-speech-at-the-barclays-and-centre-for-economic-policy-research",
+    "title": "Central reservations \u2212 speech by Alan Taylor",
+    "url": "https://www.bankofengland.co.uk/speech/2026/june/alan-taylor-speech-at-the-barclays-and-centre-for-economic-policy-research",
+    "published": "2026-06-23",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "MPC member Alan Taylor delivers a detailed speech on the role of the Bank of England's central forecast in monetary policy, examining its past limitations, current de-emphasis in favor of scenarios, and future reform priorities. He argues that despite the April 2026 MPR publishing only scenarios rather than a central forecast, the baseline projection remains essential as the anchor from which all scenarios are derived. The speech also reviews the current outlook through the lens of the April 2026 scenarios, noting significant uncertainty around energy prices and second-round effects.",
+    "stance_rationale": "The speech is primarily methodological and forward-looking about forecasting frameworks rather than signaling a clear near-term easing or tightening bias. Taylor notes persistent downside surprises to inflation and upside surprises to slack, suggesting an implicit dovish lean, but balances this against upside energy and persistence risks in scenarios B/C/M, leaving the overall monetary policy stance signal close to neutral.",
+    "key_quotes": [
+      "The result has been a persistent one-sided bias in our forecast errors from February 2025 up to February 2026... outturns were coming in cumulatively wrong to the downside \u2013 not necessarily because the MPC misread the economy, but, in part, because the framework and conditioning assumptions we had employed boxed in our analysis.",
+      "Scenarios are a complement not a substitute for the central forecast. They enrich the narrative, illuminate risks, and help the MPC communicate, especially in times of great uncertainty. But they cannot carry the weight of the entire forecasting system."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260622~b060a27b78.en.html",
+    "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260622~b060a27b78.en.html",
+    "published": "2026-06-22",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "President Lagarde testified before the European Parliament's ECON Committee, reviewing the euro area's economic outlook amid a new Middle East conflict that has pushed inflation to 3.2% and weighed on growth. The ECB raised rates by 25 basis points at its June 2026 meeting, framing the move as a measured, graduated response to a supply shock that is too large to look through but does not yet show signs of de-anchoring expectations. Lagarde emphasized a data-dependent, meeting-by-meeting approach with no pre-commitment to a particular rate path.",
+    "stance_rationale": "The speech is modestly hawkish: the ECB has just hiked 25bp and frames further action as possible if the shock intensifies, but Lagarde stresses gradualism and notes no evidence of second-round effects requiring a more forceful response, keeping the overall tone balanced-to-mildly hawkish.",
+    "key_quotes": [
+      "The shock is too large to look through without jeopardising our target. But we see no evidence yet of de-anchoring of inflation expectations or second-round effects that would warrant a more forceful policy response at this stage.",
+      "We are not pre-committing to a particular rate path."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

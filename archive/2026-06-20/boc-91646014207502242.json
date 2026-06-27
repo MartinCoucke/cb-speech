@@ -1,0 +1,22 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/speech-france-canada-chamber-commerce-paris-europlace-2026-06-23",
+    "title": "Speech: France-Canada Chamber of commerce and Paris Europlace",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-france-canada-chamber-commerce-paris-europlace-2026-06-23/",
+    "published": "2026-06-23",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem spoke before the France-Canada Chamber of Commerce and Paris Europlace on June 23, 2026, addressing the global financial system. The speech text provided contains only metadata and administrative details, with no substantive content available for analysis. The topic appears to focus on financial system matters rather than monetary policy specifically.",
+    "stance_rationale": "No speech content is available to assess monetary policy stance; only the title, date, and logistical details are provided. The topic of 'the global financial system' may touch on monetary policy but cannot be confirmed without the actual text.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

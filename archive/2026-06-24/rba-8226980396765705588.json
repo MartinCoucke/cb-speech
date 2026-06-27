@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-06-24.html",
+    "title": "Speech: \u201cThe Straight Line Belongs to Man, the Curved Line Belongs to God\u201d",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-06-24.html",
+    "published": "2026-06-24",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Deputy Governor Andrew Hauser delivers a technically detailed lecture on the nonlinear Phillips curve, arguing that inflation pressures rise disproportionately when an economy is already near full capacity. He uses this framework to justify the RBA's recent rate hikes in February, March, and May 2026, while noting that credible disinflation on the steep part of the curve need not impose large unemployment costs. He acknowledges ongoing uncertainty and cautions against over-reliance on any single model.",
+    "stance_rationale": "The speech endorses a proactive tightening bias, explicitly validating three consecutive rate hikes and warning that being on the steep part of the Phillips curve means inflationary shocks can escalate quickly\u2014implying a preference for pre-emptive action over gradualism. However, the hawkishness is tempered by acknowledgement of uncertainties, hysteresis risks, and the possibility that Middle East conflict resolution could ease pressures.",
+    "key_quotes": [
+      "In general, the more nonlinear the Phillips curve is, the stronger is the case for central banks who believe they are on the steeper part of the curve to take pro-active policy action to reduce excessive capacity pressures.",
+      "We still have work to do to reduce inflation here in Australia, which remains far too high."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

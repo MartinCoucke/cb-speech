@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622f.htm",
+    "title": "Gabriel Makhlouf: Monetary policy and the economic outlook",
+    "url": "https://www.bis.org/review/r260622f.htm",
+    "published": "2026-06-22",
+    "speaker": "Gabriel Makhlouf",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Makhlouf explains the ECB Governing Council's unanimous decision to raise the Deposit Facility Rate by 25bp to 2.25% in June 2026, the first increase since 2023, in response to an energy price shock stemming from the Middle East conflict. He stresses that this does not signal the start of an extended tightening cycle comparable to 2022-23, given a weaker demand backdrop and more stable medium-term inflation expectations. The path ahead is explicitly described as data-dependent and uncertain, with staff projections showing inflation peaking at 3.4% in H2 2026 before returning toward 2% by 2028.",
+    "stance_rationale": "The speech is mildly hawkish: a rate hike was delivered and Makhlouf clearly signals willingness to act further if inflation proves persistent or second-round effects materialise. However, he explicitly pushes back against an extended tightening narrative and emphasises data-dependence and a weaker growth backdrop, limiting the hawkish signal.",
+    "key_quotes": [
+      "It does not automatically mean we are embarking on a new extended tightening cycle equivalent to 2022 and 2023. The context is different, the starting point is different, and the calibration should be different.",
+      "We know from the past, as well as from the incoming data, that supply shocks cannot simply be accommodated when they risk being persistent and when expectations are as sensitive as the data suggest they currently are."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

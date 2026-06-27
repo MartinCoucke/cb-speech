@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260618~da08e71469.en.pdf",
+    "title": "Digital euro: the future of money",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260618~da08e71469.en.pdf",
+    "published": "2026-06-18",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a presentation focused entirely on the digital euro project, covering its rationale, benefits for consumers and merchants, the upcoming 12-month pilot planned for the second half of 2027, and the status of EU legislative preparations. The speech addressed European payment sovereignty, strategic autonomy, and the competitive landscape of retail payments. No monetary policy stance, interest rate guidance, or inflation/growth outlook was discussed.",
+    "stance_rationale": "This speech is exclusively about the digital euro as a payments and financial infrastructure initiative, with no reference to monetary policy settings, rate decisions, or the economic outlook. It is therefore not a monetary policy speech.",
+    "key_quotes": [
+      "The digital euro would offer an additional way to pay across the euro area \u2013 for all situations.",
+      "The decision on whether to issue the digital euro will only be considered by the ECB's Governing Council once the legislation has been adopted."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

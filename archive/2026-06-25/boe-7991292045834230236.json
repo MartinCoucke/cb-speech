@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
+    "title": "Running on empty: Climate risks and the fragility of global energy and food supply chains \u2212 speech by Swati Dhingra",
+    "url": "https://www.bankofengland.co.uk/speech/2026/june/swati-dhingra-panel-at-the-world-resources-institute-workshop",
+    "published": "2026-06-24",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": -1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of England MPC member Swati Dhingra examines how climate change, fossil fuel dependence, and the green transition increasingly affect inflation and the conduct of monetary policy. She argues that supply-side shocks from energy and food markets are the primary drivers of recent inflationary episodes and that monetary policy is a blunt instrument for addressing relative-price adjustments arising from these sources. The speech calls for a more coherent monetary-fiscal policy mix, with fiscal policy absorbing first-round supply shocks while monetary policy focuses on preventing second-round effects.",
+    "stance_rationale": "Dhingra emphasises that monetary tightening is poorly suited to supply-side shocks and can harm green investment and productive capacity, implicitly arguing for a more restrained monetary policy response to climate- and energy-driven inflation. This tilts the speech modestly dovish, though she stops short of advocating immediate rate cuts.",
+    "key_quotes": [
+      "If it primarily represents a temporary relative-price adjustment, attempting to fully offset its direct impact on inflation through higher interest rates may impose unnecessary costs on output and employment.",
+      "The risk is that policy responds to today's supply shock in a way that makes tomorrow's supply side less resilient."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

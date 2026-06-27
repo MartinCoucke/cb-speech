@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
+    "title": "A sea change in regulatory investigations and enforcement \u2212 speech by David Chaplin",
+    "url": "https://www.bankofengland.co.uk/speech/2026/june/david-chaplin-speech-given-at-the-financial-law-and-regulation-conference",
+    "published": "2026-06-25",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "David Chaplin, Head of Enforcement and Litigation at the Bank of England/PRA, outlines a shift in how regulatory enforcement investigations are conducted, emphasising earlier engagement, candour, and proactive admissions by investigation subjects. He discusses the Early Account Scheme (EAS), introduced in 2024, which offers up to a 50% penalty discount for firms that engage transparently and make early admissions of regulatory breaches. The speech draws on recent PRA enforcement cases to illustrate how this cultural shift is already producing faster, more efficient outcomes.",
+    "stance_rationale": "This speech is entirely focused on PRA enforcement procedures and regulatory investigations, with no discussion of monetary policy, interest rates, inflation, or economic conditions. It is not relevant to monetary policy stance assessment.",
+    "key_quotes": [
+      "What we are seeing is a sustained change in approach, which we see as having the potential to become the new default: a shift in how responsibility and candour are being understood and acted upon in regulatory enforcement.",
+      "Enforcement works best when it is understood not as a contest, but as a disciplined process for accountability, learning and rebuilding trust, with responsibility recognised early enough for it to do its job properly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

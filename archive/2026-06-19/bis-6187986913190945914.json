@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260618d.htm",
+    "title": "Joachim Nagel: Act now and advance the German economy",
+    "url": "https://www.bis.org/review/r260618d.htm",
+    "published": "2026-06-18",
+    "speaker": "Joachim Nagel",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bundesbank President Nagel spoke at the Frankfurt Euro Finance Summit addressing both monetary policy and structural economic issues. He noted that euro area inflation has risen to 3.2% due to the Strait of Hormuz blockade, the ECB Governing Council raised rates by 25bp, and inflation is not expected to return to the 2% target until 2028. The speech also devoted substantial attention to German structural reforms, venture capital, and investment conditions.",
+    "stance_rationale": "Nagel endorsed the recent 25bp rate hike and flagged deteriorating inflation outlook with second-round effect risks, while noting the current policy stance is 'broadly neutral' and keeping all options open \u2014 a mildly hawkish posture without strong forward guidance for further tightening.",
+    "key_quotes": [
+      "We on the ECB Governing Council decided last Thursday to raise the key interest rates by 0.25 percentage point. We are committed to setting monetary policy to ensure that inflation stabilises at our 2% target in the medium term.",
+      "At present, the interest rate level is still broadly neutral. The underlying monetary policy stance is therefore currently neither weighing on economic activity nor hindering structural measures for stronger growth."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

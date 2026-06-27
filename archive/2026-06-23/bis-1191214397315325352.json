@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622d.htm",
+    "title": "Brad Jones: Geopolitics and the financial system - some echoes from history",
+    "url": "https://www.bis.org/review/r260622d.htm",
+    "published": "2026-06-22",
+    "speaker": "Brad Jones",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Assistant Governor Brad Jones addresses the Australian Banking Association's conference on the intersection of geopolitics and financial system resilience. The speech focuses on historical parallels to the current geopolitical environment and its implications for financial stability, covering topics such as payments infrastructure, disinformation threats, sanctions evasion, and cross-border capital flows. No monetary policy stance or interest rate guidance is offered.",
+    "stance_rationale": "This speech is focused entirely on financial system resilience and geopolitical risks rather than monetary policy settings, interest rates, or inflation outlook.",
+    "key_quotes": [
+      "The punchline is this: it is in our collective interest to prepare for a financial system that is more shock-prone in the future.",
+      "A strained geopolitical environment could have first-order implications for the financial system in various ways relating to: the resilience of critical payments infrastructure; threats to key institutions posed by disinformation campaigns and insider and foreign interference; the fragmentation of cross-border capital flows under the shadow of asset seizures."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

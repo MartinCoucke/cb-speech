@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622c.htm",
+    "title": "Steven Maijoor: Opening statement - round table on the Market Integration and Supervision Package in the House of Representatives",
+    "url": "https://www.bis.org/review/r260622c.htm",
+    "published": "2026-06-22",
+    "speaker": "Steven Maijoor",
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Steven Maijoor, Executive Board Member of De Nederlandsche Bank, presented DNB's views on the EU's Market Integration and Supervision Package (MISP) and Savings and Investment Union (SIU) to the Dutch House of Representatives. The speech focused on capital market integration, supervisory centralisation under ESMA, and governance design for market infrastructures such as CCPs and CSDs. No monetary policy topics such as interest rates, inflation, or the economic outlook were addressed.",
+    "stance_rationale": "This speech is entirely about financial market supervision and regulatory architecture, not monetary policy. It contains no discussion of interest rates, inflation, or the policy stance of any central bank.",
+    "key_quotes": [
+      "Europe has ample savings, but too much of that capital still does not flow efficiently to productive investment.",
+      "ESMA should develop as a risk-based, data-driven and cost-conscious supervisor, with clear accountability and an operational model that improves on existing complexity rather than reproducing it at a higher level."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

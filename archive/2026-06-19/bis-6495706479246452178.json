@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260618b.htm",
+    "title": "Yannis Stournaras: The challenge and the opportunity of the Savings and Investments Union",
+    "url": "https://www.bis.org/review/r260618b.htm",
+    "published": "2026-06-18",
+    "speaker": "Yannis Stournaras",
+    "bank": "Bank of Greece",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Stournaras delivered a speech at an academic conference focused on the EU's Savings and Investments Union (SIU), arguing that Europe must better channel its substantial private savings into domestic capital markets to boost productivity, innovation and competitiveness. He discussed structural reforms including the MISP package, enhanced ESMA supervisory powers, completion of the Banking Union via EDIS, and the issuance of Eurobonds. The speech also noted ongoing geopolitical supply-side shocks creating inflationary and growth pressures for the euro area, but did not address ECB interest rate policy or the monetary policy stance.",
+    "stance_rationale": "This speech is primarily about EU financial market structure, capital markets integration, and the Savings and Investments Union, with no discussion of ECB policy rates, inflation targets, or monetary policy decisions. It is not a monetary policy speech.",
+    "key_quotes": [
+      "Europe has enough savings to finance these additional investments. Its current account surplus is about 3% of GDP, which implies that its savings exceed investments by this amount.",
+      "Europe should deepen financial integration and turn the current uncertainty into an opportunity for a more competitive, more productive, more innovative and more attractive European economy."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

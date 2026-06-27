@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260619_1~09441a4cbe.en.html",
+    "title": "Fireside chat",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260619_1~09441a4cbe.en.html",
+    "published": "2026-06-19",
+    "speaker": "Frank Elderson",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Frank Elderson spoke at a Spanish Banking Association event focused on banking supervision, regulatory simplification, competitiveness, cyber resilience, and the digital euro. The remarks covered the SSM's reform agenda, proportionality in prudential regulation, and the case for completing the banking union and deeper capital markets. Monetary policy rates, inflation, or the ECB's policy rate path were not discussed.",
+    "stance_rationale": "The speech is entirely about banking supervision, regulatory simplification, and the digital euro rather than monetary policy. It contains no signals regarding interest rates, inflation outlook, or the ECB's easing or tightening bias, warranting a score of zero and an is_monetary_policy flag of false.",
+    "key_quotes": [
+      "Simplification maintains resilience, deregulation weakens it. Simplification is not a mechanism for raising \u2013 or lowering \u2013 capital requirements.",
+      "Europe still lacks truly integrated banking markets. Around 80% of bank lending is granted to households and firms in banks' home countries, fewer than 2% of deposits are held across borders."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260622_annex~6ac8dad701.en.pdf",
+    "title": "Introductory statement in three charts",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260622_annex~6ac8dad701.en.pdf",
+    "published": "2026-06-22",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "ECB President Christine Lagarde presented a three-chart briefing to the European Parliament highlighting that a Middle East war has pushed euro area inflation sharply higher (HICP at 3.2% in May) while slowing growth. The ECB responded with a 25bp rate hike in June 2026, judged robust across all staff scenarios. Medium- to longer-term inflation expectations remain broadly anchored around 2%, but shorter-horizon expectations have risen significantly.",
+    "stance_rationale": "The speech is moderately hawkish: the ECB has just hiked rates and the decision is described as 'robust across all scenarios,' signalling a clear tightening bias in response to a supply-shock-driven inflation overshoot. However, the data-dependent, meeting-by-meeting framing and the projection that inflation returns to 2% by 2028 temper the hawkishness.",
+    "key_quotes": [
+      "The decision to raise rates is robust across the scenarios prepared by staff, meaning that in all scenarios a rate hike is warranted.",
+      "We will continue to follow a data-dependent, meeting-by-meeting approach, without pre-committing to a particular rate path."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

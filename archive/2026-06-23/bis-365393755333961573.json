@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260622a.htm",
+    "title": "Olaf Sleijpen: Geopolitics, trade uncertainty and inflation - chimera or reality?",
+    "url": "https://www.bis.org/review/r260622a.htm",
+    "published": "2026-06-22",
+    "speaker": "Olaf Sleijpen",
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "DNB President Olaf Sleijpen spoke at the European Economics and Financial Centre in London on the topic of geopolitics, trade uncertainty, and inflation. However, the speech text available is only an introduction using a metaphor of the Chimera to frame the complexity of decomposing economic forces, with the substantive content not included in the excerpt. No monetary policy stance or specific policy signals can be identified from the available text.",
+    "stance_rationale": "The speech text provided is essentially just the introduction and metadata, containing no actual monetary policy content, rate guidance, or inflation outlook discussion that would allow a meaningful hawkish or dovish assessment.",
+    "key_quotes": [
+      "As economists, we are trained to take complex situations and break them down into their different components.",
+      "The Chimera is a mythological creature that is part lion, part goat, and part serpent. It combines the most dangerous traits of each."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

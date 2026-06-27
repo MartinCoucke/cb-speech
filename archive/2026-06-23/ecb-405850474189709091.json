@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623~c112a749e2.en.html",
+    "title": "Introductory remarks",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260623~c112a749e2.en.html",
+    "published": "2026-06-23",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "ECB Executive Board member Philip Lane presented the euro area economic and inflation outlook in the context of the Middle East crisis, noting a 25bp rate hike in June was warranted given elevated inflation running at 3.2% and projected to stay above target into 2027. He highlighted that domestic cost pressures are easing somewhat but energy price pass-through into broader inflation is already visible. The Governing Council will follow a data-dependent, meeting-by-meeting approach without pre-committing to a rate path.",
+    "stance_rationale": "The speech is moderately hawkish: a 25bp hike was just delivered and described as 'robust,' with upside inflation risks acknowledged and no dovish pivot signaled, though the balanced meeting-by-meeting framing and attention to downside growth risks prevent a more extreme hawkish reading.",
+    "key_quotes": [
+      "the incoming information about the intensity and duration of the energy shock, and the likely persistence of its impact on inflation, suggested that a 25 basis point policy rate increase in June was appropriate",
+      "This rate hike was a robust decision."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

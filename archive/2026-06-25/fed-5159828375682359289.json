@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm",
+    "title": "Cook, Welcome Remarks",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm",
+    "published": "2026-06-24",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Lisa Cook delivered welcome remarks at the Federal Reserve Bank of Cleveland's State of Small Business Symposium, focusing on the importance of small businesses to the U.S. economy and highlighting findings from the Federal Reserve's Small Business Credit Survey. She noted that nearly half of small employer firms reported using AI, with 71 percent of those reporting increased productivity. The remarks were ceremonial and introductory in nature, with no substantive monetary policy content.",
+    "stance_rationale": "This is a ceremonial welcome address with no discussion of interest rates, inflation, employment conditions, or the policy outlook. It is not a monetary policy speech.",
+    "key_quotes": [
+      "Achieving our dual mandate of maximum employment and stable prices will create the conditions where small businesses and all Americans can thrive.",
+      "Nearly half of small employer firms reported using AI in some capacity, and 71 percent of these firms reported increased productivity as a result."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
