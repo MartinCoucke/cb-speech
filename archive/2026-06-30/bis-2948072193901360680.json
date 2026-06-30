@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260624f.htm",
+    "title": "Fabio Panetta: Mundell's plan for a European currency - from theory to history",
+    "url": "https://www.bis.org/review/r260624f.htm",
+    "published": "2026-06-30",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Panetta delivered a welcome address at a workshop honouring Robert Mundell, touching on Mundell's intellectual legacy regarding optimum currency areas, monetary unions, and the international monetary system. The speech is largely ceremonial, referencing Mundell's 1969 paper and drawing parallels between Europe's challenges then and now. No monetary policy stance or forward guidance is provided.",
+    "stance_rationale": "This is a ceremonial welcome address with no discussion of current monetary policy, interest rates, or the ECB/Banca d'Italia policy outlook, making it irrelevant for monetary policy scoring.",
+    "key_quotes": [
+      "Professor Mundell began a 1969 paper with words that sound strikingly contemporary: 'Europe today stands at a cross-roads. In politics. In technology. In economics. In culture'.",
+      "His work spans a remarkably broad range of topics: the macroeconomics of monetary unions, the architecture of the international monetary system, and the geopolitical forces shaping it."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
