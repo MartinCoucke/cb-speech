@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260630c.htm",
+    "title": "Tiff Macklem: Global imbalances, growth and stability",
+    "url": "https://www.bis.org/review/r260630c.htm",
+    "published": "2026-06-30",
+    "speaker": "Tiff Macklem",
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem delivered remarks in Paris focused on global imbalances, capital flows, and international financial stability rather than domestic monetary policy. He traced the historical evolution of the international monetary system and argued that persistent current account imbalances\u2014driven by excess savings in China and Europe and excess consumption in the United States\u2014are building financial stability risks, especially as non-bank financial intermediaries grow in scale and opacity. He outlined three priorities for addressing imbalances: openness, investability, and transparency.",
+    "stance_rationale": "The speech does not address the Bank of Canada's interest rate stance, inflation outlook, or near-term policy direction; it is focused on structural global imbalances and financial system resilience, making it a non-monetary-policy speech for markets purposes.",
+    "key_quotes": [
+      "When imbalances are too big and too one-sided for too long, they become excessive. When needed adjustment is not happening, imbalances can spill over\u2014and then we all feel it.",
+      "If there is one lesson to take from history, it's that adjustment delayed eventually becomes adjustment imposed\u2014in far more disruptive ways."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

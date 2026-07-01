@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260630d.htm",
+    "title": "Martin Kocher: United in diversity, constrained by heterogeneity?",
+    "url": "https://www.bis.org/review/r260630d.htm",
+    "published": "2026-06-30",
+    "speaker": "Martin Kocher",
+    "bank": "Oesterreichische Nationalbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Governor Kocher's opening remarks at an OeNB/SUERF conference on monetary policy in a heterogeneous currency area examine how the ECB and ESCB have historically viewed heterogeneity with concern, noting that speeches referencing heterogeneity are associated with negative interest rate surprises and stock price declines. The speech is primarily analytical and scene-setting in nature, exploring the tension between diversity as a societal value and heterogeneity as a complicating factor for monetary policy transmission. The available text represents only the introductory portion of the speech, limiting assessment of any policy stance.",
+    "stance_rationale": "The excerpt is largely framing and academic in character, without explicit forward guidance or a clear easing or tightening bias. The observation that heterogeneity-related speeches are associated with negative interest rate surprises hints at a dovish undertone, but the text is too incomplete to assign a directional score.",
+    "key_quotes": [
+      "Speeches referring to heterogeneity are systematically associated with more negative interest rate surprises than other speeches.",
+      "The aim of my speech today is to take a closer look inside this village: to clarify where precisely its gloomy view of certain heterogeneities comes from, in which respects it is justified, and why some of the villagers may be taking their resistance a little too far."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260630e.htm",
+    "title": "Joachim Nagel: The digital euro - promoting innovation, safeguarding sovereignty, strengthening Europe",
+    "url": "https://www.bis.org/review/r260630e.htm",
+    "published": "2026-06-30",
+    "speaker": "Joachim Nagel",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel delivered a speech at the International Bankers Forum focused entirely on the digital euro project, covering its rationale as a complement to cash, its role in securing European payments sovereignty, and its place in the broader digital financial ecosystem. He outlined key design features such as holding limits, privacy protections, and the waterfall approach for larger payments. The speech did not address interest rates, inflation, or conventional monetary policy stance.",
+    "stance_rationale": "This speech is exclusively about the digital euro as a payments infrastructure project and European strategic sovereignty, with no discussion of interest rates, inflation outlook, or monetary policy easing or tightening. It is not a monetary policy speech.",
+    "key_quotes": [
+      "The digital euro isn't an end in itself \u2013 it's rather a response to three developments: First, the digitalisation of our day-to-day payments, second, the growing importance of European sovereignty and third, global competition in the digital financial world.",
+      "The digital euro isn't a substitute for cash and not a counterproject to the financial sector. It's a European basic public infrastructure for the digital age \u2013 sovereign and open to private innovation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+    "title": "Agents of change \u2212 speech by Sarah Breeden",
+    "url": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+    "published": "2026-06-30",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Sarah Breeden's speech at the ECB Sintra Forum focuses entirely on how accelerating AI capabilities\u2014particularly agentic AI\u2014are reshaping financial stability risks across cyber security, financial markets, and payments infrastructure. She calls for stronger operational resilience frameworks, international cooperation, and updated regulatory approaches to keep pace with rapid technological change. The speech contains no discussion of interest rates, inflation, the output gap, or monetary policy stances.",
+    "stance_rationale": "This speech is exclusively about AI and financial stability, not monetary policy. No rate guidance, inflation commentary, or easing/tightening signals are present.",
+    "key_quotes": [
+      "AI is reshaping finance at speed. And it's on us to ensure that the next technology surprise does not become a test of financial stability.",
+      "We need policy frameworks, internal skills and institutional structures ready for more frequent technology surprises."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

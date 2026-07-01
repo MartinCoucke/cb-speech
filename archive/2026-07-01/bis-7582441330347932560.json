@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260630g.htm",
+    "title": "Martin Kocher: Concluding remarks -\"Monetary policy trade-offs in a heterogeneous currency area\"",
+    "url": "https://www.bis.org/review/r260630g.htm",
+    "published": "2026-06-30",
+    "speaker": "Martin Kocher",
+    "bank": "Oesterreichische Nationalbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Kocher delivered concluding remarks at a conference on monetary policy trade-offs in a heterogeneous currency area, summarizing key themes including heterogeneity in transmission, supply shocks, financial regulation, fiscal policy, and European integration. The remarks are largely reflective and academic in nature, recapping conference discussions rather than signaling a specific policy stance. No forward guidance or directional commentary on interest rates was provided.",
+    "stance_rationale": "The speech is primarily ceremonial/conference-closing in nature and contains no explicit signals about the future path of ECB monetary policy, rate adjustments, or easing/tightening bias, making a monetary policy score inappropriate.",
+    "key_quotes": [
+      "Diversity is not a weakness of the European project \u2013 it is one of its defining characteristics.",
+      "A successful monetary union is not one in which all economies are the same. It is one in which different economies can prosper together within a common framework of stability, trust and cooperation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
