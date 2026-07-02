@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260701a.htm",
+    "title": "Chiara Scotti: From the Winter Olympics to the digital euro. A dialogue between academia and central banks",
+    "url": "https://www.bis.org/review/r260701a.htm",
+    "published": "2026-07-01",
+    "speaker": "Chiara Scotti",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Chiara Scotti delivered a speech at the 6th Dolomiti Macro Meeting focusing on digital payments and the digital euro, using the 2026 Winter Olympics as a springboard to discuss public money in an increasingly digital economy. She argued that the digital euro is fundamentally about preserving the singleness of money and ensuring public money remains relevant in a digital society. The speech does not address interest rates, inflation, or conventional monetary policy stance.",
+    "stance_rationale": "The speech is centered on payment infrastructure and the digital euro project rather than monetary policy settings such as interest rates or inflation. As such, it is not a monetary policy speech and receives a neutral score of 0.",
+    "key_quotes": [
+      "The digital euro is not primarily about creating digital payments. Digital payments already exist, and many of them work very well. The question is whether Europeans should continue to have access to public money as their economic lives become increasingly digital.",
+      "The digital euro is about preserving the singleness of money, supporting efficiency and resiliency in an increasingly digital and fragmented payment ecosystem, and ensuring that public money continues to serve citizens in a digital society."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

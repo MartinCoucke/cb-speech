@@ -1,0 +1,22 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260701d.htm",
+    "title": "Andrew Hauser: \"The straight line belongs to man, the curved line belongs to God\"",
+    "url": "https://www.bis.org/review/r260701d.htm",
+    "published": "2026-07-01",
+    "speaker": "Andrew Hauser",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Andrew Hauser delivered the Sir Douglas Copland Memorial Lecture to the Economic Society of Australia, focusing on the historical contributions of economists Bill Phillips and Douglas Copland. The speech text available is largely introductory and biographical in nature, with no substantive monetary policy content visible. The full speech appears to be contained in a PDF that was not included in the provided text.",
+    "stance_rationale": "The available text contains no monetary policy content, rate guidance, or economic outlook discussion. It is classified as non-monetary policy based on the excerpt provided.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

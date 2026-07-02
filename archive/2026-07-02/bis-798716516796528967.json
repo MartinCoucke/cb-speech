@@ -1,0 +1,24 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260701b.htm",
+    "title": "Lisa D Cook: Welcome remarks - State of Small Business Symposium",
+    "url": "https://www.bis.org/review/r260701b.htm",
+    "published": "2026-07-01",
+    "speaker": "Lisa D Cook",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Lisa D. Cook delivered welcome remarks at the Federal Reserve Bank of Cleveland's State of Small Business Symposium, focusing on the importance of small businesses to the U.S. economy and highlighting findings from the 2025 Small Business Credit Survey. She noted that nearly half of small employer firms reported using AI, with 71% citing increased productivity. The remarks were ceremonial and research-oriented, with no discussion of the current monetary policy stance or outlook.",
+    "stance_rationale": "This is a ceremonial welcome address with no substantive monetary policy content; the only reference to monetary policy is a brief mention of the dual mandate without any signal on the direction of policy.",
+    "key_quotes": [
+      "Monetary policymakers' actions matter deeply to owners and employees of small firms. Achieving our dual mandate of maximum employment and stable prices will create the conditions where small businesses and all Americans can thrive."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
