@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+    "title": "Mixed signals, research findings, and policy judgements \u2212 speech by Catherine L. Mann",
+    "url": "https://www.bankofengland.co.uk/speech/2026/july/catherine-l-mann-fireside-chat-at-the-natixis-cib-conference-on-private-debt",
+    "published": "2026-07-02",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Catherine Mann outlines her hawkish-leaning 'activist hold' stance following the outbreak of a US-Israel-Iran conflict, which has pushed inflation higher and reintroduced the inflation-activity trade-off. She draws on disaggregated data showing mixed signals across wages, prices, and financial conditions, and on research highlighting risks of inflation expectation de-anchoring and the speed of monetary policy transmission. Her June 2026 decision was to hold Bank Rate, but she signals willingness to hike if inflation expectations deteriorate further.",
+    "stance_rationale": "Mann explicitly places more weight on inflation persistence risks, flags potential need to 'lean against' upside inflation risks, and signals that an activist hike remains on the table if data are unfavourable \u2014 a meaningfully hawkish tilt. However, the June decision was a hold rather than a hike, reflecting that financial conditions had already tightened considerably, which moderates the score.",
+    "key_quotes": [
+      "the reemergence of the trade-off between inflation and activity has led me to place more weight on inflation persistence, shifting my view towards a longer hold, and potentially a need to lean against that risk",
+      "if outturns \u2013 especially in expectations \u2013 are unfavorable to the underlying inflation process, an activist move can bring inflation expectations and outcomes toward the two percent target"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
