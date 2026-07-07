@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
+    "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
+    "published": "2026-07-06",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller delivers a conceptual speech at a Bank of Italy conference discussing two aspects of monetary policy transmission: the importance of initial conditions in assessing policy effects, and the benefits and pitfalls of forward guidance. He draws on lessons from the 2021-2023 inflation episode to illustrate how nonlinear dynamics and rigid forward guidance can complicate policymaking. The speech is largely academic and retrospective, without explicit signals about the near-term policy path.",
+    "stance_rationale": "The speech offers no clear directional signal on current rate policy\u2014it is analytical and historical in nature. Waller neither signals imminent easing nor tightening, making a neutral score appropriate, though the emphasis on flexibility and the critique of overly rigid forward guidance could be read as preserving optionality.",
+    "key_quotes": [
+      "Forward guidance can impair policy transmission if the guidance is too strong or rigid.",
+      "In these divergent situations, it's much harder to give forward guidance, and, as a result, it is less useful."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
