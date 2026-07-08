@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
+    "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm",
+    "published": "2026-07-07",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman delivered opening remarks at an FSB virtual outreach event focused on the FSB's consultation report on sound practices for responsible AI adoption in financial institutions. The speech addressed governance, proportionality, and risk management frameworks for AI use by banks of all sizes. No monetary policy topics were discussed.",
+    "stance_rationale": "This speech is entirely about AI supervision and regulatory guidance, with no references to interest rates, inflation, economic outlook, or monetary policy stance.",
+    "key_quotes": [
+      "Our focus has been on supporting institutions that want to innovate responsibly by leveraging AI tools in their operations.",
+      "In the report, we emphasized that lower-risk uses of AI should receive a lighter supervisory and regulatory touch."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
