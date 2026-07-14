@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+    "title": "Waller, Monetary Policy at a Crossroads",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm",
+    "published": "2026-07-13",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller describes U.S. monetary policy as being 'at a crossroads,' noting that core PCE inflation has risen from 3.0% in December 2025 to 3.4% in May 2026, driven by tariffs, energy spillovers, and AI-related demand pressures. He argues the labor market is stable and near maximum employment, and that inflation expectations remain anchored, but warns that another hot inflation reading would require the FOMC to consider tightening. He frames the decision as data-dependent, with his base case being to hold rates but with a clear tightening bias if inflation continues to rise.",
+    "stance_rationale": "The speech leans moderately hawkish: Waller explicitly raises the possibility of near-term rate hikes if upcoming inflation data disappoint, emphasizes the risk of repeating the 2021 mistake of waiting too long, and states that anchored expectations do not excuse inaction on above-target inflation. However, he also stresses the risks of overtightening and notes that some credible disinflation scenario supports holding rates, preventing a more extreme hawkish score.",
+    "key_quotes": [
+      "If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.",
+      "I am concerned about the elevated pace of core inflation this year, which has steadily moved up\u2014as measured by the 12-month personal consumption expenditures (PCE) rate\u2014from 3 percent in December 2025 to 3.4 percent in May."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
