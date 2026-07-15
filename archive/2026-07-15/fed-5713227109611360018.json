@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+    "title": "Bowman, Responsible Innovation and Financial Inclusion",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm",
+    "published": "2026-07-14",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fed Governor Bowman delivered remarks at the Federal Reserve's third annual Financial Inclusion Conference, focusing on the role of responsible bank innovation\u2014particularly artificial intelligence\u2014in expanding access to financial services. She emphasized the Fed's role in providing regulatory clarity and flexibility rather than prescriptive oversight. The speech also highlighted her work at the Financial Stability Board on AI sound practices for financial institutions.",
+    "stance_rationale": "This speech is entirely focused on financial inclusion, bank supervision, AI adoption, and regulatory policy\u2014not monetary policy. There is no discussion of interest rates, inflation, employment, or the policy rate path.",
+    "key_quotes": [
+      "When banks innovate responsibly, they can build a faster and more efficient banking and payments system, lower costs, expand product availability to underserved consumers and businesses, and promote market competition.",
+      "When we create unnecessary complexity or prescriptive requirements, we risk limiting the very innovation that can expand access."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

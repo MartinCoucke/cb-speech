@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/july/andrew-bailey-speech-at-manison-house",
+    "title": "Growth and regulation - speech by Andrew Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2026/july/andrew-bailey-speech-at-manison-house",
+    "published": "2026-07-14",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": -1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Andrew Bailey's speech at Mansion House focuses primarily on regulation and economic growth, covering bank capital, payments innovation, and AI. He briefly addresses monetary policy, noting that inflation has not yet returned to the 2% target due to Middle East conflict but expresses confidence it will, albeit taking longer than expected. The speech is predominantly a regulatory and structural policy address rather than a forward guidance or rate-setting communication.",
+    "stance_rationale": "The limited monetary policy content is mildly dovish: Bailey acknowledges a soft activity backdrop, says the context for returning inflation to target is 'encouraging' but delayed, and does not signal any urgency to tighten further. The overall tone suggests patience rather than hawkishness.",
+    "key_quotes": [
+      "We will ensure inflation returns to target and the context is currently encouraging, although uncertainty remains a feature of the situation. But, it will take longer.",
+      "Moreover, we are operating in a fairly soft economic setting activity-wise."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
