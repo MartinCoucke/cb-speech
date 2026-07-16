@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/07/opening-statement-2026-07-15",
+    "title": "Monetary Policy Report Press Conference Opening Statement",
+    "url": "https://www.bankofcanada.ca/2026/07/opening-statement-2026-07-15/",
+    "published": "2026-07-15",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem announced the decision to hold the policy rate at 2.25%, citing a resumption of economic growth after a period of stalling, with GDP growth estimated at 2.5% in Q2. Inflation rose to 3.2% in May driven by energy prices linked to Middle East conflict, but core inflation remained near 2%, with inflation expected to return to target in early 2027. The statement emphasized elevated uncertainty from geopolitical risks and ongoing US trade discussions, with the Council prepared to adjust policy in either direction as needed.",
+    "stance_rationale": "The statement is balanced, maintaining rates at current levels while acknowledging both upside inflation risks (oil prices, faster recovery) and downside growth risks (export stall, weak economy), with no clear bias toward easing or tightening. The 'prepared to adjust as needed' language is symmetric, keeping options open in both directions.",
+    "key_quotes": [
+      "Based on the MPR projection published today, Governing Council judges the current policy rate remains appropriate to sustain the economic recovery and bring inflation back to the 2% target.",
+      "We will not let higher oil prices become persistent inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
