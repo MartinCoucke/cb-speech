@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+    "title": "The role of research in Prudential Regulation \u2212 speech by David Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2026/july/david-bailey-speech-at-the-international-finance-and-banking-society-conference",
+    "published": "2026-07-15",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "David Bailey, Executive Director for Prudential Policy at the PRA, delivered a speech at IFABS 2026 outlining how research underpins prudential policymaking, particularly in relation to the PRA's secondary competitiveness and growth objective. He discussed three foundations of the SCGO framework\u2014maintaining trust, operating efficiently, and enabling safe innovation\u2014and illustrated how academic research informs policy calibration, cost-benefit analysis, and post-implementation evaluation. The speech does not address monetary policy, interest rates, or the Bank of England's rate-setting function.",
+    "stance_rationale": "This speech is focused entirely on prudential regulation methodology and the role of research in the PRA's policymaking framework, with no reference to monetary policy, inflation, or interest rate decisions. It is not a monetary policy communication.",
+    "key_quotes": [
+      "Research helps to shed light on and often quantify the mechanisms through which policy operates, providing a more structured understanding of cause and effect and helping policymakers to identify and assess the trade-offs inherent in different policy designs.",
+      "The relationship between regulation, competitiveness and growth is not fully understood. Particularly through innovation. Continued collaboration between policymakers and researchers will be essential if we are to deepen our understanding, to challenge our assumptions, and to refine our approach over time."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

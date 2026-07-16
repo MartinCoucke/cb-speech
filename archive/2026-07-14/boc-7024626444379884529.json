@@ -1,0 +1,22 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/press-conference-monetary-policy-report-july-2026",
+    "title": "Press Conference: Monetary Policy Report \u2013 July 2026",
+    "url": "https://www.bankofcanada.ca/multimedia/press-conference-monetary-policy-report-july-2026/",
+    "published": "2026-07-15",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This entry represents the Bank of Canada's Monetary Policy Report press conference from July 2026, held by Governor Tiff Macklem and Senior Deputy Governor Carolyn Rogers. However, the text provided contains only metadata and no substantive speech content. Without the actual remarks or Q&A transcript, no meaningful policy stance can be assessed.",
+    "stance_rationale": "No speech content is available to evaluate the monetary policy stance; the entry contains only administrative and formatting metadata.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

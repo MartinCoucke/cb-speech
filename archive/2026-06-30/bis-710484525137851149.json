@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260624e.htm",
+    "title": "Steven Maijoor: Lessons from 1763 - the central bank as lender of last resort",
+    "url": "https://www.bis.org/review/r260624e.htm",
+    "published": "2026-06-30",
+    "speaker": "Steven Maijoor",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "DNB Executive Board Member Steven Maijoor delivered a speech to the ECB's Market Operations Committee reflecting on the 1763 Amsterdam financial crisis as a historical lesson for modern lender-of-last-resort frameworks. He discussed collateral prepositioning, emergency liquidity assistance (ELA) operational readiness, and the importance of removing stigma around banks using central bank refinancing operations. The speech focused primarily on financial stability, supervisory coordination, and crisis preparedness rather than the stance of monetary policy.",
+    "stance_rationale": "This speech is primarily about financial stability, crisis management, and supervisory frameworks rather than monetary policy direction, interest rates, or inflation. It does not signal any easing or tightening bias and is therefore scored as neutral with is_monetary_policy set to false.",
+    "key_quotes": [
+      "Using the ECB's standard refinancing operations is a routine and integral component of banks' day-to-day liquidity management, and constitutes an important part of a diversified funding mix.",
+      "The story of 1763 reminds us of the consequences of having fragile and interconnected financial systems without crisis coordination or a lender of last resort."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

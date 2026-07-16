@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260630f.htm",
+    "title": "Gabriel Makhlouf: Opening remarks - \"10th Annual Macroprudential Conference\"",
+    "url": "https://www.bis.org/review/r260630f.htm",
+    "published": "2026-06-30",
+    "speaker": "Gabriel Makhlouf",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Gabriel Makhlouf delivered opening remarks at the 10th Annual Macroprudential Conference in Dublin, co-organised with the Bundesbank, De Nederlandsche Bank, and Sveriges Riksbank. The speech focused on the evolution of macroprudential policy over the past decade, the challenges of monitoring systemic risk across banks, non-banks, and digital finance, and the importance of international cooperation and research. No monetary policy stance, interest rate guidance, or inflation commentary was offered.",
+    "stance_rationale": "This speech is entirely about macroprudential policy, financial stability frameworks, and research cooperation, with no reference to monetary policy, interest rates, or inflation. It is not a monetary policy speech.",
+    "key_quotes": [
+      "The fundamental purpose of macroprudential policy remains constant: to protect society from the wider costs of financial instability.",
+      "Frameworks built for one structure of finance may become less effective as activity migrates elsewhere."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

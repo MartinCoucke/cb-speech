@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260624a.htm",
+    "title": "Christopher J Waller: Welcoming remarks on the international role of the US dollar",
+    "url": "https://www.bis.org/review/r260624a.htm",
+    "published": "2026-06-30",
+    "speaker": "Christopher J Waller",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Waller delivered welcoming remarks at the Fifth Conference on the International Roles of the U.S. Dollar, focusing on how digital assets and stablecoins are reshaping the dollar's global role. The speech outlined research themes including stablecoin-based payment systems, spillovers into financial markets, and the relationship between stablecoins and U.S. safe assets. No monetary policy stance or interest rate guidance was offered.",
+    "stance_rationale": "This is a ceremonial and introductory speech for an academic conference on the international role of the dollar and digital assets, containing no discussion of monetary policy, interest rates, or the economic outlook.",
+    "key_quotes": [
+      "the dollar's international role is also evolving",
+      "more competition generally leads to better outcomes for both consumers and society as a whole"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

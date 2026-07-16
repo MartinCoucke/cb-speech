@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+    "title": "Testing times require time for testing \u2212 speech by Ruth Smith",
+    "url": "https://www.bankofengland.co.uk/speech/2026/july/ruth-smith-speech-at-uk-finance",
+    "published": "2026-07-13",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Ruth Smith, Executive Director for Resolution at the Bank of England, delivered a speech focused on the Bank's Resolvability Assessment Framework (RAF) for banks and building societies. She discussed the outcomes-based approach to assessing firms' resolution readiness, the importance of realistic testing, and the path ahead for both established firms and those newly entering the framework. The speech is entirely concerned with resolution planning and financial stability regulation, not monetary policy.",
+    "stance_rationale": "This speech covers bank resolution, resolvability assessments, and regulatory frameworks rather than interest rates, inflation, or monetary policy stances. It is not relevant to monetary policy scoring.",
+    "key_quotes": [
+      "Maintaining a credible, effective and responsive resolution regime is at the heart of financial stability in testing times.",
+      "Resolvability is a journey that can never be 'done'."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

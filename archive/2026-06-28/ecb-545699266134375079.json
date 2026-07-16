@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260627~3807c2766e.en.pdf",
+    "title": "Is inflation back?",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260627~3807c2766e.en.pdf",
+    "published": "2026-06-27",
+    "speaker": "Isabel Schnabel",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Isabel Schnabel's June 2026 speech at the Petersberger Sommerdialog examines whether inflation is returning to the euro area in the wake of the Iran war and associated energy price shock. She presents ECB staff projections showing higher inflation and lower growth, documents upside risks across food, goods, and services inflation, and highlights that markets now expect further ECB rate hikes to bring inflation back to the 2% target. The speech acknowledges a peace deal reduces the most severe scenarios but stresses persistent uncertainty and second-round risk transmission channels.",
+    "stance_rationale": "The speech leans hawkish: Schnabel focuses extensively on upside inflation risks from the energy shock, supply-chain pressures, and potential second-round effects through wages and expectations, while endorsing market pricing that sees further rate hikes. The framing ('Is inflation back?') and the emphasis on risks rather than growth weakness signal a tightening bias, though not extreme given the acknowledged stagflationary trade-off and uncertainty.",
+    "key_quotes": [
+      "ECB is expected to raise rates further to bring inflation back to 2% over medium term",
+      "Food, goods and services inflation are facing upside risks"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

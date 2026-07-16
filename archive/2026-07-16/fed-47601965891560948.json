@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
+    "title": "Cook, Economic Outlook",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm",
+    "published": "2026-07-15",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Cook delivers a notably hawkish economic outlook speech, emphasizing that inflation remains unacceptably elevated at 3.7% against a 2% target, with risks to the dual mandate having shifted decisively toward price stability. She describes the economy as resilient with a stable labor market, reducing employment-side concerns, while flagging two ongoing inflationary shocks\u2014the Middle East conflict and AI infrastructure buildout. She signals willingness to act if disinflation does not materialize soon, while stopping short of explicitly calling for rate hikes.",
+    "stance_rationale": "Cook explicitly states that inflation risks now 'outweigh' employment risks, uses the seesaw metaphor to show the balance tilting toward tightening action, and warns she is 'prepared to act' if disinflation does not emerge\u2014a clear hawkish lean, though her current stance remains on hold pending more data.",
+    "key_quotes": [
+      "If we do not see signs of disinflation soon, I am prepared to act. I am fully committed to reaching our inflation target, and this commitment is unwavering.",
+      "As a whole, I see a notable shift in the balance of risks relative to a year or so ago, with inflation risks now outweighing employment risks."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

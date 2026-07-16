@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+    "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm",
+    "published": "2026-07-14",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Barr delivered a speech at the Federal Reserve's Financial Inclusion Conference exploring how artificial intelligence may affect income and wealth inequality. He outlined both pessimistic scenarios\u2014labor displacement and market concentration among a few hyperscalers\u2014and optimistic scenarios where AI democratizes capability and raises productivity broadly. The speech explicitly notes that AI policy decisions fall outside the Federal Reserve's remit and are for other policymakers to address.",
+    "stance_rationale": "This speech is not about monetary policy; it focuses on AI, inequality, financial inclusion, and labor market dynamics. No monetary policy stance, rate guidance, or economic outlook relevant to Fed decisions is expressed.",
+    "key_quotes": [
+      "Of course, these policies are not within the remit of the Federal Reserve but rather for other policymakers to consider and decide.",
+      "It is unclear whether AI will reduce or increase income and wealth inequality, but society can begin making choices now that can affect that outcome."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

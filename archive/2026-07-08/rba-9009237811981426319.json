@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-07-08.html",
+    "title": "Speech: Understanding Supply Shocks and Their Implications for Monetary Policy",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-07-08.html",
+    "published": "2026-07-08",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter provides a detailed analytical framework for understanding supply shocks and their implications for monetary policy, explaining the trade-offs that arise when shocks push inflation and economic activity in opposite directions. She discusses how the frequency of such shocks appears to be increasing due to geopolitical tensions, trade fragmentation, and climate change. The speech is largely educational in nature, outlining how the RBA thinks about demand versus supply shocks, inflation expectations, and the conditions under which 'looking through' temporary shocks is appropriate.",
+    "stance_rationale": "The speech is broadly neutral and analytical, neither signalling imminent easing nor tightening. While it acknowledges an ongoing oil price shock shifting the Phillips curve and the risk of persistent inflation, it equally emphasises the trade-offs with weaker activity, and the concluding commitment to return inflation to target is balanced against supporting sustainable employment.",
+    "key_quotes": [
+      "The Board will continue to act as needed to ensure inflation returns to target and the labour market to sustainable full employment.",
+      "Ultimately, if some persistent inflationary pressure is expected, monetary policy may need to be tightened. But by how much depends on all the factors I have discussed so far and the trade-offs they create."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

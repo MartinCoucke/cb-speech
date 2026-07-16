@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
+    "title": "Bowman, Modernizing Financial Regulation",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm",
+    "published": "2026-07-13",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman spoke at a Bank Policy Institute conference in London about the Federal Reserve's and FSB's efforts to modernize financial regulation and supervision. Her remarks focused on four guiding principles\u2014prioritizing material financial risks, tailoring regulation to risk profiles, enhancing transparency and accountability, and fostering responsible innovation\u2014and outlined concrete U.S. initiatives including capital framework reforms, supervisory operating principles, and AI guidance. The speech contains no discussion of interest rates, inflation, or the monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on regulatory and supervisory modernization, not monetary policy. There is no reference to rate decisions, inflation, or economic conditions relevant to the policy rate.",
+    "key_quotes": [
+      "The lesson is that more findings do not equal better supervision.",
+      "Rather than working backward from a predetermined aggregate capital target, we evaluated each requirement on its merits, examining whether it is appropriately calibrated to risk, achieves its intended purpose, and minimizes unintended consequences."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
