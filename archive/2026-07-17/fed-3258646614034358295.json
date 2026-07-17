@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
+    "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker\u2019s Perspective",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm",
+    "published": "2026-07-16",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Vice Chair Jefferson delivered a framework-heavy speech on how the Fed analyzes and responds to economic shocks, focusing on the current energy price shock from the Middle East conflict and the macroeconomic implications of AI. He noted that inflation remains above target and unemployment is near maximum-employment levels, creating a dual-mandate tension, while also flagging that recent trade policy changes compound the challenge. He indicated the FOMC held the federal funds rate at 3\u00bd\u20133\u00be percent at the June meeting and signaled data-dependence going forward.",
+    "stance_rationale": "The speech leans very slightly hawkish: Jefferson explicitly states that if inflation does not cool soon it 'could be appropriate to reconsider our current policy stance,' signaling a conditional tightening bias, while simultaneously emphasizing the current rate is supportive and the stance is well-positioned. The overall tone is balanced but tilts modestly toward inflation vigilance over employment concerns.",
+    "key_quotes": [
+      "In a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability.",
+      "The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
