@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+    "title": "It\u2019s all about the role of money - speech by Nathana\u00ebl Benjamin",
+    "url": "https://www.bankofengland.co.uk/speech/2026/july/nathanael-benjamin-speech-at-omfif",
+    "published": "2026-07-21",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Nathana\u00ebl Benjamin, Executive Director for Financial Stability Strategy and Risk at the Bank of England, presents a conceptual framework for understanding central bank policy through the three core functions of money: store of value, unit of account, and medium of exchange. He applies this framework to current financial stability topics including bank capital requirements, non-bank finance regulation, and hedge fund leverage. The speech is primarily focused on financial stability policy rather than interest rate or monetary policy decisions.",
+    "stance_rationale": "This speech is about financial stability frameworks and macroprudential policy, not monetary policy or interest rate decisions. There is no discussion of the rate-setting cycle, inflation outlook, or MPC deliberations.",
+    "key_quotes": [
+      "Our role is to ensure trust in money.",
+      "The relevant policy question is not whether capital is good or bad for growth in a binary sense, but rather what level and structure of capital requirements most effectively support sustainable growth by appropriately balancing resilience and efficiency."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
