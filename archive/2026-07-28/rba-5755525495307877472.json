@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-07-28.html",
+    "title": "Speech: \u201cMonetary Policy in an Era of Shocks\u201d",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-07-28.html",
+    "published": "2026-07-28",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Governor Michele Bullock delivered a speech framing Australia's current inflation challenge in the context of repeated global supply shocks, drawing parallels with the oil shocks of the 1970s. She noted that inflation remains above target and that capacity pressures were elevated even before the recent Middle East conflict, justifying the cash rate increases earlier in 2026. While acknowledging some easing in demand and labour markets broadly in line with expectations, she emphasised the Board's continued focus on returning inflation sustainably to target and explicitly flagged the possibility of further rate hikes.",
+    "stance_rationale": "The speech carries a moderately hawkish tone: Bullock explicitly states that further demand easing is likely needed to return inflation to target, warns against letting elevated cost pressures entrench inflation, and directly signals readiness to raise the cash rate further if required. There is no indication of near-term easing, and the historical comparison to the 1970s reinforces the cost of delayed tightening.",
+    "key_quotes": [
+      "The Board is prepared to act as required to achieve its mandate, including by increasing the cash rate further if needed.",
+      "Putting off a period of tight monetary policy today can mean higher rates and higher unemployment down the track."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
