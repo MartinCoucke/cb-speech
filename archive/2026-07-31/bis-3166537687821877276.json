@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730a.htm",
+    "title": "Fabio Panetta: Finance for innovation and artificial intelligence as drivers of development",
+    "url": "https://www.bis.org/review/r260730a.htm",
+    "published": "2026-07-30",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Italy Governor Fabio Panetta delivered opening remarks at a joint conference with the European Investment Bank focused on artificial intelligence, innovation, and finance as drivers of economic development. He highlighted AI's potential to boost productivity in Italy, particularly in manufacturing and medicine, while stressing the need for adequate financing of intangible investments and skills development. The speech did not address monetary policy, interest rates, or the inflation outlook.",
+    "stance_rationale": "This is a thematic speech on AI, innovation finance, and economic development, with no discussion of monetary policy, rate setting, or the ECB's policy stance. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "Without adequate finance, innovation remains just an idea. With patient finance, risk capital and deeper markets, it can translate into growth, employment and competitiveness.",
+      "artificial intelligence must remain at the service of people, of the dignity of work, of responsibility and of freedom."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

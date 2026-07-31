@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260701f.htm",
+    "title": "Christopher Kent: Additional monetary policy tools - reflections and a new framework",
+    "url": "https://www.bis.org/review/r260701f.htm",
+    "published": "2026-07-30",
+    "speaker": "Christopher Kent",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Christopher Kent introduced the Monetary Policy Board's new Framework for Additional Monetary Policy Tools at low interest rates, drawing on pandemic-era experience and international peers. The framework outlines how the RBA would design, deploy, and exit unconventional tools when the cash rate is very low, though it is explicitly non-prescriptive. Kent emphasized that the cash rate target remains the primary instrument, with additional tools reserved for extraordinary circumstances.",
+    "stance_rationale": "The speech is forward-looking and procedural in nature, describing a contingency framework rather than signaling any imminent policy shift. There is no directional easing or tightening bias expressed, warranting a neutral score.",
+    "key_quotes": [
+      "The cash rate target remains our primary and preferred instrument for achieving low inflation and full employment.",
+      "Additional tools can play an important role during extraordinary times and provide some extra support, but they are more complex and carry greater risks."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

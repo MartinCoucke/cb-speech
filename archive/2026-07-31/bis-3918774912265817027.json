@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730b.htm",
+    "title": "Frank Elderson: The green transition - benefits and barriers",
+    "url": "https://www.bis.org/review/r260730b.htm",
+    "published": "2026-07-30",
+    "speaker": "Frank Elderson",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Frank Elderson's keynote at the 7th World Congress of Environmental and Resource Economists focuses on the green transition, energy insecurity, and the economic risks posed by fossil fuel dependence in Europe. He discusses how geopolitical shocks, including conflict in the Middle East, have contributed to inflation volatility and economic uncertainty. The speech emphasizes the need for complementary policies to achieve an orderly and low-cost transition to net zero carbon.",
+    "stance_rationale": "This speech is primarily about climate, energy policy, and the green transition rather than monetary policy stances, interest rates, or the ECB's policy toolkit. It does not signal any dovish or hawkish bias.",
+    "key_quotes": [
+      "Accelerating the transition to net zero carbon helps insulate Europe from these shocks.",
+      "Europe's continued reliance on imported fossil fuels makes the region especially vulnerable to such events."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730c.htm",
+    "title": "Claudia Buch: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+    "url": "https://www.bis.org/review/r260730c.htm",
+    "published": "2026-07-30",
+    "speaker": "Claudia Buch",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Claudia Buch, in her capacity as Chair of the ECB Supervisory Board, addressed the European Parliament's Committee on Economic and Monetary Affairs on topics related to banking regulation, supervisory reform, and the completion of the banking union. She highlighted the need to reduce regulatory complexity while maintaining strong supervisory standards, and flagged geopolitical risks and frontier AI as emerging challenges for European banks. The speech focuses entirely on prudential supervision rather than monetary policy.",
+    "stance_rationale": "This speech is from the ECB's supervisory arm and deals with banking regulation, the Single Market, and banking union reform\u2014not interest rates or monetary policy stance.",
+    "key_quotes": [
+      "Reforms are needed to reduce undue complexities in regulation and supervision, removing frictions that could impede growth.",
+      "A key element of their contributions is their call to further promote the integration of the Single Market and complete the banking union, while preserving strong supervisory and regulatory standards."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
