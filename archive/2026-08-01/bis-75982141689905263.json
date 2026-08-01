@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730p.htm",
+    "title": "Fabio Panetta: The economic and financial system amidst uncertainty and innovation",
+    "url": "https://www.bis.org/review/r260730p.htm",
+    "published": "2026-07-31",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fabio Panetta, Governor of the Bank of Italy, addressed the Italian Banking Association's annual meeting discussing the global economic environment shaped by Middle East conflict-driven energy shocks and the spread of artificial intelligence. He noted that the euro area faces compounded headwinds from higher energy costs and limited AI-driven investment relative to the US. Euro area inflation is around 3% and expected to remain elevated into early 2027, but no explicit monetary policy stance or ECB rate guidance is provided in the available text.",
+    "stance_rationale": "The published excerpt focuses on economic and geopolitical context rather than monetary policy decisions, tools, or rate guidance, making a meaningful hawkish/dovish assessment impossible from the available content.",
+    "key_quotes": [
+      "Inflation is currently hovering around 3 per cent and is expected to remain above that level until early 2027.",
+      "Higher energy costs have compounded a situation already marked by low growth."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

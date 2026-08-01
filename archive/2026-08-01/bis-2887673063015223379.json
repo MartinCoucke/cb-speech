@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730s.htm",
+    "title": "Andrew Bailey: Growth and regulation",
+    "url": "https://www.bis.org/review/r260730s.htm",
+    "published": "2026-07-31",
+    "speaker": "Andrew Bailey",
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "bis"
+  },
+  "rating": {
+    "score": -1,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Governor Bailey's Mansion House speech focuses primarily on the role of regulation in supporting economic growth, covering bank capital, payments modernisation, and artificial intelligence. He briefly acknowledges that inflation has not yet returned to the 2% target due to the Middle East conflict but expresses confidence it will do so, albeit later than originally expected. The bulk of the speech is structural and regulatory in nature rather than a forward guidance communication on interest rates.",
+    "stance_rationale": "The monetary policy content is limited and marginally dovish: Bailey notes a 'fairly soft economic setting activity-wise,' acknowledges inflation will return to target but 'will take longer,' and frames the backdrop as one of stability rather than urgency to tighten. There is no explicit rate signal, but the soft growth acknowledgement and delayed disinflation narrative lean slightly dovish.",
+    "key_quotes": [
+      "We will ensure inflation returns to target and the context is currently encouraging, although uncertainty remains a feature of the situation. But, it will take longer.",
+      "Moreover, we are operating in a fairly soft economic setting activity-wise."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

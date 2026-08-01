@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730g.htm",
+    "title": "Sarah Hunter: Understanding supply shocks and their implications for monetary policy",
+    "url": "https://www.bis.org/review/r260730g.htm",
+    "published": "2026-07-31",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter delivered a speech to the Australian Conference of Economists focused on understanding supply shocks and their implications for monetary policy. The speech outlines the RBA's dual mandate of maintaining inflation within the 2\u20133 per cent band and sustaining full employment. The available text is largely introductory and methodological, with limited policy-directional content.",
+    "stance_rationale": "The excerpt provides only the introduction and a description of an analytical framework, without revealing any explicit easing or tightening bias. The neutral framing of the mandate and the absence of forward guidance or policy signals warrant a score of zero.",
+    "key_quotes": [
+      "The target outcome is therefore clear, ensuring inflation returns sustainably to target.",
+      "To do this, we have to account for a myriad of different economic forces that influence the productive capacity of the economy, aggregate demand, and costs and inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

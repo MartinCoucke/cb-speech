@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730j.htm",
+    "title": "Michelle W Bowman: Modernizing financial regulation",
+    "url": "https://www.bis.org/review/r260730j.htm",
+    "published": "2026-07-31",
+    "speaker": "Michelle W Bowman",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Bowman outlines principles for modernizing financial regulation and supervision, speaking in her capacity as chair of the FSB's Standing Committee on Supervisory and Regulatory Cooperation. The speech covers regulatory capital reforms (Basel III endgame), supervisory transparency, tailoring of requirements, and emerging technology guidance including AI. There is no discussion of interest rates, inflation, or the monetary policy stance.",
+    "stance_rationale": "This speech is focused entirely on regulatory and supervisory modernization, not monetary policy. No monetary policy content is present, so the score is set to 0 and is_monetary_policy to false.",
+    "key_quotes": [
+      "The goal is to maintain robust capital levels while reducing regulatory barriers that constrain credit availability without providing corresponding benefits.",
+      "Modernization is an evergreen approach to ensuring financial stability-starting with the banking sector. It is an ongoing commitment to improve, to learn, and to adapt our approach as markets, technology, and risks evolve."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
