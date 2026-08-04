@@ -99,15 +99,51 @@ config entries:
 `fetcher._parse_feed` gains `html_list` and `js_list` dispatch branches
 alongside the existing `rss`, `bis`, and `playwright` kinds.
 
-### 4. Speaker extraction (required for dedup)
+### 4. Duplicate-proof identity (replaces single `content_key`)
 
-`fetcher.content_key` is `speaker-surname | normalized-title`. If a direct source
-yields `speaker=None` while the BIS copy has a speaker, the two keys differ and a
-prompt BIS copy could be emailed as a duplicate. Each `html_list` config
-therefore must yield a speaker: via `speaker_selector`, or — when the listing
-embeds it in the title as "Speaker: Title" — by the same prefix split
-`sources/bis.py` already performs. Configs are validated in tests to produce a
-non-null speaker on their fixture.
+Today `fetcher.content_key` is a single `speaker-surname | normalized-title`. If a
+direct source yields `speaker=None` while the BIS copy has a speaker, the keys
+differ and the same speech could be emailed twice. Enforcing "non-null speaker"
+in tests is insufficient: it is checked against a saved fixture, but the failure
+occurs at runtime when a site redesign removes the byline element.
+
+**Requirement: no duplicates.** Three independent layers, so no single failure
+produces one.
+
+**Layer 1 — BIS rarely competes.** With true dates and the 7-day gate against a
+measured 14–31 day lag, BIS items are essentially never emitted, so a
+BIS-vs-direct collision is largely theoretical.
+
+**Layer 2 — runtime speaker validation.** `html_list.parse_rows` checks each
+produced item for a speaker. If absent, it derives one from a "Speaker: Title"
+prefix (the convention `sources/bis.py` already handles). If still absent, the
+item is still returned (never dropped) but the source is flagged to the
+source-health monitor (§5). A redesigned site therefore cannot silently begin
+emitting speaker-less items.
+
+**Layer 3 — two identity keys, any-match.** `fetcher.identity_keys(item) ->
+set[str]` returns:
+
+- `s|<surname>|<normalized-title>` — when a speaker is known (today's key).
+- `t|<normalized-title>|<delivery-date>|<region>` — always.
+
+Two items are duplicates if their key sets intersect. Key 2 is only viable
+because this spec introduces true delivery dates, so BIS and a direct source
+finally agree on the date. It uses `region`, not `bank`, because bank names
+differ across sources ("Federal Reserve" in BIS vs "Federal Reserve Bank of New
+York" on the NY Fed site) while region always agrees.
+
+**Guard against over-merging.** Key 2 requires title *and* date *and* region to
+agree, so genuinely distinct speeches remain distinct — verified against the two
+real title collisions in the existing `state/seen.json` ("Europe's economy under
+the weight of power politics", "Global imbalances, growth and stability"), which
+were delivered by different speakers on different dates. Any suppression that
+fires via key 2 rather than key 1 is written to `runs.log`, so an incorrect merge
+is auditable rather than invisible.
+
+**`seen.json` format.** Stores every key of each emailed speech; membership is
+"any key present". Backward compatible — existing single keys remain valid, so
+nothing already emailed can resurface.
 
 ### 5. Source-health monitoring (`main.py`, `email_send.py`)
 
@@ -161,8 +197,17 @@ it seen. New: a failing source now also trips the health counter.
 - `html_list.parse_rows`: extracts title/url/date/speaker from a saved fixture
   for each of the five banks; relative URLs resolve against `base`; rows missing
   a link or date are skipped.
-- Speaker present: each of the five configs yields a non-null speaker on its
-  fixture (guards the dedup contract).
+- Speaker fallback: a row with no speaker element but a "Speaker: Title" heading
+  yields the derived speaker; a row with neither is still returned (not dropped)
+  and flags the source to the health monitor.
+- `identity_keys`: returns both keys when a speaker is known, only the
+  title/date/region key when not; two items differing solely by a missing
+  speaker are detected as duplicates; two items sharing a title but differing in
+  date or region are **not** merged (regression-tested against the two real
+  collisions in `state/seen.json`).
+- `seen.json` multi-key: an item whose fallback key was stored is recognised as
+  seen when later encountered with a speaker, and vice versa; pre-existing
+  single-key entries still suppress their speeches (backward compatibility).
 - `fetcher`: dispatches `html_list`; a failing html source is skipped without
   aborting; existing rss/bis/playwright behaviour unchanged.
 - Source health: counter increments on zero, resets on non-zero, and the digest
