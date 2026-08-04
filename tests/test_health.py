@@ -24,3 +24,19 @@ def test_missing_speakers_produce_an_alert(monkeypatch):
     alerts = main.health_alerts({"bostonfed": 0}, counts)
     assert len(alerts) == 1
     assert "speaker" in alerts[0].lower()
+
+
+def test_a_few_legacy_rows_do_not_alert(monkeypatch):
+    """NY Fed archive rows from before ~2015 predate the "Surname: Title"
+    convention. 4 of 700 is not selector drift and must stay silent."""
+    monkeypatch.setattr(main.config, "SPEAKER_MISSING_ALERT_RATIO", 0.2)
+    counts = {"nyfed": {"items": 700, "no_speaker": 4}}
+    assert main.health_alerts({"nyfed": 0}, counts) == []
+
+
+def test_widespread_missing_speakers_alert(monkeypatch):
+    """A drifted selector affects nearly every row."""
+    monkeypatch.setattr(main.config, "SPEAKER_MISSING_ALERT_RATIO", 0.2)
+    counts = {"nyfed": {"items": 700, "no_speaker": 690}}
+    alerts = main.health_alerts({"nyfed": 0}, counts)
+    assert len(alerts) == 1 and "690 of 700" in alerts[0]

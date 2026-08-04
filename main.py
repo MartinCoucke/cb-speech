@@ -77,8 +77,9 @@ def health_alerts(health: dict[str, int],
             alerts.append(f"{name} has returned no items for {runs} consecutive "
                           f"runs — the source may be broken.")
     for name, stats in sorted(counts.items()):
-        if stats.get("no_speaker"):
-            alerts.append(f"{name}: {stats['no_speaker']} item(s) had no speaker "
+        missing, total = stats.get("no_speaker", 0), stats.get("items", 0)
+        if total and missing / total >= config.SPEAKER_MISSING_ALERT_RATIO:
+            alerts.append(f"{name}: {missing} of {total} items had no speaker "
                           f"— the byline selector may have drifted.")
     return alerts
 

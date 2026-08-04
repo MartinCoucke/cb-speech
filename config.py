@@ -11,6 +11,11 @@ SEEN_FILE = STATE_DIR / "seen.json"
 HEALTH_FILE = STATE_DIR / "source_health.json"
 # Consecutive zero-item runs before a source is reported as probably broken.
 SOURCE_HEALTH_ALERT_RUNS = 3
+# Fraction of a scraped source's items that may lack a speaker before it is
+# reported. A drifted byline selector affects nearly every row, whereas a few
+# pre-2015 archive entries legitimately predate the "Surname: Title" convention
+# — alerting on those would fire every run and train the reader to ignore it.
+SPEAKER_MISSING_ALERT_RATIO = 0.2
 RUNS_LOG = HERE / "runs.log"
 _LOCAL_SECRETS = HERE / "secrets.txt"
 SECRETS_FILE = _LOCAL_SECRETS
