@@ -15,6 +15,9 @@ class SpeechItem:
     bank: str
     region: str        # one of: US, Europe, UK, Australia, Canada
     source: str        # feed name that produced this item
+    # "speech" or "press_conference" (a post-meeting policy decision /
+    # press-conference opening statement). Defaults preserve existing behaviour.
+    category: str = "speech"
 
 
 @dataclass

@@ -91,6 +91,53 @@ FEEDS += [
     },
 ]
 
+# --- Policy decisions / press conferences -------------------------------
+# Post-meeting monetary policy decisions and press-conference opening
+# statements. These arrive on the banks' press feeds, which also carry minutes,
+# data releases and appointments, so each entry filters by title. Verified
+# against the live feeds on 2026-08-04.
+POLICY_FEEDS = [
+    {
+        "name": "fed_policy", "kind": "rss", "region": "US",
+        "bank": "Federal Reserve", "category": "press_conference",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "include": ["fomc statement"],
+    },
+    {
+        "name": "ecb_policy", "kind": "rss", "region": "Europe",
+        "bank": "ECB", "category": "press_conference",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "include": ["monetary policy statement", "monetary policy decisions",
+                    "press conference", "combined monetary policy"],
+    },
+    {
+        "name": "boe_policy", "kind": "rss", "region": "UK",
+        "bank": "Bank of England", "category": "press_conference",
+        "url": "https://www.bankofengland.co.uk/rss/news",
+        "include": ["monetary policy summary", "bank rate"],
+    },
+    {
+        # The RBA's RSS carries only a single item, so its year-paginated
+        # media-release listing is scraped instead.
+        "name": "rba_policy", "kind": "html_list", "region": "Australia",
+        "bank": "Reserve Bank of Australia", "category": "press_conference",
+        "url": "https://www.rba.gov.au/media-releases/{year}/",
+        "base": "https://www.rba.gov.au",
+        "row_selector": "article.item",
+        "link_selector": "div.title a",
+        "date_selector": "span.date",
+        "date_formats": ["%d %B %Y"],
+        "include": ["statement by the monetary policy board",
+                    "monetary policy decision"],
+    },
+    {
+        "name": "boc_policy", "kind": "rss", "region": "Canada",
+        "bank": "Bank of Canada", "category": "press_conference",
+        "url": "https://www.bankofcanada.ca/content_type/press-releases/feed/",
+        "include": ["policy rate", "opening statement"],
+    },
+]
+
 # --- Dedup / freshness --------------------------------------------------
 LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
 

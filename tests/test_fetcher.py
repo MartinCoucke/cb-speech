@@ -17,6 +17,7 @@ def test_fetch_all_dispatches_and_concatenates(monkeypatch):
         {"name": "bis", "kind": "bis", "region": "", "bank": "", "url": "u2"},
     ]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher, "_get", lambda url: f"<xml for {url}>")
     monkeypatch.setattr(fetcher.rss, "parse_feed",
                         lambda text, **k: [_item("https://x/a", "fed", title="A")])
@@ -30,6 +31,7 @@ def test_fetch_all_handles_playwright(monkeypatch):
     feeds = [{"name": "ecb", "kind": "playwright", "region": "Europe",
               "bank": "ECB", "url": "u"}]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher, "_fetch_playwright",
                         lambda feed: [_item("https://x/e", "ecb", title="E")])
     out, _counts = fetcher.fetch_all()
@@ -42,6 +44,7 @@ def test_fetch_all_skips_a_failing_feed(monkeypatch):
         {"name": "boe", "kind": "rss", "region": "UK", "bank": "BoE", "url": "u2"},
     ]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
 
     def boom(url):
         if url == "u1":
@@ -80,6 +83,7 @@ def test_fetch_all_dispatches_html_list(monkeypatch):
     feeds = [{"name": "nyfed", "kind": "html_list", "region": "US",
               "bank": "Federal Reserve Bank of New York", "url": "u"}]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher.html_list, "fetch",
                         lambda feed: [_item("https://x/ny", "nyfed",
                                             title="Williams: Outlook",
@@ -93,6 +97,7 @@ def test_fetch_all_reports_zero_for_failing_source(monkeypatch):
     feeds = [{"name": "nyfed", "kind": "html_list", "region": "US",
               "bank": "NY", "url": "u"}]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
 
     def boom(feed):
         raise RuntimeError("site down")
@@ -111,6 +116,7 @@ def test_no_speaker_only_counted_for_scraped_sources(monkeypatch):
         {"name": "nyfed", "kind": "html_list", "region": "US", "bank": "NY", "url": "u2"},
     ]
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
+    monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher, "_get", lambda url: "<xml>")
     monkeypatch.setattr(fetcher.rss, "parse_feed",
                         lambda text, **k: [_item("https://x/a", "fed", title="A")])

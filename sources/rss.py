@@ -33,7 +33,8 @@ def _matches(value: str, needles: list[str] | None) -> bool:
 
 def parse_feed(text: str, *, default_bank: str, region: str, source: str,
                include: list[str] | None = None,
-               url_include: list[str] | None = None) -> list[SpeechItem]:
+               url_include: list[str] | None = None,
+               category: str = "speech") -> list[SpeechItem]:
     """Parse an RSS/Atom feed into SpeechItems.
 
     `include` / `url_include` keep only entries whose title / link contains one
@@ -63,6 +64,7 @@ def parse_feed(text: str, *, default_bank: str, region: str, source: str,
                 bank=default_bank,
                 region=region,
                 source=source,
+                category=category,
             )
         )
     return items
