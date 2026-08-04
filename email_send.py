@@ -74,7 +74,7 @@ def _entry(item: SpeechItem, r: Rating) -> str:
     )
 
 
-def build_html(rated: list[Rated]) -> str:
+def build_html(rated: list[Rated], alerts: list[str] | None = None) -> str:
     today = date.today().isoformat()
     sections: list[str] = []
     for region in config.REGION_ORDER:
@@ -86,6 +86,17 @@ def build_html(rated: list[Rated]) -> str:
         sections.append(
             f"<h2 style='font-size:18px; margin:20px 0 8px;'>{region}</h2>{entries}"
         )
+
+    alert_html = ""
+    if alerts:
+        rows = "".join(f"<li>{_esc(a)}</li>" for a in alerts)
+        alert_html = (
+            "<div style='margin:16px 0; padding:10px 12px; border:1px solid #fcd34d; "
+            "background:#fffbeb; border-radius:8px;'>"
+            "<strong style='font-size:13px;'>⚠ Source health</strong>"
+            f"<ul style='margin:6px 0 0; font-size:13px;'>{rows}</ul></div>"
+        )
+
     return (
         "<!DOCTYPE html><html><body style='font-family:-apple-system,Segoe UI,"
         "Helvetica,sans-serif; color:#111827; max-width:780px; margin:0 auto; "
@@ -93,6 +104,7 @@ def build_html(rated: list[Rated]) -> str:
         "<h1 style='font-size:20px; margin:0 0 4px;'>Central bank speeches — "
         "daily digest</h1>"
         f"<div style='color:#6b7280; font-size:12px;'>{today}</div>"
+        f"{alert_html}"
         f"{''.join(sections)}"
         "<hr style='margin:24px 0 8px; border:none; border-top:1px solid #e5e5e5;'>"
         "<div style='color:#9ca3af; font-size:11px;'>Sources: bank RSS feeds, "
