@@ -49,15 +49,19 @@ def load_seen() -> dict[str, str]:
 
 def select_new(items: list[SpeechItem], seen: dict[str, str],
                *, lookback_hours: int) -> list[SpeechItem]:
+    """Items not already seen (by ANY identity key) and recent enough."""
     cutoff = date.today() - timedelta(hours=lookback_hours)
     return [i for i in items
-            if fetcher.content_key(i) not in seen and i.published >= cutoff]
+            if not (fetcher.identity_keys(i) & seen.keys())
+            and i.published >= cutoff]
 
 
 def update_seen(seen: dict[str, str], items: list[SpeechItem],
                 *, today: str) -> None:
+    """Record every identity key so the speech is recognised from any source."""
     for i in items:
-        seen[fetcher.content_key(i)] = today
+        for key in fetcher.identity_keys(i):
+            seen[key] = today
 
 
 def _append_log(line: str) -> None:

@@ -50,31 +50,64 @@ def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:
     return [i for i in items if i.published >= cutoff]
 
 
-def content_key(item: SpeechItem) -> str:
-    """Source-independent identity for a speech: speaker surname + title.
+def _surname(speaker: str | None) -> str:
+    return speaker.strip().split()[-1].lower() if speaker and speaker.strip() else ""
 
-    BIS titles are "Speaker: Title" — strip the speaker prefix so they match
-    the direct feed's bare title.
+
+def _normalized_title(item: SpeechItem) -> str:
+    """Lowercased, punctuation-stripped title with any speaker prefix removed.
+
+    Both BIS ("John C Williams: Stability of Thy Times") and the NY Fed
+    ("Williams: Stability of Thy Times") prefix the title with the speaker. The
+    prefix is only stripped when it actually matches the item's speaker surname,
+    so a genuine colon ("The U.S. Economy: Resilience...") is preserved.
     """
     title = item.title or ""
-    if item.source == "bis" and ":" in title:
-        title = title.split(":", 1)[1]
-    norm_title = re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
-    surname = item.speaker.strip().split()[-1].lower() if item.speaker else ""
-    return f"{surname}|{norm_title}"
+    if ":" in title:
+        prefix, _, rest = title.partition(":")
+        if _surname(prefix) and _surname(prefix) == _surname(item.speaker):
+            title = rest
+    return re.sub(r"[^a-z0-9]+", " ", title.lower()).strip()
+
+
+def identity_keys(item: SpeechItem) -> set[str]:
+    """Identity keys for a speech; two items are duplicates if these intersect.
+
+    Key 1 (speaker) keeps the legacy `surname|title` format so entries already
+    written to state/seen.json remain valid. Key 2 works even when a source
+    stops emitting speakers, and is specific enough (title + date + region) not
+    to merge genuinely distinct speeches. Region is used rather than bank
+    because bank names differ across sources ("Federal Reserve" vs "Federal
+    Reserve Bank of New York") while region always agrees.
+    """
+    title = _normalized_title(item)
+    keys = {f"t|{title}|{item.published.isoformat()}|{item.region}"}
+    surname = _surname(item.speaker)
+    if surname:
+        keys.add(f"{surname}|{title}")
+    return keys
 
 
 def dedup(items: list[SpeechItem]) -> list[SpeechItem]:
-    """Collapse items with the same content key. A direct source beats BIS."""
-    best: dict[str, SpeechItem] = {}
-    for it in items:
-        key = content_key(it)
-        cur = best.get(key)
-        if cur is None:
-            best[key] = it
-        elif cur.source == "bis" and it.source != "bis":
-            best[key] = it
-    return list(best.values())
+    """Collapse duplicates using any-key matching. A direct source beats BIS."""
+    key_to_index: dict[str, int] = {}
+    chosen: list[SpeechItem] = []
+    for item in items:
+        keys = identity_keys(item)
+        hit = next((key_to_index[k] for k in keys if k in key_to_index), None)
+        if hit is None:
+            index = len(chosen)
+            chosen.append(item)
+            for k in keys:
+                key_to_index[k] = index
+        else:
+            if chosen[hit].source == "bis" and item.source != "bis":
+                log.info("dedup: preferring %s over bis for %r",
+                         item.source, item.title[:60])
+                chosen[hit] = item
+            for k in keys:
+                key_to_index.setdefault(k, hit)
+    return chosen
 
 
 def fetch_all() -> list[SpeechItem]:

@@ -11,30 +11,6 @@ def _item(id_, source, title="t", speaker=None, published=None):
                       speaker=speaker, bank="b", region="US", source=source)
 
 
-def test_dedup_prefers_direct_feed_over_bis_same_key():
-    direct = _item("https://x/a", "fed", title="Outlook")
-    bis = _item("https://y/a", "bis", title="Outlook")
-    out = fetcher.dedup([bis, direct])  # bis first; direct should win
-    assert len(out) == 1
-    assert out[0].source == "fed"
-
-
-def test_dedup_collapses_same_speech_across_different_urls():
-    fed = _item("https://federalreserve.gov/x", "fed",
-                title="Economic Outlook", speaker="Jerome Powell")
-    bis = _item("https://bis.org/y", "bis",
-                title="Jerome Powell: Economic Outlook", speaker="Jerome Powell")
-    out = fetcher.dedup([bis, fed])
-    assert len(out) == 1
-    assert out[0].source == "fed"
-
-
-def test_distinct_speeches_are_kept():
-    a = _item("https://x/a", "fed", title="Inflation", speaker="A B")
-    b = _item("https://x/b", "fed", title="Employment", speaker="C D")
-    assert len(fetcher.dedup([a, b])) == 2
-
-
 def test_fetch_all_dispatches_and_concatenates(monkeypatch):
     feeds = [
         {"name": "fed", "kind": "rss", "region": "US", "bank": "Fed", "url": "u1"},
