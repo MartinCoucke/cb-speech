@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730l.htm",
+    "title": "Christopher J Waller: Monetary policy at a crossroads",
+    "url": "https://www.bis.org/review/r260730l.htm",
+    "published": "2026-07-31",
+    "speaker": "Christopher J Waller",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller describes U.S. monetary policy as being 'at a crossroads,' with a solid labor market near maximum employment but core PCE inflation rising steadily to 3.4% by May 2026. He acknowledges two credible scenarios: inflation decelerating on its own, allowing rates to remain on hold, or continued hot readings requiring tighter policy in the near term. He explicitly states the FOMC must be ready to tighten and warns against repeating the 2021 mistake of waiting too long to respond.",
+    "stance_rationale": "The speech leans modestly hawkish: Waller signals openness to rate hikes if incoming inflation data remain elevated, emphasizes that anchored expectations do not excuse inaction on above-target inflation, and frames his baseline as holding rates only if core inflation shows several months of deceleration. The explicit tightening threat and repeated inflation-fighting rhetoric outweigh the balanced 'crossroads' framing.",
+    "key_quotes": [
+      "If we get another hot reading on core inflation this week, then the FOMC will need to consider tightening monetary policy in the near term.",
+      "Sternly staring at inflation until it melts before our withering gaze is not an option."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

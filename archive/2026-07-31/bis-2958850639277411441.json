@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730d.htm",
+    "title": "Gabriel Makhlouf: Understanding your lane, managing turning points",
+    "url": "https://www.bis.org/review/r260730d.htm",
+    "published": "2026-07-30",
+    "speaker": "Gabriel Makhlouf",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Makhlouf discusses the relationship between fiscal and monetary policy in the euro area, drawing on his experience at the New Zealand Treasury and the ECB Governing Council. He examines episodes of ECB intervention (OMT, PEPP, TPI) as responses to fiscal fragmentation risk rather than direct deficit financing, and argues that clear institutional mandates rather than formal coordination are key to policy effectiveness. The speech is primarily a conceptual and institutional discussion rather than a forward-looking monetary policy statement.",
+    "stance_rationale": "The speech does not address current interest rate levels, inflation outlook, or near-term policy direction; it is focused on fiscal-monetary institutional design and credibility. As such it does not convey a hawkish or dovish signal and is best classified as non-monetary-policy for scoring purposes.",
+    "key_quotes": [
+      "coordination in the sense of a standing, negotiated division of roles is not credible in the euro area",
+      "the lesson is that this type of coordination must not become a standing expectation of fiscal support, thereby undermining central bank credibility and its ability to meet its price stability mandate"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

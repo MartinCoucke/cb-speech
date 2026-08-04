@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730q.htm",
+    "title": "Joachim Nagel: The euro in a fragmented world - stability, sovereignty, and global responsibility",
+    "url": "https://www.bis.org/review/r260730q.htm",
+    "published": "2026-07-31",
+    "speaker": "Joachim Nagel",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel spoke to the Hohenheimer Kreis in Stuttgart on the euro's international role in a fragmented world, focusing on the euro's standing relative to the US dollar, the conditions needed to strengthen that role, and the Eurosystem's digital euro and wholesale CBDC initiatives. The speech covers strategic autonomy, the Savings and Investments Union, and European payment sovereignty rather than near-term interest rate policy. Monetary policy independence is mentioned as a prerequisite for currency trust, but no guidance on the rate path is offered.",
+    "stance_rationale": "The speech is primarily about the euro's international role, digital payments, and European financial infrastructure rather than monetary policy stance or rate decisions. It is classified as non-monetary-policy with a neutral score.",
+    "key_quotes": [
+      "We are committed to fulfilling our mandate of price stability and are thus creating the basis for this trust. A key prerequisite for this is our independence.",
+      "If the independence of a central bank is called into question, trust in a currency can quickly become shaken."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

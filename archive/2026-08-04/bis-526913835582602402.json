@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730o.htm",
+    "title": "Michelle W Bowman: Responsible innovation and financial inclusion",
+    "url": "https://www.bis.org/review/r260730o.htm",
+    "published": "2026-08-03",
+    "speaker": "Michelle W Bowman",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman delivered remarks at the Federal Reserve's third annual Financial Inclusion Conference, focusing on how responsible bank innovation\u2014particularly AI adoption\u2014can expand access to financial services for underserved consumers. She outlined the Fed's supervisory role in fostering innovation while maintaining safety and soundness, and highlighted an FSB report on sound practices for responsible AI adoption. The speech contains no discussion of interest rates, inflation, or the monetary policy outlook.",
+    "stance_rationale": "This speech is focused entirely on financial inclusion, bank innovation, and AI supervision, with no monetary policy content. Score is set to 0 and is_monetary_policy to false accordingly.",
+    "key_quotes": [
+      "When banks innovate responsibly, they can build a faster and more efficient banking and payments system, lower costs, expand product availability to underserved consumers and businesses, and promote market competition.",
+      "When we create unnecessary complexity or prescriptive requirements, we risk limiting the very innovation that can expand access."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

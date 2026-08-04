@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730h.htm",
+    "title": "Fritzi K\u00f6hler-Geib: Intangible investment and the economy - a central banking perspective",
+    "url": "https://www.bis.org/review/r260730h.htm",
+    "published": "2026-07-31",
+    "speaker": "Fritzi K\u00f6hler-Geib",
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank Executive Board member Fritzi K\u00f6hler-Geib spoke at the WIPO-LBS Global Launch about the implications of rising intangible investment for monetary policy transmission and financial stability. She discussed how intangible assets weaken the credit channel and may shift bank lending toward riskier asset classes like real estate. The speech emphasized the need for better measurement of intangible assets to calibrate policy tools effectively.",
+    "stance_rationale": "While the speech touches on monetary policy transmission, it is primarily an academic and structural analysis presented at a non-monetary-policy event, focusing on measurement challenges rather than signaling any directional policy stance. No rate guidance or easing/tightening bias is expressed.",
+    "key_quotes": [
+      "The rise of intangible assets is weakening the effectiveness of the credit channel because firms' intangible investments responds to interest rate hike to as much lesser degree than physical investments.",
+      "In practical terms, this may require somewhat larger changes in the policy rates (than in the past) to achieve the desired effect. Exactly how much larger is subject to further study."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260731a.htm",
+    "title": "John C Williams: Stability of Thy Times",
+    "url": "https://www.bis.org/review/r260731a.htm",
+    "published": "2026-08-03",
+    "speaker": "John C Williams",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "NY Fed President John Williams describes a resilient U.S. economy with solid GDP growth near 2% and a stable labor market, but notes inflation running at approximately 4%, well above the 2% target. He attributes elevated inflation to tariffs, Middle East supply disruptions, and AI-driven demand surges, while expressing confidence that inflation has peaked and will gradually decline toward 2% by 2028. Williams indicates the current fed funds rate of 3.5\u20133.75% is 'well positioned' and signals no imminent policy changes.",
+    "stance_rationale": "Williams strikes a modestly hawkish tone by emphasizing that inflation is 'unquestionably too high' and that restoring price stability is 'imperative,' while defending the current restrictive stance as appropriate. However, his expectation that inflation has peaked and will gradually decline, combined with a hold decision and no explicit tightening bias, tempers the hawkishness.",
+    "key_quotes": [
+      "Inflation is unquestionably too high at about 4 percent, well above the FOMC's longer-run goal of 2 percent.",
+      "With inflation running high, it is imperative that we restore it to the Federal Reserve's 2 percent longer-run goal on a sustained basis. The current stance of monetary policy is well positioned to do that."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

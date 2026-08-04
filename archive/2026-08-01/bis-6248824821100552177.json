@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730n.htm",
+    "title": "Michael S Barr: Will artificial intelligence broadly raise living standards or drive income and wealth inequality?",
+    "url": "https://www.bis.org/review/r260730n.htm",
+    "published": "2026-07-31",
+    "speaker": "Michael S Barr",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Michael Barr's speech at the Federal Reserve's Financial Inclusion Conference focuses on the potential economic and distributional consequences of artificial intelligence. He explores two scenarios: AI broadly raising living standards for lower- and middle-income workers, or AI exacerbating inequality by eliminating jobs and concentrating wealth. The speech draws on historical parallels with past general-purpose technologies like electricity and the internet.",
+    "stance_rationale": "This speech addresses AI, financial inclusion, and income inequality rather than monetary policy, interest rates, or the Fed's policy stance. No monetary policy content is present.",
+    "key_quotes": [
+      "AI has the potential to transform lives and the U.S. economy, possibly empowering workers to be more productive, with lower- and middle-income workers benefiting the most.",
+      "When the benefits are concentrated among relatively few people, technology can widen inequalities of income and wealth, especially during the transition period."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

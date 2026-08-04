@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730m.htm",
+    "title": "Tiff Macklem: Release of the Monetary Policy Report",
+    "url": "https://www.bis.org/review/r260730m.htm",
+    "published": "2026-07-31",
+    "speaker": "Tiff Macklem",
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem announced the Governing Council held the policy rate at 2.25%, citing a resumption of economic growth after a period of stalling, with GDP expected at 0.7% in 2026 rising to 1.8% in 2027-2028. Inflation rose to 3.2% in May due to elevated oil prices linked to Middle East conflict, but is projected to return to the 2% target by early 2027. Uncertainty remains high from geopolitical risks and ongoing US trade negotiations.",
+    "stance_rationale": "The statement is balanced, with the rate held steady and Governing Council judging the current rate 'appropriate,' while explicitly flagging symmetric risks to both growth and inflation and remaining 'prepared to adjust as needed' in either direction.",
+    "key_quotes": [
+      "Based on the MPR projection published today, Governing Council judges the current policy rate remains appropriate to sustain the economic recovery and bring inflation back to the 2% target.",
+      "We will not let higher oil prices become persistent inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

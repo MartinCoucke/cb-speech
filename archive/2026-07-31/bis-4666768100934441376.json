@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260701h.htm",
+    "title": "Sarah Breeden: Agents of change",
+    "url": "https://www.bis.org/review/r260701h.htm",
+    "published": "2026-07-30",
+    "speaker": "Sarah Breeden",
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Sarah Breeden's speech at the ECB Forum in Sintra focuses on AI and financial stability, discussing the accelerating pace of AI capability development and the implications for central banks' supervisory and regulatory roles. She emphasizes the dual challenge of enabling responsible AI adoption while managing associated risks. The speech contains no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "The speech is entirely focused on AI, financial stability, and technology supervision rather than monetary policy. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "AI is reshaping finance at speed. And it's on us to ensure that the next technology surprise does not become a test of financial stability.",
+      "We were surprised this Spring, and we should be prepared for further technology surprises."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

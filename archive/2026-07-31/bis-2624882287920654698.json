@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260730e.htm",
+    "title": "Christopher J Waller: Two thoughts on the transmission of monetary policy",
+    "url": "https://www.bis.org/review/r260730e.htm",
+    "published": "2026-07-30",
+    "speaker": "Christopher J Waller",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller delivers an academic speech at a Bank of Italy/ESCB conference discussing two aspects of monetary policy transmission: the importance of initial conditions in calibrating policy, and the use and limitations of forward guidance. He draws on the post-pandemic U.S. experience to illustrate how nonlinearities and Lucas-critique dynamics can alter standard transmission channels. The speech is largely retrospective and analytical rather than signaling a current directional bias.",
+    "stance_rationale": "The speech is focused on transmission mechanisms and lessons learned rather than signaling easing or tightening. Waller neither advocates for rate cuts nor rate hikes, maintaining a balanced, analytical tone throughout, which warrants a neutral score.",
+    "key_quotes": [
+      "Forward guidance can help speed up policy transmission, but if it is not flexible enough, it can hinder policy transmission. And, in some cases, it's best not to use it at all.",
+      "To decide where policy should go, you need a clear sense of where you are starting from. By 'initial conditions,' I mean what is currently happening-not some average of experience in the past."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
