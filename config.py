@@ -8,6 +8,9 @@ HERE = Path(__file__).parent
 STATE_DIR = HERE / "state"
 ARCHIVE_DIR = HERE / "archive"
 SEEN_FILE = STATE_DIR / "seen.json"
+HEALTH_FILE = STATE_DIR / "source_health.json"
+# Consecutive zero-item runs before a source is reported as probably broken.
+SOURCE_HEALTH_ALERT_RUNS = 3
 RUNS_LOG = HERE / "runs.log"
 _LOCAL_SECRETS = HERE / "secrets.txt"
 SECRETS_FILE = _LOCAL_SECRETS

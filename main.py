@@ -47,6 +47,42 @@ def load_seen() -> dict[str, str]:
         return {}
 
 
+def load_health() -> dict[str, int]:
+    if not config.HEALTH_FILE.exists():
+        return {}
+    try:
+        return json.loads(config.HEALTH_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        log.warning("corrupt source_health.json — resetting")
+        return {}
+
+
+def update_health(health: dict[str, int],
+                  counts: dict[str, dict[str, int]]) -> None:
+    """Count consecutive zero-item runs per source."""
+    for name, stats in counts.items():
+        health[name] = health.get(name, 0) + 1 if stats["items"] == 0 else 0
+
+
+def health_alerts(health: dict[str, int],
+                  counts: dict[str, dict[str, int]]) -> list[str]:
+    """Human-readable warnings for sources that look broken.
+
+    A scraper that silently returns nothing is indistinguishable from a quiet
+    news day, so it has to be surfaced explicitly.
+    """
+    alerts = []
+    for name, runs in sorted(health.items()):
+        if runs >= config.SOURCE_HEALTH_ALERT_RUNS:
+            alerts.append(f"{name} has returned no items for {runs} consecutive "
+                          f"runs — the source may be broken.")
+    for name, stats in sorted(counts.items()):
+        if stats.get("no_speaker"):
+            alerts.append(f"{name}: {stats['no_speaker']} item(s) had no speaker "
+                          f"— the byline selector may have drifted.")
+    return alerts
+
+
 def select_new(items: list[SpeechItem], seen: dict[str, str],
                *, lookback_hours: int) -> list[SpeechItem]:
     """Items not already seen (by ANY identity key) and recent enough."""
