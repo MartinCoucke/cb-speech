@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bis.org/review/r260731b.htm",
+    "title": "Philip N Jefferson: Navigating economic shocks - a monetary policymaker's perspective",
+    "url": "https://www.bis.org/review/r260731b.htm",
+    "published": "2026-08-03",
+    "speaker": "Philip N Jefferson",
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Vice Chair Jefferson delivered an academic-style speech at Stanford analyzing how the Fed responds to supply and demand shocks, with a focus on two current challenges: a Middle East-driven energy price shock and the macroeconomic implications of AI. He noted that inflation remains above the 2% target while unemployment is near maximum employment, creating a dual-mandate tension. He indicated the FOMC held rates at 3.5\u20133.75% at its June meeting and flagged a conditional willingness to tighten further if inflation does not cool.",
+    "stance_rationale": "Jefferson's tone is modestly hawkish: he reaffirms a firm commitment to returning inflation to 2%, explicitly raises the possibility of reconsidering the current policy stance if inflation does not soon decline, and highlights risks of inflation becoming entrenched amid overlapping shocks. However, he stops short of signaling imminent hikes and acknowledges balanced risks to both sides of the mandate.",
+    "key_quotes": [
+      "in a scenario where actual inflation does not start to cool down soon, I believe that it could be appropriate to reconsider our current policy stance to ensure we fulfill our commitment to deliver price stability",
+      "The quick succession of shocks raises the risk that inflation becomes entrenched and inflation expectations become unanchored."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
