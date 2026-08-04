@@ -3,8 +3,11 @@ import fetcher
 from models import SpeechItem
 
 
-def _item(id_, source, title="t", speaker=None):
-    return SpeechItem(id=id_, title=title, url=id_, published=date(2026, 6, 5),
+def _item(id_, source, title="t", speaker=None, published=None):
+    # Default to today so BIS items are not rejected by the freshness gate;
+    # tests that care about age set `published` explicitly.
+    return SpeechItem(id=id_, title=title, url=id_,
+                      published=published or date.today(),
                       speaker=speaker, bank="b", region="US", source=source)
 
 
