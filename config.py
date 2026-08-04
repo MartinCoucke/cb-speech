@@ -37,6 +37,12 @@ FEEDS = [
 # --- Dedup / freshness --------------------------------------------------
 LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
 
+# BIS publishes speeches 14-31 days after delivery (measured 2026-08-04), so a
+# BIS item is only accepted if it was *delivered* within this window. Wider than
+# LOOKBACK_HOURS so a genuinely prompt BIS post is still caught, narrow enough to
+# exclude the observed backfill.
+BIS_MAX_AGE_DAYS = 7
+
 # --- Model --------------------------------------------------------------
 MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 1024

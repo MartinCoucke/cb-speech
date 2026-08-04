@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import logging
 import re
+from datetime import date as _date, timedelta
 
 import httpx
 
@@ -37,6 +38,16 @@ def _parse_feed(feed: dict, text: str) -> list[SpeechItem]:
         return bis.parse_feed(text)
     return rss.parse_feed(text, default_bank=feed["bank"],
                           region=feed["region"], source=feed["name"])
+
+
+def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:
+    """Drop BIS items whose delivery date is older than BIS_MAX_AGE_DAYS.
+
+    BIS lags delivery by weeks; without this, a 3-week-old speech that BIS has
+    only just published is emailed as though it were news.
+    """
+    cutoff = _date.today() - timedelta(days=config.BIS_MAX_AGE_DAYS)
+    return [i for i in items if i.published >= cutoff]
 
 
 def content_key(item: SpeechItem) -> str:
@@ -74,6 +85,12 @@ def fetch_all() -> list[SpeechItem]:
                 parsed = _fetch_playwright(feed)
             else:
                 parsed = _parse_feed(feed, _get(feed["url"]))
+            if feed["kind"] == "bis":
+                before = len(parsed)
+                parsed = apply_freshness_gate(parsed)
+                if before != len(parsed):
+                    log.info("bis: dropped %d stale items (older than %dd)",
+                             before - len(parsed), config.BIS_MAX_AGE_DAYS)
             log.info("feed %s: %d items", feed["name"], len(parsed))
             collected.extend(parsed)
         except Exception as e:  # one feed down must not abort the run
