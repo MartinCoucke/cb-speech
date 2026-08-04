@@ -56,10 +56,15 @@ def _entry(item: SpeechItem, r: Rating) -> str:
         flags.append("rating error")
     flag_str = (f" <span style='color:#b45309; font-size:12px;'>"
                 f"[{_esc(', '.join(flags))}]</span>") if flags else ""
+    pill = ""
+    if item.category == "press_conference":
+        pill = ("<span style='background:#1f2937; color:#fff; padding:2px 8px; "
+                "border-radius:10px; font-size:12px; font-weight:600; "
+                "margin-right:6px;'>🏛 Policy decision</span>")
     return (
         "<div style='margin:0 0 16px; padding:12px; border:1px solid #eee; "
         "border-radius:8px;'>"
-        f"<div>{_badge(r.score)} "
+        f"<div>{pill}{_badge(r.score)} "
         f"<span style='color:#6b7280; font-size:12px;'>confidence: "
         f"{_esc(r.confidence)}</span>{flag_str}</div>"
         f"<div style='font-weight:600; margin:6px 0 2px;'>"
@@ -81,7 +86,10 @@ def build_html(rated: list[Rated], alerts: list[str] | None = None) -> str:
         group = [(i, r) for i, r in rated if i.region == region]
         if not group:
             continue
-        group.sort(key=lambda pr: abs(pr[1].score), reverse=True)
+        # Policy decisions lead their region — they move markets more than any
+        # speech — then speeches by conviction.
+        group.sort(key=lambda pr: (pr[0].category != "press_conference",
+                                   -abs(pr[1].score)))
         entries = "".join(_entry(i, r) for i, r in group)
         sections.append(
             f"<h2 style='font-size:18px; margin:20px 0 8px;'>{region}</h2>{entries}"

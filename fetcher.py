@@ -39,7 +39,8 @@ def _parse_feed(feed: dict, text: str) -> list[SpeechItem]:
     return rss.parse_feed(text, default_bank=feed["bank"],
                           region=feed["region"], source=feed["name"],
                           include=feed.get("include"),
-                          url_include=feed.get("url_include"))
+                          url_include=feed.get("url_include"),
+                          category=feed.get("category", "speech"))
 
 
 def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:
@@ -121,7 +122,7 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
     """
     collected: list[SpeechItem] = []
     counts: dict[str, dict[str, int]] = {}
-    for feed in config.FEEDS:
+    for feed in list(config.FEEDS) + list(config.POLICY_FEEDS):
         name = feed["name"]
         try:
             if feed["kind"] == "playwright":
@@ -136,14 +137,18 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
                 if before != len(parsed):
                     log.info("bis: dropped %d stale items (older than %dd)",
                              before - len(parsed), config.BIS_MAX_AGE_DAYS)
-            # Missing speakers are only meaningful for scraped listings, where
-            # they signal a drifted byline selector. Several RSS feeds (Fed
-            # Board, BoE, RBA, BoC) never populate an author, so counting them
-            # here would fire the health alert on every run and make it noise.
+            # Missing speakers are only meaningful for scraped *speech*
+            # listings, where they signal a drifted byline selector. Several
+            # RSS feeds (Fed Board, BoE, RBA, BoC) never populate an author,
+            # and a policy statement is institutional rather than delivered by
+            # a named person — counting either would fire the health alert on
+            # every run and turn it into noise.
+            speaker_check = (feed["kind"] == "html_list"
+                             and feed.get("category", "speech") == "speech")
             counts[name] = {
                 "items": len(parsed),
                 "no_speaker": (html_list.count_missing_speakers(parsed)
-                               if feed["kind"] == "html_list" else 0),
+                               if speaker_check else 0),
             }
             log.info("feed %s: %d items", name, len(parsed))
             collected.extend(parsed)

@@ -15,7 +15,7 @@ lines of selectors. Config keys:
 from __future__ import annotations
 
 import logging
-from datetime import datetime
+from datetime import date, datetime
 
 import httpx
 from bs4 import BeautifulSoup
@@ -56,6 +56,23 @@ def _speaker_from_row(row, feed, title: str) -> str | None:
     return None
 
 
+def resolve_url(url: str) -> str:
+    """Fill a `{year}` placeholder with the current year.
+
+    Some listings are paginated by year (the RBA's media releases live at
+    /media-releases/<year>/), so hardcoding one would silently stop working
+    every January.
+    """
+    return url.replace("{year}", str(date.today().year))
+
+
+def _title_matches(title: str, include: list[str] | None) -> bool:
+    if not include:
+        return True
+    low = (title or "").lower()
+    return any(s.lower() in low for s in include)
+
+
 def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
     """Parse a listing page into SpeechItems. Pure — no I/O, so it is testable
     against a saved fixture."""
@@ -83,11 +100,14 @@ def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
         seen_urls.add(url)
 
         title = anchor.get_text(" ", strip=True)
+        if not _title_matches(title, feed.get("include")):
+            continue
         items.append(
             SpeechItem(
                 id=url, title=title, url=url, published=published,
                 speaker=_speaker_from_row(row, feed, title),
                 bank=feed["bank"], region=feed["region"], source=feed["name"],
+                category=feed.get("category", "speech"),
             )
         )
     return items
@@ -102,7 +122,8 @@ def count_missing_speakers(items: list[SpeechItem]) -> int:
 
 def fetch(feed: dict) -> list[SpeechItem]:
     headers = {"User-Agent": config.HTTP_USER_AGENT}
-    r = httpx.get(feed["url"], headers=headers, timeout=config.HTTP_TIMEOUT_S,
+    r = httpx.get(resolve_url(feed["url"]), headers=headers,
+                  timeout=config.HTTP_TIMEOUT_S,
                   follow_redirects=True)
     r.raise_for_status()
     items = parse_rows(r.text, feed)

@@ -9,19 +9,27 @@ rating under `archive/<date>/`.
 
 ## How it works
 
-1. Fetch six sources: direct RSS for the Fed, BoE, RBA, BoC; a headless-Chromium
-   scrape of the ECB key-speeches page (the ECB has no usable RSS feed); and the
-   BIS central bankers' speeches aggregator (catches regional Fed presidents and
-   eurozone national governors).
-2. Dedup by a **content key** (speaker surname + normalized title), not URL — the
-   same speech appears on a bank's site and on BIS under different URLs, so a URL
-   key would email it twice. Direct sources win over BIS on collision. Combined
-   with a 48h lookback window and `state/seen.json`.
-3. Extract each new speech's full text (HTML or PDF).
-4. Rate each via Claude Sonnet 4.6 (structured output): score -5..+5,
-   confidence, summary, rationale, key quotes.
-5. Email one digest grouped by region, sorted by |score| — only when there are
-   new speeches.
+1. **Fetch speeches** from direct, same-day sources: RSS for the Fed Board, BoE,
+   RBA, BoC, Bundesbank and Central Bank of Ireland; a headless-Chromium scrape
+   of the ECB key-speeches page; and plain-HTTP scrapes of the New York and
+   Boston Fed listings (regional presidents are absent from the Board feed).
+2. **Fetch policy decisions** — the post-meeting statement / press-conference
+   opening statement for all five banks, filtered out of their press feeds.
+3. **BIS as a backstop only.** The BIS aggregator publishes 14–31 days after
+   delivery (measured), so its items are dated by their *true* delivery date —
+   parsed from the description — and dropped beyond `BIS_MAX_AGE_DAYS` (7).
+   That stops weeks-old speeches arriving dressed up as news.
+4. **Dedup on two identity keys**, matching if either hits: `speaker surname +
+   title`, and `title + delivery date + region`. The second works even if a
+   source stops emitting speakers, so a drifted selector cannot cause duplicates.
+   Combined with a 48h lookback and `state/seen.json`.
+5. **Extract** each new item's full text (HTML or PDF).
+6. **Rate** via Claude Sonnet 4.6 (structured output): score -5..+5, confidence,
+   summary, rationale, key quotes.
+7. **Email** one digest grouped by region — policy decisions first, then speeches
+   by conviction — only when there is something new. Sources that go quiet for
+   3 consecutive runs are flagged in the digest, so a broken scraper can't
+   masquerade as a slow news day.
 
 ## Setup (GitHub Actions)
 
@@ -51,12 +59,14 @@ scraper.
 
 | File | Purpose |
 |---|---|
-| `config.py` | Feeds, email config, model, lookback window |
+| `config.py` | `FEEDS` (speeches), `POLICY_FEEDS` (decisions), email, model, windows |
 | `creds.py` | Loads secrets (env first, then `secrets.txt`) |
-| `sources/rss.py` | Generic RSS/Atom parser |
-| `sources/bis.py` | BIS feed parser + speaker→region mapping |
+| `sources/rss.py` | Generic RSS/Atom parser, with title/URL filters |
+| `sources/bis.py` | BIS parser: true delivery date + speaker→region mapping |
+| `sources/html_list.py` | Config-driven HTML listing scraper (NY, Boston, RBA) |
 | `sources/ecb_playwright.py` | Headless-Chromium scrape of the ECB speeches page |
-| `fetcher.py` | Fetch all sources, dispatch, content-key dedup |
+| `fetcher.py` | Fetch all sources, dispatch, freshness gate, two-key dedup |
+| `state/source_health.json` | Consecutive zero-item runs per source |
 | `extract.py` | Speech page → clean text (HTML + PDF) |
 | `rate.py` | Sonnet 4.6 dovish/hawkish rating |
 | `email_send.py` | Build + send the HTML digest |

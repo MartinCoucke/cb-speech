@@ -29,8 +29,8 @@ RATING_SCHEMA = {
 }
 
 SYSTEM_PROMPT = (
-    "You are a monetary-policy analyst. Rate a central bank speech on a "
-    "dovish-to-hawkish scale from a markets perspective.\n"
+    "You are a monetary-policy analyst. Rate a central bank speech or monetary "
+    "policy statement on a dovish-to-hawkish scale from a markets perspective.\n"
     "Scale: -5 = very dovish (strong easing bias), 0 = neutral/balanced, "
     "+5 = very hawkish (strong tightening bias).\n"
     "If the speech is not about monetary policy (e.g. payments, supervision, "
