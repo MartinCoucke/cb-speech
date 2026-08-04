@@ -37,7 +37,9 @@ def _parse_feed(feed: dict, text: str) -> list[SpeechItem]:
     if feed["kind"] == "bis":
         return bis.parse_feed(text)
     return rss.parse_feed(text, default_bank=feed["bank"],
-                          region=feed["region"], source=feed["name"])
+                          region=feed["region"], source=feed["name"],
+                          include=feed.get("include"),
+                          url_include=feed.get("url_include"))
 
 
 def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:

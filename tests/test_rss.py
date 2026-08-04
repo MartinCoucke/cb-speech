@@ -35,3 +35,34 @@ def test_parse_feed_returns_items():
     assert first.region == "US"
     # fragment normalized away
     assert items[1].id == "https://www.federalreserve.gov/speech/b.htm"
+
+
+MIXED = """<?xml version="1.0"?>
+<rss version="2.0"><channel>
+  <item><title>Acting together for a sovereign Europe</title>
+    <link>https://www.bundesbank.de/en/press/speeches/acting-together</link>
+    <pubDate>Tue, 21 Jul 2026 10:00:00 GMT</pubDate></item>
+  <item><title>Gemeinsam handeln</title>
+    <link>https://www.bundesbank.de/de/presse/reden/gemeinsam-handeln</link>
+    <pubDate>Tue, 21 Jul 2026 10:00:00 GMT</pubDate></item>
+  <item><title>Ein Interview</title>
+    <link>https://www.bundesbank.de/de/presse/interviews/ein-interview</link>
+    <pubDate>Mon, 20 Jul 2026 10:00:00 GMT</pubDate></item>
+</channel></rss>"""
+
+
+def test_url_include_filters_by_link_substring():
+    items = rss.parse_feed(MIXED, default_bank="Bundesbank", region="Europe",
+                           source="bbk", url_include=["/en/press/speeches/"])
+    assert [i.title for i in items] == ["Acting together for a sovereign Europe"]
+
+
+def test_title_include_filters_by_title_substring():
+    items = rss.parse_feed(MIXED, default_bank="B", region="Europe", source="b",
+                           include=["interview"])
+    assert [i.title for i in items] == ["Ein Interview"]
+
+
+def test_no_filters_keeps_everything():
+    items = rss.parse_feed(MIXED, default_bank="B", region="Europe", source="b")
+    assert len(items) == 3
