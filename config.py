@@ -8,6 +8,14 @@ HERE = Path(__file__).parent
 STATE_DIR = HERE / "state"
 ARCHIVE_DIR = HERE / "archive"
 SEEN_FILE = STATE_DIR / "seen.json"
+HEALTH_FILE = STATE_DIR / "source_health.json"
+# Consecutive zero-item runs before a source is reported as probably broken.
+SOURCE_HEALTH_ALERT_RUNS = 3
+# Fraction of a scraped source's items that may lack a speaker before it is
+# reported. A drifted byline selector affects nearly every row, whereas a few
+# pre-2015 archive entries legitimately predate the "Surname: Title" convention
+# — alerting on those would fire every run and train the reader to ignore it.
+SPEAKER_MISSING_ALERT_RATIO = 0.2
 RUNS_LOG = HERE / "runs.log"
 _LOCAL_SECRETS = HERE / "secrets.txt"
 SECRETS_FILE = _LOCAL_SECRETS
@@ -34,8 +42,42 @@ FEEDS = [
      "url": "https://www.bis.org/doclist/cbspeeches.rss"},
 ]
 
+# Regional Fed presidents are not on the Board's RSS feed and reach BIS only
+# after ~20 days, so they are scraped directly. Selectors verified against the
+# live pages on 2026-08-04; if a source reports zero items the markup has
+# changed and the selectors below are the only thing that needs updating.
+FEEDS += [
+    {
+        "name": "nyfed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/newsevents/speeches/index",
+        "base": "https://www.newyorkfed.org",
+        "row_selector": "tr",
+        "link_selector": "td.dirColR a",
+        "date_selector": "td.dirColL",
+        "date_formats": ["%b %d, %Y"],
+    },
+    {
+        "name": "bostonfed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of Boston",
+        "url": "https://www.bostonfed.org/news-and-events/speeches.aspx",
+        "base": "https://www.bostonfed.org",
+        "row_selector": "div.row",
+        "link_selector": "h1.card-title a",
+        "date_selector": "p.date-and-location",
+        "date_formats": ["%B %d, %Y"],
+        "speaker_selector": "ul.speaker a",
+    },
+]
+
 # --- Dedup / freshness --------------------------------------------------
 LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
+
+# BIS publishes speeches 14-31 days after delivery (measured 2026-08-04), so a
+# BIS item is only accepted if it was *delivered* within this window. Wider than
+# LOOKBACK_HOURS so a genuinely prompt BIS post is still caught, narrow enough to
+# exclude the observed backfill.
+BIS_MAX_AGE_DAYS = 7
 
 # --- Model --------------------------------------------------------------
 MODEL = "claude-sonnet-4-6"

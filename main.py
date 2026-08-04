@@ -47,17 +47,58 @@ def load_seen() -> dict[str, str]:
         return {}
 
 
+def load_health() -> dict[str, int]:
+    if not config.HEALTH_FILE.exists():
+        return {}
+    try:
+        return json.loads(config.HEALTH_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        log.warning("corrupt source_health.json — resetting")
+        return {}
+
+
+def update_health(health: dict[str, int],
+                  counts: dict[str, dict[str, int]]) -> None:
+    """Count consecutive zero-item runs per source."""
+    for name, stats in counts.items():
+        health[name] = health.get(name, 0) + 1 if stats["items"] == 0 else 0
+
+
+def health_alerts(health: dict[str, int],
+                  counts: dict[str, dict[str, int]]) -> list[str]:
+    """Human-readable warnings for sources that look broken.
+
+    A scraper that silently returns nothing is indistinguishable from a quiet
+    news day, so it has to be surfaced explicitly.
+    """
+    alerts = []
+    for name, runs in sorted(health.items()):
+        if runs >= config.SOURCE_HEALTH_ALERT_RUNS:
+            alerts.append(f"{name} has returned no items for {runs} consecutive "
+                          f"runs — the source may be broken.")
+    for name, stats in sorted(counts.items()):
+        missing, total = stats.get("no_speaker", 0), stats.get("items", 0)
+        if total and missing / total >= config.SPEAKER_MISSING_ALERT_RATIO:
+            alerts.append(f"{name}: {missing} of {total} items had no speaker "
+                          f"— the byline selector may have drifted.")
+    return alerts
+
+
 def select_new(items: list[SpeechItem], seen: dict[str, str],
                *, lookback_hours: int) -> list[SpeechItem]:
+    """Items not already seen (by ANY identity key) and recent enough."""
     cutoff = date.today() - timedelta(hours=lookback_hours)
     return [i for i in items
-            if fetcher.content_key(i) not in seen and i.published >= cutoff]
+            if not (fetcher.identity_keys(i) & seen.keys())
+            and i.published >= cutoff]
 
 
 def update_seen(seen: dict[str, str], items: list[SpeechItem],
                 *, today: str) -> None:
+    """Record every identity key so the speech is recognised from any source."""
     for i in items:
-        seen[fetcher.content_key(i)] = today
+        for key in fetcher.identity_keys(i):
+            seen[key] = today
 
 
 def _append_log(line: str) -> None:
@@ -75,7 +116,14 @@ def run() -> int:
     archive_dir = config.ARCHIVE_DIR / _today_str()
     archive_dir.mkdir(parents=True, exist_ok=True)
 
-    items = fetcher.fetch_all()
+    items, counts = fetcher.fetch_all()
+    health = load_health()
+    update_health(health, counts)
+    alerts = health_alerts(health, counts)
+    config.HEALTH_FILE.write_text(json.dumps(health, indent=2), encoding="utf-8")
+    for a in alerts:
+        log.warning("health: %s", a)
+
     if not items:
         log.error("no items from any feed")
         _append_log(f"{started.isoformat()} | fail | no_feed_data")
@@ -104,7 +152,7 @@ def run() -> int:
         log.info("rated %s: score=%s conf=%s", item.url, rating.score,
                  rating.confidence)
 
-    html = email_send.build_html(rated)
+    html = email_send.build_html(rated, alerts=alerts)
     subject = email_send.build_subject(rated)
     (archive_dir / "view.html").write_text(html, encoding="utf-8")
 

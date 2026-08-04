@@ -33,3 +33,21 @@ def test_html_sorts_by_absolute_score_within_region():
     rated = [_pair(1, "US", "Mild"), _pair(5, "US", "Strong")]
     html = email_send.build_html(rated)
     assert html.index("Strong") < html.index("Mild")
+
+
+def test_health_alerts_render_when_present():
+    rated = [_pair(2, "US", "Someone")]
+    html = email_send.build_html(rated, alerts=["nyfed has returned no items."])
+    assert "nyfed has returned no items." in html
+    assert "Source health" in html
+
+
+def test_no_alert_section_when_healthy():
+    rated = [_pair(2, "US", "Someone")]
+    html = email_send.build_html(rated, alerts=[])
+    assert "Source health" not in html
+
+
+def test_build_html_defaults_to_no_alerts():
+    rated = [_pair(2, "US", "Someone")]
+    assert "Source health" not in email_send.build_html(rated)
