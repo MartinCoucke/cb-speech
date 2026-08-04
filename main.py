@@ -115,7 +115,14 @@ def run() -> int:
     archive_dir = config.ARCHIVE_DIR / _today_str()
     archive_dir.mkdir(parents=True, exist_ok=True)
 
-    items = fetcher.fetch_all()
+    items, counts = fetcher.fetch_all()
+    health = load_health()
+    update_health(health, counts)
+    alerts = health_alerts(health, counts)
+    config.HEALTH_FILE.write_text(json.dumps(health, indent=2), encoding="utf-8")
+    for a in alerts:
+        log.warning("health: %s", a)
+
     if not items:
         log.error("no items from any feed")
         _append_log(f"{started.isoformat()} | fail | no_feed_data")
@@ -144,7 +151,7 @@ def run() -> int:
         log.info("rated %s: score=%s conf=%s", item.url, rating.score,
                  rating.confidence)
 
-    html = email_send.build_html(rated)
+    html = email_send.build_html(rated, alerts=alerts)
     subject = email_send.build_subject(rated)
     (archive_dir / "view.html").write_text(html, encoding="utf-8")
 
