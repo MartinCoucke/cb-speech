@@ -34,6 +34,34 @@ FEEDS = [
      "url": "https://www.bis.org/doclist/cbspeeches.rss"},
 ]
 
+# Regional Fed presidents are not on the Board's RSS feed and reach BIS only
+# after ~20 days, so they are scraped directly. Selectors verified against the
+# live pages on 2026-08-04; if a source reports zero items the markup has
+# changed and the selectors below are the only thing that needs updating.
+FEEDS += [
+    {
+        "name": "nyfed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/newsevents/speeches/index",
+        "base": "https://www.newyorkfed.org",
+        "row_selector": "tr",
+        "link_selector": "td.dirColR a",
+        "date_selector": "td.dirColL",
+        "date_formats": ["%b %d, %Y"],
+    },
+    {
+        "name": "bostonfed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of Boston",
+        "url": "https://www.bostonfed.org/news-and-events/speeches.aspx",
+        "base": "https://www.bostonfed.org",
+        "row_selector": "div.row",
+        "link_selector": "h1.card-title a",
+        "date_selector": "p.date-and-location",
+        "date_formats": ["%B %d, %Y"],
+        "speaker_selector": "ul.speaker a",
+    },
+]
+
 # --- Dedup / freshness --------------------------------------------------
 LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
 

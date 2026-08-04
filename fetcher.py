@@ -15,7 +15,7 @@ import httpx
 
 import config
 from models import SpeechItem
-from sources import bis, rss
+from sources import bis, html_list, rss
 
 log = logging.getLogger(__name__)
 
@@ -110,12 +110,22 @@ def dedup(items: list[SpeechItem]) -> list[SpeechItem]:
     return chosen
 
 
-def fetch_all() -> list[SpeechItem]:
+def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
+    """Fetch every configured source.
+
+    Returns the deduped items plus a per-source report used by the health
+    monitor: {name: {"items": n, "no_speaker": m}}. A source that raises is
+    logged, reported as zero, and does not abort the run.
+    """
     collected: list[SpeechItem] = []
+    counts: dict[str, dict[str, int]] = {}
     for feed in config.FEEDS:
+        name = feed["name"]
         try:
             if feed["kind"] == "playwright":
                 parsed = _fetch_playwright(feed)
+            elif feed["kind"] == "html_list":
+                parsed = html_list.fetch(feed)
             else:
                 parsed = _parse_feed(feed, _get(feed["url"]))
             if feed["kind"] == "bis":
@@ -124,8 +134,18 @@ def fetch_all() -> list[SpeechItem]:
                 if before != len(parsed):
                     log.info("bis: dropped %d stale items (older than %dd)",
                              before - len(parsed), config.BIS_MAX_AGE_DAYS)
-            log.info("feed %s: %d items", feed["name"], len(parsed))
+            # Missing speakers are only meaningful for scraped listings, where
+            # they signal a drifted byline selector. Several RSS feeds (Fed
+            # Board, BoE, RBA, BoC) never populate an author, so counting them
+            # here would fire the health alert on every run and make it noise.
+            counts[name] = {
+                "items": len(parsed),
+                "no_speaker": (html_list.count_missing_speakers(parsed)
+                               if feed["kind"] == "html_list" else 0),
+            }
+            log.info("feed %s: %d items", name, len(parsed))
             collected.extend(parsed)
-        except Exception as e:  # one feed down must not abort the run
-            log.warning("feed %s failed: %s: %s", feed["name"], type(e).__name__, e)
-    return dedup(collected)
+        except Exception as e:  # one source down must not abort the run
+            log.warning("feed %s failed: %s: %s", name, type(e).__name__, e)
+            counts[name] = {"items": 0, "no_speaker": 0}
+    return dedup(collected), counts
