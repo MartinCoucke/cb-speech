@@ -70,6 +70,27 @@ FEEDS += [
     },
 ]
 
+# Eurozone national central banks. Their governors sit on the ECB Governing
+# Council but are absent from the ECB's own site, and BIS carries them ~20 days
+# late, so they need direct sources.
+FEEDS += [
+    {
+        # The "Reden" feed carries each speech twice (German + English) and
+        # also interviews; keep only the English speech URLs.
+        "name": "bundesbank", "kind": "rss", "region": "Europe",
+        "bank": "Bundesbank",
+        "url": "https://www.bundesbank.de/service/rss/en/633296/feed.rss",
+        "url_include": ["/en/press/speeches/"],
+    },
+    {
+        # A general news feed; speech articles are prefixed "speech-".
+        "name": "cbireland", "kind": "rss", "region": "Europe",
+        "bank": "Central Bank of Ireland",
+        "url": "https://www.centralbank.ie/feeds/news-media-feed",
+        "url_include": ["/news/article/speech-"],
+    },
+]
+
 # --- Dedup / freshness --------------------------------------------------
 LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
 
