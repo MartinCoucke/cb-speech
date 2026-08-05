@@ -24,7 +24,8 @@ SAMPLE = """<?xml version="1.0"?>
 
 
 def test_map_text_to_region():
-    assert bis.map_region("Federal Reserve Bank of Cleveland") == ("Federal Reserve", "US")
+    assert bis.map_region("Federal Reserve Bank of Cleveland") == (
+        "Federal Reserve Bank of Cleveland", "US")
     assert bis.map_region("Deutsche Bundesbank") == ("Bundesbank", "Europe")
     assert bis.map_region("Bank of Japan") is None
 
@@ -35,7 +36,7 @@ def test_parse_feed_keeps_target_regions_only():
     regions = sorted(i.region for i in items)
     assert regions == ["Europe", "US"]
     us = next(i for i in items if i.region == "US")
-    assert us.bank == "Federal Reserve"
+    assert us.bank == "Federal Reserve Bank of Cleveland"
     assert us.source == "bis"
     assert us.id == "https://www.bis.org/review/r260605a.htm"
 

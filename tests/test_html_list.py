@@ -78,3 +78,16 @@ def test_missing_speaker_is_reported_not_dropped():
     assert len(items) == 1                 # never dropped
     assert items[0].speaker is None
     assert html_list.count_missing_speakers(items) == 1
+
+
+def test_possessive_collection_label_is_stripped_from_speaker():
+    """The SF Fed labels rows "Mary C. Daly's Speeches"; left as-is the dedup
+    key's surname would become "speeches"."""
+    feed = dict(FEED, row_selector="div.row", link_selector="h1 a",
+                date_selector="p.date", speaker_selector="span.term",
+                date_formats=["%B %d, %Y"])
+    html = ('<div class="row"><span class="term">Mary C. Daly’s Speeches</span>'
+            '<h1><a href="/s/1">Regionalism at the Federal Reserve</a></h1>'
+            '<p class="date">April 8, 2026</p></div>')
+    items = html_list.parse_rows(html, feed)
+    assert items[0].speaker == "Mary C. Daly"

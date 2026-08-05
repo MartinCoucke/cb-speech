@@ -15,10 +15,15 @@ rating under `archive/<date>/`.
    Boston Fed listings (regional presidents are absent from the Board feed).
 2. **Fetch policy decisions** — the post-meeting statement / press-conference
    opening statement for all five banks, filtered out of their press feeds.
-3. **BIS as a backstop only.** The BIS aggregator publishes 14–31 days after
-   delivery (measured), so its items are dated by their *true* delivery date —
-   parsed from the description — and dropped beyond `BIS_MAX_AGE_DAYS` (7).
-   That stops weeks-old speeches arriving dressed up as news.
+3. **BIS as a backstop.** The BIS aggregator publishes 14–31 days after
+   delivery (measured), so its items are dated by their *true* delivery date,
+   parsed from the description. Banks with a direct source are held to
+   `BIS_MAX_AGE_DAYS` (7) — anything genuinely new arrives via their own feed.
+   Banks that cannot be scraped at all (Banque de France, DNB, Banco de España,
+   and the regional Feds without a listing) have no other channel, so BIS is
+   allowed up to `BIS_FALLBACK_MAX_AGE_DAYS` (45) for them and the digest labels
+   those entries "⏳ delivered &lt;date&gt;". The covered set is derived from the
+   feed list, so adding a direct source automatically tightens its gate.
 4. **Dedup on two identity keys**, matching if either hits: `speaker surname +
    title`, and `title + delivery date + region`. The second works even if a
    source stops emitting speakers, so a drifted selector cannot cause duplicates.

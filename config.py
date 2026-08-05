@@ -68,6 +68,30 @@ FEEDS += [
         "date_formats": ["%B %d, %Y"],
         "speaker_selector": "ul.speaker a",
     },
+    {
+        "name": "richmondfed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of Richmond",
+        "url": "https://www.richmondfed.org/press_room/speeches",
+        "base": "https://www.richmondfed.org",
+        "row_selector": "section.data__group",
+        "link_selector": "div.data__title a",
+        "date_selector": "span.data__date",
+        "date_formats": ["%B %d, %Y"],
+        "speaker_selector": "div.data__authors a",
+    },
+    {
+        # The SF Fed's date sits in a generated class (el-julyf) that cannot be
+        # selected reliably, so match it by pattern instead.
+        "name": "sffed", "kind": "html_list", "region": "US",
+        "bank": "Federal Reserve Bank of San Francisco",
+        "url": "https://www.frbsf.org/news-and-media/speeches/",
+        "base": "https://www.frbsf.org",
+        "row_selector": "div.fwpl-col",
+        "link_selector": "div.fwpl-item a",
+        "date_regex": r"[A-Z][a-z]+ \d{1,2}, 20\d\d",
+        "date_formats": ["%B %d, %Y"],
+        "speaker_selector": "span.fwpl-term",
+    },
 ]
 
 # Eurozone national central banks. Their governors sit on the ECB Governing
@@ -146,6 +170,15 @@ LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
 # LOOKBACK_HOURS so a genuinely prompt BIS post is still caught, narrow enough to
 # exclude the observed backfill.
 BIS_MAX_AGE_DAYS = 7
+
+# Banks with no direct source of their own (their sites are JavaScript-only or
+# block scraping) would otherwise disappear entirely once BIS is gated. For
+# those, BIS is the only channel available, so a much longer window is allowed
+# and the digest labels the item as published late. The set of covered banks is
+# derived from FEEDS, so adding a direct source automatically tightens its gate.
+BIS_FALLBACK_MAX_AGE_DAYS = 45
+# Items older than this are labelled "delivered <date>" in the digest.
+LATE_ITEM_DAYS = 3
 
 # --- Model --------------------------------------------------------------
 MODEL = "claude-sonnet-4-6"
