@@ -13,12 +13,12 @@ def test_feeds_have_required_keys():
 
 def test_html_list_feeds_declare_their_selectors():
     """A missing selector key would raise at fetch time, in production."""
-    required = {"base", "row_selector", "link_selector", "date_selector",
-                "date_formats"}
+    required = {"base", "row_selector", "link_selector", "date_formats"}
     html_feeds = [f for f in config.FEEDS if f["kind"] == "html_list"]
     assert html_feeds, "expected at least one html_list source"
     for f in html_feeds:
         assert required <= set(f.keys()), f"{f['name']} is missing selectors"
+        assert f.get("date_selector") or f.get("date_regex"),             f"{f['name']} needs a date_selector or date_regex"
         assert f["date_formats"], f"{f['name']} has no date formats"
 
 

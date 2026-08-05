@@ -63,6 +63,8 @@ from datetime import timedelta
 
 def test_bis_items_older_than_max_age_are_dropped(monkeypatch):
     monkeypatch.setattr(fetcher.config, "BIS_MAX_AGE_DAYS", 7)
+    # A bank we cover directly is held to the tight window.
+    monkeypatch.setattr(fetcher, "directly_covered_banks", lambda: {"b"})
     old = _item("https://bis/old", "bis", title="Old speech", speaker="A Old")
     old.published = date.today() - timedelta(days=20)
     fresh = _item("https://bis/new", "bis", title="Fresh speech", speaker="B New")
@@ -74,6 +76,7 @@ def test_bis_items_older_than_max_age_are_dropped(monkeypatch):
 def test_freshness_gate_drops_unknown_dates(monkeypatch):
     from sources import bis as bis_mod
     monkeypatch.setattr(fetcher.config, "BIS_MAX_AGE_DAYS", 7)
+    monkeypatch.setattr(fetcher, "directly_covered_banks", lambda: {"b"})
     unknown = _item("https://bis/x", "bis", title="Unknown", speaker="C X")
     unknown.published = bis_mod.UNKNOWN_DATE
     assert fetcher.apply_freshness_gate([unknown]) == []

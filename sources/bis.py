@@ -43,7 +43,23 @@ def parse_delivery_date(description: str) -> date | None:
 
 # First matching keyword wins. Order matters: specific before generic.
 _MAPPING: list[tuple[str, str, str]] = [
-    # US
+    # US — the individual reserve banks must precede the generic "federal
+    # reserve" entry, otherwise every regional president collapses into the
+    # Board and the fallback logic cannot tell which banks lack a direct source.
+    ("federal reserve bank of new york", "Federal Reserve Bank of New York", "US"),
+    ("federal reserve bank of boston", "Federal Reserve Bank of Boston", "US"),
+    ("federal reserve bank of philadelphia", "Federal Reserve Bank of Philadelphia", "US"),
+    ("federal reserve bank of cleveland", "Federal Reserve Bank of Cleveland", "US"),
+    ("federal reserve bank of richmond", "Federal Reserve Bank of Richmond", "US"),
+    ("federal reserve bank of atlanta", "Federal Reserve Bank of Atlanta", "US"),
+    ("federal reserve bank of chicago", "Federal Reserve Bank of Chicago", "US"),
+    ("federal reserve bank of st louis", "Federal Reserve Bank of St. Louis", "US"),
+    ("federal reserve bank of st. louis", "Federal Reserve Bank of St. Louis", "US"),
+    ("federal reserve bank of minneapolis", "Federal Reserve Bank of Minneapolis", "US"),
+    ("federal reserve bank of kansas city", "Federal Reserve Bank of Kansas City", "US"),
+    ("federal reserve bank of dallas", "Federal Reserve Bank of Dallas", "US"),
+    ("federal reserve bank of san francisco", "Federal Reserve Bank of San Francisco", "US"),
+    # Board of Governors (generic fallthrough)
     ("federal reserve", "Federal Reserve", "US"),
     ("board of governors", "Federal Reserve", "US"),
     # UK (before generic "bank of ..." Europe entries)

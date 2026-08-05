@@ -56,11 +56,20 @@ def _entry(item: SpeechItem, r: Rating) -> str:
         flags.append("rating error")
     flag_str = (f" <span style='color:#b45309; font-size:12px;'>"
                 f"[{_esc(', '.join(flags))}]</span>") if flags else ""
-    pill = ""
-    if item.category == "press_conference":
-        pill = ("<span style='background:#1f2937; color:#fff; padding:2px 8px; "
+    # Items reaching us only via BIS can be weeks old. Say so plainly rather
+    # than letting a 3-week-old speech read as today's news.
+    age_days = (date.today() - item.published).days
+    late = ""
+    if age_days > config.LATE_ITEM_DAYS:
+        late = ("<span style='background:#b45309; color:#fff; padding:2px 8px; "
                 "border-radius:10px; font-size:12px; font-weight:600; "
-                "margin-right:6px;'>🏛 Policy decision</span>")
+                f"margin-right:6px;'>⏳ delivered {item.published.isoformat()}"
+                "</span>")
+    pill = late
+    if item.category == "press_conference":
+        pill += ("<span style='background:#1f2937; color:#fff; padding:2px 8px; "
+                 "border-radius:10px; font-size:12px; font-weight:600; "
+                 "margin-right:6px;'>🏛 Policy decision</span>")
     return (
         "<div style='margin:0 0 16px; padding:12px; border:1px solid #eee; "
         "border-radius:8px;'>"

@@ -15,6 +15,7 @@ lines of selectors. Config keys:
 from __future__ import annotations
 
 import logging
+import re
 from datetime import date, datetime
 
 import httpx
@@ -47,7 +48,11 @@ def _speaker_from_row(row, feed, title: str) -> str | None:
         node = row.select_one(sel)
         if node:
             # Bylines often read "Susan M. Collins, President & CEO"
-            return node.get_text(" ", strip=True).split(",")[0].strip() or None
+            name = node.get_text(" ", strip=True).split(",")[0].strip()
+            # ...or name a collection: "Mary C. Daly's Speeches". Left as-is the
+            # surname would extract as "speeches" and break the dedup key.
+            name = re.sub(r"[’']s\s+speeches$", "", name, flags=re.I).strip()
+            return name or None
     # Many listings use the "Speaker: Title" convention (NY Fed, BIS).
     if ":" in title:
         prefix = title.partition(":")[0].strip()
@@ -85,11 +90,19 @@ def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
         anchor = row.select_one(feed["link_selector"])
         if not anchor or not anchor.get("href"):
             continue
-        date_node = row.select_one(feed["date_selector"])
-        if not date_node:
+        # Prefer an explicit date element; fall back to a regex over the row's
+        # text for listings whose date sits in a generated class name that
+        # cannot be selected reliably (e.g. the SF Fed's "el-julyf").
+        date_text = None
+        if feed.get("date_selector"):
+            node = row.select_one(feed["date_selector"])
+            date_text = node.get_text(" ", strip=True) if node else None
+        if date_text is None and feed.get("date_regex"):
+            m = re.search(feed["date_regex"], row.get_text(" ", strip=True))
+            date_text = m.group(0) if m else None
+        if date_text is None:
             continue
-        published = _parse_date(date_node.get_text(" ", strip=True),
-                                feed["date_formats"])
+        published = _parse_date(date_text, feed["date_formats"])
         if published is None:
             continue
 

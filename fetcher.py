@@ -43,14 +43,35 @@ def _parse_feed(feed: dict, text: str) -> list[SpeechItem]:
                           category=feed.get("category", "speech"))
 
 
-def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:
-    """Drop BIS items whose delivery date is older than BIS_MAX_AGE_DAYS.
+def directly_covered_banks() -> set[str]:
+    """Banks that have a same-day source of their own.
 
-    BIS lags delivery by weeks; without this, a 3-week-old speech that BIS has
-    only just published is emailed as though it were news.
+    Derived from the configured feeds rather than hardcoded, so adding a direct
+    source automatically tightens that bank's BIS gate with no other change.
     """
-    cutoff = _date.today() - timedelta(days=config.BIS_MAX_AGE_DAYS)
-    return [i for i in items if i.published >= cutoff]
+    return {f["bank"] for f in list(config.FEEDS) + list(config.POLICY_FEEDS)
+            if f["kind"] != "bis" and f.get("bank")}
+
+
+def apply_freshness_gate(items: list[SpeechItem]) -> list[SpeechItem]:
+    """Drop stale BIS items.
+
+    BIS lags delivery by 14-31 days; without a gate, a 3-week-old speech BIS has
+    only just published is emailed as though it were news. Banks we cover
+    directly are held to BIS_MAX_AGE_DAYS, since anything genuinely new arrives
+    via their own source. Banks we cannot scrape have no other channel, so they
+    are allowed the much longer BIS_FALLBACK_MAX_AGE_DAYS — late coverage beats
+    none, and the digest marks those items as published late.
+    """
+    covered = directly_covered_banks()
+    today = _date.today()
+    kept = []
+    for i in items:
+        max_age = (config.BIS_MAX_AGE_DAYS if i.bank in covered
+                   else config.BIS_FALLBACK_MAX_AGE_DAYS)
+        if (today - i.published).days <= max_age:
+            kept.append(i)
+    return kept
 
 
 def _surname(speaker: str | None) -> str:
