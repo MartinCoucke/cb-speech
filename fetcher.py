@@ -15,7 +15,7 @@ import httpx
 
 import config
 from models import SpeechItem
-from sources import bis, html_list, rss
+from sources import bis, html_list, js_list, rss
 
 log = logging.getLogger(__name__)
 
@@ -150,6 +150,8 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
                 parsed = _fetch_playwright(feed)
             elif feed["kind"] == "html_list":
                 parsed = html_list.fetch(feed)
+            elif feed["kind"] == "js_list":
+                parsed = js_list.fetch(feed)
             else:
                 parsed = _parse_feed(feed, _get(feed["url"]))
             if feed["kind"] == "bis":
@@ -164,8 +166,11 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
             # and a policy statement is institutional rather than delivered by
             # a named person — counting either would fire the health alert on
             # every run and turn it into noise.
-            speaker_check = (feed["kind"] == "html_list"
-                             and feed.get("category", "speech") == "speech")
+            # `speaker_optional` marks listings that genuinely carry no byline
+            # (the Kansas City Fed's), where a missing speaker is not drift.
+            speaker_check = (feed["kind"] in ("html_list", "js_list")
+                             and feed.get("category", "speech") == "speech"
+                             and not feed.get("speaker_optional"))
             counts[name] = {
                 "items": len(parsed),
                 "no_speaker": (html_list.count_missing_speakers(parsed)

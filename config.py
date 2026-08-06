@@ -92,6 +92,45 @@ FEEDS += [
         "date_formats": ["%B %d, %Y"],
         "speaker_selector": "span.fwpl-term",
     },
+    {
+        # JS-rendered. The listing carries no byline at all, so a missing
+        # speaker here is normal rather than a drifted selector.
+        "name": "kcfed", "kind": "js_list", "region": "US",
+        "bank": "Federal Reserve Bank of Kansas City",
+        "url": "https://www.kansascityfed.org/speeches/",
+        "base": "https://www.kansascityfed.org",
+        "wait_for": "div.body span.date",
+        "row_selector": "div.body",
+        "link_selector": "h3 a",
+        "date_selector": "span.date",
+        "date_formats": ["%B %d, %Y"],
+        "speaker_optional": True,
+    },
+]
+
+# Banca d'Italia splits its speeches across two listings: the Governor
+# (Panetta) and the rest of the board. Both are needed — adding only one would
+# tighten the bank's BIS gate while leaving the other half uncovered.
+_BANCA_ITALIA = {
+    # JS-rendered, and dates are Italian ("10 luglio 2026") which strptime
+    # cannot parse without locale trickery — the URL's YYYYMMDD is used
+    # instead. Bylines read "di Paolo Angelini, Direttore generale...".
+    "kind": "js_list", "region": "Europe", "bank": "Banca d'Italia",
+    "base": "https://www.bancaditalia.it",
+    "wait_for": "div.singleLink-wrap",
+    "row_selector": "div.singleLink-wrap",
+    "link_selector": "div.bdi-elenco-allegati-textWrap a",
+    "date_url_regex": r"/(\d{8})-",
+    "date_formats": ["%Y%m%d"],
+    "speaker_selector": "p",
+    "speaker_strip_prefixes": ["di "],
+}
+
+FEEDS += [
+    {**_BANCA_ITALIA, "name": "bancaditalia_gov",
+     "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/index.html"},
+    {**_BANCA_ITALIA, "name": "bancaditalia_board",
+     "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/index.html"},
 ]
 
 # Eurozone national central banks. Their governors sit on the ECB Governing

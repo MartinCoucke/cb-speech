@@ -48,7 +48,13 @@ def _speaker_from_row(row, feed, title: str) -> str | None:
         node = row.select_one(sel)
         if node:
             # Bylines often read "Susan M. Collins, President & CEO"
-            name = node.get_text(" ", strip=True).split(",")[0].strip()
+            name = node.get_text(" ", strip=True)
+            # Bylines may be prefixed ("di Paolo Angelini, Direttore ...")
+            for prefix in feed.get("speaker_strip_prefixes", []):
+                if name.lower().startswith(prefix.lower()):
+                    name = name[len(prefix):]
+                    break
+            name = name.split(",")[0].strip()
             # ...or name a collection: "Mary C. Daly's Speeches". Left as-is the
             # surname would extract as "speeches" and break the dedup key.
             name = re.sub(r"[’']s\s+speeches$", "", name, flags=re.I).strip()
@@ -100,6 +106,12 @@ def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
         if date_text is None and feed.get("date_regex"):
             m = re.search(feed["date_regex"], row.get_text(" ", strip=True))
             date_text = m.group(0) if m else None
+        # Some listings date their rows in a local language (Banca d'Italia's
+        # "10 luglio 2026"), which strptime cannot parse without locale
+        # trickery — but embed an unambiguous YYYYMMDD in the URL.
+        if feed.get("date_url_regex"):
+            m = re.search(feed["date_url_regex"], anchor.get("href", ""))
+            date_text = m.group(1) if m else date_text
         if date_text is None:
             continue
         published = _parse_date(date_text, feed["date_formats"])

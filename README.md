@@ -68,8 +68,9 @@ scraper.
 | `creds.py` | Loads secrets (env first, then `secrets.txt`) |
 | `sources/rss.py` | Generic RSS/Atom parser, with title/URL filters |
 | `sources/bis.py` | BIS parser: true delivery date + speaker→region mapping |
-| `sources/html_list.py` | Config-driven HTML listing scraper (NY, Boston, RBA) |
-| `sources/ecb_playwright.py` | Headless-Chromium scrape of the ECB speeches page |
+| `sources/html_list.py` | Config-driven HTML listing scraper (NY, Boston, Richmond, SF, RBA) |
+| `sources/js_list.py` | Same config, rendered with headless Chromium (KC, Banca d'Italia) |
+| `sources/ecb_playwright.py` | Bespoke ECB scraper (its dt/dd layout doesn't fit `js_list`) |
 | `fetcher.py` | Fetch all sources, dispatch, freshness gate, two-key dedup |
 | `state/source_health.json` | Consecutive zero-item runs per source |
 | `extract.py` | Speech page → clean text (HTML + PDF) |

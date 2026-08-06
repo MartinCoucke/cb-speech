@@ -91,3 +91,28 @@ def test_possessive_collection_label_is_stripped_from_speaker():
             '<p class="date">April 8, 2026</p></div>')
     items = html_list.parse_rows(html, feed)
     assert items[0].speaker == "Mary C. Daly"
+
+
+def test_date_can_come_from_the_url():
+    """Banca d'Italia dates rows in Italian ("10 luglio 2026") but embeds an
+    unambiguous YYYYMMDD in the href."""
+    feed = dict(FEED, row_selector="div.row", link_selector="div.t a",
+                date_selector=None, date_url_regex=r"/(\d{8})-",
+                date_formats=["%Y%m%d"])
+    html = ('<div class="row"><div class="cal">10 luglio 2026</div>'
+            '<div class="t"><a href="/int-dir-2026/20260709-angelini/index.html">'
+            'Banche statunitensi ed europee</a></div></div>')
+    items = html_list.parse_rows(html, feed)
+    assert len(items) == 1
+    assert items[0].published == date(2026, 7, 9)
+
+
+def test_speaker_prefix_is_stripped():
+    feed = dict(FEED, row_selector="div.row", link_selector="div.t a",
+                date_selector="div.cal", date_formats=["%d/%m/%Y"],
+                speaker_selector="p", speaker_strip_prefixes=["di "])
+    html = ('<div class="row"><div class="cal">09/07/2026</div>'
+            '<div class="t"><a href="/a">Titolo</a></div>'
+            "<p>di Paolo Angelini, Direttore generale della Banca d'Italia</p></div>")
+    items = html_list.parse_rows(html, feed)
+    assert items[0].speaker == "Paolo Angelini"
