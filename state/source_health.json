@@ -1,10 +1,10 @@
 {
   "fed": 0,
-  "ecb": 1,
+  "ecb": 2,
   "boe": 0,
   "rba": 0,
   "boc": 0,
-  "bis": 1,
+  "bis": 0,
   "nyfed": 0,
   "bostonfed": 0,
   "bundesbank": 0,
@@ -13,5 +13,7 @@
   "ecb_policy": 0,
   "boe_policy": 0,
   "rba_policy": 0,
-  "boc_policy": 0
+  "boc_policy": 0,
+  "richmondfed": 0,
+  "sffed": 0
 }

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
+    "title": "Cook, Outlook for the U.S. and Alaskan Economies",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
+    "published": "2026-08-05",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Lisa Cook describes a U.S. economy with persistently above-target inflation (PCE at 3.7% vs. 2% target for over five years) and a stable labor market, concluding that inflation risks outweigh employment risks. She signals openness to raising rates if disinflation does not materialize, while noting three potential disinflationary forces that justify a current hold. The speech emphasizes a firm commitment to restoring price stability as the primary policy objective.",
+    "stance_rationale": "Cook explicitly states she is 'prepared to act by raising rates, if necessary' and warns that entrenched inflation becomes more likely the longer prices stay above target, tilting the speech moderately hawkish. However, she stops short of signaling an imminent hike, citing disinflationary forces already in play, which tempers the overall hawkishness to a moderate level.",
+    "key_quotes": [
+      "Inflation is too high... I am prepared to act by raising rates, if necessary.",
+      "With five years of above-target inflation, the risk grows that higher inflation may become entrenched in price- and wage-setting behavior, leading to persistence that would be much harder for us to attack."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
