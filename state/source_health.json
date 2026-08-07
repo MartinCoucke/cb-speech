@@ -1,10 +1,10 @@
 {
   "fed": 0,
-  "ecb": 2,
+  "ecb": 3,
   "boe": 0,
   "rba": 0,
   "boc": 0,
-  "bis": 0,
+  "bis": 1,
   "nyfed": 0,
   "bostonfed": 0,
   "bundesbank": 0,
@@ -15,5 +15,8 @@
   "rba_policy": 0,
   "boc_policy": 0,
   "richmondfed": 0,
-  "sffed": 0
+  "sffed": 0,
+  "kcfed": 1,
+  "bancaditalia_gov": 1,
+  "bancaditalia_board": 1
 }
