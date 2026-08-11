@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html",
+    "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html",
+    "published": "2026-08-11",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Reserve Bank of Australia held the cash rate unchanged at 4.35% following three hikes earlier in 2026, citing persistently elevated inflation driven by Middle East conflict-related oil supply disruptions and domestic capacity pressures. The Board acknowledged some signs of economic slowing but stressed inflation remains too high and is not expected to return to target until late 2027. The decision was unanimous, with an explicit tightening bias retained.",
+    "stance_rationale": "While the RBA chose to hold rather than hike, the statement carries a clear hawkish tilt: it explicitly flags further rate increases if upside inflation risks materialise, describes monetary policy as only 'somewhat restrictive,' and emphasises that inflation is still too high with upside risks to the projection.",
+    "key_quotes": [
+      "The Board will continue to do what it considers necessary to bring inflation sustainably back to target, including increasing the cash rate target further if upside risks materialise.",
+      "It is not expected to return to around the midpoint of the target range until late 2027 and there are upside risks to this projection."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
