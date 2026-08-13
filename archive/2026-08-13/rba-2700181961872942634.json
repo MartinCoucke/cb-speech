@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-08-13.html",
+    "title": "Fireside Chat The Restrictive Stance of Monetary Policy",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-08-13.html",
+    "published": "2026-08-13",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Christopher Kent explains that the Board judged monetary policy to be 'somewhat restrictive' following three cash rate increases earlier in 2026, with tighter financial conditions feeding through to higher borrowing costs, rising mortgage payments, and a softening housing market. He acknowledges uncertainty around the neutral rate and notes that forces such as AI-related global investment and elevated offshore bond yields are partially offsetting the restrictiveness of the current stance. The speech surveys how various domestic and global factors complicate the assessment of how tight financial conditions actually are.",
+    "stance_rationale": "The speech reinforces a hawkish-leaning, data-dependent posture: the Board has already raised rates three times this year and explicitly judges the stance as 'somewhat restrictive,' with no signal of imminent easing. However, the tone is measured and balanced, acknowledging offsetting forces, leaving the score modestly positive rather than strongly hawkish.",
+    "key_quotes": [
+      "The cash rate is around the top of the range of central estimates of the neutral rate from the various models we estimate and those provided by market economists.",
+      "The evidence suggests that monetary policy in Australia is somewhat restrictive and that the tightening earlier this year is working."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
