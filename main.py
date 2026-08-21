@@ -84,6 +84,40 @@ def health_alerts(health: dict[str, int],
     return alerts
 
 
+def alert_signature(alerts: list[str]) -> str:
+    return "|".join(sorted(alerts))
+
+
+def notify_alerts_if_new(alerts: list[str]) -> bool:
+    """Email health alerts on their own, when they are new.
+
+    Alerts used to ride along in the digest, but the digest is only sent when
+    there are new speeches. A source that breaks produces nothing, so no digest
+    goes out and the warning is never seen — which is how four browser-based
+    sources stayed dead for 17 runs. Only a *changed* alert set is sent, so a
+    standing warning does not arrive daily.
+    """
+    if not alerts:
+        return False
+    signature = alert_signature(alerts)
+    previous = ""
+    if config.NOTIFIED_FILE.exists():
+        try:
+            previous = json.loads(config.NOTIFIED_FILE.read_text(encoding="utf-8")).get("signature", "")
+        except json.JSONDecodeError:
+            previous = ""
+    if signature == previous:
+        return False
+    html = email_send.build_html([], alerts=alerts)
+    subject = config.HEALTH_SUBJECT_TEMPLATE.format(date=date.today().isoformat())
+    email_send.send(html, subject)
+    config.NOTIFIED_FILE.parent.mkdir(parents=True, exist_ok=True)
+    config.NOTIFIED_FILE.write_text(json.dumps({"signature": signature}, indent=2),
+                                    encoding="utf-8")
+    log.warning("sent source-health warning email")
+    return True
+
+
 def select_new(items: list[SpeechItem], seen: dict[str, str],
                *, lookback_hours: int) -> list[SpeechItem]:
     """Items not already seen (by ANY identity key) and recent enough."""
@@ -133,8 +167,10 @@ def run() -> int:
     new = select_new(items, seen, lookback_hours=config.LOOKBACK_HOURS)
     if not new:
         log.info("no new speeches")
+        notified = notify_alerts_if_new(alerts)
         _append_log(f"{started.isoformat()} | ok | no_new_speeches "
-                    f"({len(items)} seen)")
+                    f"({len(items)} seen)"
+                    + (f" | health_warning_sent: {len(alerts)}" if notified else ""))
         return 0
 
     rated = []
@@ -163,6 +199,11 @@ def run() -> int:
         _append_log(f"{started.isoformat()} | fail | send_failed: {e}")
         return 3  # state NOT updated — speeches retry next run
 
+    # The digest carried the alerts, so record them as notified.
+    if alerts:
+        config.NOTIFIED_FILE.write_text(
+            json.dumps({"signature": alert_signature(alerts)}, indent=2),
+            encoding="utf-8")
     update_seen(seen, new, today=_today_str())
     config.SEEN_FILE.write_text(json.dumps(seen, indent=2), encoding="utf-8")
     _append_log(f"{started.isoformat()} | ok | sent {len(new)} new speeches")

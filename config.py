@@ -9,6 +9,10 @@ STATE_DIR = HERE / "state"
 ARCHIVE_DIR = HERE / "archive"
 SEEN_FILE = STATE_DIR / "seen.json"
 HEALTH_FILE = STATE_DIR / "source_health.json"
+# Last health-alert set actually emailed, so a standing warning is not
+# re-sent every day (which would train the reader to ignore it).
+NOTIFIED_FILE = STATE_DIR / "health_notified.json"
+HEALTH_SUBJECT_TEMPLATE = "CB speeches — source health warning — {date}"
 # Consecutive zero-item runs before a source is reported as probably broken.
 SOURCE_HEALTH_ALERT_RUNS = 3
 # Fraction of a scraped source's items that may lack a speaker before it is
@@ -34,8 +38,22 @@ FEEDS = [
      "url": "https://www.ecb.europa.eu/press/key/html/index.en.html"},
     {"name": "boe", "kind": "rss", "region": "UK", "bank": "Bank of England",
      "url": "https://www.bankofengland.co.uk/rss/speeches"},
-    {"name": "rba", "kind": "rss", "region": "Australia", "bank": "Reserve Bank of Australia",
-     "url": "https://www.rba.gov.au/rss/rss-cb-speeches.xml"},
+    {
+        # The RBA's speeches RSS carries a single item and stopped updating
+        # (it sat on one 13 Aug 2026 entry while three later speeches went out),
+        # so the listing page is scraped instead. Media conferences live on the
+        # same page and are excluded here — they are covered as a policy
+        # decision in POLICY_FEEDS.
+        "name": "rba", "kind": "html_list", "region": "Australia",
+        "bank": "Reserve Bank of Australia",
+        "url": "https://www.rba.gov.au/speeches/",
+        "base": "https://www.rba.gov.au",
+        "row_selector": "article.item:not(.event-type-media-conference)",
+        "link_selector": "h3.title a",
+        "date_selector": "span.date",
+        "date_formats": ["%d %B %Y"],
+        "speaker_selector": "p.content strong",
+    },
     {"name": "boc", "kind": "rss", "region": "Canada", "bank": "Bank of Canada",
      "url": "https://www.bankofcanada.ca/content_type/speeches/feed/"},
     {"name": "bis", "kind": "bis", "region": "", "bank": "",
@@ -192,6 +210,22 @@ POLICY_FEEDS = [
         "date_formats": ["%d %B %Y"],
         "include": ["statement by the monetary policy board",
                     "monetary policy decision"],
+    },
+    {
+        # The Governor's post-meeting media conference, on the same listing as
+        # the speeches (excluded there by row_selector so it is not counted
+        # twice). This is the actual press conference; rba_policy above carries
+        # the written decision statement.
+        "name": "rba_presser", "kind": "html_list", "region": "Australia",
+        "bank": "Reserve Bank of Australia", "category": "press_conference",
+        "url": "https://www.rba.gov.au/speeches/",
+        "base": "https://www.rba.gov.au",
+        "row_selector": "article.item.event-type-media-conference",
+        "link_selector": "h3.title a",
+        "date_selector": "span.date",
+        "date_formats": ["%d %B %Y"],
+        "speaker_selector": "p.content strong",
+        "include": ["monetary policy decision"],
     },
     {
         "name": "boc_policy", "kind": "rss", "region": "Canada",
