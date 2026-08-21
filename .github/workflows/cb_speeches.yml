@@ -35,13 +35,22 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
 
+      # Always install, never conditionally. playwright is unpinned, so pip can
+      # pull a newer version that expects a different Chromium build than the
+      # one the cache restored (the cache key only hashes requirements.txt,
+      # which does not change). That mismatch silently broke every browser
+      # source for 17 runs. `install` is a fast no-op when already present.
       - name: Install Playwright Chromium
-        if: steps.cache-playwright.outputs.cache-hit != 'true'
         run: python -m playwright install --with-deps chromium
 
-      - name: Install Playwright system deps (cached binary still needs apt deps)
-        if: steps.cache-playwright.outputs.cache-hit == 'true'
-        run: python -m playwright install-deps chromium
+      - name: Verify Chromium can actually launch
+        run: |
+          python - <<'PY'
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              b = p.chromium.launch(); b.close()
+          print("chromium OK")
+          PY
 
       - name: Run digest
         env:

@@ -139,3 +139,47 @@ def test_policy_sources_do_not_trigger_speaker_alerts(monkeypatch):
     _items, counts = fetcher.fetch_all()
     assert counts["rba_policy"]["items"] == 1
     assert counts["rba_policy"]["no_speaker"] == 0
+
+
+RBA_SPEECH_PAGE = """<div>
+  <article class="item event-type-speech"><h3 class="title">
+      <a href="/speeches/2026/sp-gov-2026-08-21.html">Opening Remarks</a></h3>
+    <span class="date">20 August 2026</span>
+    <p class="content"><strong>Michele Bullock</strong></p></article>
+  <article class="item event-type-media-conference"><h3 class="title">
+      <a href="/speeches/2026/mc-gov-2026-08-11.html">Monetary Policy Decision</a></h3>
+    <span class="date">11 August 2026</span>
+    <p class="content"><strong>Michele Bullock</strong></p></article>
+</div>"""
+
+
+def _rba(name, row_selector, category="speech", include=None):
+    feed = {"name": name, "kind": "html_list", "region": "Australia",
+            "bank": "Reserve Bank of Australia", "base": "https://www.rba.gov.au",
+            "url": "https://www.rba.gov.au/speeches/",
+            "row_selector": row_selector, "link_selector": "h3.title a",
+            "date_selector": "span.date", "date_formats": ["%d %B %Y"],
+            "speaker_selector": "p.content strong", "category": category}
+    if include:
+        feed["include"] = include
+    return feed
+
+
+def test_rba_speeches_exclude_the_media_conference():
+    """Both live on one page; the speech source must not swallow the presser,
+    or it would be counted twice and mislabelled."""
+    items = html_list.parse_rows(
+        RBA_SPEECH_PAGE,
+        _rba("rba", "article.item:not(.event-type-media-conference)"))
+    assert [i.title for i in items] == ["Opening Remarks"]
+    assert items[0].speaker == "Michele Bullock"
+    assert items[0].published == date(2026, 8, 20)
+
+
+def test_rba_presser_selects_only_the_media_conference():
+    items = html_list.parse_rows(
+        RBA_SPEECH_PAGE,
+        _rba("rba_presser", "article.item.event-type-media-conference",
+             category="press_conference", include=["monetary policy decision"]))
+    assert [i.title for i in items] == ["Monetary Policy Decision"]
+    assert items[0].category == "press_conference"
