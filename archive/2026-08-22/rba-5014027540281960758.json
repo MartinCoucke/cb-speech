@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-08-21.html",
+    "title": "Opening Remarks \u2013 13th Irving Fisher Committee Conference",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-08-21.html",
+    "published": "2026-08-20",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Michele Bullock delivered opening remarks at the 13th Biennial Irving Fisher Committee Conference on Central Bank Statistics, focusing on the IFC's role, its new strategic direction centred on 'data for the future,' and the conference themes of AI, granular data, and data trust. The speech is ceremonial and administrative in nature, covering statistical methodology, data governance, and AI adoption across central banks. No monetary policy stance, interest rate guidance, or economic outlook was discussed.",
+    "stance_rationale": "This is a ceremonial/institutional speech with no monetary policy content; it addresses central bank statistics, data governance, and AI rather than interest rates, inflation, or the policy outlook.",
+    "key_quotes": [
+      "Only by knowledge, both of the principles and of the facts involved, can such fluctuations in future be prevented or mitigated.",
+      "Policy without adequate facts runs the risk of making preventable mistakes."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

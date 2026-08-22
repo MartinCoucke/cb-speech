@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/Speeches/documents/18285/2026_Kauffman_Ag_and_Monetary_Policy_August_ASFMRA.pdf",
+    "title": "Update on U.S. Economy and Agriculture",
+    "url": "https://www.kansascityfed.org/Speeches/documents/18285/2026_Kauffman_Ag_and_Monetary_Policy_August_ASFMRA.pdf",
+    "published": "2026-08-20",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This speech from the Federal Reserve Bank of Kansas City provides an update on the U.S. economy and agriculture. Without the full text, it is impossible to determine the specific policy signals conveyed. The title suggests a broad economic overview with a regional agricultural focus, typical of Fed district bank communications.",
+    "stance_rationale": "With only the title available, no directional monetary policy bias can be inferred. The topic mix of economy and agriculture is neutral and descriptive in nature.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}
