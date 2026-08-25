@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
+    "title": "The Road to Ample \u2013 Towards a Demand-driven Liquidity Regime",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-so-2026-08-25.html",
+    "published": "2026-08-25",
+    "speaker": "David Jacobs",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "RBA Head of Domestic Markets David Jacobs outlines the central bank's transition from a pandemic-era supply-driven excess reserves regime to a demand-driven 'ample reserves' framework. The speech details the operational mechanics of this shift, including the role of full-allotment open market operations, complementary liquidity tools, and the planned closure of the open repo facility. Jacobs explicitly notes that none of these operational changes bear on the stance of monetary policy itself.",
+    "stance_rationale": "This speech is about liquidity framework design and monetary policy implementation mechanics, not the direction of interest rates or the monetary policy stance. The speaker explicitly states that these operational changes do not affect the cash rate target or monetary policy stance, making this a technical/operational speech rather than a monetary policy signal.",
+    "key_quotes": [
+      "I want to stress that none of these issues bears on the stance of monetary policy itself. The cash rate target continues to be set in the normal way by the Monetary Policy Board.",
+      "Ample is not about reaching a particular quantity of reserves. It's about a system that can flexibly supply whatever quantity the banking system demands, while keeping the cash rate close to the Board's target."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
