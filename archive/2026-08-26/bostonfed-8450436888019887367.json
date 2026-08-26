@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-on-the-economy.aspx",
+    "title": "Perspectives on the Economy  from Susan M. Collins",
+    "url": "https://www.bostonfed.org/news-and-events/speeches/2026/perspectives-on-the-economy.aspx",
+    "published": "2026-08-25",
+    "speaker": "Susan M. Collins",
+    "bank": "Federal Reserve Bank of Boston",
+    "region": "US",
+    "source": "bostonfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Boston Fed President Susan Collins characterizes the economy as expanding near trend with a broadly balanced labor market, but expresses significant concern about inflation that has remained above the 2% target for over five years. She supported the July FOMC decision to hold rates steady at a mildly restrictive level, while explicitly flagging upside inflation risks from supply shocks, tariffs, and AI-driven goods inflation. Notably, she signals openness to tightening policy if inflation progress fails to materialize.",
+    "stance_rationale": "Collins leans hawkish by emphasizing persistent above-target inflation, conditioning any rate hold on continued disinflation evidence, and explicitly stating that tightening 'will be appropriate soon' if progress stalls \u2014 a clear tightening bias rather than a neutral or easing posture.",
+    "key_quotes": [
+      "Should evidence of sustained inflation progress not materialize, I believe it will be appropriate to tighten policy soon to ensure we deliver price stability in a reasonable time frame.",
+      "With inflation still too high, I remain particularly concerned about the price stability portion of the dual mandate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
