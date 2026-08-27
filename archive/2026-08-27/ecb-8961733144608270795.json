@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+    "title": "From vision to delivery: building Europe\u2019s tokenised financial market",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+    "published": "2026-08-26",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a speech focused on the development of a tokenised financial market in Europe, outlining progress on the Eurosystem's Pontes and Appia projects. The speech covers digital asset infrastructure, DLT interoperability, legal frameworks, and public-private cooperation needed to build an integrated European capital market. There is no substantive discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely about payments innovation, tokenisation, and financial market infrastructure rather than monetary policy. It does not contain signals about the ECB's rate path or easing/tightening bias.",
+    "key_quotes": [
+      "Pontes will turn our commitment to provide central bank money for settling tokenised transactions into an operational service.",
+      "Appia paves the way for a single European market for tokenised assets, but we have not predetermined what the architecture for that will actually look like."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
