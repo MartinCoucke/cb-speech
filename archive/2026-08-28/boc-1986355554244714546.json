@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/press-conference-policy-rate-announcement-september-2026",
+    "title": "Press Conference: Policy Rate Announcement \u2014 September 2026",
+    "url": "https://www.bankofcanada.ca/multimedia/press-conference-policy-rate-announcement-september-2026/",
+    "published": "2026-09-02",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This entry references a Bank of Canada policy rate announcement press conference held on September 2, 2026, featuring Governor Tiff Macklem and Senior Deputy Governor Carolyn Rogers. However, no substantive speech text or policy content is included beyond metadata and logistical details. As a result, the monetary policy stance cannot be assessed from the available material.",
+    "stance_rationale": "The document contains no actual speech content, policy rate decision, or forward guidance, making it impossible to determine a dovish or hawkish lean. Score is set to neutral by default due to absence of analyzable material.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

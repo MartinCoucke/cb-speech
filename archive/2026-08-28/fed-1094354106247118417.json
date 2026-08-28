@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "title": "Warsh, In Our Time",
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "published": "2026-08-28",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Fed Chairman Kevin Warsh, speaking at Jackson Hole, delivered a wide-ranging speech covering AI's economic implications, a critique of forward guidance, key monetary policy principles, and an assessment of the economy. He noted that inflation remains well above the 2% target (PCE at 3.7% year-over-year, 4.1% on a six-month basis) while characterizing labor markets as consistent with full employment and financial conditions as not broadly restrictive. Warsh emphasized the Fed's commitment to delivering price stability and signaled no urgency to ease policy.",
+    "stance_rationale": "The speech is moderately hawkish: Warsh explicitly states inflation is too high and the Fed's 'predominant focus right now should be on prices,' describes financial conditions as non-restrictive, and sets a high bar ('confident that underlying inflation is moving to our objective, clearly and at sufficient speed') before any policy change. He stops short of signaling imminent rate hikes but rules out easing given current data.",
+    "key_quotes": [
+      "We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do.",
+      "I would be hard pressed to describe broad financial conditions as restrictive."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

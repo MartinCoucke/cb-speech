@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
+    "title": "Central banks on-chain",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html",
+    "published": "2026-08-28",
+    "speaker": "Isabel Schnabel",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Isabel Schnabel's Jackson Hole speech focuses on tokenisation in wholesale finance and the role of central bank money in a distributed ledger technology (DLT) environment. She argues that central banks should issue natively tokenised reserves on-chain rather than relying on stablecoins or private intermediaries, and discusses the ECB's Pontes and Appia projects as steps toward this goal. The speech addresses financial market infrastructure design, settlement architecture, and the governance trade-offs of unified versus interoperable ledgers.",
+    "stance_rationale": "This speech is primarily about financial market infrastructure, tokenisation, and payments technology rather than monetary policy stance, interest rates, or the inflation/growth outlook. While it touches on monetary policy implementation mechanics in a tokenised world, it does not signal any easing or tightening bias.",
+    "key_quotes": [
+      "Central banks need to go on-chain too. That means bringing central bank money into the tokenised environment and modernising the tools of policy implementation.",
+      "Stablecoins cannot replace central bank reserves as the economy's ultimate settlement asset."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

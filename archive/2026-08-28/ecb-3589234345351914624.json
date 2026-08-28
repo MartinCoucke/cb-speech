@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260828_slides~c15106b8af.en.pdf",
+    "title": "undefined",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260828_slides~c15106b8af.en.pdf",
+    "published": "2026-08-28",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Isabel Schnabel's Jackson Hole 2026 speech focuses entirely on tokenisation, distributed ledger technology (DLT), and the ECB's Project Appia and Pontes initiatives for on-chain central bank money. The speech covers the technical architecture of tokenised wholesale central bank money and financial market infrastructure modernisation. There is no discussion of interest rates, inflation, the economic outlook, or monetary policy stance.",
+    "stance_rationale": "This speech is a technical presentation on financial infrastructure and tokenisation rather than a monetary policy statement. No dovish or hawkish signals are present.",
+    "key_quotes": [
+      "Tokenisation allows for faster, safer and smarter settlement",
+      "Tokenised system can replicate two-tier structure if CB money is provided on-chain"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
