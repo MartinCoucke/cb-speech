@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/unveiling-canadas-new-20-bank-note-speech-webcasts",
+    "title": "Unveiling Canada\u2019s new $20 bank note - Speech (Webcasts)",
+    "url": "https://www.bankofcanada.ca/multimedia/unveiling-canadas-new-20-bank-note-speech-webcasts/",
+    "published": "2026-09-03",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem participated in a ceremonial event to unveil Canada's new vertical $20 bank note. The speech appears to be a public presentation focused on currency design rather than monetary policy. No monetary policy content is indicated in the available text.",
+    "stance_rationale": "This is a ceremonial/communications event related to bank note design and has no monetary policy content.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}
