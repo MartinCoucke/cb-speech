@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+    "title": "Listening to households: expectations, behaviour and monetary policy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html",
+    "published": "2026-09-01",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 delivered a speech at ESMT Berlin focused on household inflation expectations, survey methodology, and central bank communication. The speech covers how household expectations are formed, how they inform policy analysis amid geopolitical uncertainty, and the importance of communication for trust and credibility. No direct signals about the future path of interest rates or the current policy stance were given.",
+    "stance_rationale": "The speech is academic and methodological in nature, discussing research on expectations formation and communication effectiveness without expressing any hawkish or dovish bias regarding the ECB's current or future policy stance. It is rated 0 as it provides no directional signal on monetary policy.",
+    "key_quotes": [
+      "Trust is gained through competence, consistency, transparency and accountability. When people trust the central bank, their inflation expectations tend to be closer to the inflation target.",
+      "Surveys do not replace aggregate, administrative or market data. They complement them by measuring perceptions, uncertainty and intended behaviour that other sources cannot observe directly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

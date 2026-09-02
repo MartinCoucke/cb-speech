@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+    "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm",
+    "published": "2026-09-01",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Barr delivered remarks at a Second-Chance Lending Forum focused on financial inclusion, entrepreneurship, and employment opportunities for individuals with criminal records. The speech primarily addresses social and economic policy issues around second-chance hiring, lending programs, and the role of AI in expanding financial access. A brief passage touches on the economic outlook and monetary policy, noting that inflation remains too high and signaling potential rate action.",
+    "stance_rationale": "The speech is predominantly non-monetary-policy in nature, but the brief monetary policy passage leans modestly hawkish: Barr states inflation 'remains too high' and that if it does not moderate sufficiently, 'we should act decisively to raise rates.' This gives a slight hawkish tilt.",
+    "key_quotes": [
+      "But inflation remains too high\u2014and has been for over five years.",
+      "However, if inflation appears not to be moderating sufficiently, then I think we should act decisively to raise rates."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
