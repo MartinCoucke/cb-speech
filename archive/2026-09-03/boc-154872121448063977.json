@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/09/opening-statement-2026-09-02",
+    "title": "Monetary Policy Decision Press Conference Opening Statement",
+    "url": "https://www.bankofcanada.ca/2026/09/opening-statement-2026-09-02/",
+    "published": "2026-09-02",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem announced the decision to hold the policy rate at 2.25%, citing broadly in-line economic data since July, a broadening recovery with Q2 GDP growth of 3.3%, and unemployment edging down to 6.4%. The statement highlighted two-sided risks: new US tariffs adding uncertainty to the growth outlook, while persistently high energy prices from Middle East conflict have increased upside risks to inflation. The overall tone was balanced with a slight hawkish tilt due to heightened inflation risks.",
+    "stance_rationale": "The hold decision is neutral, but the explicit acknowledgment of increased upside inflation risks from energy prices and tariff pass-through, combined with the absence of any easing bias, gives the statement a mildly hawkish lean. Core inflation near 2% and excess supply temper a stronger hawkish signal.",
+    "key_quotes": [
+      "The longer oil prices and refinery margins stay high, the greater the risk that higher energy prices spill over and turn into persistent inflation.",
+      "The upside risks to inflation have increased, while new tariffs make growth prospects more uncertain."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

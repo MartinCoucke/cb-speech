@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02",
+    "title": "Bank of Canada maintains the policy rate at 2\u00bc%",
+    "url": "https://www.bankofcanada.ca/2026/09/fad-press-release-2026-09-02/",
+    "published": "2026-09-02",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "The Bank of Canada held its overnight rate at 2.25%, citing a broadening economic recovery in Canada with Q2 GDP growth of 3.3% and improving labour markets. CPI inflation remains around 3%, driven largely by persistently high gasoline prices, while core inflation stays near 2%. The statement highlights increased upside risks to inflation from elevated oil prices and new US tariffs, alongside uncertainty around growth prospects.",
+    "stance_rationale": "The hold decision with an explicit acknowledgment of increased upside inflation risks and a preparedness to adjust policy as needed leans slightly hawkish relative to neutral, though the balanced assessment of growth uncertainty prevents a stronger hawkish signal.",
+    "key_quotes": [
+      "the upside risks to inflation have increased, while new tariffs make growth prospects more uncertain",
+      "The longer that high oil prices and elevated refinery margins persist, the greater the risk of spillover to the prices of other goods and services."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

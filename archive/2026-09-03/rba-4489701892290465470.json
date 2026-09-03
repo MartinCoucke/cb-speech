@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-03.html",
+    "title": "Panel Participation at the Intersekt 2026",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-03.html",
+    "published": "2026-09-03",
+    "speaker": "Brad Jones",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Brad Jones, Assistant Governor (Financial System) at the Reserve Bank of Australia, participated in a panel at the Intersekt 2026 fintech conference in Melbourne. The speech text provided contains no substantive content beyond the title and speaker details. Given Jones's role overseeing the financial system, the panel likely addressed fintech, payments, or financial stability topics rather than monetary policy.",
+    "stance_rationale": "No monetary policy content is present in the available text, and the speaker's role and venue (a fintech conference) strongly suggest the discussion was unrelated to interest rates or the policy stance.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}
