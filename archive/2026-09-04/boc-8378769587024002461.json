@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/09/unveiling-of-vertical-20-bank-note",
+    "title": "Unveiling of Vertical $20 Bank Note",
+    "url": "https://www.bankofcanada.ca/2026/09/unveiling-of-vertical-20-bank-note/",
+    "published": "2026-09-03",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of Canada Governor Tiff Macklem delivered remarks at the ceremonial unveiling of Canada's new vertical $20 bank note, highlighting its design featuring King Charles III, security innovations, and the Vimy Memorial on the reverse. The speech was entirely focused on currency design, counterfeiting prevention, and historical commemoration. No monetary policy topics such as interest rates, inflation, or the economic outlook were discussed.",
+    "stance_rationale": "This speech is purely ceremonial and administrative in nature, relating to bank note design and issuance rather than monetary policy. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "The advanced and dynamic security features on this new note are easy to check and hard to fake.",
+      "The Bank of Canada continues its relentless fight against counterfeiting\u2014because counterfeiters are always on the job."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

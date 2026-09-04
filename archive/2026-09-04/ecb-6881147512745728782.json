@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260904~7b9257099b.en.pdf",
+    "title": "Diversity at the European Central Bank",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260904~7b9257099b.en.pdf",
+    "published": "2026-09-04",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Philip Lane's speech at the ISWE Conference focuses entirely on diversity and inclusion initiatives at the ECB, covering gender promotion gaps, D&I strategy milestones, and ECB research on career progression. The speech presents data on the closing of the gender promotion gap since 2010 and outlines organizational measures to support diversity. There is no discussion of monetary policy, interest rates, inflation, or economic outlook.",
+    "stance_rationale": "This speech is not related to monetary policy and therefore receives a score of 0. It is a ceremonial/institutional speech on diversity and inclusion topics.",
+    "key_quotes": [
+      "Diversity is a key contributor to our success. As a European Union institution, the ECB aspires to be an organisation in which diversity is welcomed and appreciated in all its facets for the richness that it offers.",
+      "Before 2011, women were less likely to be promoted than men. Since the public statement on diversity made by the ECB in 2010, the promotion gap is no longer statistically significant."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

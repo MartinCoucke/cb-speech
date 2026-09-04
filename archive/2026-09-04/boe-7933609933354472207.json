@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/september/remarks-at-the-edinburgh-chamber-of-commerce",
+    "title": "Homophones \u2013 Remarks by Huw Pill",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/remarks-at-the-edinburgh-chamber-of-commerce",
+    "published": "2026-09-03",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Chief Economist Huw Pill explains his minority vote to raise Bank Rate from 3.75% to 4% at recent MPC meetings, arguing against a 'wait-and-see' approach in the face of inflationary pressures stemming from conflict in the Middle East. He expresses elevated concern about second-round effects and structural vulnerabilities in the UK economy, and argues that clear, prompt, and decisive action is preferable to relying on market risk premia to tighten financial conditions. The speech also introduces new analytical tools, including a 'sticky-central' inflation measure, which Pill argues points to persistent underlying inflationary pressures.",
+    "stance_rationale": "Pill is clearly hawkish relative to the MPC majority, advocating for a 25bp rate hike to 4% and warning against status quo bias, though his hawkishness is measured and focused on insurance against upside inflation risks rather than signalling an aggressive tightening cycle.",
+    "key_quotes": [
+      "As reflected in my vote at the July MPC meeting (and indeed prior meetings), my own response to this question has pointed to a need to raise Bank Rate to 4%.",
+      "I see benefit in acting clearly, promptly and decisively with Bank Rate. This would cut through the noise inherent in the current uncertain environment in a way that bolsters the clarity and effectiveness of our policy choices."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

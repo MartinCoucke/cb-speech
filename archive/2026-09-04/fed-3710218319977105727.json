@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+    "title": "Waller, The Economic Outlook and Some Comments on My Policy Communication",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm",
+    "published": "2026-09-03",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller outlines a conditional but modestly hawkish stance, noting that while recent inflation data show encouraging disinflation, inflation remains well above the 2% target at 3.3% core PCE. He signals he would support holding rates if August data confirm progress, but explicitly leaves open the possibility of a rate hike if inflation re-accelerates. The speech also includes a section on communication philosophy, distinguishing between reaction-function communication and forward guidance.",
+    "stance_rationale": "Waller's base case leans toward a hold rather than a cut, and he explicitly conditions a rate hike on hot August inflation data, reflecting a modestly hawkish tilt with a clear tightening bias as a tail scenario. The acknowledgment that policy is 'only slightly restricting aggregate demand' and that 'it may not take much acceleration in inflation to nudge me into supporting tighter policy' tilts the overall stance above neutral.",
+    "key_quotes": [
+      "If inflation comes in hot, I would consider a rate hike. I judge that policy is currently only slightly restricting aggregate demand, and it may not take much acceleration in inflation to nudge me into supporting tighter policy.",
+      "If there is evidence that progress toward 2 percent inflation reversed in August, a small adjustment in our stance would help ensure that it resumes."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

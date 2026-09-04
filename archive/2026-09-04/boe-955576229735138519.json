@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
+    "title": "The institutional form of independent central banks: from history to contemporary challenges - speech by Andrew Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/andrew-bailey-keynote-speech-at-lse-trium-anniversary-conference",
+    "published": "2026-09-04",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Andrew Bailey delivered a largely philosophical and historical speech at the LSE TRIUM Anniversary Conference, tracing the intellectual traditions underpinning central bank independence from Montesquieu, Locke, and Hume through to the founding of the Bank of England. He argued that independent central banks derive legitimacy from democratic delegation and exist to protect monetary and financial stability as public goods, insulated from short-term political pressures. The speech also addressed contemporary challenges from populist movements and competing criticisms of central banks being too close to financial interests or too detached from citizens.",
+    "stance_rationale": "This speech contains no discussion of the current monetary policy stance, interest rate direction, inflation outlook, or economic conditions. It is a philosophical and institutional reflection on the history and legitimacy of central bank independence, making it non-monetary-policy in nature.",
+    "key_quotes": [
+      "Central bank independence does not mean detachment from democracy. It means insulation from short-term political pressures within a democratic framework.",
+      "The objective is not to favour one group over another. It is to preserve the monetary and financial conditions that make sustained prosperity possible."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
