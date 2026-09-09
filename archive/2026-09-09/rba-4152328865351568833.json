@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-09-08.html",
+    "title": "Interview with Andrew Hauser, Deputy Governor, on ABC 7.30",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-09-08.html",
+    "published": "2026-09-08",
+    "speaker": "Andrew Hauser",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Deputy Governor Andrew Hauser discussed the inflation outlook and interest rate prospects in an ABC 7.30 interview, noting that while the Australian economy is performing reasonably well on key macroeconomic measures, inflation remains too high and upside risks are prominent. He acknowledged recent data\u2014both inflation and growth\u2014came in stronger than expected, and highlighted three key upside risks: Middle East instability, an AI-driven global boom, and weak domestic supply potential. Hauser declined to call a rate hike inevitable but signaled the Board is alert to the possibility of further tightening if needed.",
+    "stance_rationale": "The tone leans mildly hawkish: Hauser explicitly flagged upside inflation risks, noted he returned from the US 'more worried' about those risks, and left the door open to further rate hikes while emphasizing the Board's focus on bringing inflation back to target. However, he also stressed the desire to preserve employment gains and did not commit to imminent action, preventing a stronger hawkish score.",
+    "key_quotes": [
+      "We are very, very clear we have to hit that two to three per cent range aiming at the mid point... If at some point it becomes clear that that is not a feasible path, we'll take another path... we will raise interest rates further than otherwise we would need to do so.",
+      "I come back from the US a bit more worried about them [upside risks to inflation] than I did when I went."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
