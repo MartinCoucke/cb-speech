@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260909~59a07e6f05.en.html",
+    "title": "The choice facing Europeans",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260909~59a07e6f05.en.html",
+    "published": "2026-09-09",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "In this dinner speech in Berlin, ECB President Christine Lagarde focused almost entirely on geopolitics and European integration, arguing that EU member states must choose deeper cooperation over decline or fragmentation. She briefly mentioned the digital euro as a tool to preserve monetary sovereignty, but offered no commentary on interest rates, inflation, or the monetary policy outlook. The speech was overwhelmingly political and strategic in nature.",
+    "stance_rationale": "The speech contains virtually no monetary policy content; the single reference to the digital euro is framed as a sovereignty tool rather than a policy stance signal. As such, this is not a monetary policy speech and warrants a score of 0 with low confidence.",
+    "key_quotes": [
+      "The digital euro will help preserve our monetary sovereignty in a world where we can no longer afford to depend so heavily on others.",
+      "The choice to build Europe is a difficult one. But it is far from impossible."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

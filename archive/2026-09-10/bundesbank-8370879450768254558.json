@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/from-heritage-to-renewal-building-europe-s-future-1007928",
+    "title": "From heritage to renewal: building Europe\u2019s future | Speech at the gala dinner of the Deutsche Bundesbank on the occasion of the external ECB Governing Council meeting",
+    "url": "https://www.bundesbank.de/en/press/speeches/from-heritage-to-renewal-building-europe-s-future-1007928",
+    "published": "2026-09-09",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Nagel delivered a gala dinner speech focused on Europe's competitiveness, AI development, and the need for deeper European integration, including completing the Savings and Investments Union and single market. The speech was given at the occasion of an external ECB Governing Council meeting in Berlin but contained no substantive discussion of monetary policy, interest rates, or the ECB's policy stance. References to central banking were limited to the digital euro and a brief mention of AI's influence on productivity, labour markets, and inflation.",
+    "stance_rationale": "The speech is not a monetary policy statement and contains no signals about the ECB's rate path, inflation outlook, or easing/tightening bias. It is therefore scored as neutral with low confidence and flagged as non-monetary-policy content.",
+    "key_quotes": [
+      "With its influence on productivity, labour markets and inflation, it warrants our attention as central bankers.",
+      "As the Eurosystem, we are doing our bit for a sovereign Europe, for example through the digital euro."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
