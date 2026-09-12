@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
+    "title": "Europe seen from Normandy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260912~fafa4b35b0.en.html",
+    "published": "2026-09-12",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Christine Lagarde delivered a speech at a local French festival in Normandy focused on European integration, regional economic strengths, the Single Market, energy policy, and the digital euro. The speech touched only briefly on monetary policy, with a passing reference to the ECB's 2% inflation target and the digital euro project. The vast majority of the content is structural and economic policy in nature rather than monetary policy guidance.",
+    "stance_rationale": "The speech is primarily a regional/political address about European integration and competitiveness, not a monetary policy statement. The single monetary policy reference reaffirms the existing 2% inflation target without signaling any directional change in rates or policy stance.",
+    "key_quotes": [
+      "Keeping inflation at 2% over time is how we make sure that these shocks pass, rather than settle into lasting higher inflation.",
+      "The digital euro can give you a European means of payment that's yours, accepted everywhere in the euro area, online and offline, alongside cash."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
