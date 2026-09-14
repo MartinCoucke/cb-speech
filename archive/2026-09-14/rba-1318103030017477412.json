@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-14.html",
+    "title": "Fireside Chat at the Regional Australia Institute\u2019s Regions Rising National Summit",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-14.html",
+    "published": "2026-09-14",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter spoke at a regional summit, describing a mixed Australian economic picture with inflation still above target, three cash rate increases already delivered in 2026, and upside risks to inflation from Middle East oil price pressures and the global AI boom. She noted regional labour markets remain tighter than capital cities and regional housing prices are holding up better. Hunter acknowledged household and business sector stress is being monitored but systemic vulnerabilities are not yet apparent.",
+    "stance_rationale": "The speech leans modestly hawkish: inflation is explicitly above target, risks are described as skewed to the upside, three rate hikes have already occurred in 2026, and further rate rises are referenced as a possibility. There is no hint of easing or rate cut discussion, though the tone is measured rather than strongly hawkish.",
+    "key_quotes": [
+      "we've obviously got inflation that's still above target, and that's definitely a concern for us... earlier this year, the RBA, we increased the cash rate three times",
+      "we do think the risks to inflation right now are skewed to the upside"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
