@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+    "title": "A new age of capital: growth, sovereignty and AI",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html",
+    "published": "2026-09-14",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB President Lagarde delivered a speech in Vienna focused on Europe's AI strategy, capital market development, and economic sovereignty. She argued that Europe must accelerate AI adoption and build domestic computing and model capacity to avoid strategic dependence on the United States and China. The speech drew historical parallels to the 19th-century 'age of capital' to make the case for a European savings and investments union to finance the AI buildout.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses structural economic policy, AI investment, capital markets, and European strategic autonomy. No interest rate guidance, inflation outlook, or monetary policy stance is expressed.",
+    "key_quotes": [
+      "European households save around \u20ac1.4 trillion a year. What is missing are the markets that channel it to our own uses.",
+      "AI is therefore arriving at the right moment. After years of stalling productivity, it is the best chance we have to make the arithmetic work."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
