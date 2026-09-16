@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+    "title": "Money and power: lessons from history for stablecoins and US dollar dominance \u2013 speech by Carolyn Wilkins",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/carolyn-wilkins-speech-at-queens-university-belfast",
+    "published": "2026-09-15",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of England FPC external member Carolyn Wilkins examines the history of private money issuance to assess whether stablecoins can operate safely at scale, and considers the implications of US dollar stablecoin growth for international monetary power. The speech focuses on regulatory frameworks for stablecoins, financial stability risks from reserve asset linkages, and geopolitical dimensions of digital payment infrastructure. It contains no discussion of interest rates, the monetary policy stance, or the inflation outlook.",
+    "stance_rationale": "This speech is primarily about payments regulation, stablecoin oversight, and geopolitical monetary economics rather than the Bank of England's monetary policy stance. There are no signals regarding rate decisions or the easing/tightening bias.",
+    "key_quotes": [
+      "Payment means and systems are like electricity grids. When they are working, they are in the background, and when they are not, there can be widespread disruption.",
+      "Technology cannot secure dollar dominance on its own. As sterling's experience ultimately showed, that rests squarely on monetary credibility, fiscal capacity, deep capital markets and the rule of law."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
