@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "title": "Bank rate maintained at 3.75% - September 2026 Monetary Policy Summary and Minutes",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+    "published": "2026-09-17",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Bank of England's MPC voted 6-3 to hold Bank Rate at 3.75% at its September 2026 meeting, with three members preferring an immediate 25bp hike to 4%. The decision was set against a backdrop of sharply rising energy prices due to protracted Middle East conflict, with CPI at 3.1% and projected to rise to around 4% by early 2027. The Committee unanimously agreed to a multi-year QT plan to reduce the gilt portfolio to zero by 2034 at an annual average pace of \u00a346 billion.",
+    "stance_rationale": "The statement is moderately hawkish: the Committee explicitly judged inflation risks as 'tilted to the upside' and more so than at the prior meeting, three members voted for an immediate hike, and several holders flagged that rate increases were likely if the conflict persists, signalling a clear tightening bias even among the majority.",
+    "key_quotes": [
+      "The Committee judges that the risks to the inflation outlook are tilted to the upside, and more so than at the time of the July Monetary Policy Report.",
+      "if the conflict in the Middle East persists for an extended period, as appears to be the case, and the risk of second-round effects emerging increases, it is likely that policy may have to tighten."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
