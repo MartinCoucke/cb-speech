@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/panel-session-on-economics-of-innovation-opening-remarks-1008920",
+    "title": "Panel Session on Economics of Innovation: Opening remarks | Conference \"Trust and Innovation \u2013 The Future of Finance\"",
+    "url": "https://www.bundesbank.de/en/press/speeches/panel-session-on-economics-of-innovation-opening-remarks-1008920",
+    "published": "2026-09-18",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel delivered opening remarks at a conference on the future of finance, focusing on Europe's innovation challenges. He identified three levers to stimulate innovation and growth: deepening the Single Market, improving access to funding through a savings and investments union, and strengthening infrastructure including energy grids, digital infrastructure, and education. The speech contained no discussion of monetary policy, interest rates, or the inflation outlook.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses structural economic issues such as innovation, capital markets, and infrastructure investment in Europe. No monetary policy stance can be inferred.",
+    "key_quotes": [
+      "Europe is struggling to help innovative firms scale up and grow into globally competitive companies.",
+      "Europe's innovation challenge is not a shortage of ideas. It is above all a challenge of scaling, financing and providing common European infrastructure."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

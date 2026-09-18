@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-18.html",
+    "title": "Opening Statement to the House of Representatives Standing Committee on Economics",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-18.html",
+    "published": "2026-09-18",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Governor Michele Bullock testified before a parliamentary committee, noting that the Board has raised the cash rate by 75 basis points in 2026 to combat inflation that has re-accelerated to around 3.5%, above the 2-3% target. She highlighted upside risks to inflation from the Middle East conflict, the global AI boom, and domestic capacity pressures, with inflation not expected to return to the midpoint of the target until late 2027. An upcoming Board meeting will assess whether further tightening is needed.",
+    "stance_rationale": "The speech is moderately hawkish: the RBA has been actively tightening (75bp this year), inflation is above target with risks skewed to the upside, and Bullock explicitly signals openness to further action while emphasising the primacy of returning inflation to target. The tone is not extremely hawkish as Bullock acknowledges slowing demand and the lagged impact of prior hikes.",
+    "key_quotes": [
+      "Inflation is too high. We are focused on getting it back down and making sure that it does not become embedded into price and wage-setting decisions.",
+      "A key question is whether the tightening in monetary policy to date will be sufficient to bring inflation back to target in a reasonable time. Monetary policy is well placed to respond to developments."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
