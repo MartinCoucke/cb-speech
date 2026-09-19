@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-governor-makhlouf-eurofi-gala-dinner-17-september-2026",
+    "title": "Finance for Europe's Future \u2013\u00a0Getting the Foundations Right - Speech by Governor Makhlouf at Eurofi Financial Forum Gala Dinner",
+    "url": "https://www.centralbank.ie/news/article/speech-governor-makhlouf-eurofi-gala-dinner-17-september-2026",
+    "published": "2026-09-17",
+    "speaker": "McGuinness, Lucia",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Makhlouf's speech at the Eurofi Financial Forum Gala Dinner focuses on European financial integration, completing the Banking Union, the Savings and Investments Union, and maintaining regulatory resilience. The speech addresses structural and regulatory reform themes rather than monetary policy stance, interest rates, or inflation outlook. References to the Digital Euro and payments modernisation are framed in terms of infrastructure, not monetary policy calibration.",
+    "stance_rationale": "The speech is primarily about financial regulation, European market integration, and supervisory philosophy rather than monetary policy. There is no discussion of interest rates, inflation, or the ECB's policy stance, making a monetary policy score inappropriate.",
+    "key_quotes": [
+      "Resilience is not a constraint on competitiveness. It is the precondition for it.",
+      "The best contribution we can make to Europe's competitiveness is ensuring monetary and financial stability, and the safety and soundness of the financial sector."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

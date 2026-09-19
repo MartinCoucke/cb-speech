@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-opening-remarks-governor-makhlouf-trust-innovation-18-september-2026",
+    "title": "Opening remarks by Governor Gabriel Makhlouf at Central Bank of Ireland Conference on \u201cTrust & Innovation: the Future of Finance\"",
+    "url": "https://www.centralbank.ie/news/article/speech-opening-remarks-governor-makhlouf-trust-innovation-18-september-2026",
+    "published": "2026-09-18",
+    "speaker": "McEvoy, Garreth",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Makhlouf's opening remarks at the Central Bank of Ireland's conference on 'Trust and Innovation: the Future of Finance' focus on the evolving payments ecosystem, including digital payments, stablecoins, the digital euro, and the two-tier architecture of public and private money. The speech presents new research on household payment preferences and merchant costs in Ireland, and discusses the role of central banks in shaping the future payments landscape. There is no discussion of interest rates, inflation targets, or conventional monetary policy stances.",
+    "stance_rationale": "This speech is not about monetary policy in the conventional sense \u2014 it addresses payments infrastructure, regulation, and financial innovation. No interest rate or easing/tightening signals are present.",
+    "key_quotes": [
+      "Innovation that fails to honour that hierarchy will not earn durable public trust, however frictionless it may be.",
+      "The future of the payments has not yet been written, but central banks and regulators will shape its evolution."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

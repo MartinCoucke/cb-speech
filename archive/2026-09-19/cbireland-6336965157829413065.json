@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-remarks-by-seana-cunningham-dublin-17-September-2026",
+    "title": "Remarks by Director of Insurance, Se\u00e1na Cunningham to the UN Environment Programme Global Sustainable Insurance Summit, Dublin.",
+    "url": "https://www.centralbank.ie/news/article/speech-remarks-by-seana-cunningham-dublin-17-September-2026",
+    "published": "2026-09-18",
+    "speaker": "O'Dea, Oisin",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Director of Insurance Se\u00e1na Cunningham delivered remarks at the UN Environment Programme Global Sustainable Insurance Summit in Dublin, focusing on climate change risks, the role of the insurance sector in building resilience, and the need for innovative sustainable insurance products. The speech addressed flood protection gaps, adaptation finance, and collaboration between regulators, government, and insurers. No monetary policy topics were discussed.",
+    "stance_rationale": "This speech is entirely focused on climate risk, sustainable insurance, and adaptation finance \u2014 not monetary policy. It contains no discussion of interest rates, inflation, or central bank policy stances.",
+    "key_quotes": [
+      "The Central Bank is staying the course on climate for this reason; as we lose momentum, risks increase.",
+      "When insurance markets retreat from high-risk areas, we can see a cascade of consequences: reduced investment, lower property values, constrained economic activity, and ultimately, systemic financial instability."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

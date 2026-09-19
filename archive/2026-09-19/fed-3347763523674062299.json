@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
+    "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm",
+    "published": "2026-09-18",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman presented the initial findings of an independent review of Silicon Valley Bank's 2023 failure, conducted by the Starling Advisory Group. The report identifies seven key findings, including supervisory staff awareness of SVB's vulnerabilities as early as March 2022, a culture of risk aversion, and unclear decision rights as contributors to supervisory inaction. Bowman outlined initial reforms already underway, including a new Statement of Supervisory Operating Principles and enhanced examiner escalation procedures.",
+    "stance_rationale": "This speech is entirely focused on bank supervision, regulatory reform, and post-mortem findings from SVB's failure\u2014it contains no discussion of monetary policy, interest rates, inflation, or the economic outlook.",
+    "key_quotes": [
+      "SVB's collapse in March 2023 was not just the failure of a single institution. It sparked contagion that quickly spread to Signature Bank and First Republic Bank and threatened to spread throughout the banking system.",
+      "One significant factor contributing to supervisory inaction was a long-standing culture of risk aversion. Staff believed it was personally safer to take no action unless they were certain the action was exactly right."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

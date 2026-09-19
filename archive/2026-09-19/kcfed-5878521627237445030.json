@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/speeches/the-strategic-imperative-of-instant-payments-for-community-banks/",
+    "title": "The Strategic Imperative of Instant Payments for Community Banks",
+    "url": "https://www.kansascityfed.org/speeches/the-strategic-imperative-of-instant-payments-for-community-banks/",
+    "published": "2026-09-18",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech appears to focus on instant payments infrastructure and its strategic importance for community banks, rather than monetary policy topics such as interest rates, inflation, or economic outlook. The title suggests a payments system or financial technology focus. No monetary policy content can be inferred from the available information.",
+    "stance_rationale": "The speech title indicates a payments/fintech topic unrelated to monetary policy stance or interest rate decisions.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}
