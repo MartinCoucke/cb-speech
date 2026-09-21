@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20260921-panetta/index.html",
+    "title": "La sfida dell'innovazione",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20260921-panetta/index.html",
+    "published": "2026-09-21",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_gov",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Banca d'Italia Governor Fabio Panetta delivered a wide-ranging speech on the challenges AI and geopolitical fragmentation pose for central banks, using Ukraine's monetary history as a case study in institutional resilience. The bulk of the speech explores how AI could affect productivity, labour markets, inflation, and the neutral rate of interest, with significant uncertainty on all fronts. He argues central banks must remain pragmatic and data-driven rather than rely heavily on model-based estimates of unobservable variables like r-star.",
+    "stance_rationale": "The speech is analytically balanced, presenting both inflationary (demand boost, investment surge, supply bottlenecks) and disinflationary (productivity gains, automation) effects of AI without signaling a directional bias. Panetta explicitly calls for pragmatism and data-dependence rather than advocating for easing or tightening, placing the speech squarely at neutral.",
+    "key_quotes": [
+      "All of this argues for caution in drawing firm conclusions about the appropriate monetary policy stance. Central banks should remain pragmatic and data driven.",
+      "actual developments in demand, economic activity and inflation should carry greater weight in guiding monetary policy than estimates of the neutral rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
