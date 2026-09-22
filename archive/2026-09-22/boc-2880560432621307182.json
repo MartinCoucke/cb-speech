@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/09/adapting-structural-forces-navigating-uncertainty",
+    "title": "Adapting to structural forces, navigating uncertainty",
+    "url": "https://www.bankofcanada.ca/2026/09/adapting-structural-forces-navigating-uncertainty/",
+    "published": "2026-09-21",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Macklem spoke to the Halifax Partnership about structural forces reshaping the Canadian economy, including trade tensions, AI adoption, and demographic shifts. He noted that while the economy has shown signs of adaptation and improvement, renewed trade uncertainty and elevated energy prices from Middle East conflict are creating opposing pressures\u2014weighing on growth while pushing inflation above the 2% target. The speech emphasizes the Bank's commitment to keeping inflation close to 2% without signaling a clear directional bias for policy rates.",
+    "stance_rationale": "The speech is balanced, acknowledging competing forces pulling in opposite directions (tariffs dampening growth vs. energy prices lifting inflation), with no explicit rate guidance or easing/tightening signal, yielding a roughly neutral stance.",
+    "key_quotes": [
+      "Tariffs are weighing on growth, while the war in the Middle East is pushing up inflation. And this is all happening at a time when Canadians are still feeling an affordability squeeze. This creates challenges for monetary policy.",
+      "We remain focused on keeping inflation low, stable and predictable. In an uncertain world, that's one of the most important contributions we can make to the economic well-being of all Canadians."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

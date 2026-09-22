@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/gol260921",
+    "title": "Golay: Transcript of Ellen Correia Golay on the Macro Musings Podcast",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/gol260921",
+    "published": "2026-09-21",
+    "speaker": "Golay",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Ellen Correia Golay, a Capital Markets Trading Advisor at the Federal Reserve Bank of New York, discusses Treasury market structure, liquidity dynamics, all-to-all trading, central clearing, and data transparency in this podcast transcript. The conversation focuses heavily on market microstructure issues, the growth of the Treasury market, and structural reforms rather than monetary policy settings or the interest rate outlook. References to Fed policy are incidental and contextual rather than substantive policy guidance.",
+    "stance_rationale": "This speech is primarily about Treasury market structure, liquidity research, and regulatory/market reforms, not monetary policy stances, rate decisions, or the economic outlook. No meaningful hawkish or dovish signal is present.",
+    "key_quotes": [
+      "It's the market we execute monetary policy in, so it's critical for us for the success of our policies.",
+      "We hear that a lot of that is focused on some uncertainty around the Fed's policies and how that'll work over the longer run."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

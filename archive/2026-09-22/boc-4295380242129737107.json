@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change",
+    "title": "Navigating uncertainty and adapting to change",
+    "url": "https://www.bankofcanada.ca/2026/09/navigating-uncertainty-and-adapting-to-change/",
+    "published": "2026-09-21",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem delivered remarks in Halifax discussing how Canadian businesses and households are adapting to structural forces including US trade tensions, AI adoption, and demographic change. He noted the economy entered summer 2026 in a stronger position but flagged two new headwinds: re-escalating Canada-US trade tensions and persistent Middle East conflict pushing oil prices and inflation higher. The Bank held rates steady at its most recent meeting, emphasizing a balanced assessment of upside inflation risks and downside growth risks.",
+    "stance_rationale": "The speech is carefully balanced, acknowledging both upside inflation risks (elevated energy prices, potential pass-through) and downside growth risks (trade uncertainty, economic slack), with the Bank holding rates unchanged. The marginal hawkish tilt comes from explicit acknowledgment that persistent inflationary pressures could require a rate increase, and that markets are pricing central bank hikes globally.",
+    "key_quotes": [
+      "We don't want to raise our policy rate and restrain growth if inflationary pressures are contained. But nor do we want to be too slow to respond if inflationary pressures are becoming more persistent.",
+      "We will be assessing whether the current policy rate balances the risks to our inflation outlook."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
