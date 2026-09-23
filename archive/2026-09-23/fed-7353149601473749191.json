@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
+    "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm",
+    "published": "2026-09-22",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair Jefferson's speech focuses on operational modernization of the Federal Reserve's discount window, covering business process improvements, automation enhancements via the Discount Window Direct portal, and coordination with the Federal Home Loan Banks. He also discusses the role of Treasury securities as discount window collateral and its implications for Treasury market functioning. The speech contains no discussion of the interest rate outlook, inflation, employment, or monetary policy stance.",
+    "stance_rationale": "This speech is primarily about discount window operations and financial plumbing rather than monetary policy direction; no rate guidance or economic outlook signals are provided.",
+    "key_quotes": [
+      "Today the discount window remains ready to lend smoothly and effectively to banks when needed.",
+      "The discount window also helps respond to sudden tightening in money markets, supporting the Federal Reserve's monetary policy implementation and complementing the standing repo operations in relieving funding market pressures."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
