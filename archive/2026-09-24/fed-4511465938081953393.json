@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+    "title": "Barr, A Long-Term View on the Costs of Shelter",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm",
+    "published": "2026-09-23",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Barr delivers a speech primarily focused on housing affordability challenges in the U.S., but includes a notable monetary policy section. He notes that economic growth is strong, the labor market is solid, but inflation remains above the 2% target and is not clearly trending toward it in a timely way. He discloses that the FOMC raised the policy rate last week and signals further tightening is likely needed.",
+    "stance_rationale": "The speech signals a hawkish lean: Barr supported a recent rate hike, notes that risks to the inflation target have increased while labor market risks have receded, and indicates further policy adjustments are likely needed. However, his tone is measured rather than aggressive, warranting a modest positive score rather than a strongly hawkish one.",
+    "key_quotes": [
+      "inflation is above our 2 percent target and not clearly trending toward target in a timely way. Moreover, risks to achieving our inflation target have increased, while risks to the labor market have receded.",
+      "In my base case, further policy adjustments are likely to be needed to ensure inflation comes down to target in a timely fashion."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

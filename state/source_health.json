@@ -10,7 +10,7 @@
   "bundesbank": 0,
   "cbireland": 0,
   "fed_policy": 0,
-  "ecb_policy": 0,
+  "ecb_policy": 1,
   "boe_policy": 0,
   "rba_policy": 0,
   "boc_policy": 0,

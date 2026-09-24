@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20260923-trequattrini/index.html",
+    "title": "Sovranit\u00e0 digitale europea: autonomia, regole e scelte democratiche",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20260923-trequattrini/index.html",
+    "published": "2026-09-23",
+    "speaker": "Gian Luca Trequattrini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Banca d'Italia's Gian Luca Trequattrini focuses on European digital sovereignty, covering topics such as AI investment gaps, critical infrastructure dependencies, regulatory frameworks (DORA, AI Act, Digital Markets Act), and the InvestAI initiative. The digital euro is mentioned briefly as an instrument of European sovereignty in payments, but only in the context of reducing geopolitical dependence rather than as a monetary policy tool. The speech contains no discussion of interest rates, inflation, or the monetary policy stance of the Eurosystem.",
+    "stance_rationale": "The speech is not about monetary policy; it addresses industrial policy, digital sovereignty, and geopolitical technology dependencies. The score is set to 0 and confidence to low accordingly.",
+    "key_quotes": [
+      "la sovranit\u00e0 digitale \u00e8 a tutti gli effetti uno strumento di sovranit\u00e0: consente all'Eurosistema di garantire che l'accesso a un mezzo di pagamento elettronico affidabile non dipenda da soggetti privati non europei",
+      "La sovranit\u00e0 digitale non \u00e8 il prezzo da pagare per l'apertura ai mercati globali, ma la condizione che rende possibile un'apertura duratura, equilibrata, coerente con le scelte democratiche dei cittadini europei."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+    "title": "The digitalisation of money, payments and finance",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260923~87850778f5.en.pdf",
+    "published": "2026-09-23",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone presented the Eurosystem's comprehensive payments strategy, covering the digital euro, tokenised central bank money (Pontes & Appia), and cross-border payment initiatives. The speech focused on the digitalisation of payments and financial infrastructure, including the digital euro's roadmap toward a potential 2029 issuance and the September 2026 launch of the Pontes platform. No discussion of interest rates, inflation, or monetary policy stance was included.",
+    "stance_rationale": "This speech is entirely focused on payments infrastructure, digital finance, and tokenisation \u2014 not on monetary policy settings, rate decisions, or the economic outlook. It is therefore not a monetary policy speech.",
+    "key_quotes": [
+      "The ECB aims to be ready for a potential first issuance of the digital euro during 2029.",
+      "Pontes & Appia will enable safe, efficient settlement in central bank money and support an integrated European market for digital assets from the outset."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
