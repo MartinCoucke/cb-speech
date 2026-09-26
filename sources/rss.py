@@ -34,7 +34,8 @@ def _matches(value: str, needles: list[str] | None) -> bool:
 def parse_feed(text: str, *, default_bank: str, region: str, source: str,
                include: list[str] | None = None,
                url_include: list[str] | None = None,
-               category: str = "speech") -> list[SpeechItem]:
+               category: str = "speech",
+               stats: dict | None = None) -> list[SpeechItem]:
     """Parse an RSS/Atom feed into SpeechItems.
 
     `include` / `url_include` keep only entries whose title / link contains one
@@ -45,6 +46,10 @@ def parse_feed(text: str, *, default_bank: str, region: str, source: str,
     non-speech items.
     """
     feed = feedparser.parse(text)
+    # Entry count before filtering — the health signal. Zero matches on a live
+    # feed is a quiet period; zero *entries* means the source is broken.
+    if stats is not None:
+        stats["raw_items"] = len(feed.entries)
     items: list[SpeechItem] = []
     for e in feed.entries:
         link = getattr(e, "link", "")

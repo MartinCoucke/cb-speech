@@ -101,8 +101,10 @@ def map_region(text: str) -> tuple[str, str] | None:
     return None
 
 
-def parse_feed(text: str) -> list[SpeechItem]:
+def parse_feed(text: str, stats: dict | None = None) -> list[SpeechItem]:
     feed = feedparser.parse(text)
+    if stats is not None:
+        stats["raw_items"] = len(feed.entries)
     items: list[SpeechItem] = []
     for e in feed.entries:
         link = getattr(e, "link", "")

@@ -22,7 +22,7 @@ def test_fetch_all_dispatches_and_concatenates(monkeypatch):
     monkeypatch.setattr(fetcher.rss, "parse_feed",
                         lambda text, **k: [_item("https://x/a", "fed", title="A")])
     monkeypatch.setattr(fetcher.bis, "parse_feed",
-                        lambda text: [_item("https://x/b", "bis", title="B")])
+                        lambda text, *a, **kw: [_item("https://x/b", "bis", title="B")])
     out, _counts = fetcher.fetch_all()
     assert {i.id for i in out} == {"https://x/a", "https://x/b"}
 
@@ -33,7 +33,7 @@ def test_fetch_all_handles_playwright(monkeypatch):
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
     monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher, "_fetch_playwright",
-                        lambda feed: [_item("https://x/e", "ecb", title="E")])
+                        lambda feed, *a, **kw: [_item("https://x/e", "ecb", title="E")])
     out, _counts = fetcher.fetch_all()
     assert {i.id for i in out} == {"https://x/e"}
 
@@ -88,7 +88,7 @@ def test_fetch_all_dispatches_html_list(monkeypatch):
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
     monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
     monkeypatch.setattr(fetcher.html_list, "fetch",
-                        lambda feed: [_item("https://x/ny", "nyfed",
+                        lambda feed, *a, **kw: [_item("https://x/ny", "nyfed",
                                             title="Williams: Outlook",
                                             speaker="Williams")])
     items, counts = fetcher.fetch_all()
@@ -102,7 +102,7 @@ def test_fetch_all_reports_zero_for_failing_source(monkeypatch):
     monkeypatch.setattr(fetcher.config, "FEEDS", feeds)
     monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [])
 
-    def boom(feed):
+    def boom(feed, *a, **kw):
         raise RuntimeError("site down")
 
     monkeypatch.setattr(fetcher.html_list, "fetch", boom)
@@ -124,7 +124,7 @@ def test_no_speaker_only_counted_for_scraped_sources(monkeypatch):
     monkeypatch.setattr(fetcher.rss, "parse_feed",
                         lambda text, **k: [_item("https://x/a", "fed", title="A")])
     monkeypatch.setattr(fetcher.html_list, "fetch",
-                        lambda feed: [_item("https://x/b", "nyfed", title="B")])
+                        lambda feed, *a, **kw: [_item("https://x/b", "nyfed", title="B")])
     _items, counts = fetcher.fetch_all()
     assert counts["fed"]["no_speaker"] == 0      # speakerless RSS is normal
     assert counts["nyfed"]["no_speaker"] == 1    # speakerless scrape is not

@@ -2,12 +2,14 @@ import main
 
 
 def test_zero_items_increments_and_nonzero_resets():
+    """Streaks are tracked per source; a legacy int is migrated in place.
+    With no raw_items reported, the item count stands in for it."""
     health = {"nyfed": 2}
     counts = {"nyfed": {"items": 0, "no_speaker": 0},
               "fed": {"items": 5, "no_speaker": 0}}
     main.update_health(health, counts)
-    assert health["nyfed"] == 3
-    assert health["fed"] == 0
+    assert health["nyfed"]["raw"] == 3
+    assert health["fed"]["raw"] == 0
 
 
 def test_alerts_only_at_threshold(monkeypatch):

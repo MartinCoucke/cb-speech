@@ -45,8 +45,8 @@ def render(feed: dict) -> str:
             browser.close()
 
 
-def fetch(feed: dict) -> list[SpeechItem]:
-    items = html_list.parse_rows(render(feed), feed)
+def fetch(feed: dict, stats: dict | None = None) -> list[SpeechItem]:
+    items = html_list.parse_rows(render(feed), feed, stats)
     missing = html_list.count_missing_speakers(items)
     if missing and not feed.get("speaker_optional"):
         log.warning("%s: %d/%d items have no speaker — selector may have drifted",

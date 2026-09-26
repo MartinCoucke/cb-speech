@@ -28,19 +28,21 @@ def _get(url: str) -> str:
     return r.text
 
 
-def _fetch_playwright(feed: dict) -> list[SpeechItem]:
+def _fetch_playwright(feed: dict, stats: dict | None = None) -> list[SpeechItem]:
     from sources import ecb_playwright
-    return ecb_playwright.fetch_speeches(feed)
+    return ecb_playwright.fetch_speeches(feed, stats)
 
 
-def _parse_feed(feed: dict, text: str) -> list[SpeechItem]:
+def _parse_feed(feed: dict, text: str,
+                stats: dict | None = None) -> list[SpeechItem]:
     if feed["kind"] == "bis":
-        return bis.parse_feed(text)
+        return bis.parse_feed(text, stats)
     return rss.parse_feed(text, default_bank=feed["bank"],
                           region=feed["region"], source=feed["name"],
                           include=feed.get("include"),
                           url_include=feed.get("url_include"),
-                          category=feed.get("category", "speech"))
+                          category=feed.get("category", "speech"),
+                          stats=stats)
 
 
 def directly_covered_banks() -> set[str]:
@@ -145,15 +147,16 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
     counts: dict[str, dict[str, int]] = {}
     for feed in list(config.FEEDS) + list(config.POLICY_FEEDS):
         name = feed["name"]
+        stats: dict[str, int] = {}
         try:
             if feed["kind"] == "playwright":
-                parsed = _fetch_playwright(feed)
+                parsed = _fetch_playwright(feed, stats)
             elif feed["kind"] == "html_list":
-                parsed = html_list.fetch(feed)
+                parsed = html_list.fetch(feed, stats)
             elif feed["kind"] == "js_list":
-                parsed = js_list.fetch(feed)
+                parsed = js_list.fetch(feed, stats)
             else:
-                parsed = _parse_feed(feed, _get(feed["url"]))
+                parsed = _parse_feed(feed, _get(feed["url"]), stats)
             if feed["kind"] == "bis":
                 before = len(parsed)
                 parsed = apply_freshness_gate(parsed)
@@ -173,6 +176,10 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
                              and not feed.get("speaker_optional"))
             counts[name] = {
                 "items": len(parsed),
+                # Entries seen before filtering. This, not `items`, is the
+                # breakage signal — a filtered feed legitimately matches
+                # nothing for weeks between events.
+                "raw_items": stats.get("raw_items", len(parsed)),
                 "no_speaker": (html_list.count_missing_speakers(parsed)
                                if speaker_check else 0),
             }
@@ -180,5 +187,5 @@ def fetch_all() -> tuple[list[SpeechItem], dict[str, dict[str, int]]]:
             collected.extend(parsed)
         except Exception as e:  # one source down must not abort the run
             log.warning("feed %s failed: %s: %s", name, type(e).__name__, e)
-            counts[name] = {"items": 0, "no_speaker": 0}
+            counts[name] = {"items": 0, "raw_items": 0, "no_speaker": 0}
     return dedup(collected), counts

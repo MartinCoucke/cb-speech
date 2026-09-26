@@ -13,8 +13,14 @@ HEALTH_FILE = STATE_DIR / "source_health.json"
 # re-sent every day (which would train the reader to ignore it).
 NOTIFIED_FILE = STATE_DIR / "health_notified.json"
 HEALTH_SUBJECT_TEMPLATE = "CB speeches — source health warning — {date}"
-# Consecutive zero-item runs before a source is reported as probably broken.
+# Consecutive runs in which a source returned NO entries at all (before any
+# title/URL filtering) before it is reported as probably broken.
 SOURCE_HEALTH_ALERT_RUNS = 3
+# Consecutive runs in which a source's feed was alive but nothing matched its
+# filter. Must be far longer than any legitimate quiet period: the ECB sets
+# rates roughly every six weeks, so `ecb_policy` matching nothing for 19 runs is
+# normal, not broken. Only a months-long dry spell means the filter has drifted.
+STALE_MATCH_ALERT_RUNS = 75
 # Fraction of a scraped source's items that may lack a speaker before it is
 # reported. A drifted byline selector affects nearly every row, whereas a few
 # pre-2015 archive entries legitimately predate the "Surname: Title" convention

@@ -135,7 +135,7 @@ def test_policy_sources_do_not_trigger_speaker_alerts(monkeypatch):
     monkeypatch.setattr(fetcher.config, "FEEDS", [])
     monkeypatch.setattr(fetcher.config, "POLICY_FEEDS", [dict(RBA_FEED)])
     monkeypatch.setattr(fetcher.html_list, "fetch",
-                        lambda feed: html_list.parse_rows(RBA_HTML, feed))
+                        lambda feed, *a, **kw: html_list.parse_rows(RBA_HTML, feed))
     _items, counts = fetcher.fetch_all()
     assert counts["rba_policy"]["items"] == 1
     assert counts["rba_policy"]["no_speaker"] == 0

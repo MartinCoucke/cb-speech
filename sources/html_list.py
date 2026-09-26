@@ -84,7 +84,8 @@ def _title_matches(title: str, include: list[str] | None) -> bool:
     return any(s.lower() in low for s in include)
 
 
-def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
+def parse_rows(html: str, feed: dict,
+               stats: dict | None = None) -> list[SpeechItem]:
     """Parse a listing page into SpeechItems. Pure — no I/O, so it is testable
     against a saved fixture."""
     soup = BeautifulSoup(html, "html.parser")
@@ -92,7 +93,12 @@ def parse_rows(html: str, feed: dict) -> list[SpeechItem]:
     items: list[SpeechItem] = []
     seen_urls: set[str] = set()
 
-    for row in soup.select(feed["row_selector"]):
+    rows = soup.select(feed["row_selector"])
+    # Row count before filtering — see the note in sources/rss.py.
+    if stats is not None:
+        stats["raw_items"] = len(rows)
+
+    for row in rows:
         anchor = row.select_one(feed["link_selector"])
         if not anchor or not anchor.get("href"):
             continue
@@ -145,13 +151,13 @@ def count_missing_speakers(items: list[SpeechItem]) -> int:
     return sum(1 for i in items if not i.speaker)
 
 
-def fetch(feed: dict) -> list[SpeechItem]:
+def fetch(feed: dict, stats: dict | None = None) -> list[SpeechItem]:
     headers = {"User-Agent": config.HTTP_USER_AGENT}
     r = httpx.get(resolve_url(feed["url"]), headers=headers,
                   timeout=config.HTTP_TIMEOUT_S,
                   follow_redirects=True)
     r.raise_for_status()
-    items = parse_rows(r.text, feed)
+    items = parse_rows(r.text, feed, stats)
     missing = count_missing_speakers(items)
     if missing:
         log.warning("%s: %d/%d items have no speaker — selector may have drifted",

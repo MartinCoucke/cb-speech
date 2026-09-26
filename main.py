@@ -57,11 +57,29 @@ def load_health() -> dict[str, int]:
         return {}
 
 
-def update_health(health: dict[str, int],
-                  counts: dict[str, dict[str, int]]) -> None:
-    """Count consecutive zero-item runs per source."""
+def _as_streaks(value) -> dict[str, int]:
+    """Normalise a health entry, migrating the legacy plain-int format."""
+    if isinstance(value, int):
+        return {"raw": value, "match": 0}
+    return dict(value or {"raw": 0, "match": 0})
+
+
+def update_health(health: dict, counts: dict[str, dict[str, int]]) -> None:
+    """Track two streaks per source.
+
+    `raw`   — runs where the feed/listing yielded no entries at all. This is the
+              breakage signal: a scraped listing returns every row each time, so
+              zero means the fetch or selectors are broken.
+    `match` — runs where entries existed but none matched the source's filter.
+              Normal for weeks on an episodic source (a rate decision), so this
+              only alerts after a much longer dry spell.
+    """
     for name, stats in counts.items():
-        health[name] = health.get(name, 0) + 1 if stats["items"] == 0 else 0
+        streaks = _as_streaks(health.get(name))
+        raw = stats.get("raw_items", stats["items"])
+        streaks["raw"] = streaks["raw"] + 1 if raw == 0 else 0
+        streaks["match"] = streaks["match"] + 1 if stats["items"] == 0 else 0
+        health[name] = streaks
 
 
 def health_alerts(health: dict[str, int],
@@ -72,10 +90,16 @@ def health_alerts(health: dict[str, int],
     news day, so it has to be surfaced explicitly.
     """
     alerts = []
-    for name, runs in sorted(health.items()):
-        if runs >= config.SOURCE_HEALTH_ALERT_RUNS:
-            alerts.append(f"{name} has returned no items for {runs} consecutive "
-                          f"runs — the source may be broken.")
+    for name, value in sorted(health.items()):
+        streaks = _as_streaks(value)
+        if streaks["raw"] >= config.SOURCE_HEALTH_ALERT_RUNS:
+            alerts.append(f"{name} returned no entries at all for "
+                          f"{streaks['raw']} consecutive runs — the source may "
+                          f"be broken.")
+        elif streaks["match"] >= config.STALE_MATCH_ALERT_RUNS:
+            alerts.append(f"{name} has had entries but none matched its filter "
+                          f"for {streaks['match']} consecutive runs — the "
+                          f"filter may have drifted.")
     for name, stats in sorted(counts.items()):
         missing, total = stats.get("no_speaker", 0), stats.get("items", 0)
         if total and missing / total >= config.SPEAKER_MISSING_ALERT_RATIO:

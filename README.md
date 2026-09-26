@@ -32,9 +32,29 @@ rating under `archive/<date>/`.
 6. **Rate** via Claude Sonnet 4.6 (structured output): score -5..+5, confidence,
    summary, rationale, key quotes.
 7. **Email** one digest grouped by region — policy decisions first, then speeches
-   by conviction — only when there is something new. Sources that go quiet for
-   3 consecutive runs are flagged in the digest, so a broken scraper can't
-   masquerade as a slow news day.
+   by conviction — only when there is something new.
+
+## Source health
+
+A broken scraper must not be able to masquerade as a slow news day, so each run
+records two streaks per source in `state/source_health.json`:
+
+- **`raw`** — runs where the feed or listing yielded **no entries at all**. This
+  is the breakage signal: a scraped listing returns every row each time, so zero
+  means the fetch or the selectors are broken. Alerts after
+  `SOURCE_HEALTH_ALERT_RUNS` (3).
+- **`match`** — runs where entries existed but none matched the source's filter.
+  This is normal for weeks on an episodic source: `ecb_policy` only keeps rate
+  decisions and the ECB meets roughly every six weeks. Alerts only after
+  `STALE_MATCH_ALERT_RUNS` (75), which would mean the filter has drifted.
+
+Counting *matched* items alone conflated "broken" with "nothing happened" and
+produced weeks of false warnings for `ecb_policy` and `cbireland` while both
+worked correctly.
+
+Alerts are emailed on their own when the alert set **changes** — they used to
+ride along in the digest, which is only sent when there are new speeches, so a
+source that broke produced nothing and its warning was never delivered.
 
 ## Setup (GitHub Actions)
 
@@ -78,7 +98,7 @@ scraper.
 | `sources/js_list.py` | Same config, rendered with headless Chromium (KC, Banca d'Italia) |
 | `sources/ecb_playwright.py` | Bespoke ECB scraper (its dt/dd layout doesn't fit `js_list`) |
 | `fetcher.py` | Fetch all sources, dispatch, freshness gate, two-key dedup |
-| `state/source_health.json` | Consecutive zero-item runs per source |
+| `state/source_health.json` | Per-source `raw`/`match` zero-streaks (see Source health) |
 | `extract.py` | Speech page → clean text (HTML + PDF) |
 | `rate.py` | Sonnet 4.6 dovish/hawkish rating |
 | `email_send.py` | Build + send the HTML digest |

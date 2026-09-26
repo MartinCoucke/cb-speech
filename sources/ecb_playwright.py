@@ -80,7 +80,7 @@ def parse_entries(rows: list[dict], *, bank: str, region: str,
     return items
 
 
-def fetch_speeches(feed: dict) -> list[SpeechItem]:
+def fetch_speeches(feed: dict, stats: dict | None = None) -> list[SpeechItem]:
     from playwright.sync_api import sync_playwright
 
     with sync_playwright() as p:
@@ -101,5 +101,7 @@ def fetch_speeches(feed: dict) -> list[SpeechItem]:
         finally:
             browser.close()
 
+    if stats is not None:
+        stats["raw_items"] = len(rows)
     return parse_entries(rows, bank=feed["bank"], region=feed["region"],
                          source=feed["name"])
