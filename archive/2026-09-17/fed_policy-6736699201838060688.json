@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "published": "2026-09-16",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "The FOMC voted unanimously 12-0 to raise the federal funds rate by 25 basis points to a target range of 3-3/4 to 4 percent. The Committee cited solid economic activity, resilient domestic spending, strong productivity, and robust capital investment, while noting that inflation remains elevated. The statement reflects a continued tightening posture aimed at returning inflation to the 2 percent goal.",
+    "stance_rationale": "A 25bp rate hike with a unanimous vote and a firm commitment to deliver price stability signals a moderately hawkish stance, though the measured pace and absence of explicit forward guidance for further hikes tempers the hawkishness.",
+    "key_quotes": [
+      "The Committee decided to raise the target range for the federal funds rate by 1/4 percentage point to 3-3/4 to 4 percent, in support of the Federal Reserve's dual mandate.",
+      "The Committee will deliver price stability."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

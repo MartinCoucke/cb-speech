@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+    "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement (with Q&A)",
+    "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html",
+    "published": "2026-09-10",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The ECB Governing Council unanimously raised its three key interest rates by 25 basis points at the September 2026 meeting, citing persistent inflation driven by Middle East conflict and energy price shocks, with headline inflation projected at 3.0% in 2026 and only returning to around target toward end-2027. Staff projections were revised upward for both inflation and growth, and the risk balance for inflation remains to the upside. The Council maintained a strict data-dependent, meeting-by-meeting approach and explicitly declined to pre-commit to any future rate path.",
+    "stance_rationale": "The decision to hike 25bp unanimously, upward revisions to inflation projections through 2028, and an asymmetric risk assessment skewed to the upside on inflation all point to a moderately hawkish stance. However, Lagarde's firm refusal to signal further tightening or acknowledge restrictive territory, and emphasis on two-way optionality, tempers the hawkishness.",
+    "key_quotes": [
+      "Today's decision underscores our commitment to setting monetary policy to ensure that inflation stabilises at our two per cent target in the medium term.",
+      "We are ready to demonstrate the appropriate agility in whichever direction it is needed."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

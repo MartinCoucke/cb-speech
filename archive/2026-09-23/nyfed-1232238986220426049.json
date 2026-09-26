@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/per260922",
+    "title": "Perli: Supplying Ample Reserves",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260922",
+    "published": "2026-09-22",
+    "speaker": "Perli",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Roberto Perli, Manager of the System Open Market Account at the New York Fed, delivered closing remarks at the 2026 U.S. Treasury Market Conference focused on the operational mechanics of reserve management purchases (RMPs). He explained recent decisions to pause RMPs given updated TGA forecasts and benign money market conditions, and compared the Fed's securities-led approach to the repo-led frameworks used by the Bank of England and ECB. The speech is primarily about monetary policy implementation and operational framework design rather than the policy rate stance or the economic outlook.",
+    "stance_rationale": "This speech concerns reserve management operations and implementation mechanics rather than the direction of interest rates or the monetary policy stance. There is no signal of easing or tightening bias, making it neutral and largely outside the dovish-hawkish spectrum.",
+    "key_quotes": [
+      "The recent decisions to set them at zero are no different in spirit than any of the other decisions the Desk has made since RMPs started in December of last year.",
+      "Neither of the operational approaches I discussed (securities-led vs. repo-led) is inherently superior to the other."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

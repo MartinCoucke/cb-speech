@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-22.html",
+    "title": "Interview on The Pay Off with Sylvia Jeffreys , 9Now Podcast",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-22.html",
+    "published": "2026-09-22",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter discusses the RBA's monetary policy framework, inflation dynamics, housing market trends, and labour market conditions in a wide-ranging podcast interview. She notes that inflation remains above target with upside risks, that the August meeting kept rates on hold while weighing slowing growth against persistent price pressures, and that the Board has signalled it would consider further rate hikes if inflation risks materialise. The interview is largely educational in tone, aimed at a general audience, covering economic myths and policy transmission channels.",
+    "stance_rationale": "Hunter explicitly states the Board sees inflation risks as 'skewed to the upside' and has signalled readiness to hike if needed, while also acknowledging growth is slowing and financial stress is not systemic \u2014 a modestly hawkish tilt with a clear tightening bias still in place rather than any easing signal.",
+    "key_quotes": [
+      "We think that the risk to inflation is skewed to the upside...and if those risks do manifest, then I think the board have been clear that they will definitely be considering whether or not they have to hike the cash rate.",
+      "The board were pretty clear that even though they didn't hike the cash rate, they are still very concerned about inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

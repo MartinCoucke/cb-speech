@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/media-availability-halifax-partnership",
+    "title": "Media Availability: Halifax Partnership",
+    "url": "https://www.bankofcanada.ca/multimedia/media-availability-halifax-partnership/",
+    "published": "2026-09-21",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This entry is a placeholder or index page for a media availability session by Bank of Canada Governor Tiff Macklem following remarks to the Halifax Partnership on September 21, 2026. No actual speech text or Q&A content is provided, only metadata and scheduling information. The topic is listed as 'Economic developments,' but no substantive content is available to assess.",
+    "stance_rationale": "There is no speech content to evaluate for monetary policy stance. The page contains only administrative and scheduling metadata.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

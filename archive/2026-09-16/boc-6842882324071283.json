@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/speech-halifax-partnership-2026-09-21",
+    "title": "Speech: Halifax Partnership",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-halifax-partnership-2026-09-21/",
+    "published": "2026-09-21",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This entry appears to be a placeholder or administrative record for a speech by Bank of Canada Governor Tiff Macklem before the Halifax Partnership on September 21, 2026. No actual speech content, remarks, or policy commentary are included in the provided text. Only metadata about the event format and media availability is present.",
+    "stance_rationale": "With no speech content available, it is impossible to assess any monetary policy stance or directional bias.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

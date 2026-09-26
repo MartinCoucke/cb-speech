@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+    "title": "The future of euro cash: trusted today, designed for tomorrow",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html",
+    "published": "2026-09-14",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a keynote speech focused on the future of euro cash, covering the ongoing banknote redesign process, the legal tender regulation, and the complementary roles of physical cash and the digital euro. The speech is ceremonial and policy-operational in nature, addressing cash infrastructure, design, sustainability, and financial inclusion rather than interest rates or monetary policy stance. No forward guidance on rates or inflation was provided.",
+    "stance_rationale": "This speech is not about monetary policy in the conventional sense (interest rates, inflation, balance sheet); it concerns banknote design and cash policy, so a neutral score of 0 is appropriate and the speech is classified as non-monetary-policy.",
+    "key_quotes": [
+      "Our response to this evolving landscape is straightforward: we are investing in both euro cash and the digital euro.",
+      "The future of public money in Europe is both digital and physical. That is not a contradiction. It is our strategy."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

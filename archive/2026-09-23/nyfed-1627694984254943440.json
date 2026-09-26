@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260922",
+    "title": "Williams: Do You Remember?",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil260922",
+    "published": "2026-09-22",
+    "speaker": "Williams",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "NY Fed President John Williams delivered remarks at the 2026 U.S. Treasury Market Conference focused on the evolution of market structure and monetary policy implementation frameworks, including the ample reserves approach, ON RRP, and standing repo operations. He discussed how innovations such as the shift to central clearing and the rise of stablecoins and tokenized finance require the Fed's operational tools to adapt over time. The speech was primarily about the mechanics and principles of monetary policy implementation rather than the current policy stance or rate outlook.",
+    "stance_rationale": "The speech contains no signals about the direction of interest rates, inflation, or the economic outlook, making it non-monetary-policy in the traditional sense of conveying a hawkish or dovish stance. It is an operational and structural speech about implementation frameworks.",
+    "key_quotes": [
+      "It is imperative that as the markets evolve, we have the policy tools that are right for that purpose and are well designed to function effectively under all circumstances.",
+      "As markets evolve, policy tools must evolve as well to ensure effective monetary policy implementation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

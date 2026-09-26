@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-08.html",
+    "title": "Fireside Chat at the AFR Property Summit",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-09-08.html",
+    "published": "2026-09-08",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter discussed the housing market's role as a monetary policy transmission channel at the AFR Property Summit, noting three rate hikes earlier in 2026 are deliberately slowing the economy to reduce inflationary pressures. She confirmed inflation remains above target with upside risks, and signalled the Board retains a tightening bias if inflation proves stronger than forecast. She did not pre-commit to a September rate move but validated market pricing of a roughly two-in-three chance of another hike.",
+    "stance_rationale": "Hunter explicitly endorsed the Board's upside inflation risk skew, flagged rising global oil prices as a new concern, and stated the Board 'may well have to raise interest rates' if inflation surprises to the upside, indicating a clear tightening bias with further hikes on the table.",
+    "key_quotes": [
+      "if there is a sense that inflation's going to be stronger than we think in the context of our forecast, that the Board may well have to raise interest rates to tackle that",
+      "the Board I hope have made really clear their concern...We are concerned about inflation"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

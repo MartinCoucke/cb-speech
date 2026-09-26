@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/has-europe-fully-digested-the-new-geoeconomic-realities-and-does-it-have-the-energy-to-cope-with-them-964872",
+    "title": "Has Europe fully digested the new geoeconomic realities \u2013 and does it have the energy to cope with them | Annual Dinner of the Society of Professional Economists",
+    "url": "https://www.bundesbank.de/en/press/speeches/has-europe-fully-digested-the-new-geoeconomic-realities-and-does-it-have-the-energy-to-cope-with-them-964872",
+    "published": "2026-09-22",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel addressed the Society of Professional Economists in London on geoeconomic fragmentation, EU-UK relations, and Europe's strategic responses including the digital euro, AI, and competitiveness initiatives. The speech focuses almost entirely on trade policy, geopolitics, and structural economic issues rather than monetary policy or interest rate guidance. Brief mentions of the digital euro and wholesale CBDC are framed in terms of strategic autonomy rather than monetary stance.",
+    "stance_rationale": "This speech is not a monetary policy statement; it contains no discussion of interest rates, inflation, or the ECB's policy direction. The is_monetary_policy flag is set to false and the score to neutral zero accordingly.",
+    "key_quotes": [
+      "Recent Bundesbank analysis shows that tariffs are weighing on global trade, on the global economy \u2013 and on the US itself.",
+      "The broader implications of the AI boom for growth and price stability are still uncertain."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

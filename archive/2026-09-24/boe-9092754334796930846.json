@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+    "title": "The outlook for inflation \u2212 speech by Clare Lombardelli",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/clare-lombardelli-speech-at-the-sixth-biennial-conference-poland",
+    "published": "2026-09-24",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Clare Lombardelli outlines the MPC's framework for assessing the inflationary impact of a global energy shock stemming from Middle East conflict, noting CPI is projected to rise to around 4.2% in Q1 2027. She describes how direct effects have evolved broadly as expected, indirect effects have been smaller than anticipated, and second-round effects remain uncertain but represent a growing risk. She signals that current policy is already restrictive but that further tightening may be necessary if elevated energy prices persist.",
+    "stance_rationale": "The speech carries a moderately hawkish tone: Bank Rate has been held while conditions tighten, the MPC explicitly acknowledges upside inflation risks, and Lombardelli personally flags that policy is 'increasingly likely to need to tighten if elevated energy prices persist.' The conditional nature of further hikes and acknowledgment of weaker indirect effects prevent a stronger hawkish score.",
+    "key_quotes": [
+      "Policy is increasingly likely to need to tighten if elevated energy prices persist, absent clear evidence of disinflation or weaker activity.",
+      "Monetary policy is already leaning against the risk of persistent inflationary pressures and will be tightened further if needed."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

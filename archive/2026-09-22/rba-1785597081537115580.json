@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-09-22.html",
+    "title": "A Wage-price Spiral: What are the Chances?",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-09-22.html",
+    "published": "2026-09-22",
+    "speaker": "Iain Ross AO",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": -1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Monetary Policy Board member Iain Ross argues that a wage-price spiral is unlikely in Australia, citing structural differences in today's labour market compared to the 1970s, including weaker union density, staggered enterprise agreements, and better-anchored inflation expectations. He notes that inflation has declined substantially from its peak and that the RBA's August 2026 forecasts expect inflation to return to the midpoint of the target range by early 2028. The labour market has eased, with unemployment rising to 4.5% and most indicators moving closer to balance.",
+    "stance_rationale": "The speech carries a mildly dovish tilt: it dismisses wage-price spiral risks, highlights easing labour market conditions, and references forecasts of moderating labour cost growth and gradual disinflation, implying the tightening cycle has done sufficient work and further aggressive action is unlikely needed.",
+    "key_quotes": [
+      "The overall thesis is that there is no evidence of the emergence of a wage-price spiral in the present circumstances and recent data suggest such an outcome is unlikely.",
+      "Labour market conditions are expected to ease gradually, with some spare capacity emerging by the end of the forecast period, while labour cost growth moderates from an elevated rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

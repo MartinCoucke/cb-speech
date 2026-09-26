@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-robert-kelly-director-economics-statistics-oireachtas-budgetary-oversight-16-september-2026",
+    "title": "Opening Statement by Dr Robert Kelly, Director of Economics & Statistics at the Oireachtas Committee on Budgetary Oversight",
+    "url": "https://www.centralbank.ie/news/article/speech-robert-kelly-director-economics-statistics-oireachtas-budgetary-oversight-16-september-2026",
+    "published": "2026-09-16",
+    "speaker": "McGuinness, Lucia",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Dr Robert Kelly, Director of Economics & Statistics at the Central Bank of Ireland, presented to the Oireachtas Committee on Budgetary Oversight ahead of Budget 2027. The statement focuses on Ireland's underlying fiscal deficit, the heavy reliance on potentially transitory corporation tax receipts, and recommendations for constraining expenditure growth to around 5 per cent annually. No monetary policy decisions or interest rate guidance are discussed.",
+    "stance_rationale": "This speech is a fiscal policy analysis addressed to a parliamentary budget committee, not a monetary policy statement. It does not address interest rates, inflation targets, or central bank balance sheet policy, so a score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "Mind the gap. Individual Budgets will always balance competing priorities, but it is our overarching approach to net spending growth that will determine whether we build the fiscal resilience needed for long-term challenges or leave us vulnerable to sudden, painful adjustments.",
+      "Excess corporation tax receipts now represent 15 per cent of Irish tax revenue. This is a similar share to property related taxes during the mid-2000s property boom and highly concentrated in a handful of multinational firms."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

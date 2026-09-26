@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "title": "Monetary policy decisions",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html",
+    "published": "2026-09-10",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The ECB Governing Council raised all three key interest rates by 25 basis points at its September 2026 meeting, citing persistent inflation driven by the Middle East conflict. Inflation is projected to remain well above the 2% target through 2028 in the baseline, with upside risks to inflation and downside risks to growth. The Council retains a data-dependent, meeting-by-meeting approach without pre-committing to a future rate path.",
+    "stance_rationale": "A 25bp rate hike with upward-revised inflation projections, characterization of inflation remaining 'well above target for an extended period,' and continued balance sheet runoff signal a clearly hawkish stance, though the lack of forward guidance on further hikes and acknowledgment of high uncertainty prevent a more extreme score.",
+    "key_quotes": [
+      "The conflict in the Middle East continues to generate inflation pressures, and inflation is set to remain well above target for an extended period.",
+      "The Governing Council is not pre-committing to a particular rate path."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

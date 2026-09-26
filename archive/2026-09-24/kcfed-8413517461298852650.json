@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/Root/documents/19148/Sly_Sept_Outlook_ABQ_Economic_Forum.pdf",
+    "title": "US Economic Conditions - Economic Forum of Albuquerque",
+    "url": "https://www.kansascityfed.org/Root/documents/19148/Sly_Sept_Outlook_ABQ_Economic_Forum.pdf",
+    "published": "2026-09-23",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "A Federal Reserve Bank of Kansas City official spoke at the Economic Forum of Albuquerque on US economic conditions. The full text of the speech is unavailable, making it impossible to assess the specific policy signals conveyed. The title suggests a general economic outlook presentation rather than a focused policy announcement.",
+    "stance_rationale": "With no speech text available and only a generic title referencing 'US Economic Conditions,' there is insufficient information to assign a directional monetary policy bias. A neutral score is the only defensible assessment.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}

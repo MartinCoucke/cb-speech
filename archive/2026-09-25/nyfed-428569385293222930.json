@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/nis260924",
+    "title": "Nistor: Forging A Resilient Path",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/nis260924",
+    "published": "2026-09-24",
+    "speaker": "Nistor",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Mihaela Nistor, Chief Risk Officer at the New York Fed, delivered remarks at the Risk Live North America Conference focused on the operational risks posed by artificial intelligence adoption within financial institutions. She discussed how AI-driven automation can create organizational fragility by eroding the developmental pathways that build human judgment over time, and called on risk managers to stress-test institutional resilience\u2014not just technology. The speech contains no discussion of monetary policy, interest rates, inflation, or economic conditions.",
+    "stance_rationale": "This speech is entirely about operational risk management and AI adoption frameworks, with no monetary policy content whatsoever. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "The central challenge is whether we, as institutions and as a profession, can adapt fast enough to absorb it without quietly hollowing out the judgment and human capability we will need on the other side.",
+      "Fragility is what happens when adoption outruns institutional judgment, and resiliency is what happens when we build the workforce's judgment on purpose, in parallel with adoption, instead of hoping it survives by accident."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

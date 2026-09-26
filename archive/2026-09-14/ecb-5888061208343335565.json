@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
+    "title": "Macroeconomic, fiscal and financial stability in a shock-prone world",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260914~0ffd556bc8.en.pdf",
+    "published": "2026-09-14",
+    "speaker": "Isabel Schnabel",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Isabel Schnabel's speech at the 2nd BMWE Symposium focuses on the interconnections between macroeconomic, fiscal, and financial stability in Europe. It covers topics including euro area growth resilience, fiscal pressures from defence spending and ageing, declining potential growth, and the European competitiveness agenda. While a slide references ECB rate decisions in passing, the speech is primarily structural and fiscal in nature rather than a monetary policy statement.",
+    "stance_rationale": "The speech does not articulate a forward-looking monetary policy stance, rate guidance, or inflation outlook in substantive terms. It is best classified as a structural/competitiveness policy speech with only incidental reference to past ECB actions.",
+    "key_quotes": [
+      "Decisive monetary policy brought inflation back to target without causing a recession",
+      "Debt stabilisation requires large fiscal adjustments amid shortening maturity structure"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

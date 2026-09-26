@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+    "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm",
+    "published": "2026-09-18",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman delivered remarks at Mansion House in London focused entirely on reforming the Federal Reserve's bank regulatory stress testing framework. The speech outlined finalized and forthcoming rules to enhance transparency, reduce stress capital buffer volatility, and expand stress testing as a forward-looking supervisory tool. No discussion of interest rates, inflation, employment, or monetary policy stance was included.",
+    "stance_rationale": "This speech is exclusively about bank supervision and regulatory capital reform, with no monetary policy content. It is not relevant to the dovish-hawkish spectrum.",
+    "key_quotes": [
+      "In the coming weeks, the Federal Reserve Board will consider final revisions to the Board's stress testing framework.",
+      "Together, these rules reduce SCB volatility by half without materially changing aggregate levels of required capital."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

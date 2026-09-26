@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-22.html",
+    "title": "Fireside Chat at the Committee for Economic Development of Australia (CEDA)",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-22.html",
+    "published": "2026-09-22",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Governor Michele Bullock spoke at CEDA in what was described as her last public comments before the next policy meeting. She discussed the challenges of repeated supply shocks, the importance of anchoring inflation expectations, housing market dynamics, productivity, and AI. Her tone was measured, emphasizing vigilance against second-round inflation effects while acknowledging the economy faces ongoing uncertainty from geopolitical and climate-related shocks.",
+    "stance_rationale": "Bullock signaled that policy needs to remain focused on limiting indirect inflation effects and that current labor market conditions (unemployment around 4.5%) are 'a bit tight,' suggesting the RBA is not yet ready to ease. She also noted the neutral rate appears to be rising globally and that the economy remains in a state of excess demand, implying a mild hawkish lean without explicit tightening guidance.",
+    "key_quotes": [
+      "Between 4.5 and 5 will probably take enough heat out of the labor market that it'll ease pressure on inflation.",
+      "The neutral interest rate...we think that is rising around the world...because there's a lot of investment going on, and that's putting pressure on the savings pool."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

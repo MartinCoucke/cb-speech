@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-deputy-governor-colm-kincaid-dper-management-conference-10-sept-26",
+    "title": "Tending the Public Garden - Accountable for today, Stewarding for tomorrow - Remarks by Deputy Governor Colm Kincaid to the DPER Management Conference",
+    "url": "https://www.centralbank.ie/news/article/speech-deputy-governor-colm-kincaid-dper-management-conference-10-sept-26",
+    "published": "2026-09-10",
+    "speaker": "McGuinness, Lucia",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Colm Kincaid delivered remarks to the DPER Management Conference focused on public service leadership, organisational strategy, and workplace themes including digitalisation, diversity and inclusion, lifelong learning, AI adoption, and hybrid working. The speech uses a garden metaphor to discuss stewardship and long-term institutional capability-building. There is no substantive discussion of monetary policy, interest rates, inflation, or the economic outlook.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses internal public sector management and organisational strategy topics. A score of 0 is assigned by default.",
+    "key_quotes": [
+      "A strategy should express a view of the world, define the outcomes that matter and make choices about where the organisation will concentrate its attention and capability.",
+      "To tend a garden is to accept that some of the work will bear fruit after our own period of responsibility. That is the essence of stewardship."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/september/ruth-smith-speech-florence-school-of-banking-and-finance-european-university-institute-florence",
+    "title": "No bank too big to fail, and none too small to resolve \u2212 speech by Ruth Smith",
+    "url": "https://www.bankofengland.co.uk/speech/2026/september/ruth-smith-speech-florence-school-of-banking-and-finance-european-university-institute-florence",
+    "published": "2026-09-23",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Ruth Smith, Executive Director for Resolution at the Bank of England, discusses the UK's framework for resolving small and medium-sized banks, covering the Bank Insolvency Procedure, transfer strategies, and the new recapitalisation payment mechanism introduced by the Bank Resolution (Recapitalisation) Act 2025. She draws lessons from the SVB UK resolution in 2023, emphasising transparency, optionality, and international cooperation. The speech contains no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on bank resolution frameworks and regulatory tools for managing bank failures, with no reference to monetary policy, interest rates, or the economic outlook.",
+    "key_quotes": [
+      "No single authority can deliver resolution alone; it remains, at its core, a team effort.",
+      "A firm's resolvability journey is never done, and as such our job as resolution authority isn't either."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

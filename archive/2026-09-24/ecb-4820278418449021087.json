@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+    "title": "The outlook for the euro area economy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260924~e0eceef02c.en.pdf",
+    "published": "2026-09-24",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": -1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Philip Lane's University of Lausanne lecture presents the ECB's September 2026 staff macroeconomic projections, covering inflation, growth, labour market, trade, fiscal, and financial conditions developments. HICP inflation projections are broadly stable with energy prices revised downward, while core inflation converges toward 2% over the horizon. Growth projections show modest upward revisions for 2026-2027 relative to prior rounds, with financial conditions having eased since end-2025.",
+    "stance_rationale": "The speech is primarily analytical and data-presenting rather than explicitly signaling policy direction, but the combination of inflation on track toward target, lower energy prices, and a net easing in financial conditions since December 2025 implies a modestly dovish tilt relative to neutral. The forward curve shows market expectations for further rate cuts, and the ECB appears comfortable with that trajectory.",
+    "key_quotes": [
+      "HICP inflation: 3.0 (2026), 2.5 (2027), 2.1 (2028)",
+      "Cumulative impacts of changes in short and long-term interest rates 2026-2028 show negative effects on both real GDP growth and HICP inflation, suggesting prior tightening is still working through the economy."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
