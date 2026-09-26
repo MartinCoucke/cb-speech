@@ -2,7 +2,15 @@ name: Daily CB speeches digest
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC = 07:00 London (BST)
+    # Target: 08:00 Europe/London, year round.
+    #
+    # GitHub Actions cron is UTC-only and has no timezone support, so a single
+    # fixed entry drifts by an hour twice a year: 08:00 London is 07:00 UTC
+    # during BST and 08:00 UTC during GMT. Both are scheduled here, and the
+    # `gate` job below lets exactly one of them through — whichever currently
+    # corresponds to 08:00 in London. This needs no edits at the DST changeover.
+    - cron: "0 7 * * *"   # 08:00 London while BST is in effect
+    - cron: "0 8 * * *"   # 08:00 London while GMT is in effect
   workflow_dispatch:
 
 permissions:
@@ -13,7 +21,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Cheap guard so only the cron entry matching 08:00 London proceeds. Runs in
+  # seconds and costs a negligible amount of Actions time.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - name: Only continue at 08:00 London
+        id: check
+        run: |
+          HOUR=$(TZ='Europe/London' date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run — proceeding regardless of the clock."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$HOUR" = "08" ]; then
+            echo "London hour is $HOUR — proceeding."
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "London hour is $HOUR, not 08 — this is the other DST cron entry. Skipping."
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
   run:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

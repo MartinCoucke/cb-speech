@@ -43,8 +43,14 @@ rating under `archive/<date>/`.
    - `GMAIL_APP_PASSWORD` — the Gmail App Password (same as the ETF/daily_2y agents)
    - `ANTHROPIC_API_KEY` — Claude API key
 3. Actions → **Daily CB speeches digest** → **Run workflow** for the first run.
-   Subsequent runs fire daily at 06:00 UTC (07:00 London). Edit the `cron` line
-   in `.github/workflows/cb_speeches.yml` to change the time.
+   Subsequent runs fire daily at **08:00 Europe/London**, year round.
+
+   GitHub Actions cron is UTC-only, so two entries are scheduled (07:00 and
+   08:00 UTC) and a small `gate` job lets through only the one that is currently
+   08:00 in London. That keeps the delivery time fixed across the BST/GMT
+   changeover with no twice-yearly edits. To move the time, change both cron
+   lines and the hour the gate compares against in
+   `.github/workflows/cb_speeches.yml`.
 
 The workflow installs Playwright's Chromium (cached across runs) for the ECB
 scraper.
