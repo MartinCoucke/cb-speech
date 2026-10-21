@@ -18,6 +18,11 @@ on:
     # changeover, change this one line (06:40 for BST) if the exact hour matters.
     - cron: "40 7 * * *"
   workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "Hours to look back (blank = 48). Use e.g. 720 to backfill 30 days after an outage."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -29,7 +34,9 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Generous: a wide-lookback backfill rates far more speeches than a
+    # normal run. Only actual usage is billed.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -70,6 +77,7 @@ jobs:
         env:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LOOKBACK_HOURS: ${{ inputs.lookback_hours }}
         run: python main.py
 
       - name: Commit updated state

@@ -1,6 +1,7 @@
 """CB speech agent configuration. All constants live here."""
 from __future__ import annotations
 
+import os as _os
 from pathlib import Path
 
 # --- Paths --------------------------------------------------------------
@@ -242,7 +243,22 @@ POLICY_FEEDS = [
 ]
 
 # --- Dedup / freshness --------------------------------------------------
-LOOKBACK_HOURS = 48  # only treat items published within this window as "new"
+# Only items published within this window count as "new". Overridable via the
+# LOOKBACK_HOURS env var so a manual run can widen it once to backfill after an
+# outage — speeches older than the window are otherwise lost for good, since
+# nothing marks them seen but select_new drops them on age.
+def _lookback_hours(default: int = 48) -> int:
+    raw = _os.environ.get("LOOKBACK_HOURS", "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default               # never let a bad value break the daily run
+    return value if value > 0 else default
+
+
+LOOKBACK_HOURS = _lookback_hours()
 
 # BIS publishes speeches 14-31 days after delivery (measured 2026-08-04), so a
 # BIS item is only accepted if it was *delivered* within this window. Wider than
