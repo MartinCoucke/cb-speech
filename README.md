@@ -63,14 +63,16 @@ source that broke produced nothing and its warning was never delivered.
    - `GMAIL_APP_PASSWORD` — the Gmail App Password (same as the ETF/daily_2y agents)
    - `ANTHROPIC_API_KEY` — Claude API key
 3. Actions → **Daily CB speeches digest** → **Run workflow** for the first run.
-   Subsequent runs fire daily at **08:00 Europe/London**, year round.
+   Subsequent runs fire on a `40 7 * * *` cron (07:40 UTC).
 
-   GitHub Actions cron is UTC-only, so two entries are scheduled (07:00 and
-   08:00 UTC) and a small `gate` job lets through only the one that is currently
-   08:00 in London. That keeps the delivery time fixed across the BST/GMT
-   changeover with no twice-yearly edits. To move the time, change both cron
-   lines and the hour the gate compares against in
-   `.github/workflows/cb_speeches.yml`.
+   **Delivery time cannot be controlled precisely.** GitHub queues scheduled
+   workflows, and this repo has been observed starting **4.5–6.5 hours** after
+   its cron time (a 06:00 UTC cron ran at 10:33–12:22 UTC). The cron is set
+   off-the-hour because on-the-hour schedules queue worst. Do not add a runtime
+   "only run at 08:00 London" check to pick between cron entries — it was tried
+   and skipped every run for 25 days, because the wall clock at run time is
+   unrelated to the scheduled time. If exact timing ever matters, trigger
+   `workflow_dispatch` from an external scheduler instead.
 
 The workflow installs Playwright's Chromium (cached across runs) for the ECB
 scraper.

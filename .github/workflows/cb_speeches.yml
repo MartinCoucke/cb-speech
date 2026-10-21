@@ -2,15 +2,21 @@ name: Daily CB speeches digest
 
 on:
   schedule:
-    # Target: 08:00 Europe/London, year round.
+    # Target: early morning Europe/London.
     #
-    # GitHub Actions cron is UTC-only and has no timezone support, so a single
-    # fixed entry drifts by an hour twice a year: 08:00 London is 07:00 UTC
-    # during BST and 08:00 UTC during GMT. Both are scheduled here, and the
-    # `gate` job below lets exactly one of them through — whichever currently
-    # corresponds to 08:00 in London. This needs no edits at the DST changeover.
-    - cron: "0 7 * * *"   # 08:00 London while BST is in effect
-    - cron: "0 8 * * *"   # 08:00 London while GMT is in effect
+    # Do NOT add a runtime "is it 08:00 in London?" gate here. That was tried
+    # and it skipped every run for 25 days: GitHub queues scheduled workflows,
+    # and this repo was observed starting 4.5-6.5 hours after its cron time
+    # (06:00 UTC cron -> 10:33-12:22 UTC actual). The wall clock at run time
+    # therefore bears no relation to the scheduled time, so it cannot be used
+    # to pick between cron entries.
+    #
+    # Minute 40 rather than :00 on purpose — on-the-hour schedules queue behind
+    # everyone else's and are the worst affected by that delay.
+    #
+    # 07:40 UTC is 07:40 London under GMT and 08:40 under BST. At the DST
+    # changeover, change this one line (06:40 for BST) if the exact hour matters.
+    - cron: "40 7 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,31 +27,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Cheap guard so only the cron entry matching 08:00 London proceeds. Runs in
-  # seconds and costs a negligible amount of Actions time.
-  gate:
-    runs-on: ubuntu-latest
-    outputs:
-      proceed: ${{ steps.check.outputs.proceed }}
-    steps:
-      - name: Only continue at 08:00 London
-        id: check
-        run: |
-          HOUR=$(TZ='Europe/London' date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual run — proceeding regardless of the clock."
-            echo "proceed=true" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "08" ]; then
-            echo "London hour is $HOUR — proceeding."
-            echo "proceed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "London hour is $HOUR, not 08 — this is the other DST cron entry. Skipping."
-            echo "proceed=false" >> "$GITHUB_OUTPUT"
-          fi
-
   run:
-    needs: gate
-    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
