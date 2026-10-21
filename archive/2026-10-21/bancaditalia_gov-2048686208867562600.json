@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261015-panetta/index.html",
+    "title": "Intervento del Governatore Fabio Panetta al Development Committee (testo in inglese)",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261015-panetta/index.html",
+    "published": "2026-10-15",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_gov",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Panetta delivered remarks to the World Bank Group Development Committee on behalf of Italy's constituency, focusing on global development priorities including climate action, education, health systems, private capital mobilization, and support for low-income and fragile countries. The speech addresses geopolitical tensions and their effects on emerging and developing economies, as well as WBG reform and shareholding matters. There is no discussion of monetary policy, interest rates, or central banking operations.",
+    "stance_rationale": "This speech is entirely focused on multilateral development finance, World Bank governance, and international development issues, with no monetary policy content whatsoever.",
+    "key_quotes": [
+      "Geopolitical tensions, conflict, and economic fragmentation are increasingly defining the global economy.",
+      "Multilateralism and international cooperation remain essential for lasting progress."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

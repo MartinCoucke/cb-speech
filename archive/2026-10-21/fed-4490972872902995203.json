@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+    "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm",
+    "published": "2026-10-15",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman delivered remarks at the Bangkok Economic Festival focused on supervisory modernization lessons from the 2023 Silicon Valley Bank failure. She discussed a newly commissioned independent review of SVB's collapse, reforms to Federal Reserve supervisory accountability and decision-making, and implications for international standard-setting bodies like the BCBS and FSB. The speech is entirely focused on bank supervision and regulatory reform rather than monetary policy.",
+    "stance_rationale": "This speech contains no discussion of interest rates, inflation, employment, or monetary policy tools. It is a supervisory and regulatory policy speech and is therefore not relevant to the dovish-hawkish monetary policy spectrum.",
+    "key_quotes": [
+      "Modernization is not about doing less. It is about more effectively prioritizing the things that matter the most.",
+      "A central finding is that supervisors had information about SVB's major vulnerabilities many months before its failure but did not make appropriate use of it."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

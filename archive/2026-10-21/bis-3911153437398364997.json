@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261019-monetary-policy-testing-times-power-politics-and-ai",
+    "title": "Monetary policy in testing times - power politics and AI",
+    "url": "https://www.bis.org/speeches/20261019-monetary-policy-testing-times-power-politics-and-ai",
+    "published": "2026-10-14",
+    "speaker": null,
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Finland Governor Olli Rehn addressed the Citi Macro Forum in Bangkok, covering Europe's economic resilience, AI's productivity potential, and euro area monetary policy. He noted that inflation remains above target due to energy prices but is not broad-based, with moderate wage growth and limited second-round effects. The speech was largely structural and thematic in nature, with only brief direct commentary on monetary policy stance.",
+    "stance_rationale": "Rehn acknowledges inflation above target and increased upside risks requiring 'vigilance,' suggesting a mild hawkish lean, but he also emphasizes that inflation is not broad-based and wage growth is moderate, tempering any strong tightening signal. The overall tone is balanced with a slight tilt toward caution on price stability.",
+    "key_quotes": [
+      "Inflation remains above target, mostly due to higher energy prices... upside risks have increased, requiring vigilance and a steady commitment to price stability.",
+      "Monetary policy cannot produce more oil, reopen shipping lanes or resolve geopolitical conflicts. But it can ensure that temporary shocks do not become permanently embedded in inflation expectations and wage-setting behaviour."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

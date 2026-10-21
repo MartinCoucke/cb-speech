@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+    "title": "Pontes and Appia: unlocking opportunities for banks",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf",
+    "published": "2026-10-21",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone addressed the Italian Banking Association on the ECB's efforts to support tokenisation in financial markets, covering the launch of Pontes (DLT settlement in central bank money), DLT asset collateral eligibility, and the Appia initiative for an integrated European digital capital market ecosystem. The speech focuses entirely on financial market infrastructure, digital finance, and capital markets integration rather than interest rates or the monetary policy stance. No discussion of inflation, rate decisions, or economic outlook is included.",
+    "stance_rationale": "This speech is not about monetary policy in the conventional sense; it deals exclusively with financial market infrastructure, tokenisation, and DLT settlement systems. As such, no hawkish or dovish signal can be extracted.",
+    "key_quotes": [
+      "Since the launch of Pontes on 21 September 2026, distributed ledger technology (DLT) transactions can be settled in central bank money.",
+      "The Eurosystem acts as a catalyst for the market to innovate at scale."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

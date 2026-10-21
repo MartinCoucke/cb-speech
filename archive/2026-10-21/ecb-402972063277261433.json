@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+    "title": "Euro liquidity lines and the international monetary system",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html",
+    "published": "2026-10-21",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Philip Lane's remarks focus on the ECB's international liquidity lines framework, specifically the enhanced EUREP repo facility and swap lines, explaining their design, eligibility criteria, and role in supporting euro funding markets globally. The speech covers the structural and operational details of these facilities rather than signaling any change in the ECB's interest rate or balance sheet stance. While monetary policy transmission is referenced as a motivation, the content is primarily about international financial architecture and the international role of the euro.",
+    "stance_rationale": "The speech does not contain signals about the future path of interest rates, inflation assessments, or balance sheet policy, making it effectively neutral from a markets monetary policy stance perspective. It is classified as not primarily a monetary policy speech but rather a structural/institutional one about liquidity facilities.",
+    "key_quotes": [
+      "Liquidity lines can boost the international role of the euro, which further supports the ability of the ECB to achieve its monetary policy objectives.",
+      "A tightening of euro area monetary policy makes it more expensive for foreign entities to source euro denominated funding, which weighs on demand in economies that use the euro."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

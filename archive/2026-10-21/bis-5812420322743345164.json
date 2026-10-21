@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261020-statement-meeting-development-committee",
+    "title": "Statement - meeting of the Development Committee",
+    "url": "https://www.bis.org/speeches/20261020-statement-meeting-development-committee",
+    "published": "2026-10-15",
+    "speaker": null,
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Fabio Panetta delivered a statement at the 114th Development Committee meeting in Bangkok, representing Italy's constituency at the World Bank Group. The speech focused on development finance, climate action, private capital mobilization, education, health systems, and AI's role in emerging market economies. No monetary policy matters were addressed.",
+    "stance_rationale": "This speech is entirely focused on multilateral development topics and World Bank Group strategy, with no discussion of interest rates, inflation targets, or central bank monetary policy tools.",
+    "key_quotes": [
+      "Geopolitical tensions, conflict, and economic fragmentation are increasingly defining the global economy.",
+      "Mobilizing private capital is essential to achieving development impact at scale."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

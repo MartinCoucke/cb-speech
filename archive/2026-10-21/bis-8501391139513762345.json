@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261020-transitioning-through-trust-securing-future-payments",
+    "title": "Transitioning through trust - securing the future of payments",
+    "url": "https://www.bis.org/speeches/20261020-transitioning-through-trust-securing-future-payments",
+    "published": "2026-10-14",
+    "speaker": null,
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Mary-Elizabeth McMunn of the Central Bank of Ireland addressed the Electronic Money Association Conference on the evolving payments landscape, focusing on trust, innovation, and regulatory priorities. The speech covered supervisory themes including safeguarding, operational resilience, and fraud prevention, as well as the Central Bank's innovation sandbox programme. No monetary policy stance, interest rate guidance, or macroeconomic outlook was discussed.",
+    "stance_rationale": "This speech is entirely focused on payments regulation, supervision, and fintech innovation rather than monetary policy. As such, it is not relevant to the dovish-hawkish spectrum.",
+    "key_quotes": [
+      "None of this is possible without trust.",
+      "Resilience is, in part, the capacity to adapt \u2013 a capability that depends heavily on human judgement, and which takes years to build."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

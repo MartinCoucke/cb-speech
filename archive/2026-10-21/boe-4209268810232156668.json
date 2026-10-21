@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london",
+    "title": "Learning about earnings: Can we rely on labour market slack to mitigate the latest supply shock? \u2212 speech by Megan Greene",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/megan-greene-speech-at-lse-economics-society-london",
+    "published": "2026-10-20",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "MPC member Megan Greene argues that labour market slack may be insufficient to contain second-round effects from the latest energy price shock stemming from the Iran conflict. She finds that underlying wage growth, when assessed across multiple indicators, is running above levels consistent with the 2% inflation target, and that forward-looking measures suggest wage disinflation is stalling around 3.5%. She also highlights that broader labour market indicators point to less slack than previously assumed, with employment growth picking up and unemployment falling.",
+    "stance_rationale": "The speech carries a hawkish tilt: Greene explicitly argues that the MPC's assumption that slack would dampen second-round effects may be wrong, that underlying wage growth remains too high, and that waiting for confirming evidence before tightening policy would be too late given monetary policy lags.",
+    "key_quotes": [
+      "In my view, both remain above levels consistent with an inflation target of 2% and suggest there may be less labour market slack than we thought.",
+      "If we wait for this evidence to lean against second-round effects with a tighter monetary policy stance, we will already be too late given the lags with which monetary policy affects the economy and inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

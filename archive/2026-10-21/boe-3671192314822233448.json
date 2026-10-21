@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark",
+    "title": "The importance of public engagement in maintaining trust in banknotes - Speech by Victoria Cleland",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/victoria-cleland-intergraf-currency-identity-conference-demark",
+    "published": "2026-10-15",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Victoria Cleland, Executive Director for Payments at the Bank of England, delivered a speech at the Intergraf Currency & Identity Conference focusing on maintaining public trust in banknotes through availability, secure design, and public engagement. The speech covers the Bank's cash ecosystem oversight, counterfeit resilience efforts, and a public consultation that selected UK wildlife imagery for the next banknote series. No monetary policy stance or interest rate commentary is presented.",
+    "stance_rationale": "This speech is entirely about banknote design, cash distribution infrastructure, and public communications strategy, with no discussion of interest rates, inflation, or monetary policy decisions.",
+    "key_quotes": [
+      "Every time someone accepts a banknote, they trust that it is authentic and worth the value stated.",
+      "Trust in banknotes begins with secure design but only endures if banknotes are available and recognised."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

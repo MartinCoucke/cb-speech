@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-colm-kincaid-at-the-compliance-institute-annual-conference-15-october-2026",
+    "title": "Turning consumer protection commitment into delivery - remarks by Deputy Governor Colm Kincaid at the Compliance Institute Annual Conference 2026",
+    "url": "https://www.centralbank.ie/news/article/speech-colm-kincaid-at-the-compliance-institute-annual-conference-15-october-2026",
+    "published": "2026-10-15",
+    "speaker": "O'Dea, Oisin",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Colm Kincaid addressed the Compliance Institute Annual Conference 2026, reviewing the Central Bank of Ireland's consumer protection activities over the past year. The speech covered customer experience improvements, digitalisation, fraud and scams, and the implementation of the new Consumer Protection Code. No monetary policy topics such as interest rates, inflation, or the economic outlook were discussed.",
+    "stance_rationale": "This speech is focused entirely on consumer protection, supervisory frameworks, and compliance matters rather than monetary policy. It is not relevant to the dovish/hawkish scale.",
+    "key_quotes": [
+      "The end is a financial system that works in the best interests of consumers, investors and the wider economy.",
+      "fraud is now the most common form of personal crime in Ireland, where over 10 per cent of the Irish population reported being a victim in 2025, up from 3.9 per cent in 2019."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

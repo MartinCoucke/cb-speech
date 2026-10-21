@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261016-ensuring-resilience-face-uncertainty",
+    "title": "Ensuring resilience in the face of uncertainty",
+    "url": "https://www.bis.org/speeches/20261016-ensuring-resilience-face-uncertainty",
+    "published": "2026-10-14",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Frank Elderson, ECB Executive Board member, opened a joint ECB-Bank of England conference on supervising climate risk, focusing on how financial institutions can ensure resilience in an increasingly non-linear world. The speech addresses the limitations of traditional risk management models in the face of growing complexity from geopolitical fragmentation, technological change, and climate and nature crises. The content is squarely focused on prudential supervision and climate-related financial risk rather than monetary policy.",
+    "stance_rationale": "This speech is about supervisory and financial stability topics, specifically climate risk management, and contains no discussion of interest rates, inflation, or monetary policy stance.",
+    "key_quotes": [
+      "The world facing us today is becoming more complex, more interconnected and more uncertain almost by the day.",
+      "Think about geopolitical fragmentation, demographic change, artificial intelligence and quantum computing and, of course, the central theme of this conference: the risks from the ongoing climate and nature (C&N) crises."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

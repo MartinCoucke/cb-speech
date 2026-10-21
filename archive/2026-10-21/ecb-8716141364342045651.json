@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+    "title": "Ensuring resilience in the face of uncertainty",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+    "published": "2026-10-14",
+    "speaker": "Frank Elderson",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Frank Elderson's keynote at the ECB-Bank of England Conference focuses on climate and nature risk supervision, framing the challenge through a 'known knowns, known unknowns, and unknown unknowns' framework. The speech discusses how banks and supervisors should build resilience against non-linear risks, tipping points, and radical uncertainty in the context of climate change and other macro trends. It contains no discussion of interest rates, monetary policy stance, inflation, or ECB policy decisions.",
+    "stance_rationale": "This is a supervisory and financial stability speech, not a monetary policy speech. It addresses climate risk management frameworks and prudential supervision, making a monetary policy score inapplicable.",
+    "key_quotes": [
+      "For known knowns, our task is to measure. For known unknowns, our task is to prepare. And for unknown unknowns, our task is to build resilience.",
+      "Building resilience obviously includes maintaining sufficient capital, liquidity, operational capacity and strategic flexibility to absorb shocks that cannot be predicted in advance."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

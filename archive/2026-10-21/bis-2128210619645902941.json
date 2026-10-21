@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",
+    "title": "Supervisory modernisation after Silicon Valley Bank",
+    "url": "https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",
+    "published": "2026-10-14",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman discusses lessons from the independent review of Silicon Valley Bank's 2023 failure, focusing on supervisory accountability, timely action, and the need for clear decision-making authority within the Federal Reserve System. She also addresses the international implications of supervisory modernization and critiques the BCBS and FSB for relying on incomplete initial reports about SVB. The speech is centered on regulatory and supervisory reform rather than monetary policy settings.",
+    "stance_rationale": "This speech is entirely focused on bank supervision, regulatory frameworks, and lessons from SVB's failure \u2014 not on interest rates, inflation, or monetary policy. As such, it is not a monetary policy speech and receives a score of 0 by convention.",
+    "key_quotes": [
+      "Modernization is not about doing less. It is about more effectively prioritizing the things that matter the most.",
+      "A supervisory organization that treats every issue as equally important will tend to devote substantial attention to matters that are easiest to document, measure, and track, leaving other risks that require synthesis, experience, and enhanced judgment to receive less attention than they deserve."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

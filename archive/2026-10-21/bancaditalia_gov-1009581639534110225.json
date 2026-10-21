@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261019-panetta/index.html",
+    "title": "Don't Stop Thinking About Tomorrow: Building Resilience to Climate Shocks Today",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261019-panetta/index.html",
+    "published": "2026-10-19",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_gov",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fabio Panetta's opening remarks at the Green Swan Conference 2026 focus entirely on climate resilience, covering three pillars: understanding physical climate risk, sharing and absorbing losses through insurance frameworks, and reducing exposure through adaptation investment. The speech addresses the roles of governments, central banks, insurers, and multilateral development banks in building climate resilience. No monetary policy signals, interest rate guidance, or inflation outlook commentary are provided.",
+    "stance_rationale": "This speech is not about monetary policy; it is a conference opening address on climate risk and financial resilience. A score of 0 is assigned by default with low confidence given the absence of any monetary policy content.",
+    "key_quotes": [
+      "The challenge is not to expand our mandates. It is to fulfil our existing mandates in a changing environment.",
+      "Responsibility for climate policy rests first and foremost with governments. They have the democratic legitimacy and the instruments needed to guide the green transition, support adaptation and protect the most vulnerable."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261019-remarks-panel-topic-paths-prosperity-forging-growth-trade-and-investment-between-europe-and-asia",
+    "title": "Remarks on the panel topic \u201cPaths to prosperity - forging growth, trade and investment between Europe and Asia\u201d",
+    "url": "https://www.bis.org/speeches/20261019-remarks-panel-topic-paths-prosperity-forging-growth-trade-and-investment-between-europe-and-asia",
+    "published": "2026-10-17",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel spoke at a panel in Bangkok on Europe-Asia economic relations, covering trade, investment, and competitiveness. The remarks focused on deepening EU-Asia trade ties, diversification away from China, and strengthening European industrial and technological capabilities. No monetary policy topics such as interest rates, inflation, or the ECB's policy stance were addressed.",
+    "stance_rationale": "The speech is entirely focused on trade, investment, and economic competitiveness between Europe and Asia, with no monetary policy content whatsoever.",
+    "key_quotes": [
+      "There is no single strategy for Europe towards Asia.",
+      "Strengthening European competitiveness and sovereignty should be a priority."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

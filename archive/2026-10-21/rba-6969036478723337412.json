@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-so-2026-10-20.html",
+    "title": "Fireside Chat at the AFIA Conference",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-so-2026-10-20.html",
+    "published": "2026-10-20",
+    "speaker": "Ellis Connolly",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Ellis Connolly, Head of Payments Policy at the RBA, participated in a fireside chat at the AFIA Conference discussing the RBA's three strategic priorities for the payments system: resilience, competition and accessibility, and the future of money. The conversation covered topics including cyber risk, regulatory reviews, surcharging reforms, mobile wallets, and agentic commerce. No monetary policy or interest rate topics were addressed.",
+    "stance_rationale": "This speech is entirely focused on payments policy, regulation, and infrastructure oversight rather than monetary policy, interest rates, or macroeconomic conditions. It is not relevant to the dovish-hawkish scale.",
+    "key_quotes": [
+      "Our mandate in the payments space is to promote a competitive, efficient, and financially safe payment system, and also to control risk to the financial system that could emanate from the payment system.",
+      "Our preference is for industry-led or private sector-led solutions where possible to these sorts of public interest problems."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

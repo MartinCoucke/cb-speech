@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+    "title": "IMFC Statement",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+    "published": "2026-10-17",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Christine Lagarde's IMFC statement outlines the ECB's ongoing tightening cycle in response to an energy-driven inflation surge, with headline inflation at 3.8% and two consecutive 25bp rate hikes in June and September 2026. While acknowledging that tightening financing conditions and downside growth risks warrant a measured response, she signals that the energy shock is too large to ignore. The statement balances near-term hawkish concerns with caution about overtightening given growth headwinds.",
+    "stance_rationale": "The ECB has delivered two consecutive 25bp hikes and signals further data-dependent tightening, but explicitly notes that 'a measured response remains appropriate,' tightening financial conditions, and no significant second-round effects yet\u2014placing the stance modestly hawkish rather than aggressively so.",
+    "key_quotes": [
+      "The energy shock is too large to 'look through' but a measured response remains appropriate to keep inflation in check.",
+      "The Governing Council decided to raise the key ECB interest rates by 25 basis points in September, following an increase of the same size in June."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

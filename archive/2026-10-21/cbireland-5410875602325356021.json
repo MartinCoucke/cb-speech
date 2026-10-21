@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.centralbank.ie/news/article/speech-mary-elizabeth-mcmunn-at-electronic-money-association-conference-14-october-2026",
+    "title": "Transitioning through trust \u2013 securing the future of payments - speech by Deputy Governor Mary-Elizabeth McMunn at Electronic Money Association Conference",
+    "url": "https://www.centralbank.ie/news/article/speech-mary-elizabeth-mcmunn-at-electronic-money-association-conference-14-october-2026",
+    "published": "2026-10-14",
+    "speaker": "McGuinness, Lucia",
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "cbireland",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Mary-Elizabeth McMunn addressed the Electronic Money Association's 25th anniversary conference, focusing on trust as the foundation of the payments system. She outlined the Central Bank of Ireland's supervisory priorities\u2014safeguarding, operational resilience, and fraud prevention\u2014and discussed the regulator's innovation engagement initiatives including its Innovation Hub and sandbox programme. The speech did not address interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on payments regulation, supervision, consumer protection, and innovation policy. It contains no content relevant to monetary policy settings or the interest rate outlook.",
+    "key_quotes": [
+      "As one of the most fundamental financial services, payments is the very lifeblood of the economy.",
+      "Trust has always been core to the concept of money and the increasingly complex system which we have built on top of it."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

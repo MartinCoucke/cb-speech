@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/remarks-on-the-panel-topic-paths-to-prosperity-forging-growth-trade-and-investment-between-europe-and-asia--964898",
+    "title": "Remarks on the panel topic \u201cPaths to prosperity: Forging growth, trade and investment between Europe and Asia\u201d | DZ Bank Lunch Reception",
+    "url": "https://www.bundesbank.de/en/press/speeches/remarks-on-the-panel-topic-paths-to-prosperity-forging-growth-trade-and-investment-between-europe-and-asia--964898",
+    "published": "2026-10-17",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Nagel spoke at a DZ Bank lunch reception in Bangkok on the topic of Europe-Asia economic relations, covering trade, investment, technological cooperation, and European competitiveness. The remarks focused on deepening rules-based trade ties with Asian partners, addressing supply chain resilience, and building European industrial and financial capacity. No monetary policy topics such as interest rates, inflation, or the ECB's policy stance were discussed.",
+    "stance_rationale": "This speech is entirely focused on trade policy, economic cooperation, and competitiveness \u2014 not monetary policy. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "There is no single strategy for Europe towards Asia.",
+      "Strengthening European competitiveness and sovereignty should be a priority."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

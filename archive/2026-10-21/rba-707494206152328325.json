@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-18.html",
+    "title": "Interview on News 24 with Ross Greenwood",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-18.html",
+    "published": "2026-10-18",
+    "speaker": "Christopher Kent",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Assistant Governor Christopher Kent discusses the RBA's pandemic-era bond purchase program and quantitative easing decisions from 2020, reflecting on the rationale, effectiveness, and balance sheet consequences of those measures. The interview is primarily retrospective, covering the QE program wind-down and lessons learned rather than signaling any current or future policy stance. No forward guidance on interest rates or the current monetary policy stance is provided.",
+    "stance_rationale": "The speech is historical in nature, reviewing past emergency policy actions and their outcomes, with no current easing or tightening signals. The score of 0 reflects the absence of any discernible present-day monetary policy bias.",
+    "key_quotes": [
+      "I think our conclusion was it wasn't the most effective of tools.",
+      "We wouldn't rule out using it in the future."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

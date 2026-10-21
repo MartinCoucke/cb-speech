@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+    "title": "From climate and nature risks to economic resilience and competitiveness",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+    "published": "2026-10-19",
+    "speaker": "Frank Elderson",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board Member Frank Elderson delivered a keynote at the Green Swan 2026 Conference focused on climate change and nature degradation as macroeconomic risks, arguing that resilience, the green transition, and competitiveness are complementary rather than competing objectives. The speech addresses investment barriers, adaptation versus mitigation strategies, and the role of international cooperation. While it briefly touches on inflation dynamics and price stability, the core content is about climate and nature policy rather than monetary policy settings.",
+    "stance_rationale": "This speech is primarily about climate risk, nature degradation, and the green transition as structural economic issues, not about interest rates, the monetary policy stance, or easing/tightening signals. It is therefore not a monetary policy speech in the conventional sense.",
+    "key_quotes": [
+      "Climate and nature risks are no longer distant possibilities. They are already shaping economic outcomes today.",
+      "As climate and nature risks increasingly affect productivity, growth, inflation and the resilience of the financial system, taking them into account falls squarely within our mandate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

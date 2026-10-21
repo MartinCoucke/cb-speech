@@ -1,23 +1,86 @@
 {
-  "fed": 0,
-  "ecb": 0,
-  "boe": 0,
-  "rba": 0,
-  "boc": 0,
-  "bis": 0,
-  "nyfed": 0,
-  "bostonfed": 0,
-  "bundesbank": 0,
-  "cbireland": 0,
-  "fed_policy": 0,
-  "ecb_policy": 2,
-  "boe_policy": 0,
-  "rba_policy": 0,
-  "boc_policy": 0,
-  "richmondfed": 0,
-  "sffed": 0,
-  "kcfed": 0,
-  "bancaditalia_gov": 0,
-  "bancaditalia_board": 0,
-  "rba_presser": 0
+  "fed": {
+    "raw": 0,
+    "match": 0
+  },
+  "ecb": {
+    "raw": 0,
+    "match": 0
+  },
+  "boe": {
+    "raw": 0,
+    "match": 0
+  },
+  "rba": {
+    "raw": 0,
+    "match": 0
+  },
+  "boc": {
+    "raw": 0,
+    "match": 0
+  },
+  "bis": {
+    "raw": 0,
+    "match": 0
+  },
+  "nyfed": {
+    "raw": 0,
+    "match": 0
+  },
+  "bostonfed": {
+    "raw": 0,
+    "match": 0
+  },
+  "bundesbank": {
+    "raw": 0,
+    "match": 0
+  },
+  "cbireland": {
+    "raw": 0,
+    "match": 0
+  },
+  "fed_policy": {
+    "raw": 0,
+    "match": 0
+  },
+  "ecb_policy": {
+    "raw": 0,
+    "match": 1
+  },
+  "boe_policy": {
+    "raw": 0,
+    "match": 0
+  },
+  "rba_policy": {
+    "raw": 0,
+    "match": 0
+  },
+  "boc_policy": {
+    "raw": 0,
+    "match": 0
+  },
+  "richmondfed": {
+    "raw": 0,
+    "match": 0
+  },
+  "sffed": {
+    "raw": 0,
+    "match": 0
+  },
+  "kcfed": {
+    "raw": 0,
+    "match": 0
+  },
+  "bancaditalia_gov": {
+    "raw": 0,
+    "match": 0
+  },
+  "bancaditalia_board": {
+    "raw": 0,
+    "match": 0
+  },
+  "rba_presser": {
+    "raw": 0,
+    "match": 0
+  }
 }

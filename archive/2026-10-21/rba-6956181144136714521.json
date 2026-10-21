@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-19.html",
+    "title": "Fireside Chat at the Commonwealth Bank\u2019s Global Markets Conference",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-19.html",
+    "published": "2026-10-19",
+    "speaker": "Christopher Kent",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Christopher Kent discussed global and Australian economic conditions, monetary policy transmission, and neutral rate uncertainty at a fireside chat. He noted that monetary policy is 'somewhat restrictive' but the Board must assess at each meeting whether it is 'restrictive enough,' while acknowledging supply shocks from the Middle East are complicating the inflation-growth trade-off. The speech covered a wide range of topics including term premiums, exchange rate channels, and financial market plumbing.",
+    "stance_rationale": "Kent's overall tone is mildly hawkish: he affirms policy is restrictive and the key question is whether it is restrictive enough, while noting persistent cost pressures, rising neutral rates, and supply-shock-driven inflation risks. However, he also acknowledges the economy is slowing and labour market is loosening faster than expected, tempering any strong hawkish signal.",
+    "key_quotes": [
+      "our assessment is overall financial conditions somewhat restrictive. But the question the Board faces each and every time they meet right now is, is it restrictive enough?",
+      "we know monetary policy operates with long and variable lags. But we have to do the best we can... the Board, each and every meeting, will have to assess the outlook, the news that they're getting, the balance of risks, and then take a decision from there."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

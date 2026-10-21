@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-10-21.html",
+    "title": "Fireside Chat by Andrew Hauser, Deputy Governor at Citi\u2019s Australia & New Zealand Investment Conference, Sydney",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-10-21.html",
+    "published": "2026-10-21",
+    "speaker": "Andrew Hauser",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 4,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "RBA Deputy Governor Andrew Hauser outlined a deteriorating inflation outlook at a Citi investment conference, noting that all three upside inflation risks identified in August\u2014Middle East/oil, AI/tech prices, and domestic capacity pressures\u2014have crystallised or worsened since the September rate hike. He acknowledged the Board faces hard choices between further tightening to contain inflation expectations and protecting the labour market, with the November meeting still open. Hauser stressed that the RBA cannot allow inflation expectations to drift from target, while noting mixed signals on activity including a weakening labour market and subdued consumption.",
+    "stance_rationale": "The speech is clearly hawkish: Hauser described the inflation outlook as 'materially worse' than the August forecast, highlighted risks of de-anchoring inflation expectations, defended further tightening as necessary, and left the door firmly open to another hike at the November meeting despite some labour market softening.",
+    "key_quotes": [
+      "The inflation outlook looks materially worse than we projected in the August report.",
+      "We can't allow expectations to shift away from the target."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
