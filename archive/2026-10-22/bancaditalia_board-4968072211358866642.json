@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261022-altimari/index.html",
+    "title": "Women in Economics: Advancing Research in Economics Internationally",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261022-altimari/index.html",
+    "published": "2026-10-22",
+    "speaker": "Sergio Nicoletti Altimari",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Sergio Nicoletti Altimari of Banca d'Italia is an opening address to the 2026 Women in Macro and Finance conference, focusing on gender representation in economics, global imbalances, technological innovation in finance, and research on inflation expectations. While monetary policy is mentioned as a conference theme, the speech does not signal any specific policy stance or direction for the Banca d'Italia or the ECB. The remarks are primarily ceremonial and programmatic in nature.",
+    "stance_rationale": "The speech contains no directional monetary policy signals, rate guidance, or easing/tightening bias; its monetary policy references are descriptive of research topics rather than policy intentions, warranting a neutral score and low confidence given the non-policy nature of the address.",
+    "key_quotes": [
+      "Shocks are becoming larger and more frequent, from conflicts and trade tensions to energy crises... Rising public debts add a further layer of complexity for monetary policy.",
+      "For central banks, clear and consistent communication within a credible policy framework is therefore essential to avoid misperceptions and achieve macroeconomic stabilisation objectives."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

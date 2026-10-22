@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/stable-banks-strong-capital-markets-europe-s-financial-system-for-the-future-1012618",
+    "title": "Stable banks, strong capital markets \u2013 Europe\u2019s financial system for the future | Keynote speech at the conference for the  40th anniversary of the International Bankers Forum",
+    "url": "https://www.bundesbank.de/en/press/speeches/stable-banks-strong-capital-markets-europe-s-financial-system-for-the-future-1012618",
+    "published": "2026-10-21",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank President Joachim Nagel delivered a keynote at the 40th anniversary of the International Bankers Forum focused on the structural challenges facing Europe's financial system. The speech covered the progress toward a Savings and Investments Union, the resilience of European banks, and proposals to simplify banking regulation through a High-Level Task Force on Simplification. No monetary policy stance, interest rate guidance, or inflation outlook was discussed.",
+    "stance_rationale": "This speech is entirely focused on financial market integration, banking regulation, and the Savings and Investments Union rather than monetary policy; accordingly a score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "The challenge is therefore not a matter of quickly freeing up money and reducing the resilience of our banks through deregulation, but of improving the performance of our financial system on a lasting basis.",
+      "Simplifying regulation would reduce the complexity of banks' capital requirements without jeopardising the stability that has been achieved."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
