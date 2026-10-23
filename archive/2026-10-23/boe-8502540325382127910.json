@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/october/katharine-braddick-mansion-house-city-regulators-dinner-london",
+    "title": "The PRA\u2019s second decade \u2212 speech by Katharine Braddick",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/katharine-braddick-mansion-house-city-regulators-dinner-london",
+    "published": "2026-10-22",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "PRA CEO Katharine Braddick outlines her vision for the regulator's second decade in her inaugural Mansion House speech, centring on four strategic priorities: resilience, growth, innovation, and transparency. She announces a new five-year strategy, reforms to the Senior Managers and Certification Regime, a new operational and cyber resilience directorate, and improvements to internal model approval processes for residential mortgages. The speech is focused entirely on prudential regulation and supervisory reform, with no discussion of monetary policy or interest rates.",
+    "stance_rationale": "This speech is exclusively about the PRA's regulatory strategy and supervisory priorities and contains no monetary policy content. A score of 0 is assigned by default as it is not a monetary policy speech.",
+    "key_quotes": [
+      "Maintaining the resilience of the UK's banking and insurance sectors is the foundation of our mission.",
+      "We will set out how that framework is embedded in our day-to-day decision-making, and how we will track the effect our work is having on the growth and international competitiveness of the UK."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

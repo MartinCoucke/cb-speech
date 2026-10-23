@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/october/physical-shocks-and-economic-resilience-speech-by-james-talbot",
+    "title": "Physical shocks and economic resilience: a central bank perspective \u2212 speech by James Talbot",
+    "url": "https://www.bankofengland.co.uk/speech/2026/october/physical-shocks-and-economic-resilience-speech-by-james-talbot",
+    "published": "2026-10-23",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "James Talbot, Bank of England Executive Director for International, delivered a speech at a sustainable finance conference in Mexico focusing on how physical climate shocks transmit through economies, affect inflation and output, and how central banks should assess and respond to them. The speech covers a five-step NGFS framework for monetary policy assessment of climate shocks and discusses the longer-term role of insurance, adaptation, and economic resilience. While monetary policy is mentioned as a context, the speech is primarily a structural/analytical framework piece on climate economics rather than a statement of current policy stance.",
+    "stance_rationale": "The speech does not signal any directional bias for Bank of England monetary policy; it presents a general analytical framework for how central banks should think about climate shocks without expressing views on the current policy rate path or tightening/easing bias.",
+    "key_quotes": [
+      "Monetary policy cannot repair infrastructure, restore a harvest, or offset the initial physical damage. If the shock is short-lived and expectations remain anchored, the standard monetary policy response is usually to look through the first-round effects.",
+      "The resilience an economy has built determines the scale and persistence of the macroeconomic impact of a shock over the monetary-policy horizon."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

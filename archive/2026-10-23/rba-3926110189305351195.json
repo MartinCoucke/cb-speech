@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-23.html",
+    "title": "Purpose, Perspective and Possibility",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-23.html",
+    "published": "2026-10-23",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "RBA Governor Michele Bullock delivered a graduation address at the University of New England, reflecting on her personal and professional journey and offering life advice centred on purpose, perspective, and embracing change. The speech was entirely ceremonial in nature, with no discussion of monetary policy, interest rates, inflation, or the economic outlook. While the RBA's mandate is briefly mentioned in passing, no policy stance or guidance is conveyed.",
+    "stance_rationale": "This is a ceremonial graduation speech with no monetary policy content whatsoever; a score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "Parliament has charged us with promoting the prosperity and welfare of the Australian people, and that purpose guides every decision we make.",
+      "People often think central banking is primarily about numbers. Inflation numbers. Employment numbers. Interest rate decisions. Economic forecasts. Those things matter. But ultimately, the work of the RBA is about people."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
