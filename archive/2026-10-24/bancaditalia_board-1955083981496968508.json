@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261023-scotti/index.html",
+    "title": "The two-tier system in transition: public foundations, private innovation",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261023-scotti/index.html",
+    "published": "2026-10-23",
+    "speaker": "Chiara Scotti",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Banca d'Italia Deputy Governor Chiara Scotti discusses the evolution of the two-tier monetary system in the context of digital finance, tokenization, and DLT. The speech addresses the continuing relevance of the public-private division of labor in money and payments, the strategic implications for banks, and the Eurosystem's Pontes and Appia wholesale settlement initiatives. There is no discussion of interest rates, inflation, or conventional monetary policy stances.",
+    "stance_rationale": "The speech is focused on financial infrastructure, digital payments, CBDC architecture, and tokenization strategy rather than monetary policy in the conventional sense of rate-setting or easing/tightening bias. It is primarily a structural and strategic speech about the future of the financial system.",
+    "key_quotes": [
+      "The two-tier monetary system is not a legacy institutional arrangement that technology will make obsolete. It addresses a recurring design problem: how to preserve trust by combining a public monetary anchor with private intermediation and innovation.",
+      "Uncertainty around the final architecture argues for flexibility rather than passivity: building capabilities that remain valuable across different scenarios and staying engaged while standards, infrastructures, and market practices are still taking shape."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

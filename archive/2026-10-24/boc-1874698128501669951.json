@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/press-conference-monetary-policy-report-october-2026",
+    "title": "Press Conference: Monetary Policy Report \u2013 October 2026",
+    "url": "https://www.bankofcanada.ca/multimedia/press-conference-monetary-policy-report-october-2026/",
+    "published": "2026-10-28",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This entry corresponds to the Bank of Canada's October 2026 Monetary Policy Report press conference held by Governor Tiff Macklem and Senior Deputy Governor Carolyn Rogers. However, no substantive speech text or policy content is included in the provided material, only metadata and sharing links. As a result, no assessment of the monetary policy stance can be made from the available information.",
+    "stance_rationale": "The document contains no policy language, economic assessment, or forward guidance, making it impossible to determine a hawkish or dovish tilt.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}
