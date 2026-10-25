@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-25.html",
+    "title": "Interview on 60 Minutes",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-25.html",
+    "published": "2026-10-25",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Assistant Governor Sarah Hunter defended the Bank's ongoing rate-hiking cycle in a 60 Minutes interview, acknowledging the human cost of higher rates while firmly maintaining that further tightening is necessary to bring inflation under control. She noted the RBA had already delivered four rate hikes in the current year and flagged that an oil-price shock from overseas was adding to existing domestic demand pressures. Hunter declined to pre-commit to any specific rate decision but signalled the inflation fight was not yet complete.",
+    "stance_rationale": "Hunter explicitly stated the RBA has 'not quite yet' done enough on rates and that 'we've got a bit of time yet' before inflation is resolved, while repeatedly affirming that higher rates work and must continue. This is moderately hawkish, tempered slightly by her acknowledgment of downside risks and the Board's dual mandate awareness.",
+    "key_quotes": [
+      "Unfortunately, not quite yet. Obviously, the Board have put through four rate hikes this year to keep on tackling the challenge.",
+      "We've got a little bit longer to go before it starts to get better. But we do know that interest rates work."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
