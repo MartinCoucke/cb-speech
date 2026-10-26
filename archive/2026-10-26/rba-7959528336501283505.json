@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-26.html",
+    "title": "Panel Participation at the AFR Super and Wealth Summit",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-10-26.html",
+    "published": "2026-10-26",
+    "speaker": "Brad Jones",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Brad Jones, RBA Assistant Governor for Financial System, participated in a panel discussion at the AFR Super and Wealth Summit focused on financial stability risks facing Australia's superannuation sector. Topics covered included geopolitical fragmentation, AI-related market valuations and operational risks, and the sector's ability to act as a countercyclical stabilizer during periods of stress. The speech contained no discussion of interest rates, inflation targets, or monetary policy settings.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses financial system stability, superannuation sector resilience, and operational risks. No monetary policy signals or rate guidance were provided.",
+    "key_quotes": [
+      "The unexpected nature of early release could create real problems for the super fund sector.",
+      "When you've got $1 to $2 billion of net inflows coming into the sector each week, that can get you out of a lot of strife."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

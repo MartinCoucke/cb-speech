@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+    "title": "Taking action for nature \u2013 investing in economic resilience and prosperity",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html",
+    "published": "2026-10-26",
+    "speaker": "Frank Elderson",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Frank Elderson delivered a keynote speech at COP17's Finance and Biodiversity Day, focusing on the economic and financial risks posed by nature degradation, including water scarcity, biodiversity loss, and ecosystem deterioration. He argued that protecting and restoring natural capital is an economic necessity rather than merely an environmental concern, and outlined the ECB's supervisory and analytical work on nature-related financial risks. The speech is primarily oriented toward sustainability, financial stability from an ecological perspective, and international cooperation frameworks.",
+    "stance_rationale": "This speech is not a monetary policy statement; it addresses biodiversity, nature-related financial risks, and the ECB's supervisory role at a COP event. No interest rate guidance, inflation outlook, or monetary policy stance is communicated.",
+    "key_quotes": [
+      "Nature is not becoming a feature of central banking because central banks are becoming environmental policymakers. Quite the contrary: we are \u2013 and will remain \u2013 climate and nature policy takers.",
+      "Nature-related risks have therefore featured explicitly in our monetary policy assessment and communication in recent quarters."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

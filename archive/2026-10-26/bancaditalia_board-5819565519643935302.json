@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261026-angelini/index.html",
+    "title": "Building Skills for Africa's Home-Grown Development",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261026-angelini/index.html",
+    "published": "2026-10-26",
+    "speaker": "Paolo Angelini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Paolo Angelini of the Banca d'Italia delivered remarks at the Agor\u00e0 Conference focused on Africa's economic development, specifically addressing the interplay between energy infrastructure, artificial intelligence adoption, and labour skills. The speech discussed international cooperation initiatives such as Mission 300 and Italy's Mattei Plan, and called for closer collaboration between training institutions, firms, and governments. No monetary policy topics were addressed.",
+    "stance_rationale": "This speech is entirely about development economics, human capital, energy infrastructure, and AI adoption in Africa, with no reference to interest rates, inflation, monetary conditions, or central bank policy tools.",
+    "key_quotes": [
+      "Infrastructure and technology can create opportunities, but it is human capital that determines whether those opportunities translate into lasting productivity gains, quality jobs and economic growth.",
+      "Infrastructure - for energy and for AI - and labour skills must grow together to sustain economic development in Africa, which has to be home-grown."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
