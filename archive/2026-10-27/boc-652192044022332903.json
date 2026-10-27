@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/john-kuszczak-memorial-lecture-2026-10-29",
+    "title": "John Kuszczak Memorial Lecture 2026",
+    "url": "https://www.bankofcanada.ca/multimedia/john-kuszczak-memorial-lecture-2026-10-29/",
+    "published": "2026-10-29",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This is an announcement for the 2026 John Kuszczak Memorial Lecture, a Bank of Canada event featuring Harvard Professor Gita Gopinath speaking on 'The Policy Implications of Pseudonymous Stablecoins.' The lecture falls under the broader theme of global financial architecture, currency shifts, debt dynamics, and digital innovation. No substantive speech content is provided in the text.",
+    "stance_rationale": "The content is a press/event announcement with no monetary policy substance. The topic concerns digital finance and stablecoins rather than interest rate policy or the economic outlook.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}
