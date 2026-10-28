@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28",
+    "title": "Bank of Canada raises the policy rate by 25 basis points to 2\u00bd%",
+    "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+    "published": "2026-10-28",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Bank of Canada raised its overnight rate by 25 basis points to 2.5%, citing persistently elevated inflation around 3% driven by high energy prices and building cost pressures. The Bank revised up its inflation outlook, now expecting CPI to average 3% in 2027 before returning to 2% by mid-2028. While acknowledging excess supply and trade uncertainties, the Bank signaled a cautious tightening bias with the possibility of further rate increases.",
+    "stance_rationale": "The decision to hike and the explicit signal that 'there could be a need to increase the policy rate further' reflects a moderately hawkish stance, tempered by language around proceeding 'carefully' given uncertainties and still-present excess supply in the economy.",
+    "key_quotes": [
+      "There could be a need to increase the policy rate further, but given uncertainties, Governing Council agreed to proceed carefully.",
+      "Governing Council decided to increase the policy rate to reduce the risk that continuing high energy prices spread broadly to the prices of other goods and services."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

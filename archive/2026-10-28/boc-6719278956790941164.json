@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/10/opening-statement-2026-10-28",
+    "title": "Monetary Policy Report Press Conference Opening Statement",
+    "url": "https://www.bankofcanada.ca/2026/10/opening-statement-2026-10-28/",
+    "published": "2026-10-28",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Bank of Canada raised its policy rate by 25 basis points to 2.5% at its October 2026 meeting, marking the first hike since July 2023, citing a deteriorated inflation outlook driven by persistently high global oil prices. CPI inflation has been running around 3% since April and is projected to rise to 3.5% by year-end, remaining elevated through much of 2027. The statement acknowledges ongoing uncertainty from Middle East developments and US trade actions, and signals a cautious, data-dependent approach to further tightening.",
+    "stance_rationale": "The decision to hike after a prolonged pause, combined with an explicit warning that further rate increases may be needed and an inflation forecast that stays above target well into 2027, tilts the stance meaningfully hawkish. However, the 'one meeting at a time' language and acknowledgment of economic slack and trade headwinds temper the hawkishness, keeping the score moderately above neutral.",
+    "key_quotes": [
+      "There could be a need to raise the policy rate further, but given the uncertainties, we will proceed carefully.",
+      "With elevated inflation expected to last longer and the economy showing resilience, Governing Council agreed that risks to inflation had increased and there was less scope for monetary accommodation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

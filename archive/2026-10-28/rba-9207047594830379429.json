@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html",
+    "title": "Opening Statement to the Senate Economics Legislation Committee (Supplementary Budget Estimates)",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-10-28.html",
+    "published": "2026-10-28",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Bullock delivered an opening statement noting that the RBA has raised the cash rate by a cumulative 100 basis points in 2026, with inflation running at 3.5\u20134% and risks skewed to the upside relative to August forecasts. She cited both persistent domestic capacity pressures and global cost shocks\u2014particularly Middle East conflict-driven energy prices and the AI boom\u2014as drivers keeping inflation elevated well above target. The Board is set to meet the following week to assess whether further tightening is needed.",
+    "stance_rationale": "The statement has a clearly hawkish tilt: the RBA has already tightened 100bp in 2026, inflation has re-accelerated and upside risks have materialised, and Bullock explicitly flagged that the sufficiency of current tightening remains an open question ahead of the next Board meeting, consistent with a bias toward further hikes.",
+    "key_quotes": [
+      "inflation picked up over the second half of 2025 and has remained above target since then...inflation has been around 3\u00bd to 4 per cent in year-ended terms",
+      "A key question is whether the tightening in monetary policy to date will be sufficient to bring inflation back to target in a reasonable time"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

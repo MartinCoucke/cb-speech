@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261028-angelini/index.html",
+    "title": "L'impegno delle istituzioni finanziarie per la stabilit\u00e0 e la sostenibilit\u00e0",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261028-angelini/index.html",
+    "published": "2026-10-28",
+    "speaker": "Paolo Angelini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Paolo Angelini of Banca d'Italia addresses the role of the financial system in supporting the energy and environmental transition, focusing on green lending, sustainability reporting frameworks, and the financing of renewable energy investments. The speech covers supervisory expectations for banks to integrate climate risks into credit assessments and advocates for clearer, more stable regulatory frameworks. There is no discussion of interest rates, monetary policy stance, or macroeconomic outlook relevant to monetary policy decisions.",
+    "stance_rationale": "This speech is entirely focused on sustainable finance, climate risk, energy transition, and banking supervision \u2014 not on monetary policy. A score of 0 is assigned as it is not a monetary policy communication.",
+    "key_quotes": [
+      "Il sistema finanziario ha il compito di accompagnare la transizione energetica e ambientale, non di guidarla.",
+      "Serve dunque migliorare il patrimonio informativo a disposizione dei finanziatori, e far s\u00ec che le scelte regolamentari e di politica economica siano il pi\u00f9 possibile chiare e stabili."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

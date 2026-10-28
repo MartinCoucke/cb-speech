@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261027-keeping-european-supervision-track",
+    "title": "Keeping European supervision on track",
+    "url": "https://www.bis.org/speeches/20261027-keeping-european-supervision-track",
+    "published": "2026-10-27",
+    "speaker": null,
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Steven Maijoor, Executive Board Member and Chair of Supervision at De Nederlandsche Bank, delivered a keynote speech at the Data Amplified conference focused on data standardisation and reporting in European financial supervision. The speech discusses the role of XBRL in creating shared data frameworks, the importance of interoperability across supervisory institutions, and the implications of artificial intelligence for data quality and reporting standards. No monetary policy topics such as interest rates, inflation, or economic outlook were addressed.",
+    "stance_rationale": "This speech is entirely about supervisory data standards, reporting frameworks, and technology (XBRL, AI) in the context of European financial supervision. It contains no discussion of monetary policy, making a score of 0 appropriate.",
+    "key_quotes": [
+      "For data to be useful, those who receive it must understand it in the same way as those who provide it.",
+      "Artificial intelligence does not reduce the importance of standards. It increases the value of standards that successfully preserve shared understanding."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
