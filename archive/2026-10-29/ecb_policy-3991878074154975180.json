@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement",
+    "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "published": "2026-10-29",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The ECB Governing Council held all three key interest rates unchanged at its October 2026 meeting, citing a significant energy price shock that is pushing inflation well above target while simultaneously weighing on growth. Underlying inflation has remained broadly stable and wage pressures moderate, but upside risks to inflation dominate the risk assessment. The statement reaffirms a data-dependent, meeting-by-meeting approach with no pre-commitment to a rate path.",
+    "stance_rationale": "The hold decision combined with asymmetrically upside inflation risks, rising headline inflation (3.8%), a strong energy shock, and tightening financial conditions tilts the statement modestly hawkish relative to neutral, though the growth headwinds and lack of second-round effects prevent a more aggressive score.",
+    "key_quotes": [
+      "Energy prices have continued to rise, posing upside risks to the inflation outlook and downside risks to the growth outlook.",
+      "The energy shock could intensify further and its effects on other prices and wages could be stronger than currently expected."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

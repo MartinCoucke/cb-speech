@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "title": "Federal Reserve issues FOMC statement",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "published": "2026-10-28",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "The FOMC voted 10-2 to hold the federal funds rate steady at 3\u00be\u20134%, with two dissents in favor of a 25bp hike. The statement notes strong economic activity, resilient domestic spending, robust capital investment, and elevated inflation, while signaling that more data will guide future policy decisions. The Committee reaffirmed its commitment to returning inflation to the 2% target.",
+    "stance_rationale": "The hold decision with two hawkish dissents, combined with language emphasizing elevated inflation and a strong economy, leans modestly hawkish. The statement's firm commitment to price stability and acknowledgment that rates may need to rise further tilts it above neutral.",
+    "key_quotes": [
+      "Inflation remains elevated. The accumulation of more information will help the Committee determine the policy stance appropriate to ensure a timely return of inflation to the Committee's 2 percent goal.",
+      "Voting against the monetary policy action were Lisa D. Cook and Beth M. Hammack, who preferred to raise the target range for the federal funds rate by 1/4 percentage point at this meeting."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261029-release-monetary-policy-report",
+    "title": "Release of the Monetary Policy Report",
+    "url": "https://www.bis.org/speeches/20261029-release-monetary-policy-report",
+    "published": "2026-10-28",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Macklem announced a 25 basis point rate hike to 2.5%, the first increase since July 2023, citing a deteriorated inflation outlook driven by persistently high global oil prices and improving economic resilience. CPI inflation is running around 3% and is projected to rise to ~3.5% by year-end, remaining above target through much of 2027. The Governing Council acknowledged elevated uncertainty from Middle East developments and US trade actions, signaling a cautious but potentially further tightening path.",
+    "stance_rationale": "The decision to hike after a prolonged pause, with inflation projected well above target and a warning that further rate increases may be needed, is clearly hawkish. However, the explicit 'one meeting at a time' guidance, acknowledgment of economic slack, and emphasis on elevated uncertainty temper the hawkishness to a moderate level.",
+    "key_quotes": [
+      "There could be a need to raise the policy rate further, but given the uncertainties, we will proceed carefully.",
+      "With elevated inflation expected to last longer and the economy showing resilience, Governing Council agreed that risks to inflation had increased and there was less scope for monetary accommodation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

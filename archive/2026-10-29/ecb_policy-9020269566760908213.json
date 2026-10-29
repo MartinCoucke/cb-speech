@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+    "title": "Monetary policy decisions",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+    "published": "2026-10-29",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "The ECB Governing Council held all three key interest rates unchanged, with the deposit facility at 2.50%, amid an ongoing energy shock that poses upside risks to inflation and downside risks to growth. The statement acknowledges that financing conditions have tightened since the last meeting, which could itself weigh on both inflation and growth. The Council reaffirmed a data-dependent, meeting-by-meeting approach with no pre-commitment to a rate path.",
+    "stance_rationale": "The decision to hold rates and the acknowledgment of competing forces\u2014energy-driven inflation upside versus tighter financial conditions and growth headwinds\u2014leaves the statement broadly balanced, yielding a neutral score. The lack of explicit easing or tightening bias and the reiteration of data-dependency prevent a clear directional lean.",
+    "key_quotes": [
+      "The increased magnitude and duration of the energy shock, as well as the implications for indirect and second-round effects, are likely to drive up inflation and lower growth.",
+      "Financing conditions have tightened since the Governing Council's last meeting, which is likely to weigh on inflation and growth."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
