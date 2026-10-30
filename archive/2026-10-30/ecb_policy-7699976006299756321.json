@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "title": "Christine Lagarde, Boris Vuj\u010di\u0107: Monetary policy statement (with Q&A)",
+    "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+    "published": "2026-10-29",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The ECB Governing Council held rates unchanged at its October 2026 meeting amid a significant energy price shock pushing headline inflation to 3.8%, with energy inflation at 18.9%. The Council debated a rate hike but unanimously opted to hold, citing tightening financial conditions from rising long-term yields and the need for more data before December. Lagarde signaled that if current conditions are confirmed by incoming data, the direction of travel toward a hike is 'quite clear.'",
+    "stance_rationale": "The statement is modestly hawkish: rates were held but a hike was actively debated and nearly implemented, upside inflation risks dominate, second-round effects are being closely monitored, and Lagarde explicitly stated the direction of travel is clear for December tightening unless data surprises to the downside.",
+    "key_quotes": [
+      "if the assessment that we have today is not infirmed by significant developments, the direction of travel is clear",
+      "the Governing Council debated whether a hike was appropriate \u2013 but, on the basis of the uncertainty that accumulates and that rises as well, on the basis of underlying inflation that has broadly remained unchanged, the Governing Council unanimously decided that we were well positioned enough at this stage to hold"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

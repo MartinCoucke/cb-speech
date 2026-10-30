@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
+    "title": "Next-day securities settlement, tokenisation and the transformation of Europe\u2019s financial infrastructure",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html",
+    "published": "2026-10-29",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a keynote address focused on Europe's transition to T+1 securities settlement by October 2027 and the broader modernisation of financial market infrastructure. The speech covers the Eurosystem's tokenisation initiatives, including the Pontes platform for settling tokenised assets in central bank money and the Appia project for building an integrated European tokenised finance ecosystem. There is no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely about financial market infrastructure, securities settlement, and tokenisation \u2014 not monetary policy. It contains no signals regarding rate decisions, easing, or tightening bias.",
+    "key_quotes": [
+      "T+1 is a catalyst for modernising European post-trade markets.",
+      "Innovation should help Europe overcome fragmentation \u2013 it shouldn't recreate that fragmentation in digital form."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

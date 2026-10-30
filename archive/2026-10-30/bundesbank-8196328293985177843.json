@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/capital-needs-ai-and-ai-needs-capital-europe-s-opportunity-for-more-growth-1013502",
+    "title": "Capital needs AI, and AI needs capital: Europe's opportunity for more growth | Keynote Speech: AI Week Frankfurt",
+    "url": "https://www.bundesbank.de/en/press/speeches/capital-needs-ai-and-ai-needs-capital-europe-s-opportunity-for-more-growth-1013502",
+    "published": "2026-10-29",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank board member Sabine Mauderer delivered a keynote at AI Week Frankfurt focused on artificial intelligence investment, European capital markets, and the potential economic benefits of AI for Germany and Europe. She highlighted Germany's economic recovery, a surge in AI-focused start-ups, and the upcoming German pension reform as positive catalysts. The speech emphasized the need to channel European household savings into productive AI-related investments.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses AI investment, capital market development, and economic growth themes without referencing interest rates, inflation, or monetary policy stance.",
+    "key_quotes": [
+      "AI needs capital. And different players need different forms of financing.",
+      "Europe's economic success will also depend on using AI effectively across our economy. To succeed, we need to mobilize the huge investments that are needed."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

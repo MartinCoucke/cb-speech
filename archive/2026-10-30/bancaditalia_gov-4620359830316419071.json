@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261030-panetta/index.html",
+    "title": "Il risparmio nella societ\u00e0 che cambia",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261030-panetta/index.html",
+    "published": "2026-10-30",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_gov",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Fabio Panetta, speaking as Governor of Banca d'Italia, addresses the role of saving in a changing society against a backdrop of renewed energy-price inflation triggered by a Gulf conflict. He notes that ECB rates were raised 50 bps between June and September 2026 and held at the most recent meeting, while signalling that further increases may be necessary given persistent above-target inflation and upside risks. The bulk of the speech covers European capital-market integration and Italian pension savings, with monetary policy covered in one dedicated section.",
+    "stance_rationale": "The speech leans modestly hawkish: Panetta explicitly states that 'further increases in official rates may prove necessary' given inflation expected to remain above target for many quarters and risks skewed to the upside, while also noting that the rise in long-term yields and a data-dependent, meeting-by-meeting approach provide some two-sided optionality that tempers outright hawkishness.",
+    "key_quotes": [
+      "Con una dinamica dei prezzi destinata a restare a lungo sopra l'obiettivo e rischi sbilanciati verso l'alto, potrebbero rendersi necessari ulteriori aumenti dei tassi ufficiali.",
+      "Il Consiglio direttivo continuer\u00e0 a prendere decisioni riunione per riunione, sulla base dei dati disponibili\u2026 adeguare prontamente l'orientamento se il contesto internazionale migliorasse o se tensioni finanziarie frenassero l'economia."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
