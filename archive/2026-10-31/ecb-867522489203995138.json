@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030_annex~ffd5520fb0.en.pdf",
+    "title": "Slides",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030_annex~ffd5520fb0.en.pdf",
+    "published": "2026-10-30",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This is a set of background slides prepared by ECB Executive Board member Philip Lane for the Federal Reserve Bank of San Francisco's symposium on AI and the economy, covering the euro area economic outlook as of October 2026. The slides present data on energy prices, GDP growth, inflation developments, wage dynamics, financing conditions, and credit aggregates without explicit policy recommendations or forward guidance. The material is largely descriptive and data-driven, showing inflation broadly in the 2-3% range with financial conditions gradually easing.",
+    "stance_rationale": "The slides contain no explicit hawkish or dovish signals; they are purely analytical background material presenting ECB staff projections and survey data without commentary on the policy rate path. The DFR expectations chart shows markets pricing rates within the estimated neutral range (1.75%-2.75%), suggesting a broadly balanced policy stance.",
+    "key_quotes": [
+      "Range of ESCB measures of i* (1.75% to 2.75% in the third quarter of 2026) is based on Eurosystem estimates updated in October 2026",
+      "\u20acSTR forward curve adjusted for term premia (latest)"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

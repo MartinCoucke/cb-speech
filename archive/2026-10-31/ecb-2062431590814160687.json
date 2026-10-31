@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+    "title": "AI adoption in Europe",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
+    "published": "2026-10-30",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Philip Lane's keynote at the Federal Reserve Bank of San Francisco focuses entirely on AI adoption in the euro area, covering aggregate digital investment trends, firm- and household-level survey evidence on AI use, and how the European financial system is financing AI-related activity. The speech is descriptive and analytical in nature, presenting ECB survey and data findings without making any forward guidance or policy signals. No monetary policy stance, interest rate discussion, or inflation outlook is offered.",
+    "stance_rationale": "This speech contains no monetary policy content\u2014it does not address interest rates, inflation targets, the policy rate path, or the ECB's easing/tightening bias. It is squarely focused on structural economic analysis of AI adoption.",
+    "key_quotes": [
+      "AI adoption will be a key determinant of European productivity growth in the coming years, while expenditure on AI adoption also currently constitutes a significant stimulus to the euro area economy.",
+      "The proportion of workers using AI has doubled over the last two years, with 52 per cent now reporting that they use AI at work, compared with 26 per cent in 2024."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
