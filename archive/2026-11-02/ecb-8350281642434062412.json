@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+    "title": "Integrated, open and resilient: Europe\u2019s strengths in a fragmenting world",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html",
+    "published": "2026-11-02",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 spoke at the Central Bank of Ireland's Financial System Conference on the theme of European economic resilience, openness, and integration in a fragmenting geopolitical world. The speech focused on completing the Single Market, the savings and investments union, banking union, capital markets union, and the digital euro as structural policy tools. No explicit discussion of interest rates, the monetary policy stance, or inflation targets was presented.",
+    "stance_rationale": "This speech is primarily about structural and financial integration policy, geopolitical resilience, and European institutional frameworks rather than monetary policy. There are no signals about rate direction, quantitative easing, or the ECB's policy stance.",
+    "key_quotes": [
+      "My answer in a single sentence is: not by retreating from openness, but by building the resilience that allows this openness to endure.",
+      "Openness, integration and resilience are not competing goals. They reinforce one another."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

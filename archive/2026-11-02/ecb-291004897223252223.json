@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261102_annex~d93ffa4477.en.pdf",
+    "title": "Slides by ECB Vice-President at Central Bank of Ireland Financial System Conference",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261102_annex~d93ffa4477.en.pdf",
+    "published": "2026-11-02",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 presented at the Central Bank of Ireland Financial System Conference on the theme of European integration, resilience, and geopolitical fragmentation. The slides cover geopolitical shocks and their uneven impact on EU countries, internal EU market fragmentation, and the economic case for deeper capital markets and Single Market integration. There is no discussion of monetary policy, interest rates, or the ECB's policy stance.",
+    "stance_rationale": "The speech is entirely focused on structural and financial stability topics\u2014geopolitics, energy prices, venture capital gaps, and Single Market integration\u2014with no monetary policy content. Score is set to 0 and is_monetary_policy to false.",
+    "key_quotes": [
+      "Reducing internal barriers to goods and services by just 2% could offset the projected impact of higher US tariffs on euro area GDP, estimated at around 0.7 percentage points over 2025 to 2027.",
+      "Since 2014 estimated tariff-equivalent frictions in cross-border equity holdings between the euro area and the United States have fallen by more than frictions within the euro area."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
