@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261103-path-back-2-has-become-less-comfortable",
+    "title": "The path back to 2 % has become less comfortable",
+    "url": "https://www.bis.org/speeches/20261103-path-back-2-has-become-less-comfortable",
+    "published": "2026-11-02",
+    "speaker": null,
+    "bank": "Bank of Finland",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Finland Board Member Tuomas V\u00e4lim\u00e4ki describes the euro area inflation outlook as 'less comfortable' following a renewed energy shock that has pushed headline inflation to 3.8%, while noting that underlying inflation, wages, and long-term expectations remain broadly stable. He explains the ECB's decision to hold rates unchanged at its October meeting, emphasizing a meeting-by-meeting, data-dependent approach given the stagflationary nature of the shock. He acknowledges upside inflation risks but stresses the need to distinguish between transitory headline effects and persistent inflation dynamics.",
+    "stance_rationale": "The speech is balanced, neither signaling imminent rate hikes nor cuts; the ECB held rates and V\u00e4lim\u00e4ki stresses caution and data dependence in both directions, with the energy shock creating offsetting pressures on inflation and growth that prevent a clear directional lean.",
+    "key_quotes": [
+      "the renewed energy shock has made the outlook more uncomfortable, but it has not \u2013 at least so far \u2013 fundamentally changed the underlying inflation picture",
+      "pre-committing to a rate path would create a false sense of precision"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

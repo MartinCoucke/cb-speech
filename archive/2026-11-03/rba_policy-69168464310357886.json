@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+    "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+    "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+    "published": "2026-11-03",
+    "speaker": null,
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 4,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Reserve Bank of Australia's Monetary Policy Board raised the cash rate by 25 basis points to 4.85 per cent, citing elevated and broadening inflation that has been revised materially higher in staff forecasts. The Board noted upside risks to inflation expectations, with inflation now not expected to return to the top of the 2\u20133 per cent target range until late 2027, around three quarters later than previously forecast. The decision was passed by a majority of six to three members.",
+    "stance_rationale": "The decision to hike rates, combined with a materially higher inflation forecast, rising inflation expectations, and an explicit warning about embedding higher inflation expectations, firmly signals a hawkish stance. The Board's forward guidance emphasises continued attentiveness to upside inflation risks, though the minority vote and acknowledgment of slowing growth prevent a maximum hawkish score.",
+    "key_quotes": [
+      "Inflation is now expected to remain above 3 per cent for the coming year and there is an increasing risk that higher inflation expectations will become embedded.",
+      "Given the revised inflation outlook and the continuing upside risks, the Board judged that a further tightening in financial conditions is warranted to support the return of inflation to target."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

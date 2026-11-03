@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261103-economic-transitions-technology",
+    "title": "Economic transitions - technology",
+    "url": "https://www.bis.org/speeches/20261103-economic-transitions-technology",
+    "published": "2026-11-02",
+    "speaker": null,
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Makhlouf delivered opening remarks at the Central Bank of Ireland's 5th Financial System Conference, focusing on two major technological transitions: artificial intelligence and tokenisation/distributed ledger technology. The speech outlined the central bank's supervisory, regulatory, and analytical responses to these developments, including new innovation programmes and a feedback statement on a tokenisation discussion paper. No monetary policy stance, interest rate guidance, or inflation outlook was discussed.",
+    "stance_rationale": "This speech is focused entirely on technology, innovation, financial regulation, and supervision rather than monetary policy. There is no discussion of interest rates, inflation, or the monetary policy stance, making a hawkish/dovish rating inapplicable.",
+    "key_quotes": [
+      "Although AI could change how the economy and financial system operate, how financial services are delivered, the way risks to our objectives manifest themselves and therefore how we do our job, it will not change our objectives.",
+      "In the near term, the global AI-related investment cycle is having an impact on Irish growth."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
