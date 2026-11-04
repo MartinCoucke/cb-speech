@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/11/opening-statement-house-commons-standing-committee-finance-2026-11-03",
+    "title": "Opening Statement before the House of Commons Standing Committee on Finance",
+    "url": "https://www.bankofcanada.ca/2026/11/opening-statement-house-commons-standing-committee-finance-2026-11-03/",
+    "published": "2026-11-03",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem presented the rationale for a 25 basis point rate hike\u2014the first since July 2023\u2014bringing the policy rate to 2.5%, citing a deteriorated inflation outlook driven by elevated global oil prices and a modestly improved growth picture. CPI inflation is running around 3% and is projected to rise to 3.5% by year-end, remaining above 3% through much of 2027. The Bank signaled it would proceed carefully and take decisions meeting-by-meeting, leaving the door open to further hikes.",
+    "stance_rationale": "The statement is moderately hawkish: the Bank has just raised rates and explicitly noted 'there could be a need to raise the policy rate further,' while also acknowledging elevated uncertainty and a cautious, meeting-by-meeting approach that tempers the hawkish lean.",
+    "key_quotes": [
+      "With elevated inflation expected to last longer and the economy showing resilience, Governing Council agreed that risks to inflation had increased and there was less scope for monetary accommodation.",
+      "There could be a need to raise the policy rate further, but given the uncertainties, we will proceed carefully."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

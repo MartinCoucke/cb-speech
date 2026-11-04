@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/sca261104",
+    "title": "Scally: Economic Conditions in Puerto Rico",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/sca261104",
+    "published": "2026-11-04",
+    "speaker": "Scally",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This presentation by Joelle Scally, Economic Policy Advisor at the Federal Reserve Bank of New York, was delivered to the Puerto Rico Financial Oversight Management Board and focused on economic conditions in Puerto Rico. The speech text provided contains no substantive content beyond the title, speaker attribution, and boilerplate website navigation elements. No monetary policy signals or discussion of interest rates, inflation, or the economic outlook in a policy context are discernible.",
+    "stance_rationale": "The speech is a regional economic conditions presentation, not a monetary policy statement, and no policy stance can be inferred from the available text.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

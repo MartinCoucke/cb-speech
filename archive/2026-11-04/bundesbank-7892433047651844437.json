@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/introductory-remarks-at-the-bundesbank-invited-speakers-series-with-itay-goldstein-1013856",
+    "title": "Introductory remarks at the Bundesbank Invited Speakers Series with Itay Goldstein",
+    "url": "https://www.bundesbank.de/en/press/speeches/introductory-remarks-at-the-bundesbank-invited-speakers-series-with-itay-goldstein-1013856",
+    "published": "2026-11-02",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech consists of introductory remarks by a Bundesbank official at an invited speakers series featuring academic Itay Goldstein. The remarks focus on the growing use of AI in financial markets, its opportunities and risks for financial stability, and the implications for central banks and regulators. No monetary policy stance, interest rate guidance, or inflation/growth outlook is discussed.",
+    "stance_rationale": "The speech is entirely focused on AI in financial markets and regulatory implications, with no monetary policy content. Score is 0 and is_monetary_policy is false.",
+    "key_quotes": [
+      "As central banks, we need greater transparency regarding the types of AI models used in financial markets.",
+      "The lesson is that regulators need to assess not only what a rule says, but also how AI agents will learn from it."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

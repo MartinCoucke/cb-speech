@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/the-courage-to-strive-for-more-europe-1013922",
+    "title": "The courage to strive for more Europe | Speech delivered at the Bundesbank\u2019s Capital City Reception",
+    "url": "https://www.bundesbank.de/en/press/speeches/the-courage-to-strive-for-more-europe-1013922",
+    "published": "2026-11-03",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bundesbank President Nagel delivered remarks at the Capital City Reception covering both monetary policy and European integration. On monetary policy, he noted that the ECB held rates at the most recent meeting but signaled that a December rate hike is 'very likely necessary' given deteriorating inflation outlook driven by energy price surges from Middle East conflicts. The speech also devoted significant time to advocating for deeper European integration and the Franco-German partnership.",
+    "stance_rationale": "The speech carries a moderately hawkish tone: Nagel explicitly states a December rate hike is 'highly likely' and that the inflation outlook has deteriorated since September projections, with second-round effects (wage-price spirals) seen as an increasing risk. The hold at the prior meeting was conditional, not a pivot.",
+    "key_quotes": [
+      "From today's perspective, though, an increase in policy rates in December is very likely to be necessary.",
+      "As things stand right now, there is hardly any getting around an interest rate hike as long as the inflation outlook does not improve significantly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

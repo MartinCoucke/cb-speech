@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261104-altimari/index.html",
+    "title": "Intervento di apertura della 13\u00aa Giornata delle Autorit\u00e0 europee di vigilanza sulla tutela dei consumatori",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261104-altimari/index.html",
+    "published": "2026-11-04",
+    "speaker": "Sergio Nicoletti Altimari",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This opening address by Sergio Nicoletti Altimari of Banca d'Italia was delivered at the 13th Joint ESAs Consumer Protection Day. The speech focuses on consumer protection in the context of digitalization and AI, covering topics such as financial literacy, agentic AI risks, transparency, and the need for 'protection by design.' No monetary policy topics such as interest rates, inflation, or economic outlook were discussed.",
+    "stance_rationale": "The speech is entirely about consumer protection and financial supervision in the context of AI and digital innovation, with no reference to monetary policy, interest rates, or macroeconomic conditions.",
+    "key_quotes": [
+      "Fostering innovation and protecting consumers are not competing objectives. Effective protection builds the trust needed to translate innovation into better outcomes for consumers.",
+      "Tasks can be delegated to AI, but responsibility towards consumers must remain firmly with people and institutions."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

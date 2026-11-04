@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
+    "title": "Data and analytics transformation at the Bank of England to enable, equip and empower \u2212 speech by Ben Martin",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/ben-martin-speech-at-data-ai-conference-europe-2026",
+    "published": "2026-11-04",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Ben Martin, the Bank of England's Chief Data Officer, spoke at the DAMA Data & AI Conference about the Bank's data and analytics transformation strategy. The speech covers the Bank's Enterprise Data Platform, AI adoption framework ('TRUSTED'), and initiatives to enable, equip, and empower colleagues with modern data tools. No monetary policy content is discussed.",
+    "stance_rationale": "This speech is entirely focused on internal technology, data management, and AI adoption at the Bank of England, with no discussion of interest rates, inflation, economic outlook, or monetary policy stance.",
+    "key_quotes": [
+      "Data and analytics transformation is not primarily about technology for its own sake. It is about making sure the Bank of England can continue to fulfil its mission effectively.",
+      "AI may be grabbing the headlines, but AI runs on data."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
