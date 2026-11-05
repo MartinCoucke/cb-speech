@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1_annex~5467909548.en.pdf",
+    "title": "Slides",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1_annex~5467909548.en.pdf",
+    "published": "2026-11-05",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Isabel Schnabel's slide deck from the ECB's Money Markets Conference reviews lessons from the post-pandemic inflation surge, the challenges of the 'last mile' of disinflation, and structural issues such as fiscal sustainability, non-bank growth, and climate change. The presentation highlights persistent services inflation, rising inflation expectations linked to a new geopolitical shock (Iran war), and risks of second-round effects. It also covers balance sheet normalisation and market functioning concerns.",
+    "stance_rationale": "The slides lean modestly hawkish: Schnabel emphasises that disinflation remains incomplete, that overlapping shocks (including a new Iran-war shock) are keeping services inflation elevated and pushing up inflation expectations, and that large central bank balance sheets distort markets\u2014implying a bias toward continued normalisation rather than easing. No explicit rate-cut signal is present.",
+    "key_quotes": [
+      "Overlapping shocks make the 'last mile' of disinflation particularly challenging",
+      "Rising inflation expectations heighten risk of second-round effects"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

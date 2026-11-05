@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+    "title": "Shaping the future of money",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html",
+    "published": "2026-11-05",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone delivered a keynote speech at a conference on regional card schemes and retail financial market infrastructures, focusing on the Eurosystem's comprehensive payments strategy. The speech covered four initiatives: modernising euro banknotes, developing a digital euro, supporting tokenised finance through the Pontes and Appia projects, and interlinking fast payment systems for cross-border payments. The speech contained no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on payments infrastructure, digital currency development, and financial market innovation rather than monetary policy. There is no content relating to interest rate decisions, inflation outlooks, or easing/tightening bias.",
+    "key_quotes": [
+      "The future of money will not be defined by a single instrument or a single technology. It will involve physical and digital money, public and private solutions, and domestic and cross-border infrastructures.",
+      "Our responsibility as central banks is to ensure that these elements form a coherent, trusted and resilient monetary system."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

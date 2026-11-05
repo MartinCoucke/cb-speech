@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "title": "Bank rate increased to 4% - November 2026 Monetary Policy Summary and Minutes",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+    "published": "2026-11-05",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe_policy",
+    "category": "press_conference"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "The Bank of England's MPC voted 8-1 to raise Bank Rate by 25 basis points to 4% at its November 2026 meeting, driven by surging energy prices linked to the Middle East conflict pushing UK CPI inflation to 3.5% and forecast to reach ~5% by mid-2027. The sole dissenter, Catherine Mann, preferred a larger 50bp hike on risk-management and credibility grounds. The Committee signalled it is not on a pre-set path but that further tightening may be warranted depending on the evolution of second-round effects, energy prices, and domestic wage and price dynamics.",
+    "stance_rationale": "The decision represents a clear hawkish action\u2014a rate hike with a majority signalling openness to further tightening\u2014but the Committee's emphasis on data-dependence, absence of second-round effects so far, and one member explicitly framing the move as a 'one-for-now' insurance hike tempers the hawkishness somewhat, placing it at a moderately hawkish rather than strongly hawkish reading.",
+    "key_quotes": [
+      "The duration and scale of the energy price increase had generated sufficient inflationary pressures in the pipeline to warrant an increase in Bank Rate.",
+      "Achieving the level of Bank Rate necessary to confront challenges and risks to lasting achievement of the 2% inflation target is likely to require more policy tightening, including in the near term."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

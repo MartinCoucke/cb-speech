@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+    "title": "Navigating stormy waters: reflections on monetary policy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html",
+    "published": "2026-11-05",
+    "speaker": "Isabel Schnabel",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "In a valedictory speech at the ECB Conference on Money Markets, Isabel Schnabel outlines four lessons from her seven years on the Executive Board: preserve policy flexibility by avoiding over-commitment, respond to shocks based on their inflation implications rather than their type, protect monetary dominance from fiscal and financial risks, and implement monetary policy efficiently with a lean balance sheet. The speech is largely reflective and strategic rather than signaling an imminent rate change, though it notes that inflation expectations have drifted above the 2% target amid new overlapping shocks. Schnabel endorses the primacy of key policy rates and ongoing quantitative normalisation.",
+    "stance_rationale": "The speech is broadly balanced and retrospective, but Schnabel's emphasis on the risks of renewed inflationary pressures from overlapping supply shocks, drifting medium-term inflation expectations, the need to protect monetary dominance, and continued balance sheet normalisation leans slightly hawkish relative to a fully neutral baseline.",
+    "key_quotes": [
+      "In response to the latest energy shock, consumer inflation expectations over the medium to longer term have increased and gradually moved away from our 2% target.",
+      "We should be wary of commitments that depend too heavily on a particular economic environment or class of models, leaving little room to adjust when conditions change."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

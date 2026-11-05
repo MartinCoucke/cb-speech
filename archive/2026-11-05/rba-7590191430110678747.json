@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html",
+    "title": "Trust, Expectations and Monetary Policy",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-dg-2026-11-05.html",
+    "published": "2026-11-05",
+    "speaker": "Andrew Hauser",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Andrew Hauser delivers a wide-ranging speech on the importance of public trust for central bank effectiveness, drawing on RBA survey data, economic models and historical context. He discusses how trust in the RBA's inflation-fighting credibility affects the efficacy and cost of monetary policy, and outlines the RBA's investments in research, modelling, data and communications to strengthen that trust. The speech contains no explicit forward guidance on the direction of interest rates or the balance of risks to the outlook.",
+    "stance_rationale": "The speech is focused on institutional trust and central bank credibility rather than signalling a particular policy direction; there is no lean toward easing or tightening, and no commentary on the current stance being too tight or too loose relative to the economic outlook.",
+    "key_quotes": [
+      "if the public understands and trusts the central bank's strategy, the policy response required to deliver a given disinflation can be smaller and less costly in terms of lost output",
+      "A reserve of trust is not a licence to disappoint. It makes the continuing work of earning trust more pressing, not less."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
