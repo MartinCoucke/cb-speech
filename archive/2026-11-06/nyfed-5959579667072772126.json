@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/ost261105",
+    "title": "Ostrander: Reflections on Treasury Market Innovations",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/ost261105",
+    "published": "2026-11-05",
+    "speaker": "Ostrander",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Richard Ostrander, General Counsel at the New York Fed, delivered remarks at the ISDA Annual Legal Forum covering three topics: the potential central clearing of standing repo operations (SRPs), Treasury's exploration of investing TGA cash in the overnight repo market, and digital innovation efforts including tokenization and stablecoins in Treasury markets. The speech is primarily focused on market structure, legal frameworks, and financial infrastructure rather than the monetary policy stance itself. He concluded with a call for in-house lawyers to engage in pro bono work.",
+    "stance_rationale": "This speech is not a monetary policy statement; it addresses legal, operational, and market structure topics related to Treasury markets and financial innovation. No signals about the direction of interest rates or the balance sheet are provided.",
+    "key_quotes": [
+      "SRPs are designed to limit occasional upward pressure that could push overnight rates above the FOMC's target range.",
+      "The main benefit noted was greater effectiveness in controlling the federal funds rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
