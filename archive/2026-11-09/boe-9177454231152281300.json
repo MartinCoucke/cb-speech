@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+    "title": "Central Bank independence in today\u2019s world - Speech by Andrew Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-swiss-institute-international-studies-lecture-series",
+    "published": "2026-11-09",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bank of England Governor Andrew Bailey delivered a broad lecture at Zurich University covering three themes: the importance of central bank independence in a shock-prone world, the inseparability of monetary and financial stability mandates, and the financial stability risks and opportunities posed by AI. The speech contains only brief, high-level references to monetary policy with no forward guidance on interest rates or the policy outlook. The primary focus is on institutional legitimacy, financial regulation, and AI-related risks.",
+    "stance_rationale": "The speech is largely philosophical and institutional in nature rather than a monetary policy statement; there is no meaningful rate guidance, inflation outlook, or easing/tightening bias expressed, making a monetary policy score inappropriate.",
+    "key_quotes": [
+      "Our task is to set interest rates to bring inflation back to target.",
+      "Sustained economic growth depends on financial stability."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
