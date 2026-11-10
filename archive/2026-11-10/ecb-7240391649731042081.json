@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+    "title": "Cash and the digital euro: two sides of the same coin",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110~9422461bad.en.html",
+    "published": "2026-11-10",
+    "speaker": "Piero Cipollone",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Executive Board member Piero Cipollone addressed the European Parliament's Committee on Economic and Monetary Affairs focusing on the digital euro project and cash policy. He outlined progress on the digital euro pilot planned for the second half of 2027, updates on the Pontes DLT settlement platform, and the redesign of euro banknotes. The speech contains no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "This speech is entirely focused on payments infrastructure, the digital euro legislative framework, and banknote design \u2014 none of which are monetary policy topics in the conventional sense. A score of 0 and is_monetary_policy=false is appropriate.",
+    "key_quotes": [
+      "In today's uncertain geopolitical environment, timely progress on the digital euro is essential to strengthen Europe's autonomy in payments.",
+      "Cash must also remain widely available and accepted in practice."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

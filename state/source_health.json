@@ -4,16 +4,16 @@
     "match": 0
   },
   "ecb": {
-    "raw": 1,
-    "match": 1
+    "raw": 0,
+    "match": 0
   },
   "boe": {
     "raw": 0,
     "match": 0
   },
   "rba": {
-    "raw": 1,
-    "match": 1
+    "raw": 0,
+    "match": 0
   },
   "boc": {
     "raw": 0,
@@ -52,8 +52,8 @@
     "match": 0
   },
   "rba_policy": {
-    "raw": 1,
-    "match": 1
+    "raw": 0,
+    "match": 0
   },
   "boc_policy": {
     "raw": 0,
@@ -80,7 +80,7 @@
     "match": 0
   },
   "rba_presser": {
-    "raw": 1,
-    "match": 1
+    "raw": 0,
+    "match": 0
   }
 }

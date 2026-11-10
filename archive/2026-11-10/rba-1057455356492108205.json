@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html",
+    "title": "What Happens to the Economy as \u2018Intelligence\u2019 Gets Cheaper?",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-ag-2026-11-09.html",
+    "published": "2026-11-09",
+    "speaker": "Sarah Hunter",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": false,
+    "summary": "Assistant Governor Sarah Hunter delivered a wide-ranging speech on the macroeconomic implications of artificial intelligence, examining how AI affects aggregate supply, demand, inflation, and labour markets. The speech outlines a framework for understanding AI as a general-purpose technology, drawing parallels with electricity and the internet. While monetary policy implications are touched upon briefly, the speech is primarily an economic research and analytical piece rather than a monetary policy statement.",
+    "stance_rationale": "The speech does not articulate a clear monetary policy stance or signal changes to the policy rate. Brief references to a rising neutral rate and inflationary pressures from AI investment are presented as analytical observations rather than policy guidance, warranting a neutral score and low-to-medium confidence.",
+    "key_quotes": [
+      "The increase in demand for investment, potentially at the same time as global savings falls, could push up the neutral rate of interest \u2013 the rate that balances demand and supply of savings globally.",
+      "In the near term, the positive shock to aggregate demand set against the economy's current supply capacity will put some upward pressure on inflation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

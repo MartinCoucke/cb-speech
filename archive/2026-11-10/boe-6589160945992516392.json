@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+    "title": "The low-gear labour market \u2212 speech by Clare Lombardelli",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/clare-lombardelli-speech-at-the-bank-watchers-conference",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Clare Lombardelli analyses the UK labour market's unusual 'low-hire, low-fire' adjustment, noting that unemployment has risen gradually while redundancies remain low, and that structural declines in job mobility are compounding the cyclical slowdown. She explains that this dynamic may mean higher unemployment does less to ease wage pressures than historically, since poor matching reduces the disinflationary effect of labour market slack. She concludes with a discussion of the MPC's recent 25bp rate hike to 4% and signals a continued tightening bias, albeit gradual and data-dependent.",
+    "stance_rationale": "Lombardelli supports the MPC's 8-1 vote to raise Bank Rate to 4% and explicitly states that 'in the absence of evidence of weaker inflation pressures, I continue to think there is likely to be a case for a further increase in rates in the near term,' reflecting a mild hawkish lean. The hawkishness is tempered by an emphasis on gradual adjustment and genuine two-sided uncertainty around the outlook.",
+    "key_quotes": [
+      "My own judgement is that, at present, the balance of risks to inflation remains to the upside... That warranted an increase in Bank Rate last week. In the absence of evidence of weaker inflation pressures, I continue to think there is likely to be a case for a further increase in rates in the near term.",
+      "That, together with the considerable uncertainty around the outlook, is a reason to proceed gradually rather than trying to anticipate today the full policy adjustment that will ultimately be needed to return inflation sustainably to target."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
