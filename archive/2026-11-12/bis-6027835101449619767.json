@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-foundations-innovative-and-resilient-capital-markets",
+    "title": "Foundations for innovative and resilient capital markets",
+    "url": "https://www.bis.org/speeches/20261112-foundations-innovative-and-resilient-capital-markets",
+    "published": "2026-11-11",
+    "speaker": null,
+    "bank": "Central Bank of Ireland",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Vasileios Madouros of the Central Bank of Ireland delivered a keynote address at the 2026 ECMI Annual Conference focused on the future of European capital markets. The speech centers on two structural shifts: the emergence of tokenised finance and the expansion of non-bank finance. Using a LEGO analogy, he frames the discussion around building foundations that support integration, resilience, innovation, and trust in capital markets.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses capital markets structure, financial innovation, and non-bank finance regulation. No monetary policy stance, rate signals, or inflation/growth assessments are present.",
+    "key_quotes": [
+      "The first is the emergence of tokenised finance. The second is the continued expansion of non-bank finance.",
+      "The common thread running through these is building foundations that support integration, resilience, innovation and trust in our capital markets."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-science-and-practice-monetary-policy-communication-european-central-bank-experience",
+    "title": "The science and practice of monetary policy communication - the European Central Bank experience",
+    "url": "https://www.bis.org/speeches/20261112-science-and-practice-monetary-policy-communication-european-central-bank-experience",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "ECB Executive Board Member Philip Lane delivered a keynote speech at the Bank of England Watchers Conference discussing the science and practice of monetary policy communication, with a focus on how advances in data analysis, machine learning, and large language models have improved the ability to analyze central bank communication. The speech outlines how central bank communication shapes financial market expectations and in turn affects financing conditions. Only the introduction and framing of the speech are available in the excerpt, with no specific policy stance or forward guidance expressed.",
+    "stance_rationale": "The available text is methodological and descriptive in nature, reviewing analytical tools for studying monetary policy communication rather than signaling any particular dovish or hawkish bias. No rate guidance, inflation assessment, or easing/tightening bias is present in the excerpt provided.",
+    "key_quotes": [
+      "By steering the expectations of financial market participants, central bank communication shapes the full set of financial market prices across the maturity and risk spectrums, in turn affecting financing conditions and decisions around credit, saving and investment.",
+      "Machine learning techniques and large language models (LLMs) now allow for the extensive analysis of large volumes of text in a more automated manner, taking into account the context in which words are used instead of relying solely on the frequency of individual words or predefined expressions."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

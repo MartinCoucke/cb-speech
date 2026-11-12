@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",
+    "title": "The US economy and considerations for monetary policy",
+    "url": "https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Fed Vice Chair for Supervision Michelle Bowman delivered remarks outlining a cautious, data-dependent monetary policy stance amid persistent inflation and a stabilizing labor market. She noted the FOMC held rates at 3\u00be\u20134% at its October meeting and flagged that progress on inflation has stalled, with core PCE likely moving up to 3.3%. While she views current inflationary pressures as largely supply-side and temporary, she emphasized that more work remains to bring inflation to 2%.",
+    "stance_rationale": "Bowman leans modestly hawkish: she explicitly states inflation remains a priority, that there is 'still work to do,' and she is 'more attentive to the inflation side of our mandate.' However, she also acknowledges tightening financial conditions and the need to weigh costs of further tightening, preventing a stronger hawkish reading.",
+    "key_quotes": [
+      "Today, I am seeing signs that inflation pressures are persisting, while labor market conditions appear to be firming. This indicates that there is still work to do to bring inflation closer to 2 percent.",
+      "With the labor market improving since last year, I am more attentive to the inflation side of our mandate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

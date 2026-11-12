@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261112-scotti/index.html",
+    "title": "Il diritto nell'era dei pagamenti digitali: le condizioni per un mercato competitivo",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261112-scotti/index.html",
+    "published": "2026-11-12",
+    "speaker": "Chiara Scotti",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Chiara Scotti of Banca d'Italia addresses legal and regulatory questions arising from digital payments innovation, focusing on liability allocation in payment chains, market access and bottlenecks in digital ecosystems, and the legal conditions needed to sustain trust in payment markets. The speech covers topics such as open banking, agentic AI, the Digital Markets Act, PSD3, and the digital euro proposal, but does not discuss interest rates, inflation, or monetary policy stances. It is a conference address on payments law and market regulation.",
+    "stance_rationale": "This speech is not about monetary policy; it concerns payments regulation, competition law, and digital market governance. No monetary policy content is present, so a score of 0 is assigned.",
+    "key_quotes": [
+      "Un pagamento digitale, infatti, \u00e8 sempre meno riconducibile alla sola esecuzione di un ordine di trasferimento di fondi dato dal cliente al proprio intermediario.",
+      "In un'economia sempre pi\u00f9 digitale, il diritto non si limita a correggere il mercato quando qualcosa non funziona, ma concorre a definirne le condizioni di funzionamento."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",
+    "title": "The economic outlook and some thoughts on labor market dynamism",
+    "url": "https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 4,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Waller outlines a clearly hawkish policy stance, noting that while the labor market is stable and near maximum employment, inflation remains well above the 2 percent target with broad-based price pressures. He signals support for a 25 basis point rate hike at the December FOMC meeting as a baseline, with an open door to 50 basis points if incoming CPI data disappoint. He also discusses structural concerns about declining labor market dynamism and its longer-run implications for productivity and inflation.",
+    "stance_rationale": "Waller explicitly states further tightening is needed 'sooner rather than later,' pre-commits to a December hike, and raises the possibility of a 50 bps move if inflation data are worse than expected, reflecting a strongly hawkish posture with upside risk to the rate path.",
+    "key_quotes": [
+      "I believe further tightening of monetary policy will be needed, sooner rather than later, to return inflation to a path that will reach 2 percent in the medium term.",
+      "If the October CPI inflation data out later today are similar to the past two monthly readings\u2014with core CPI inflation around 0.3 percent or even higher\u2014then a stronger policy move may be needed. In that case, I believe a 50 basis point hike in the policy rate should be considered at the December meeting."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

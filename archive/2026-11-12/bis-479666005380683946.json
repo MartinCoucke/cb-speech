@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-low-gear-labour-market",
+    "title": "The low-gear labour market",
+    "url": "https://www.bis.org/speeches/20261112-low-gear-labour-market",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Deputy Governor Clare Lombardelli discusses structural features of the UK labour market, focusing on a 'low-hire, low-fire' dynamic in which unemployment is rising gradually through reduced hiring rather than increased layoffs. She highlights three consequences: implications for wage pressures, effects on productivity and growth, and reduced economic adaptability in the face of AI-driven change. The speech is primarily an analytical piece on labour market structure rather than a direct statement on monetary policy stance.",
+    "stance_rationale": "While the speech touches on wage pressures and unemployment\u2014topics relevant to monetary policy\u2014it does not articulate any explicit policy bias, rate guidance, or easing/tightening signal, making it essentially a structural economic analysis rather than a monetary policy statement.",
+    "key_quotes": [
+      "If those looking for work are poorly matched to the jobs available, higher unemployment may do less to ease wage pressures than it has in the past.",
+      "The labour market has become less effective at moving people towards new opportunities. The labour market is stuck in low gear."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

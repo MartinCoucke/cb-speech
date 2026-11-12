@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/statement-on-the-publication-of-the-financial-stability-review-2026-of-the-deutsche-bundesbank-1014858",
+    "title": "Statement on the publication of the Financial Stability Review 2026 of the Deutsche Bundesbank | Press conference on the publication of the 2026 Financial Stability Review",
+    "url": "https://www.bundesbank.de/en/press/speeches/statement-on-the-publication-of-the-financial-stability-review-2026-of-the-deutsche-bundesbank-1014858",
+    "published": "2026-11-12",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank Vice President Michael Theurer presented the 2026 Financial Stability Review, highlighting elevated risks from geopolitical tensions, rising corporate insolvencies, high government debt, real estate lending vulnerabilities, and growing interconnectedness in the non-bank financial sector. The speech focused on macroprudential policy tools, capital buffer usability, and the need for better data transparency across the financial system. No monetary policy stance or interest rate guidance was offered.",
+    "stance_rationale": "This is a financial stability review presentation, not a monetary policy statement. It addresses macroprudential buffers, credit risk, sovereign debt sustainability, and operational resilience rather than interest rate settings or the inflation outlook.",
+    "key_quotes": [
+      "The readiness is all.",
+      "The existing macroprudential capital buffers remain appropriate in view of the heightened risks."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

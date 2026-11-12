@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+    "title": "The science and practice of monetary policy communication: the ECB experience",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html",
+    "published": "2026-11-10",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Philip Lane's speech at the Bank of England Watchers Conference reviews ECB research on the science and practice of monetary policy communication, covering LLM-based tools for measuring communication tone, the transmission of communication to markets and households, and the evolution of ECB forward guidance frameworks. The speech is primarily methodological and institutional in nature, tracing how ECB communication has adapted from pre-crisis clarifications of the reaction function through explicit forward guidance to the current 'framework guidance' approach. It does not provide new signals about the near-term policy rate path or reveal a directional bias in the current stance.",
+    "stance_rationale": "The speech is overwhelmingly descriptive and retrospective, analyzing communication tools and historical episodes rather than signaling any shift in the ECB's current monetary policy stance. The score is 0 because there is no meaningful hawkish or dovish lean embedded in the content relative to current market pricing.",
+    "key_quotes": [
+      "framework guidance is more effective than rate forward guidance when policy rates are away from the effective lower bound",
+      "By communicating a reaction function that spells out the criteria that guide our decisions, our framework guidance has helped markets interpret the incoming data"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

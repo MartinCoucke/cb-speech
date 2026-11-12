@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
+    "title": "UK Retail Payments Infrastructure: moving from vision to design \u2212 speech by Victoria Cleland",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/victoria-cleland-panel-at-the-ftt-fintech-festival-2026-london",
+    "published": "2026-11-11",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Victoria Cleland, Senior Advisor to the Governors at the Bank of England, delivered a speech at the FTT Fintech Festival outlining progress on the UK's next-generation retail payments infrastructure. The speech covers the results of a public consultation on infrastructure design, key themes such as interoperability, fraud prevention, and a 'thin core' architecture, and outlines next steps toward handing a Blueprint to an industry-led Delivery Company in Spring 2027. The content is entirely focused on payments infrastructure policy, not monetary policy.",
+    "stance_rationale": "This speech contains no discussion of interest rates, inflation, economic outlook, or monetary policy stance. It is purely a payments infrastructure and fintech policy speech and is therefore not relevant to monetary policy scoring.",
+    "key_quotes": [
+      "To design and deliver an infrastructure that is well used, trusted and truly valued requires strong collaboration between the public and the private sectors, between incumbents and fintechs, and between providers and users.",
+      "The Blueprint will then be handed over to the Delivery Company in Spring 2027, so that they can take forward detailed design, procurement, build and implementation."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

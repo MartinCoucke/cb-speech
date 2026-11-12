@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261112-trequattrini/index.html",
+    "title": "Le prospettive della distribuzione dei prodotti finanziari",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261112-trequattrini/index.html",
+    "published": "2026-11-12",
+    "speaker": "Gian Luca Trequattrini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Gian Luca Trequattrini of Banca d'Italia addresses the evolving landscape of financial product distribution in Italy, focusing on digital transformation, robo-advisors, neo-brokers, and the regulatory and supervisory challenges arising from fintech innovation. It discusses financial education, consumer protection, and the professional responsibilities of financial advisors in an increasingly automated environment. The speech was delivered on the occasion of the tenth anniversary of the supervisory body for financial advisors (OCF) and contains no monetary policy content.",
+    "stance_rationale": "The speech is entirely focused on financial distribution, investor protection, digital innovation, and supervisory issues\u2014not on interest rates, inflation, or monetary policy stance. A score of 0 and is_monetary_policy=false are therefore appropriate.",
+    "key_quotes": [
+      "La costruzione di questo rapporto non \u00e8 per\u00f2 spontanea: dipende anche dal livello di comprensione finanziaria del cliente.",
+      "Il risparmiatore che si trova di fronte a scelte complesse, in un contesto di incertezza, ha bisogno di qualcuno di cui fidarsi."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

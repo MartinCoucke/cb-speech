@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+    "title": "Barr, American Inequality and the Future of AI",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm",
+    "published": "2026-11-12",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Barr delivered a speech at Yale University examining economic inequality in the United States, drawing on the Federal Reserve's 2025 Survey of Consumer Finances and historical data. He analyzed trends in wealth and income concentration, the declining labor share of national income, and the potential implications of artificial intelligence for future inequality. The speech focused on structural economic and social policy issues rather than monetary policy.",
+    "stance_rationale": "This speech contains no discussion of interest rates, inflation, the policy rate path, or monetary policy stance. It is focused entirely on inequality and AI's economic implications, making it non-monetary-policy content.",
+    "key_quotes": [
+      "The labor share of national income...reaching a record low of 52.8 percent in the second quarter of 2026.",
+      "In my judgment, now is the time for society to begin to consider how to address these potential challenges\u2014while AI adoption is in its relatively early stages\u2014so we can realize the long-term benefits for society."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

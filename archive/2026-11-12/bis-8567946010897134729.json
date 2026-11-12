@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",
+    "title": "One policy, many realities - why differences matter for monetary policy",
+    "url": "https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "De Nederlandsche Bank",
+    "region": "Europe",
+    "source": "bis",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "DNB President Olaf Sleijpen delivered an opening address at the bank's Annual Research Conference focused on heterogeneity in monetary policy transmission across households, firms, and euro area countries. He emphasized that a single monetary policy affects diverse economic actors differently and stressed the importance of deeper capital markets, sound fiscal frameworks, and a stronger single market to improve transmission. The speech was largely academic and structural in nature, with no explicit forward guidance on interest rates or the policy stance.",
+    "stance_rationale": "The speech contains no signals about the future direction of interest rates or easing/tightening bias; it is focused on research themes and structural European policy priorities rather than near-term monetary policy decisions.",
+    "key_quotes": [
+      "We set one monetary policy for the euro area. One set of key interest rates. But that single policy enters an economy of around 360 million people, millions of firms, twenty-one countries, different financial systems, different fiscal positions and different economic structures.",
+      "Recognising that heterogeneity matters for monetary policy does not mean that heterogeneity itself is a problem, or that we should aim for uniformity."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

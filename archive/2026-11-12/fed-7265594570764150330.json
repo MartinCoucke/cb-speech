@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+    "title": "Bowman, The U.S. Economy and Considerations for Monetary Policy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+    "published": "2026-11-10",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Fed Governor Bowman delivered a speech outlining a moderately hawkish stance, emphasizing that inflation progress has stalled and broadened, with core PCE likely rising to 3.3% in October. She noted the FOMC held rates at 3\u00be\u20134% at the October meeting and signaled no urgency to ease, while acknowledging some tightening in financial conditions that warrants careful monitoring. She views inflation from tariffs, energy, and AI-related demand as the dominant near-term risk, while the labor market appears stable.",
+    "stance_rationale": "Bowman leans modestly hawkish: she explicitly states 'there is still work to do to bring inflation closer to 2 percent,' supported the October hold, and prioritizes the inflation side of the mandate, though she tempers this with concern about financial conditions tightening and downside risks from AI financing and geopolitics.",
+    "key_quotes": [
+      "Today, I am seeing signs that inflation pressures are persisting, while labor market conditions appear to be firming. This indicates that there is still work to do to bring inflation closer to 2 percent.",
+      "With the labor market improving since last year, I am more attentive to the inflation side of our mandate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
+    "title": "Principals and Agents \u2013 speech by Jonathan Hall",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/jon-hall-speech-at-cf-imperial-workshop",
+    "published": "2026-11-11",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "In his final speech as an external member of the Bank of England's Financial Policy Committee, Jonathan Hall examines the growing use of AI agents in finance through the lens of principal-agent theory. He discusses financial stability risks from AI adoption\u2014including concentration, correlated behaviour, and emergent multi-agent dynamics\u2014and advocates for access controls, monitoring, and unique agent identification as safeguards. The speech explicitly notes it is not arguing for new regulations but for ensuring AI agents comply with existing rules.",
+    "stance_rationale": "This speech is focused on financial stability and AI governance, not monetary policy. It contains no discussion of interest rates, inflation, the economic outlook, or the MPC's policy stance.",
+    "key_quotes": [
+      "Consistent with this, and with recent remarks by Governor Andrew Bailey, I have not been arguing today for new regulations. Rather I have been detailing measures to ensure that the actions of AI agents comply with current regulations.",
+      "The Bank of England provides not only proof that delegating authority to powerful agents is not a new issue, but also a framework for how to ensure an 'agent' remains transparent, accountable and subject to appropriate constraints."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
