@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/speech-edmonton-chamber-of-commerce-2026-11-18",
+    "title": "Speech: Edmonton Chamber of Commerce",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-edmonton-chamber-of-commerce-2026-11-18/",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Toni Gravelle spoke before the Edmonton Chamber of Commerce on November 18, 2026, addressing scenario analysis and a risk-management approach to monetary policy. The speech content itself is not available beyond the title and metadata, making it impossible to assess the specific policy stance conveyed. The topic suggests a methodological discussion of how the Bank of Canada approaches uncertainty in its policy decisions.",
+    "stance_rationale": "With only the speech title and logistical metadata available\u2014no actual speech text\u2014it is not possible to determine whether the content leaned dovish or hawkish. A score of 0 reflects the absence of usable information rather than a genuinely neutral stance.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

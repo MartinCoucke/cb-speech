@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bostonfed.org/news-and-events/speeches/2026/observations-on-housing-market-challenges.aspx",
+    "title": "Observations on Housing Market Challenges",
+    "url": "https://www.bostonfed.org/news-and-events/speeches/2026/observations-on-housing-market-challenges.aspx",
+    "published": "2026-11-13",
+    "speaker": "Susan M. Collins",
+    "bank": "Federal Reserve Bank of Boston",
+    "region": "US",
+    "source": "bostonfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Boston Fed President Susan M. Collins delivered opening remarks at the Bank's 70th Economic Conference focused on housing market challenges. She discussed housing's importance to the U.S. economy, its effects on households and businesses, and the role of monetary policy in the housing sector. The speech appears to be primarily a conference introduction rather than a detailed monetary policy statement.",
+    "stance_rationale": "The speech is centered on housing market research and affordability issues rather than signaling a directional monetary policy stance. While monetary policy is mentioned as a topic, the content appears ceremonial/introductory with no specific policy signals available in the text provided.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

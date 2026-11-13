@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113_annex~f120a8902d.en.pdf",
+    "title": "Slides",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113_annex~f120a8902d.en.pdf",
+    "published": "2026-11-13",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This presentation by ECB Executive Board member Isabel Schnabel, delivered at the Economics Conference of the Bank of Lithuania, focuses on European economic competitiveness, productivity, quality of life, democratic trends, and structural issues such as Germany's stagnation and the EU single market. The slides cover topics ranging from GDP per capita comparisons and labour productivity to regulatory barriers and research output. There is no discussion of monetary policy, interest rates, inflation, or the ECB's policy stance.",
+    "stance_rationale": "The speech contains no monetary policy content whatsoever; it is a structural/competitiveness-oriented economic analysis. A score of 0 and is_monetary_policy=false are therefore appropriate.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

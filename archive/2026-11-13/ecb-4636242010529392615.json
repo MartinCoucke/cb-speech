@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+    "title": "Made in Europe",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261113~3883f1f187.en.html",
+    "published": "2026-11-13",
+    "speaker": "Isabel Schnabel",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Isabel Schnabel's speech at the Bank of Lithuania Economics Conference focuses on European structural competitiveness, the quality of life across the EU, Germany's economic challenges, and the case for a '28th regime' \u2014 a unified European corporate framework to give firms scale across the Single Market. The speech does not address interest rates, inflation, monetary policy stance, or ECB balance sheet matters. It is primarily a structural and economic policy speech advocating for deeper Single Market integration.",
+    "stance_rationale": "The speech contains no monetary policy content \u2014 no discussion of rate paths, inflation outlook, or ECB tools. It is therefore scored as 0 and flagged as not a monetary policy speech.",
+    "key_quotes": [
+      "Europe's central challenge is not a lack of ideas or talent. It is a lack of scale. And Europe has the power to change that itself.",
+      "By helping to build a truly frictionless Single Market, it can establish a 'Made in Europe' brand for companies that stands for innovation, excellence and legal certainty."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/speeches/the-strategic-imperative-of-instant-payments-for-community-banks/",
+    "title": "Housing Costs: Challenges and Opportunities",
+    "url": "https://www.kansascityfed.org/speeches/the-strategic-imperative-of-instant-payments-for-community-banks/",
+    "published": "2026-11-12",
+    "speaker": "Housing Costs",
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech from the Federal Reserve Bank of Kansas City appears to focus on housing costs, addressing challenges and opportunities in the housing sector. Without the full text, it is unclear whether the remarks touch on monetary policy implications or are more focused on structural/supervisory housing market issues. The title suggests a thematic or research-oriented presentation rather than a monetary policy statement.",
+    "stance_rationale": "With only the title available and no full text, it is impossible to determine any monetary policy stance. Housing costs can be relevant to inflation discussions, but the title alone does not indicate a clear dovish or hawkish lean.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}
