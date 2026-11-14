@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/Speeches/documents/20555/Forvis_Mazars-OBA_11-12-26.pdf",
+    "title": "U.S. and Oklahoma Economic Outlook - Forvis Mazars/Oklahoma Bankers Association Executive Symposium",
+    "url": "https://www.kansascityfed.org/Speeches/documents/20555/Forvis_Mazars-OBA_11-12-26.pdf",
+    "published": "2026-11-12",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "A Federal Reserve Bank of Kansas City official presented remarks on the U.S. and Oklahoma economic outlook at a banking industry symposium. The full text of the speech is unavailable, limiting assessment of the monetary policy stance expressed. The title suggests a broad economic overview rather than a focused policy signal.",
+    "stance_rationale": "With no speech text available, it is impossible to determine whether the remarks leaned dovish or hawkish; the title alone conveys an economic outlook discussion without indicating a directional policy bias.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}

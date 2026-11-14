@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/Speeches/documents/20556/2026-McCoy-CFANebraska-11-12.pdf",
+    "title": "Nebraska Economic Outlook",
+    "url": "https://www.kansascityfed.org/Speeches/documents/20556/2026-McCoy-CFANebraska-11-12.pdf",
+    "published": "2026-11-12",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "The speech titled 'Nebraska Economic Outlook' was delivered by an unidentified speaker from the Federal Reserve Bank of Kansas City. Without the full text, it is impossible to determine the precise content or monetary policy stance conveyed. Regional economic outlook presentations can cover a broad range of topics including local economic conditions, labor markets, and business activity.",
+    "stance_rationale": "With no speech text available and only a regionally-focused title to work from, there is insufficient information to assign a meaningful monetary policy stance. The title suggests an economic overview rather than a monetary policy statement.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}

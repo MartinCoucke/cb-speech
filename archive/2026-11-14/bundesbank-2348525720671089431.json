@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/navigating-new-economic-realities-europe-s-outlook-in-a-changing-global-landscape-964974",
+    "title": "Navigating new economic realities: Europe\u2019s outlook in a changing global landscape | Keynote at the 79th Siemens Bankers Conference",
+    "url": "https://www.bundesbank.de/en/press/speeches/navigating-new-economic-realities-europe-s-outlook-in-a-changing-global-landscape-964974",
+    "published": "2026-11-13",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Bundesbank President Nagel delivered a keynote addressing Europe's geoeconomic challenges and the ECB's monetary policy response to a renewed inflation shock. Euro area inflation has risen to 4% driven by an energy price surge linked to the Iran war, prompting the Governing Council to raise rates in June and September 2026 and hold at 2.5% in October. Nagel signaled that further tightening is likely if conditions persist, while emphasizing the ECB's commitment to its 2% medium-term inflation target.",
+    "stance_rationale": "The speech is moderately hawkish: Nagel highlights upside inflation risks, notes the situation has deteriorated toward an adverse scenario, and explicitly states that further rate hikes are 'highly probable' if conditions remain unchanged, though the tone is calibrated and meeting-by-meeting rather than aggressive.",
+    "key_quotes": [
+      "If the situation stays as it is, it seems highly probable that we'll have to act again.",
+      "Every month of elevated inflation raises the risk of second-round effects."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

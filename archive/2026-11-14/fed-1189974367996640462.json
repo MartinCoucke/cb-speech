@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+    "title": "Jefferson, New Technology, Old Questions: Productivity Puzzles  and the Macroeconomy",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+    "published": "2026-11-14",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Vice Chair Jefferson's speech focuses primarily on AI and technological change as drivers of productivity, but concludes with a monetary policy section noting that inflation remains well above the 2% target (PCE at 3.6%, core PCE at 3.1%) while the labor market is solid and GDP growth is healthy. He voted to hold rates steady at the most recent meeting and signals that inflation trends will be the primary guide for future policy adjustments. He sees risks as roughly balanced on the growth side but expresses concern about persistent inflation.",
+    "stance_rationale": "Jefferson's emphasis on above-target inflation as 'the more important signal' for policy, his concern about energy-driven inflation persistence, and his comfort with holding rates at current levels without signaling cuts lean mildly hawkish, though the balanced risk assessment and data-dependent framing prevent a strongly hawkish reading.",
+    "key_quotes": [
+      "I see the trajectory of inflation as providing the more important signal for determining the appropriate stance of monetary policy.",
+      "I remain concerned about the risk of higher energy prices leading to a persistent rise in inflation more broadly."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
