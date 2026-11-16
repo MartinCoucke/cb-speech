@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/",
+    "title": "The Economic Outlook, Monetary Policy and Payments",
+    "url": "https://www.kansascityfed.org/speeches/the-economic-outlook-monetary-policy-and-payments/",
+    "published": "2026-11-15",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This speech by an unknown Federal Reserve Bank of Kansas City official covers the economic outlook, monetary policy, and payments topics. The full text is unavailable, making it impossible to assess the specific stance conveyed. The title suggests a broad, multi-topic presentation without signaling a clear directional bias.",
+    "stance_rationale": "With no speech text available, no directional bias can be inferred from the title alone. The combination of economic outlook, monetary policy, and payments topics is consistent with a balanced, informational presentation.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bundesbank.de/en/press/speeches/europe-and-china-a-changing-relationship-in-a-changing-world-1016076",
+    "title": "Europe and China: A changing relationship in a changing world | Keynote speech at 12th China Day, DFV Euro Finance Group",
+    "url": "https://www.bundesbank.de/en/press/speeches/europe-and-china-a-changing-relationship-in-a-changing-world-1016076",
+    "published": "2026-11-16",
+    "speaker": null,
+    "bank": "Bundesbank",
+    "region": "Europe",
+    "source": "bundesbank",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Bundesbank board member Sabine Mauderer delivered a keynote at the 12th China Day in Frankfurt, addressing the evolving economic relationship between Europe and China. She highlighted growing trade imbalances, rising geopolitical tensions, and the need for fair competition and resilient supply chains. The speech focused on trade policy, industrial strategy, and bilateral economic relations rather than monetary policy.",
+    "stance_rationale": "This speech contains no discussion of interest rates, inflation, monetary policy tools, or the ECB/Bundesbank policy stance. It is entirely focused on trade and economic relations between Europe and China, making it non-monetary policy content.",
+    "key_quotes": [
+      "Our goal should not be less competition, but fair competition \u2013 competition driven by innovation, efficiency and fair and predictable conditions for companies.",
+      "Europe can strengthen its ability to act while maintaining close economic relations with important partners, including China."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

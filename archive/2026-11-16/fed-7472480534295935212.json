@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+    "title": "Warsh, Opening Remarks",
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
+    "published": "2026-11-16",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fed Chairman Kevin Warsh delivered opening remarks at a Productivity and Jobs Task Force Conference, focusing on the economic implications of 'super intelligence' (SI) technology and its potential impact on productivity, growth, and labor markets. The speech is primarily an intellectual and forward-looking discussion about how AI-driven technological change could reshape the economy over the coming years. While he briefly acknowledges monetary policy implications, no specific policy stance, rate guidance, or easing/tightening bias is expressed.",
+    "stance_rationale": "This speech is not a monetary policy statement; it is a thematic, conference-opening address centered on long-run productivity and technology. No signals about the near-term policy rate path, inflation, or balance sheet are provided, warranting a score of 0 and is_monetary_policy=false.",
+    "key_quotes": [
+      "Our responsibility is to recognize that the widespread adoption of this technology will have significant impact on the economy, with important implications for monetary policy down the road.",
+      "Our aim today is a humble one: to ask the right questions."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

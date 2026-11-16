@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+    "title": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
+    "published": "2026-11-16",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Barr's speech focuses on the financial stability implications of artificial intelligence, covering topics such as AI-related investment leverage, risks in wholesale trading, cybersecurity threats, and consumer finance concerns. The remarks draw heavily on findings from the Federal Reserve's November 2026 Financial Stability Report. The speech does not address interest rates, inflation, or the monetary policy stance.",
+    "stance_rationale": "This speech is entirely about AI and financial stability supervision, not monetary policy. A score of 0 and low confidence are assigned as this is outside the monetary policy domain.",
+    "key_quotes": [
+      "AI can only succeed in strengthening our financial system in this way if it also supports financial stability, something that is indispensable to a healthy economy.",
+      "We need to guard against the risks that could result from the use of AI in financial markets including collusion, market manipulation, or trading strategies that result in significant market volatility or even systemic risk."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

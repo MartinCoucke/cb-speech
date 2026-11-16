@@ -1,0 +1,25 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
+    "title": "Huw Pill: Speech at the Institute of International Monetary Research, London, (to be released on early w/c 16 November 2026)",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/huw-pill-speech-at-the-institute-of-international-monetary-research",
+    "published": "2026-11-16",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This entry is a placeholder for a speech by Bank of England Chief Economist Huw Pill at the Institute of International Monetary Research, scheduled for release during the week of 16 November 2026. No speech text has been published yet, only an announcement that the content will be released at a later date. There is no substantive monetary policy content available to analyze.",
+    "stance_rationale": "With no speech text available, it is impossible to assess any monetary policy stance or dovish/hawkish bias.",
+    "key_quotes": [
+      "Text to be released on early w/c 16 November 2026."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

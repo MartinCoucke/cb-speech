@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+    "title": "Risks and resilience in the euro area financial system",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+    "published": "2026-11-16",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 delivered a keynote on euro area financial stability risks, focusing on three main themes: AI-related vulnerabilities, sovereign debt pressures, and non-bank financial sector resilience. He noted that headline inflation has risen to 4% in October 2026 partly due to energy prices, but framed this in a financial stability rather than monetary policy context. The speech called for stronger macroprudential frameworks for non-banks rather than signaling any monetary policy direction.",
+    "stance_rationale": "This speech is primarily a financial stability and macroprudential address, not a monetary policy statement. While inflation figures are mentioned contextually, there is no discussion of interest rate paths, policy rate adjustments, or easing/tightening bias, making a monetary policy score inappropriate.",
+    "key_quotes": [
+      "My key message today is that Europe needs more market-based finance. At the same time, however, a larger role for non-banks must go hand in hand with stronger system-wide safeguards.",
+      "Headline inflation in the euro area increased to 4% in October, from 3.8% in September, mainly due to higher energy prices."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
