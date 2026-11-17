@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-11-17.html",
+    "title": "Panel Participation at the ASIC Annual Forum",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-11-17.html",
+    "published": "2026-11-17",
+    "speaker": "Michele Bullock",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "RBA Governor Michele Bullock spoke at the ASIC Annual Forum, discussing the balance of risks facing the Australian economy. She noted the RBA has raised rates five times (125 basis points) since the beginning of the year and emphasized that inflation risks remain skewed to the upside, citing elevated oil prices, AI-driven demand, and the risk of inflation expectations becoming entrenched. She also acknowledged some downside risks, particularly in the housing market.",
+    "stance_rationale": "The speech is moderately hawkish: Bullock explicitly states inflation risks are 'skewed to the upside,' defends the rationale for multiple rate hikes, and expresses concern about inflation expectations becoming entrenched at higher levels, with limited emphasis on easing or pausing the tightening cycle.",
+    "key_quotes": [
+      "The risks on inflation are still skewed to the upside",
+      "If that gets ingrained in people's thinking, in businesses' thinking, and consumers' and households' thinking, then it's going to be much harder to bring inflation back down to target at 2.5 per cent."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

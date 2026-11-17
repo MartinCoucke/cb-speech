@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+    "title": "Waller, Considerations at the Intersection of Payments and Tokenized Markets",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+    "published": "2026-11-17",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Christopher Waller delivered a speech at The Clearing House Annual Conference focused entirely on tokenization, blockchain technology, and the evolving payments landscape. He discussed competition dynamics between new entrants and established firms, the trust imperative for tokenized services, and how payment solutions can integrate with tokenized markets. The speech contains no discussion of interest rates, inflation, employment, or the broader macroeconomic outlook.",
+    "stance_rationale": "This speech is not about monetary policy; it addresses payments innovation and tokenization, making a monetary policy stance score inapplicable.",
+    "key_quotes": [
+      "The Federal Reserve will continue to support responsible innovation by regularly engaging with and listening to industry, providing core payment and settlement infrastructure on which all market participants can build, and monitoring risks to financial stability.",
+      "Central bank money need not be used in every transaction or on every platform, but its presence at the foundation of the system is essential."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
