@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner",
+    "title": "Transparency and predictability: a foundation for future resilience \u2212 speech by Katharine Braddick",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/katharine-braddick-speech-at-the-uk-finance-annual-dinner",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Katharine Braddick, CEO of the PRA, spoke at the UK Finance Annual Dinner about evolving the relationship between the PRA and regulated firms through greater transparency and predictability in supervision. She also discussed the escalating importance of operational and cyber resilience, announcing a new consultation on cyber resilience and the formation of a Systemic Resilience Council. The speech focused entirely on prudential supervision, regulatory transparency, and financial sector resilience rather than monetary policy.",
+    "stance_rationale": "This speech is not about monetary policy; it concerns prudential regulation, supervisory transparency, and operational/cyber resilience. No monetary policy stance is expressed.",
+    "key_quotes": [
+      "Operational risk is the most rapidly escalating area of risk for the firms we regulate, and the way we work with regulated firms is evolving to address it.",
+      "We are significantly reducing the discretionary element of our capital requirements through Basel 3.1, making them more predictable."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

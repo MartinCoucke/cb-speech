@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+    "title": "Financial Stability Review - November 2026",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf",
+    "published": "2026-11-18",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This is a presentation of the ECB's Financial Stability Review for November 2026, delivered by Boris Vuj\u010di\u0107. It covers three main risk themes: potential abrupt repricing in AI-related equity and bond markets, fiscal vulnerabilities and sovereign bond repricing in advanced economies, and credit, market, and funding risks for euro area banks and non-banks. The speech focuses entirely on financial stability issues including AI systemic risks, geopolitical tensions, and macroprudential policy recommendations.",
+    "stance_rationale": "This speech is not about monetary policy; it is a financial stability review press briefing covering macroprudential and systemic risk topics. No monetary policy stance, rate guidance, or easing/tightening bias is expressed.",
+    "key_quotes": [
+      "Risks from AI valuations, fiscal imbalances and geoeconomic tensions cloud the financial stability outlook",
+      "Persistent liquidity and leverage vulnerabilities in the NBFI ecosystem \u2014 appropriately calibrated measures needed to address these vulnerabilities"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

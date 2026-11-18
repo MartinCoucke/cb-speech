@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+    "title": "The practice and science of monetary policy communication: the ECB experience",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf",
+    "published": "2026-11-17",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Philip Lane delivered an academic lecture at Harvard on the theory and practice of ECB monetary policy communication, covering the evolution of ECB communication tools, forward guidance frameworks, LLM-based sentiment analysis, and how communication affects financial markets and households. The speech is primarily methodological and historical in nature, discussing communication infrastructure and research findings rather than signaling any current policy stance. No explicit guidance on the future rate path or current economic conditions is provided.",
+    "stance_rationale": "The speech is focused entirely on communication frameworks, research methodologies, and academic analysis of past ECB communication regimes rather than conveying any dovish or hawkish signal about current monetary policy. It is not a monetary policy statement in the traditional sense.",
+    "key_quotes": [
+      "Focus on the immediate decision in public communications",
+      "Guidance on the criteria determining the reaction function"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

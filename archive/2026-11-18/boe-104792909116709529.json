@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london",
+    "title": "The UK\u2019s regional growth: unlocking the economy\u2019s full potential - speech by Andrew Bailey",
+    "url": "https://www.bankofengland.co.uk/speech/2026/november/andrew-bailey-speech-at-the-annual-institute-of-economic-development-conference-london",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Bank of England",
+    "region": "UK",
+    "source": "boe",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Bailey explains the MPC's recent decision to raise Bank Rate by 25bp to 4%, citing a rise in UK CPI inflation to 3.6% and projections it could reach around 5% by mid-2027 due to elevated energy prices linked to the Middle East conflict. He stresses that monetary policy is not on a pre-set path and that the MPC will assess incoming evidence meeting by meeting. The majority of the speech focuses on regional economic divergence, productivity, and participation rather than the monetary policy outlook.",
+    "stance_rationale": "The speech is modestly hawkish: a rate hike was just delivered, inflation is projected to rise further, and Bailey explicitly warns that a prolonged conflict and persistently high energy prices would necessitate higher rates. However, he also emphasises data-dependence and the absence of significant second-round effects so far, tempering the hawkishness.",
+    "key_quotes": [
+      "The longer the conflict in the Middle East persists and elevates energy prices, the more likely persistent inflationary effects will take hold and the higher the level of interest rates will need to be.",
+      "The degree of inflationary pressure in the pipeline was sufficient to warrant an increase in Bank Rate at our last meeting."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
