@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times",
+    "title": "Setting the scenario: Monetary policy communications in uncertain times",
+    "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Toni Gravelle delivered a speech focused on the evolution of Bank of Canada monetary policy communications, emphasizing the use of scenario analysis to convey uncertainty. The speech explains how scenarios help communicate risks around the base-case outlook without committing to a specific policy path. No explicit guidance on the current policy rate direction or bias toward easing or tightening was provided.",
+    "stance_rationale": "The speech is primarily methodological and meta-communicative, discussing how the Bank uses scenarios rather than signaling a dovish or hawkish policy stance. It is balanced and does not lean toward easing or tightening, warranting a neutral score.",
+    "key_quotes": [
+      "Scenarios shift the focus from forecasting the future to preparing for it.",
+      "They help shift how policy signals are perceived: from what will happen to what could happen."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/11/talking-about-an-uncertain-future",
+    "title": "Talking about an uncertain future",
+    "url": "https://www.bankofcanada.ca/2026/11/talking-about-an-uncertain-future/",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Deputy Governor Toni Gravelle spoke to the Edmonton Chamber of Commerce about the Bank of Canada's communication framework, emphasizing the role of scenarios and transparency in monetary policy. The speech focuses on how explaining uncertainty improves policy effectiveness and accountability rather than signaling any particular policy direction. No specific guidance on the rate path or current economic conditions is provided in this summary.",
+    "stance_rationale": "The speech is methodological and meta-communicative in nature, discussing how the Bank uses scenarios to explain uncertainty rather than providing any hawkish or dovish signals about future rate moves. The score is neutral given the absence of directional policy content.",
+    "key_quotes": [
+      "Credibility doesn't mean getting every forecast right. It means being honest about what we know and don't know, and about what could change the outlook or our policy response.",
+      "Independence gives the Bank the space to act. Accountability means we explain our actions. And credibility helps those actions have the intended effect."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

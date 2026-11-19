@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
+    "title": "Barr, Investing in America\u2019s Underserved Communities",
+    "url": "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm",
+    "published": "2026-11-18",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Barr's speech primarily focuses on community development, public-private partnerships, and investment in underserved communities. However, it briefly but explicitly addresses the monetary policy outlook, noting that inflation remains too high and signaling a likely need for further rate increases. The bulk of the speech covers CRA, CDFIs, tax credits, and regional examples of community investment.",
+    "stance_rationale": "While the speech is predominantly about community development, Barr explicitly states inflation is too high and that he expects it will be appropriate to raise rates further, indicating a mild hawkish lean on monetary policy.",
+    "key_quotes": [
+      "inflation is too high, making it hard for American families to make ends meet",
+      "If the economy evolves as I currently forecast, I expect it will be appropriate to raise rates further to achieve that goal on behalf of the American people"
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

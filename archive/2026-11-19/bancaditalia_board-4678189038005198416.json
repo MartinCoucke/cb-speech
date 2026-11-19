@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/index.html",
+    "title": "Che cosa deve sapere oggi la politica monetaria?",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261119-altimari/index.html",
+    "published": "2026-11-19",
+    "speaker": "Sergio Nicoletti Altimari",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Banca d'Italia's Sergio Nicoletti Altimari opened a research conference by addressing three key questions facing monetary policy: how households and firms are responding to a renewed inflationary shock, why indirect energy pass-through has so far been contained, and how much financial conditions have tightened beyond the effects of policy rates alone. He noted that while the ECB has raised rates and markets have priced in further hikes, weaker aggregate demand and renewable energy expansion are cushioning the current shock compared to 2021-22. He closed by flagging uncertainty around AI-related financial vulnerabilities as a potential amplifier of economic stress.",
+    "stance_rationale": "The speech is balanced and analytical rather than signaling a clear easing or tightening bias; it acknowledges inflation risks from energy pass-through and rising term premia but also highlights demand weakness and contained indirect effects as offsetting factors. The tone is one of data-dependence and uncertainty rather than commitment to any particular policy direction.",
+    "key_quotes": [
+      "With so many forces shaping growth and inflation at once, monetary policy must draw on the widest possible range of evidence.",
+      "The latest data indicate that energy-related goods have so far accounted for most of the rise in consumer price inflation in the euro area. The pass-through to other goods and services has been limited and we have not observed any increase in the frequency of price changes by firms."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

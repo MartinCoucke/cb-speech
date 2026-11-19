@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+    "title": "Jefferson, Monetary Policy amid Frequent and Complex Shocks",
+    "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+    "published": "2026-11-19",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 1,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Vice Chair Jefferson delivered a brief speech at an IMF/Central Bank of Brazil conference discussing how central banks should assess and respond to various economic shocks, including energy prices, trade policy, and AI. He framed the analysis around the Fed's dual mandate, noting that simultaneous shocks\u2014some inflationary, some disinflationary\u2014must be weighed carefully. The speech was largely conceptual and framework-oriented rather than signaling a specific near-term policy direction.",
+    "stance_rationale": "Jefferson noted that inflation remains above the 2 percent target and that AI is currently exerting upward pressure on demand and inflation, while expressing a goal to 'restore price stability while maintaining a solid labor market.' This language leans mildly hawkish but is balanced by acknowledgment of employment risks, yielding a slightly hawkish-leaning neutral stance.",
+    "key_quotes": [
+      "My goal is to restore price stability while maintaining a solid labor market.",
+      "If inflation expectations risk becoming unanchored, a stronger reaction to inflation is warranted."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
