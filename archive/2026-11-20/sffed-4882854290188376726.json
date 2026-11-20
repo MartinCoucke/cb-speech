@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.frbsf.org/news-and-media/speeches/system-speeches/2026/11/american-inequality-future-of-ai/",
+    "title": "American Inequality and the Future of AI",
+    "url": "https://www.frbsf.org/news-and-media/speeches/system-speeches/2026/11/american-inequality-future-of-ai/",
+    "published": "2026-11-19",
+    "speaker": "System Speeches",
+    "bank": "Federal Reserve Bank of San Francisco",
+    "region": "US",
+    "source": "sffed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fed Governor Michael Barr delivered remarks at Yale University focused on American inequality and the future of artificial intelligence. The speech does not appear to address monetary policy, interest rates, or the economic outlook in a policy-relevant sense. Based on the title and description, the content centers on structural economic issues such as inequality and AI's societal impact.",
+    "stance_rationale": "The speech topic \u2014 American inequality and AI \u2014 is not a monetary policy subject, and there are no indications of discussion around rate setting, inflation, or the Fed's policy stance.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

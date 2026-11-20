@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
+    "title": "Waller, Opening Remarks",
+    "url": "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm",
+    "published": "2026-11-20",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Governor Christopher Waller delivered brief opening remarks at the 2026 College Fed Challenge Finals, welcoming student competitors and their faculty advisers. The speech focused entirely on the nature of the competition and the Fed's educational mission, with no discussion of current economic conditions or the policy outlook. Waller noted that the FOMC would meet on December 8-9 but made no substantive comments on policy direction.",
+    "stance_rationale": "This is a ceremonial speech with no monetary policy content; it contains no signals about the Fed's rate path, inflation, employment, or economic outlook.",
+    "key_quotes": [
+      "A few weeks from now, my colleagues on the Federal Open Market Committee (FOMC) and I will be sitting at this same table, facing the same challenge you face today.",
+      "Present the evidence. Make an argument. Persuade."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

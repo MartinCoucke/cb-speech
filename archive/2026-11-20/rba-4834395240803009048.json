@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-11-20.html",
+    "title": "The Role of Research in Monetary Policymaking",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-mpb-2026-11-20.html",
+    "published": "2026-11-20",
+    "speaker": "Ren\u00e9e Fry-McKibbin",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": false,
+    "summary": "RBA Monetary Policy Board member Ren\u00e9e Fry-McKibbin spoke at a conference in honour of Andy Stoeckel, focusing on the role of research in monetary policymaking. She outlined how the RBA's research agenda informs policy decisions, touching on monetary policy trade-offs, scenario analysis, and the growing role of AI in economic analysis. The speech was largely procedural and institutional in nature, with minimal forward guidance on the policy rate path.",
+    "stance_rationale": "The speech does not signal a clear dovish or hawkish tilt; it describes the RBA's research framework and decision-making processes rather than providing directional guidance on interest rates. The mention of 'pockets of strong demand' alongside 'weakness elsewhere' and a 'massive global oil supply shock' reflects a balanced and uncertain outlook rather than a clear policy bias.",
+    "key_quotes": [
+      "This is the situation we are in now, with pockets of strong demand in Australia, and weakness elsewhere overlaid with a massive global oil supply shock following the conflict in the Middle East.",
+      "Balancing central bank mandates requires judgement. Judgements are made amid uncertainty, incomplete information, and lags in policy effects, yet decisions still need to be made."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

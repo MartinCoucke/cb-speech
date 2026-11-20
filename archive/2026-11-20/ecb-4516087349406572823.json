@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+    "title": "Acting in time",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+    "published": "2026-11-20",
+    "speaker": "Christine Lagarde",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "In her final speech at the Frankfurt European Banking Congress, ECB President Christine Lagarde reflected broadly on Europe's capacity to act early on slow-moving structural challenges, drawing on ECB initiatives such as the digital euro, the Pontes wholesale settlement platform, and the international role of the euro. The speech focused on European integration, economic sovereignty, capital markets union, and defence spending rather than on interest rates or the monetary policy stance. There is no discussion of inflation, rate decisions, or the balance of risks to price stability.",
+    "stance_rationale": "The speech is not about monetary policy in the conventional sense \u2014 it contains no references to interest rates, inflation outlook, or the ECB's policy stance. It is best categorised as a structural/institutional keynote, warranting a score of 0 and is_monetary_policy=false.",
+    "key_quotes": [
+      "Our primary objective is price stability, and the Treaty also gives us the tasks of issuing money and promoting the smooth operation of payment systems.",
+      "At the ECB, we have tried to do that in our own field. Whether we judged well, others will decide in time."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/multimedia/speech-economic-club-of-canada-2026-11-24",
+    "title": "Speech: Economic Club of Canada",
+    "url": "https://www.bankofcanada.ca/multimedia/speech-economic-club-of-canada-2026-11-24/",
+    "published": "2026-11-24",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem spoke before the Economic Club of Canada on November 24, 2026, addressing the outlook for the Canadian economy and challenges facing monetary policy. The speech title suggests it covers monetary policy topics, but no substantive text of the remarks is available to assess the policy stance. Without the actual speech content, no directional bias can be determined.",
+    "stance_rationale": "The speech text provided contains only metadata and scheduling information, with no substantive remarks from which to infer a dovish or hawkish stance, necessitating a neutral score of 0.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}
