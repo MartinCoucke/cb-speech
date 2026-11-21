@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.kansascityfed.org/Speeches/documents/20687/2026-Smith-Omaha-CRE-Conference-11-19.pdf",
+    "title": "U.S. Economic Outlook November 2026",
+    "url": "https://www.kansascityfed.org/Speeches/documents/20687/2026-Smith-Omaha-CRE-Conference-11-19.pdf",
+    "published": "2026-11-19",
+    "speaker": null,
+    "bank": "Federal Reserve Bank of Kansas City",
+    "region": "US",
+    "source": "kcfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": true,
+    "summary": "This appears to be an economic outlook presentation from the Federal Reserve Bank of Kansas City dated November 2026. The full text is unavailable, so only the title can be used for assessment. Economic outlook speeches typically cover growth, inflation, and monetary policy perspectives.",
+    "stance_rationale": "Without the full text, no directional bias can be determined from the title alone. The title is neutral and does not signal easing or tightening.",
+    "key_quotes": [],
+    "text_available": false,
+    "error": null
+  }
+}

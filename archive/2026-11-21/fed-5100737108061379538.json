@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+    "title": "Cook, The U.S. Economy in Global Context",
+    "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+    "published": "2026-11-20",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 5,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "Governor Lisa Cook delivered a keynote in Santiago, Chile, emphasizing that U.S. inflation remains unacceptably high at 3.8% PCE (67 months above the 2% target) amid strong GDP growth and a solid labor market. She disclosed that she dissented at the October FOMC meeting in favor of an additional 25 basis point rate hike, arguing that financial conditions are too accommodative and that delay risks entrenching inflation expectations. She expressed skepticism that September's single quarter-point increase will be sufficient to restore price stability.",
+    "stance_rationale": "Cook explicitly dissented in favor of a rate hike, called current financial conditions 'too accommodative,' warned of falling behind the curve, and stated there is 'no luxury' for patience\u2014representing one of the most hawkish stances possible from an FOMC member.",
+    "key_quotes": [
+      "I preferred to raise the target range another 1/4 percentage point... financial conditions are too accommodative at a time when inflation remains stubbornly above target, with no clear signs of disinflation in train.",
+      "Waiting longer to implement rate increases risks getting behind the curve. If we fall behind, additional and larger rate increases may be required later to catch up."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
