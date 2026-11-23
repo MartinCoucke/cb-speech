@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+    "title": "Climate change and monetary policy",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf",
+    "published": "2026-11-23",
+    "speaker": "Philip R. Lane",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Philip Lane's speech focuses on the intersection of climate change and monetary policy, covering topics such as the macroeconomic effects of extreme weather events, climate transition policies, food inflation forecasting using weather variables, and the impact of the green transition on inflation volatility and bank lending. The presentation is largely analytical and descriptive, drawing on ECB research and surveys to illustrate how climate factors affect the euro area economy. It does not announce or signal any near-term changes to ECB policy rates or the monetary policy stance.",
+    "stance_rationale": "The speech is primarily a research and analytical presentation on climate-related economic effects rather than a statement about the ECB's monetary policy stance, rate path, or easing/tightening bias. No explicit forward guidance or policy signals are provided.",
+    "key_quotes": [
+      "The policy rate remains constant throughout the projection horizon.",
+      "A green transition lowers inflation volatility by reducing the reliance of the services and manufacturing sectors on fossil energy."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

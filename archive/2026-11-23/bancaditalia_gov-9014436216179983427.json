@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261123-panetta/index.html",
+    "title": "Connettere le economie, rafforzare l'Europa",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2026/20261123-panetta/index.html",
+    "published": "2026-11-23",
+    "speaker": "Fabio Panetta",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_gov",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Fabio Panetta, Governor of the Banca d'Italia, delivered remarks at a ceremony marking the completion of the TIPS Clone project, which connects the payment systems of five Western Balkans central banks (Albania, Kosovo, North Macedonia, Montenegro, and Bosnia-Herzegovina) to an instant payments platform. The speech focused on the strategic, economic, and geopolitical significance of modern payment infrastructure and European integration. No monetary policy stance, rate signals, or inflation/growth assessments were offered.",
+    "stance_rationale": "The speech is entirely about payment infrastructure and regional financial integration, with no reference to interest rates, inflation, monetary policy stance, or economic outlook. It is not a monetary policy communication.",
+    "key_quotes": [
+      "TIPS Clone dimostra che questa sfida pu\u00f2 essere vinta.",
+      "In un contesto internazionale, segnato da forti turbolenze, TIPS Clone indica all'Europa una direzione chiara: investire in tecnologie innovative, in istituzioni solide e in collaborazioni durature."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
