@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters",
+    "title": "Canada\u2019s monetary policy framework: A trusted anchor in uncertain waters",
+    "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/",
+    "published": "2026-11-24",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Bank of Canada Governor Tiff Macklem outlines the renewed five-year monetary policy framework, reaffirming the 2% CPI inflation target and explaining how the Bank will navigate supply shocks in an increasingly uncertain global environment. He acknowledges that inflation has been running around 3% since April and that the Bank raised its policy rate 25 basis points to 2.5% in October due to persistent energy-driven cost pressures and resilient economic performance. The speech also introduces a new inflation dashboard and clarifies the role of core inflation measures as inputs rather than targets.",
+    "stance_rationale": "The speech has a mildly hawkish tilt: the Bank recently hiked 25bp and signaled concern about second-round effects from energy prices feeding into broader consumer prices, while noting the economy has been more resilient than expected. However, the overall tone is balanced and framework-focused rather than explicitly signaling further tightening.",
+    "key_quotes": [
+      "The combination of increased inflation persistence and modestly better economic performance supported our decision in October to raise the policy interest rate by 25 basis points to 2.5%.",
+      "Our goal is to avoid a situation where Canadians face rising prices for a wide range of goods and services."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

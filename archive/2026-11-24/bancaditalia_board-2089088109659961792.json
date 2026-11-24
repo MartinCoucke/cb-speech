@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261124-trequattrini/index.html",
+    "title": "Criminalit\u00e0 economica, integrit\u00e0 finanziaria e presidio istituzionale",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261124-trequattrini/index.html",
+    "published": "2026-11-24",
+    "speaker": "Gian Luca Trequattrini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Banca d'Italia official Gian Luca Trequattrini addresses economic crime, financial integrity, and institutional oversight. It covers anti-money laundering supervision, the economic analysis of criminal behavior, and inter-institutional cooperation between Banca d'Italia and law enforcement. The speech contains no discussion of interest rates, inflation, or monetary policy stance.",
+    "stance_rationale": "The speech is entirely focused on anti-money laundering, financial crime prevention, and supervisory functions, with no monetary policy content. Score is set to 0 and is_monetary_policy to false accordingly.",
+    "key_quotes": [
+      "Impedire che i proventi illeciti possano essere occultati, trasferiti, reinvestiti o reimmessi nell'economia legale equivale ad alzare il costo dell'attivit\u00e0 criminale e a ridurre l'incentivo a delinquere.",
+      "Proteggere i circuiti finanziari significa, in definitiva, difendere il patrimonio di fiducia su cui si fondano la raccolta del risparmio e l'esercizio del credito."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

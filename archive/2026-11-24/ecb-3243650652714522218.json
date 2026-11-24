@@ -1,0 +1,23 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124_annex~af425bd1fc.en.pdf",
+    "title": "Slides",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124_annex~af425bd1fc.en.pdf",
+    "published": "2026-11-24",
+    "speaker": null,
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This is a slide deck presented by ECB Vice-President Boris Vuj\u010di\u0107 at the Conference on European Economic Integration 2026, examining economic resilience in central and eastern Europe. The slides cover topics including income convergence, inflation differentials, fiscal positions, banking sector health, geoeconomic risks, and migration trends across EU CEE countries. The content is analytical and regional in focus, with no discussion of ECB monetary policy decisions or future rate guidance.",
+    "stance_rationale": "The presentation contains no monetary policy signals, rate guidance, or commentary on the ECB's policy stance; it is a structural and regional economic analysis conference presentation.",
+    "key_quotes": [],
+    "text_available": true,
+    "error": null
+  }
+}

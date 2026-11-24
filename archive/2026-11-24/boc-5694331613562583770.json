@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bankofcanada.ca/2026/11/keeping-inflation-low-and-stable-in-an-uncertain-world",
+    "title": "Keeping inflation low and stable in an uncertain world",
+    "url": "https://www.bankofcanada.ca/2026/11/keeping-inflation-low-and-stable-in-an-uncertain-world/",
+    "published": "2026-11-24",
+    "speaker": null,
+    "bank": "Bank of Canada",
+    "region": "Canada",
+    "source": "boc",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "Governor Macklem's speech focuses on the renewal of the Bank of Canada's monetary policy framework, confirming the 2% inflation target will remain the anchor through 2031. He discusses the challenges posed by more frequent supply shocks and the importance of a credible inflation target in uncertain times. The speech is largely institutional and forward-looking in nature, without signaling any near-term shift in the policy rate stance.",
+    "stance_rationale": "The speech is centered on framework renewal and communication of the 2% target rather than signaling easing or tightening; it is balanced, emphasizing both the risks of reacting too quickly and too slowly to price pressures.",
+    "key_quotes": [
+      "Reacting too strongly to a temporary jump in prices can hurt the economy. Reacting too slowly to a persistent increase in prices can allow inflation to spread across many goods and services.",
+      "And in uncertain waters, it's more important than ever to have a trusted anchor."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

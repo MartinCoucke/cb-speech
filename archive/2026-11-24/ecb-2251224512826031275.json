@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+    "title": "Resilience in an age of shocks: lessons from central and eastern Europe",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261124~17928e5456.en.html",
+    "published": "2026-11-24",
+    "speaker": "Boris Vuj\u010di\u0107",
+    "bank": "ECB",
+    "region": "Europe",
+    "source": "ecb",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "ECB Vice-President Boris Vuj\u010di\u0107 delivered a wide-ranging speech at the CEEI 2026 conference in Vienna focusing on economic resilience in central and eastern Europe across four dimensions: monetary, fiscal, financial, and structural. The speech examined how CEE economies have navigated repeated external shocks, drawing lessons on the role of credible institutions, fiscal buffers, financial integration, and structural adaptation. While monetary policy credibility and euro area membership were discussed, the speech did not address current ECB policy settings, rate paths, or near-term policy intentions.",
+    "stance_rationale": "The speech is primarily structural and analytical in nature, covering broad economic resilience themes rather than signaling any specific monetary policy stance or direction. It is better classified as a non-monetary-policy speech, warranting a neutral score of zero.",
+    "key_quotes": [
+      "Credible central banks can help contain these risks. The experience of recent years reminds us why price stability is itself a source of resilience.",
+      "Resilience is not about avoiding shocks altogether \u2013 no economy can do that. Nor does it mean trying to become self-sufficient."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

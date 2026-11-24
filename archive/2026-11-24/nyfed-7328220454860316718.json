@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123",
+    "title": "Williams: The Economic Mixdown",
+    "url": "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123",
+    "published": "2026-11-23",
+    "speaker": "Williams",
+    "bank": "Federal Reserve Bank of New York",
+    "region": "US",
+    "source": "nyfed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 3,
+    "confidence": "high",
+    "is_monetary_policy": true,
+    "summary": "NY Fed President Williams delivered a speech describing a 'two-track' economy with strong overall growth (~2.75% GDP) and a stable labor market, but inflation running well above target at ~3.5%. He emphasized that returning inflation to 2% is 'imperative' and 'essential,' noting that inflation is not expected to reach target until 2028. While he acknowledged some encouraging signs\u2014anchored inflation expectations, decelerating housing services prices\u2014he highlighted persistent upside risks from energy prices and AI-related demand.",
+    "stance_rationale": "Williams takes a moderately hawkish stance by stressing that inflation is 'simply too high,' that there is 'still work to do,' and that the risk to price stability is 'dialed up' while employment risk is 'dialed down,' implying a tightening bias without explicitly signaling rate hikes.",
+    "key_quotes": [
+      "But inflation is simply too high.",
+      "It is imperative that we restore inflation to our 2 percent target in a timely manner and on a sustained basis."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
