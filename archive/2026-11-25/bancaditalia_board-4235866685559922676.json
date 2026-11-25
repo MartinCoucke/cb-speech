@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261125-angelini/index.html",
+    "title": "L'industria del capitale privato in Italia: sviluppi recenti e prospettive",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261125-angelini/index.html",
+    "published": "2026-11-25",
+    "speaker": "Paolo Angelini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Paolo Angelini of Banca d'Italia delivered a speech on the state and prospects of the private capital industry in Italy, examining structural causes of its underdevelopment, the role of regulation, fiscal incentives, and public policy. The speech discusses Italy's productivity gap, low R&D spending, and the need for greater risk capital to finance innovation. It does not address monetary policy, interest rates, or the ECB's stance.",
+    "stance_rationale": "This speech is entirely focused on structural economic issues, private equity and venture capital market development, and regulatory reform\u2014not monetary policy. No monetary policy signals are present.",
+    "key_quotes": [
+      "Lo sviluppo del capitale privato presenta rischi che devono essere attentamente gestiti, ma pu\u00f2 contribuire a superare alcune debolezze strutturali dell'economia italiana.",
+      "Per superare questo equilibrio di insufficiente sviluppo occorre un impegno congiunto del settore pubblico e degli operatori privati."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

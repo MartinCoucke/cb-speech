@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.rba.gov.au/speeches/2026/sp-so-2026-11-25.html",
+    "title": "Real Interest Rates \u2013 Restrictive Amid Cross-Currents",
+    "url": "https://www.rba.gov.au/speeches/2026/sp-so-2026-11-25.html",
+    "published": "2026-11-25",
+    "speaker": "David Jacobs",
+    "bank": "Reserve Bank of Australia",
+    "region": "Australia",
+    "source": "rba",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 2,
+    "confidence": "medium",
+    "is_monetary_policy": true,
+    "summary": "David Jacobs, Head of Domestic Markets at the RBA, examines the degree of restrictiveness of Australian financial conditions, noting that the cash rate is at its highest level in 18 years and that real rates are clearly above estimated neutral. He acknowledges significant cross-currents, including a rising neutral rate driven by global investment trends (data centres, AI, fiscal deficits) and resilient credit supply, which complicate the assessment of just how restrictive conditions truly are. The speech is explicitly framed as an analytical assessment of financial conditions rather than a policy recommendation, with rate decisions reserved for the Monetary Policy Board.",
+    "stance_rationale": "The speech confirms policy is 'clearly restrictive' with the real cash rate above neutral and tightening visible across interest-sensitive sectors, suggesting a modestly hawkish lean. However, the emphasis on cross-currents\u2014rising neutral rate, strong business credit demand, resilient balance sheets\u2014tempers the hawkishness and prevents a stronger score.",
+    "key_quotes": [
+      "Overall, policy is clearly restrictive. The expected real cash rate has risen above our central estimates of neutral, having been closer to those neutral estimates a year ago.",
+      "Working the other way, a strong global desire to invest rather than save may be lifting neutral, both here and abroad. That reduces the restraint implied by any given real cash rate."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}

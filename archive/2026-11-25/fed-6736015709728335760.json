@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",
+    "title": "Bowman, Modernizing Banking Supervision: A Shared Agenda for the Americas",
+    "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261125a.htm",
+    "published": "2026-11-25",
+    "speaker": null,
+    "bank": "Federal Reserve",
+    "region": "US",
+    "source": "fed",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "Vice Chair for Supervision Michelle Bowman delivered a speech focused entirely on banking supervision modernization, drawing lessons from the Silicon Valley Bank failure, outlining the Fed's internal supervisory reforms, and calling for stronger regional cooperation among supervisors in the Americas via ASBA. The speech covers organizational accountability, risk-focused examination, regulatory frameworks for innovation, and cross-border supervisory coordination. There is no discussion of interest rates, inflation, economic outlook, or monetary policy stance.",
+    "stance_rationale": "This speech is squarely about banking supervision and regulatory reform, not monetary policy. No monetary policy signals or rate-related commentary are present, warranting a score of 0 and is_monetary_policy=false.",
+    "key_quotes": [
+      "A supervisory organization can be extraordinarily busy without being effective. Excessive process can become a major obstacle to effective supervision.",
+      "The failure of supervision was not a failure to obtain information. It was a failure to translate information into timely, decisive action."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
