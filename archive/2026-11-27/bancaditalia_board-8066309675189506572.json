@@ -1,0 +1,26 @@
+{
+  "item": {
+    "id": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261126-trequattrini/index.html",
+    "title": "La protezione dei dati personali oggi. Ruoli e responsabilit\u00e0, nuove competenze, rischi e opportunit\u00e0",
+    "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261126-trequattrini/index.html",
+    "published": "2026-11-26",
+    "speaker": "Gian Luca Trequattrini",
+    "bank": "Banca d'Italia",
+    "region": "Europe",
+    "source": "bancaditalia_board",
+    "category": "speech"
+  },
+  "rating": {
+    "score": 0,
+    "confidence": "low",
+    "is_monetary_policy": false,
+    "summary": "This speech by Gian Luca Trequattrini of Banca d'Italia addresses data protection, cybersecurity, and digital privacy responsibilities for Data Protection Officers in public administrations. It covers topics including GDPR compliance, the AI Act, DORA regulation, blockchain technology tensions with privacy rights, and the importance of privacy-by-design principles. The speech contains no discussion of monetary policy, interest rates, inflation, or financial conditions.",
+    "stance_rationale": "This speech is entirely focused on data protection, cybersecurity governance, and digital regulation, with no monetary policy content whatsoever. A score of 0 and is_monetary_policy=false are appropriate.",
+    "key_quotes": [
+      "La cybersicurezza non pu\u00f2 essere affrontata come una sfida individuale.",
+      "La privacy by design non \u00e8 una formula retorica, ma una condizione operativa che presuppone il coinvolgimento del RPD nelle fasi iniziali di ogni progetto che tratti dati personali."
+    ],
+    "text_available": true,
+    "error": null
+  }
+}
